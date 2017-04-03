@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 "use strict";
 
 const fs = require('fs');
@@ -54,6 +56,16 @@ function error(error, exit = true) {
     if (exit) {
         process.exit();
     }
+}
+
+function help() {
+    console.log(``);
+    console.log(`params:`);
+    console.log(`  -h: print this message`);
+    console.log(`  -p: path to sources from OverTool`);
+    console.log(`  -t: import translations`);
+    console.log(`  -l: translations locale (if not defined then translations will be sent to output)`);
+    console.log(``);
 }
 
 function makeUid(type, string, hero = null) {
@@ -299,16 +311,37 @@ function parseHeroesItems(path, isTranslations = false, locale = null) {
     }
 }
 
-module.exports = (path = null, isTranslations = false, locale = null) => {
-    if (path === null) {
-        save();
+let args = {};
 
+process.argv.map((arg, index) => {
+    if (index < 2) {
         return;
     }
 
-    if (fs.lstatSync(path).isDirectory()) {
-        parseGeneralItems(path, isTranslations, locale);
-    } else {
-        parseHeroesItems(path, isTranslations, locale);
+    if (arg.indexOf('-') === 0) {
+        args[arg[1]] = arg.slice(2);
+        if (args[arg[1]] === '') {
+            args[arg[1]] = true;
+        }
     }
-};
+});
+
+if (args['h'] === true) {
+    help();
+
+    process.exit();
+}
+
+if (!args['p']) {
+    save();
+
+    process.exit();
+}
+
+if (fs.lstatSync(args['p']).isDirectory()) {
+    parseGeneralItems(args['p'], args['t'], args['l']);
+} else {
+    parseHeroesItems(args['p'], args['t'], args['l']);
+}
+
+process.exit();
