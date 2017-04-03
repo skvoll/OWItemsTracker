@@ -5,7 +5,6 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "set-version": "cd bin && ./set-version.js",
-    "import": "cd bin && ./import.js",
     "release-android": "cd android && ./gradlew assembleRelease",
     "test": "jest"
   },
