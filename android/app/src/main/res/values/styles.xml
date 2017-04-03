@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#27344D</item>
+        <item name="android:colorPrimaryDark">#27344D</item>
+        <item name="android:colorAccent">#1C75BB</item>
+
+        <item name="android:spinnerStyle">@style/AppSpinnerTheme</item>
+    </style>
+
+    <style name="AppSpinnerTheme" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:backgroundTint">#FFFFFF</item>
+    </style>
+
+</resources>
