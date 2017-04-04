@@ -184,7 +184,7 @@ export class HeroesList extends Component {
     renderItem(item, index) {
         return (
             <Item
-                index={parseInt(index)}
+                index={index}
                 item={item}
                 onPress={this.props.onItemPress}
                 onLongPress={(index, item) => this.onItemLongPress(item)}

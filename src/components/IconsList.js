@@ -225,7 +225,7 @@ export class IconsList extends Component {
     renderItem(item, index) {
         return (
             <Item
-                index={parseInt(index)}
+                index={index}
                 item={item}
                 onPress={(index, item) => this.onItemPress(index)}
                 onLongPress={(index, item) => this.onItemLongPress(item)}

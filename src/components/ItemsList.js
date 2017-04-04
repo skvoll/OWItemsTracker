@@ -123,7 +123,7 @@ class Item extends Component {
         }
 
         if (this.props.item.price) {
-            price = (<Text style={styles.itemPrice}>{this.props.item.price}</Text>);
+            price = (<Text style={styles.itemPrice}>{this.props.item.price.toString()}</Text>);
         }
 
         if (!this.props.item.default) {
