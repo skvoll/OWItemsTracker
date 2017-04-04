@@ -8,6 +8,7 @@ import {
     View,
 } from 'react-native';
 
+import CONFIG from './config';
 import * as scenes from './scenes';
 
 export default class Application extends Component {
@@ -19,22 +20,18 @@ export default class Application extends Component {
 
     constructor(props, context, updater) {
         super(props, context, updater);
-
-        this.state = {
-            currentScene: 'MainScene',
-        };
     }
 
     renderScene(route, navigator) {
-        if (scenes[route.name]) {
-            route.component = scenes[route.name];
-
-            return (
-                <route.component application={this} navigator={navigator} {...route.props}/>
-            );
+        if (!scenes[route.name]) {
+            return;
         }
 
-        console.error(`scene ${route.name} was not found`);
+        route.component = scenes[route.name];
+
+        return (
+            <route.component application={this} navigator={navigator} {...route.props}/>
+        );
     }
 
     render() {
@@ -57,5 +54,6 @@ export default class Application extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: CONFIG.COLORS.DARK_BLUE,
     },
 });
