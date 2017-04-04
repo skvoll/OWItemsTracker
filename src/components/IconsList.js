@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import {
     StyleSheet,
     View,
-    ListView,
+    FlatList,
     TouchableWithoutFeedback,
     Image,
     Text,
@@ -107,18 +107,13 @@ export class IconsList extends Component {
 
     isShouldComponentUpdate = false;
 
+    modal;
+
     constructor(props, context, updater) {
         super(props, context, updater);
 
-        const dataSource = new ListView.DataSource({
-            rowHasChanged: (r1, r2) => {
-                return r1.received !== r2.received;
-            },
-        });
-
         this.state = {
             data: [],
-            dataSource: dataSource,
             progress: {received: 0, total: 0,},
         };
     }
@@ -189,7 +184,6 @@ export class IconsList extends Component {
 
         this.setState({
             data: data,
-            dataSource: this.state.dataSource.cloneWithRows(data),
             progress: progress,
         });
     }
@@ -214,7 +208,6 @@ export class IconsList extends Component {
 
         this.setState({
             data: data,
-            dataSource: this.state.dataSource.cloneWithRows(data),
             progress: progress,
         }, () => Items.receiveItem(data[index].uid, data[index].received));
     }
@@ -229,17 +222,21 @@ export class IconsList extends Component {
         this.modal.show(item.name, null, item.source);
     }
 
-    renderItem(rowData, rowID) {
+    renderItem(item, index) {
         return (
             <Item
-                index={parseInt(rowID)}
-                item={rowData}
+                index={parseInt(index)}
+                item={item}
                 onPress={(index, item) => this.onItemPress(index)}
                 onLongPress={(index, item) => this.onItemLongPress(item)}
                 addHeroIcon={this.props.addHeroIcon}
                 addEventIcon={this.props.addEventIcon}
             />
         );
+    }
+
+    shouldItemUpdate(prev, next) {
+        return prev.item.received !== next.item.received;
     }
 
     render() {
@@ -249,11 +246,13 @@ export class IconsList extends Component {
                 <View style={styles.progress}>
                     <Text style={styles.progressTitle}>{`${this.state.progress.received}/${this.state.progress.total}`}</Text>
                 </View>
-                <ListView
-                    contentContainerStyle={styles.contentContainer}
-                    dataSource={this.state.dataSource}
-                    initialListSize={256}
-                    renderRow={(rowData, sectionID, rowID, highlightRow) => this.renderItem(rowData, rowID)}
+                <FlatList
+                    data={this.state.data}
+                    keyExtractor={(item, index) => item.uid}
+                    renderItem={({item, index}) => this.renderItem(item, index)}
+                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
+                    numColumns={GRID_SIZE}
+                    columnWrapperStyle={styles.columnWrapperStyle}
                 />
             </View>
         );
@@ -266,13 +265,6 @@ const ITEM_SIZE = Math.round(CONFIG.DIMENSIONS.SCREEN_WIDTH / GRID_SIZE) - (6 * 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-    },
-    contentContainer: {
-        paddingVertical: 8,
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-        alignItems: 'center',
     },
     progress: {
         height: 56,
@@ -287,20 +279,8 @@ const styles = StyleSheet.create({
         fontFamily: 'Futura',
         color: CONFIG.COLORS.LIGHT_BLUE,
     },
-    heroIcon: {
-        height: 28,
-        width: 28,
-    },
-    eventIcon: {
-        height: 20,
-        width: 20,
-        margin: 4,
-    },
-    price: {
-        marginHorizontal: 8,
-        fontSize: 21,
-        fontFamily: 'Futura',
-        color: CONFIG.COLORS.WHITE_OPACITY,
+    columnWrapperStyle: {
+        justifyContent: 'center',
     },
     icon: {
         height: ITEM_SIZE,
@@ -314,6 +294,15 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'flex-end',
+    },
+    heroIcon: {
+        height: 28,
+        width: 28,
+    },
+    eventIcon: {
+        height: 20,
+        width: 20,
+        margin: 4,
     },
     iconOpacity: {
         opacity: 0.3,

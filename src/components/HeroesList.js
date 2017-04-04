@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import {
     StyleSheet,
     View,
-    ListView,
+    FlatList,
     TouchableWithoutFeedback,
     Image,
     Text,
@@ -14,12 +14,16 @@ import CONFIG from './../config';
 import _ from './../l10n';
 import Items from './../Items';
 import Heroes from './../Heroes';
+import {
+    ModalPreview,
+} from './'
 
 class Item extends Component {
     static propTypes = {
         index: React.PropTypes.number.isRequired,
         item: React.PropTypes.object.isRequired,
         onPress: React.PropTypes.func.isRequired,
+        onLongPress: React.PropTypes.func.isRequired,
     };
 
     static defaultProps = {};
@@ -39,12 +43,16 @@ class Item extends Component {
 
         // @todo: fix the problem with border radius of background
         // background for portraits
-        // <Image source={require('./../assets/heroes/background.jpg')} style={styles.background}>
+        // <Image source={require('./../assets/heroes/background.jpg')} style={styles.portrait}>
         //     <Image source={this.props.item.portrait} style={styles.portrait}/>
         // </Image>
 
         return (
-            <TouchableWithoutFeedback onPress={() => this.props.onPress(this.props.index, this.props.item)}>
+            <TouchableWithoutFeedback
+                onPress={() => this.props.onPress(this.props.index, this.props.item)}
+                onLongPress={() => this.props.onLongPress(this.props.index, this.props.item)}
+            >
+
                 <View style={styles.item}>
                     <Image source={this.props.item.portrait} style={styles.portrait}/>
                     <View style={styles.info}>
@@ -52,6 +60,7 @@ class Item extends Component {
                         {progress}
                     </View>
                 </View>
+
             </TouchableWithoutFeedback>
         );
     };
@@ -70,30 +79,13 @@ export class HeroesList extends Component {
 
     isShouldComponentUpdate = false;
 
+    modal;
+
     constructor(props, context, updater) {
         super(props, context, updater);
 
-        const dataSource = new ListView.DataSource({
-            rowHasChanged: (r1, r2) => {
-                if (this.props.showProgress) {
-                    if (r1.progress && r2.progress) {
-                        if (r1.progress.received !== r2.progress.received) {
-                            return true;
-                        }
-
-                        if (r1.progress.total !== r2.progress.total) {
-                            return true;
-                        }
-                    }
-                }
-
-                return r1.name !== r2.name;
-            },
-        });
-
         this.state = {
             data: [],
-            dataSource: dataSource,
         };
     }
 
@@ -175,29 +167,58 @@ export class HeroesList extends Component {
 
         this.setState({
             data: data,
-            dataSource: this.state.dataSource.cloneWithRows(data),
             progress: progress,
         });
     }
 
-    renderItem(rowData, rowID) {
+    onItemLongPress(item) {
+        if (CONFIG.NETWORK === 'NONE') {
+            this.modal.show(item.name, `${_('NO_INTERNET_CONNECTION')}`);
+
+            return;
+        }
+
+        this.modal.show(item.name, null, item.background);
+    }
+
+    renderItem(item, index) {
         return (
             <Item
-                index={parseInt(rowID)}
-                item={rowData}
+                index={parseInt(index)}
+                item={item}
                 onPress={this.props.onItemPress}
+                onLongPress={(index, item) => this.onItemLongPress(item)}
             />
         );
+    }
+
+    shouldItemUpdate(prev, next) {
+        if (this.props.showProgress) {
+            if (prev.item.progress && next.item.progress) {
+                if (prev.item.progress.received !== next.item.progress.received) {
+                    return true;
+                }
+
+                if (prev.item.progress.total !== next.item.progress.total) {
+                    return true;
+                }
+            }
+        }
+
+        return prev.item.name !== next.item.name;
     }
 
     render() {
         return (
             <View style={styles.container}>
-                <ListView
-                    contentContainerStyle={styles.contentContainer}
-                    dataSource={this.state.dataSource}
-                    initialListSize={64}
-                    renderRow={(rowData, sectionID, rowID, highlightRow) => this.renderItem(rowData, rowID)}
+                <ModalPreview ref={(component) => this.modal = component}/>
+                <FlatList
+                    data={this.state.data}
+                    keyExtractor={(item, index) => item.id}
+                    renderItem={({item, index}) => this.renderItem(item, index)}
+                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
+                    numColumns={GRID_SIZE}
+                    columnWrapperStyle={styles.columnWrapperStyle}
                 />
             </View>
         );
@@ -211,25 +232,14 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    contentContainer: {
-        paddingVertical: 8,
-        flexDirection: 'row',
-        flexWrap: 'wrap',
+    columnWrapperStyle: {
         justifyContent: 'center',
-        alignItems: 'center',
     },
     item: {
         margin: 2,
         padding: 2,
         borderRadius: 6,
         backgroundColor: CONFIG.COLORS.LIGHT_GRAY,
-    },
-    background: {
-        height: ITEM_SIZE,
-        width: ITEM_SIZE,
-        resizeMode: 'cover',
-        borderTopLeftRadius: 4,
-        borderTopRightRadius: 4,
     },
     portrait: {
         height: ITEM_SIZE,
