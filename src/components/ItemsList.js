@@ -77,23 +77,17 @@ class Item extends Component {
     static propTypes = {
         index: React.PropTypes.number.isRequired,
         item: React.PropTypes.object.isRequired,
-        onCheck: React.PropTypes.func.isRequired,
         onPress: React.PropTypes.func.isRequired,
+        onLongPress: React.PropTypes.func,
         addHeroIcon: React.PropTypes.bool,
-        addHeroName: React.PropTypes.bool,
         addEventIcon: React.PropTypes.bool,
     };
 
     static defaultProps = {
+        onLongPress: () => null,
         addHeroIcon: true,
-        addHeroName: false,
         addEventIcon: false,
     };
-
-    static previewTypes = [
-        Items.TYPE.SPRAY,
-        Items.TYPE.ICON,
-    ];
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -104,7 +98,7 @@ class Item extends Component {
             return null;
         }
 
-        let textStyle, heroIcon, eventIcon, nameSection, checkSection, price, name = _(this.props.item.name);
+        let textStyle, heroIcon, eventIcon, price, name = _(this.props.item.name), check;
 
         textStyle = {color: Items.COLOR[this.props.item.rarity],};
 
@@ -112,10 +106,6 @@ class Item extends Component {
             heroIcon = (<Image source={Heroes.get(this.props.item.hero).icon} style={styles.itemHeroIcon}/>);
         } else if (this.props.addHeroIcon) {
             heroIcon = (<Image source={require('./../assets/heroes/OVERWATCH.icon.png')} style={styles.itemHeroIcon}/>);
-        }
-
-        if (this.props.addHeroName && this.props.item.hero) {
-            name = `${name} [ ${_(Heroes.get(this.props.item.hero.code))} ]`;
         }
 
         if (this.props.addEventIcon && this.props.item.event) {
@@ -127,43 +117,30 @@ class Item extends Component {
         }
 
         if (!this.props.item.default) {
-            checkSection = (
-                <Touchable onPress={() => this.props.onCheck(this.props.index, this.props.item)}>
-                    <View style={styles.itemTouchable}>
-                        {price}
-                        <Icon
-                            name={this.props.item.received ? 'check' : 'check-box-outline-blank'}
-                            color={this.props.item.received ? CONFIG.COLORS.GREEN : CONFIG.COLORS.WHITE_OPACITY}
-                            size={32}
-                        />
-                    </View>
-                </Touchable>
-            );
-        } else if (!this.props.addHeroName) {
-            name = `${name} [ ${_('ITEM_DEFAULT')} ]`;
-        }
-
-        nameSection = (
-            <View style={[styles.itemTouchable, {flex: 1,},]}>
-                {heroIcon}
-                {eventIcon}
-                <Text numberOfLines={1} style={[styles.itemName, textStyle,]}>{name.toUpperCase()}</Text>
-            </View>
-        );
-
-        if (Item.previewTypes.indexOf(this.props.item.type) !== -1) {
-            nameSection = (
-                <Touchable onPress={() => this.props.onPress(this.props.index, this.props.item)}>
-                    {nameSection}
-                </Touchable>
+            check = (
+                <Icon
+                    name={this.props.item.received ? 'check' : 'check-box-outline-blank'}
+                    color={this.props.item.received ? CONFIG.COLORS.GREEN : CONFIG.COLORS.WHITE_OPACITY}
+                    size={32}
+                />
             );
         }
 
         return (
-            <View style={styles.item}>
-                {nameSection}
-                {checkSection}
-            </View>
+            <Touchable
+                onPress={() => this.props.onPress(this.props.index, this.props.item)}
+                onLongPress={() => this.props.onLongPress(this.props.index, this.props.item)}
+            >
+
+                <View style={styles.item}>
+                    {heroIcon}
+                    {eventIcon}
+                    <Text numberOfLines={1} style={[styles.itemName, textStyle,]}>{name.toUpperCase()}</Text>
+                    {price}
+                    {check}
+                </View>
+
+            </Touchable>
         );
     }
 }
@@ -172,13 +149,14 @@ class ImageItem extends Component {
     static propTypes = {
         index: React.PropTypes.number.isRequired,
         item: React.PropTypes.object.isRequired,
-        onCheck: React.PropTypes.func.isRequired,
-        onLongPress: React.PropTypes.func.isRequired,
+        onPress: React.PropTypes.func.isRequired,
+        onLongPress: React.PropTypes.func,
         addHeroIcon: React.PropTypes.bool,
         addEventIcon: React.PropTypes.bool,
     };
 
     static defaultProps = {
+        onLongPress: () => null,
         addHeroIcon: true,
         addEventIcon: false,
     };
@@ -234,11 +212,11 @@ class ImageItem extends Component {
         return (
             <Image source={this.props.item.source} style={[styles.imageItem, style,]}>
                 <TouchableWithoutFeedback
-                    onPress={() => this.props.onCheck(this.props.index, this.props.item)}
+                    onPress={() => this.props.onPress(this.props.index, this.props.item)}
                     onLongPress={() => this.props.onLongPress(this.props.index, this.props.item)}
                 >
 
-                    <View style={styles.imageContent}>
+                    <View style={styles.imageItemContent}>
                         {heroIcon}
                         {eventIcon}
                         {price}
@@ -258,14 +236,12 @@ export class ItemsList extends Component {
         event: React.PropTypes.object,
         isCollapsible: React.PropTypes.bool,
         addHeroIcon: React.PropTypes.bool,
-        addHeroName: React.PropTypes.bool,
         addEventIcon: React.PropTypes.bool,
     };
 
     static defaultProps = {
         isCollapsible: true,
         addHeroIcon: true,
-        addHeroName: false,
         addEventIcon: false,
     };
 
@@ -456,7 +432,7 @@ export class ItemsList extends Component {
         });
     }
 
-    onItemCheck(index, item) {
+    onItemPress(index, item) {
         let data = this.getData(),
             itemsPrice = this.state.itemsPrice;
 
@@ -477,12 +453,14 @@ export class ItemsList extends Component {
         }, () => Items.receiveItem(data[item.type][index].uid, data[item.type][index].received));
     }
 
-    onItemPress(item) {
+    onItemLongPress(item) {
         if (CONFIG.NETWORK === 'NONE') {
             this.modal.error(item.name, _('NO_INTERNET_CONNECTION'));
 
             return;
         }
+
+        this.modal.open(item.name, null);
 
         if (item.type === Items.TYPE.ICON) {
             this.modal.open(item.name, item.source);
@@ -532,8 +510,8 @@ export class ItemsList extends Component {
                 <ImageItem
                     index={parseInt(rowID)}
                     item={rowData}
-                    onCheck={(index, item) => this.onItemCheck(index, item)}
-                    onLongPress={(index, item) => this.onItemPress(item)}
+                    onPress={(index, item) => this.onItemPress(index, item)}
+                    onLongPress={(index, item) => this.onItemLongPress(item)}
                     addHeroIcon={this.props.addHeroIcon}
                     addEventIcon={this.props.addEventIcon}
                 />
@@ -544,10 +522,8 @@ export class ItemsList extends Component {
             <Item
                 index={parseInt(rowID)}
                 item={rowData}
-                onCheck={(index, item) => this.onItemCheck(index, item)}
-                onPress={(index, item) => this.onItemPress(item)}
+                onPress={(index, item) => this.onItemPress(index, item)}
                 addHeroIcon={this.props.addHeroIcon}
-                addHeroName={this.props.addHeroName}
                 addEventIcon={this.props.addEventIcon}
             />
         );
@@ -639,16 +615,8 @@ const styles = StyleSheet.create({
         height: 48,
         width: CONFIG.DIMENSIONS.SCREEN_WIDTH,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    },
-    itemTouchable: {
-        height: 48,
-        paddingHorizontal: 8,
-        flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 2,
     },
     itemHeroIcon: {
         height: 28,
@@ -681,7 +649,7 @@ const styles = StyleSheet.create({
         borderRadius: 6,
         resizeMode: 'contain',
     },
-    imageContent: {
+    imageItemContent: {
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',

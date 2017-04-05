@@ -48,7 +48,6 @@ export class EventScene extends Scene {
             event: this.props.item,
             isCollapsible: false,
             addHeroIcon: false,
-            addHeroName: false,
         };
 
         this.navigator.push({name: 'ItemsScene', props: props,});

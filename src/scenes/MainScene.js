@@ -97,7 +97,6 @@ export class MainScene extends Scene {
             title: _(item.code),
             hero: item,
             addHeroIcon: false,
-            addHeroName: false,
             addEventIcon: true,
         };
 

@@ -22,14 +22,12 @@ export class ItemsScene extends Scene {
         event: React.PropTypes.object,
         isCollapsible: React.PropTypes.bool,
         addHeroIcon: React.PropTypes.bool,
-        addHeroName: React.PropTypes.bool,
         addEventIcon: React.PropTypes.bool,
     };
 
     static defaultProps = {
         isCollapsible: true,
         addHeroIcon: true,
-        addHeroName: false,
         addEventIcon: false,
     };
 
@@ -80,7 +78,6 @@ export class ItemsScene extends Scene {
                     event={this.props.event}
                     isCollapsible={this.props.isCollapsible}
                     addHeroIcon={this.props.addHeroIcon}
-                    addHeroName={this.props.addHeroName}
                     addEventIcon={this.props.addEventIcon}
                 />
 
