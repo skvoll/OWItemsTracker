@@ -19,7 +19,7 @@ import Events from './../Events';
 import Heroes from './../Heroes';
 import {
     Touchable,
-    ModalPreview,
+    PreviewModal,
 } from './';
 
 class SectionHeader extends Component {
@@ -226,7 +226,7 @@ class ImageItem extends Component {
         if (this.props.item.price) {
             price = (
                 <Text style={[styles.itemPrice, {color: CONFIG.COLORS.COMMON}]}>
-                    {this.props.item.price}
+                    {this.props.item.price.toString()}
                 </Text>
             );
         }
@@ -479,19 +479,17 @@ export class ItemsList extends Component {
 
     onItemPress(item) {
         if (CONFIG.NETWORK === 'NONE') {
-            this.modal.show(item.name, `${_('NO_INTERNET_CONNECTION')}`);
+            this.modal.error(item.name, _('NO_INTERNET_CONNECTION'));
 
             return;
         }
 
-        this.modal.show(item.name, `${_('LOADING')}...`);
-
         if (item.type === Items.TYPE.ICON) {
-            this.modal.setSource(item.source);
+            this.modal.open(item.name, item.source);
         } else {
             CloudStorage.getFileUrl(`items/previews/${item.uid}.png`)
-                .then((url) => this.modal.setSource({uri: url,}))
-                .catch((error) => this.modal.setPlaceholder(_('PREVIEW_NOT_FOUND')));
+                .then((url) => this.modal.open(item.name, {uri: url,}))
+                .catch((error) => this.modal.error(item.name, _('PREVIEW_NOT_FOUND')));
         }
     }
 
@@ -565,7 +563,7 @@ export class ItemsList extends Component {
         return (
             <View style={styles.container}>
                 {backgroundHero}
-                <ModalPreview ref={(component) => this.modal = component}/>
+                <PreviewModal ref={(component) => this.modal = component}/>
                 <View style={styles.itemsPrice}>
                     <Text style={styles.itemsPriceTitle}>{this.state.itemsPrice}</Text>
                     <Image source={require('./../assets/credit.png')} style={styles.itemsPriceIcon}/>

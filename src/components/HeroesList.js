@@ -15,7 +15,7 @@ import _ from './../l10n';
 import Items from './../Items';
 import Heroes from './../Heroes';
 import {
-    ModalPreview,
+    PreviewModal,
 } from './'
 
 class Item extends Component {
@@ -173,13 +173,7 @@ export class HeroesList extends Component {
     }
 
     onItemLongPress(item) {
-        if (CONFIG.NETWORK === 'NONE') {
-            this.modal.show(item.name, `${_('NO_INTERNET_CONNECTION')}`);
-
-            return;
-        }
-
-        this.modal.show(item.name, null, item.background);
+        this.modal.open(item.name, item.background);
     }
 
     renderItem(item, index) {
@@ -212,7 +206,7 @@ export class HeroesList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <ModalPreview ref={(component) => this.modal = component}/>
+                <PreviewModal ref={(component) => this.modal = component}/>
                 <FlatList
                     data={this.state.data}
                     keyExtractor={(item, index) => item.id}

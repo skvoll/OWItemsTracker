@@ -3,9 +3,9 @@
 import React, {Component} from 'react';
 import {
     AsyncStorage,
-    Alert,
     StyleSheet,
     View,
+    Text,
 } from 'react-native';
 import {TabViewAnimated} from 'react-native-tab-view';
 
@@ -14,6 +14,7 @@ import _ from './../l10n';
 import Events from './../Events';
 import {
     Layout,
+    SimpleModal,
     ButtonsGroup,
     EventsList,
     HeroesList,
@@ -27,6 +28,8 @@ export class MainScene extends Scene {
     static defaultProps = {};
 
     dontTrackTabPosition = false;
+
+    whatsNewModal;
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -62,7 +65,7 @@ export class MainScene extends Scene {
     }
 
     showWhatsNew() {
-        if (_('WHATS_NEW_TEXT') === '_WHATS_NEW_TEXT_') {
+        if (!_('WHATS_NEW_TEXT', false)) {
             return;
         }
 
@@ -71,9 +74,7 @@ export class MainScene extends Scene {
                 return;
             }
 
-            Alert.alert(`${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`, _('WHATS_NEW_TEXT'));
-
-            AsyncStorage.setItem('WHATS_NEW_SHOWN', CONFIG.VERSION);
+            this.whatsNewModal.open();
         }).catch(() => null);
     }
 
@@ -160,6 +161,28 @@ export class MainScene extends Scene {
     }
 
     render() {
+        let whatsNewModal;
+
+        if (_('WHATS_NEW_TEXT', false)) {
+            whatsNewModal = (
+                <SimpleModal
+                    ref={(component) => this.whatsNewModal = component}
+                    title={`${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`}
+                    actions={[
+                        {title: 'remind later', icon: 'watch-later', action: () => this.whatsNewModal.close(),},
+                        {title: 'close', icon: 'close', action: () => {
+                            this.whatsNewModal.close();
+                            AsyncStorage.setItem('WHATS_NEW_SHOWN', CONFIG.VERSION);
+                        },},
+                    ]}
+                >
+
+                    <Text style={styles.modalText}>{_('WHATS_NEW_TEXT')}</Text>
+
+                </SimpleModal>
+            );
+        }
+
         return (
             <Layout
                 toolbarTitle="OW Items Tracker"
@@ -169,6 +192,8 @@ export class MainScene extends Scene {
                 ]}
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
             >
+
+                {whatsNewModal}
 
                 <TabViewAnimated
                     navigationState={this.state}
@@ -185,6 +210,11 @@ export class MainScene extends Scene {
 }
 
 const styles = StyleSheet.create({
+    modalText: {
+        fontSize: 18,
+        fontFamily: 'Futura',
+        color: CONFIG.COLORS.COMMON,
+    },
     filter: {
         height: 56,
         flexDirection: 'row',
