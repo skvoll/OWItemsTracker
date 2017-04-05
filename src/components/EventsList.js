@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import {
     StyleSheet,
     View,
-    ListView,
+    FlatList,
     Image,
     Text,
 } from 'react-native';
@@ -36,7 +36,9 @@ class Item extends Component {
 
         if (this.props.item.progress) {
             progress = (
-                <Text style={styles.progress}>{`${this.props.item.progress.received}/${this.props.item.progress.total}`}</Text>
+                <Text style={styles.progress}>
+                    {`${this.props.item.progress.received}/${this.props.item.progress.total}`}
+                </Text>
             );
         }
 
@@ -79,23 +81,8 @@ export class EventsList extends Component {
     constructor(props, context, updater) {
         super(props, context, updater);
 
-        const dataSource = new ListView.DataSource({
-            rowHasChanged: (r1, r2) => {
-                if (this.props.showProgress) {
-                    if (r1.progress && r2.progress) {
-                        if (r1.progress.received !== r2.progress.received) {
-                            return true;
-                        }
-                    }
-                }
-
-                return r1.name !== r2.name;
-            },
-        });
-
         this.state = {
             data: [],
-            dataSource: dataSource,
         };
     }
 
@@ -127,12 +114,14 @@ export class EventsList extends Component {
                     && this.state.data[i].progress.received !== progress[this.state.data[i].id].received
                 ) {
                     this.loadItems();
-                   return;
+
+                    return;
                 }
             }
 
             if (this.state.data[i].name !== _(this.state.data[i].code)) {
                 this.loadItems();
+
                 return;
             }
         }
@@ -162,28 +151,39 @@ export class EventsList extends Component {
 
         this.setState({
             data: data,
-            dataSource: this.state.dataSource.cloneWithRows(data),
         });
     }
 
-    renderItem(rowData, rowID) {
+    renderItem(item, index) {
         return (
             <Item
-                index={parseInt(rowID)}
-                item={rowData}
+                index={index}
+                item={item}
                 onPress={this.props.onItemPress}
             />
         );
     }
 
+    shouldItemUpdate(prev, next) {
+        if (this.props.showProgress) {
+            if (prev.item.progress && next.item.progress) {
+                if (prev.item.progress.received !== next.item.progress.received) {
+                    return true;
+                }
+            }
+        }
+
+        return prev.item.name !== next.item.name;
+    }
+
     render() {
         return (
             <View style={styles.container}>
-                <ListView
-                    contentContainerStyle={styles.contentContainer}
-                    dataSource={this.state.dataSource}
-                    initialListSize={32}
-                    renderRow={(rowData, sectionID, rowID, highlightRow) => this.renderItem(rowData, rowID)}
+                <FlatList
+                    data={this.state.data}
+                    keyExtractor={(item, index) => item.id}
+                    renderItem={({item, index}) => this.renderItem(item, index)}
+                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
                 />
             </View>
         );
@@ -194,7 +194,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    contentContainer: {},
     item: {
         height: 56,
         paddingHorizontal: 8,

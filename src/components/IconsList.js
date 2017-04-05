@@ -142,7 +142,8 @@ export class IconsList extends Component {
         for (let i in this.state.data) if (this.state.data.hasOwnProperty(i)) {
             if (this.state.data[i].received !== items[this.state.data[i].uid].received) {
                 this.loadItems();
-                break;
+
+                return;
             }
         }
     }

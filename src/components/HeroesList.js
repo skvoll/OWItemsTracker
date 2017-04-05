@@ -120,12 +120,14 @@ export class HeroesList extends Component {
                     )
                 ) {
                     this.loadItems();
+
                     return;
                 }
             }
 
             if (this.state.data[i].name !== _(this.state.data[i].code)) {
                 this.loadItems();
+
                 return;
             }
         }
@@ -167,7 +169,6 @@ export class HeroesList extends Component {
 
         this.setState({
             data: data,
-            progress: progress,
         });
     }
 
