@@ -19,10 +19,14 @@ export const LANGUAGES = {
     },
 };
 
-export default function (key) {
-    if (!LANGUAGES[CONFIG.LANGUAGE]) {
-        return `_${key}_`;
+export default function (key, defaultReturn = null) {
+    if (defaultReturn === null) {
+        defaultReturn = `_${key}_`
     }
 
-    return LANGUAGES[CONFIG.LANGUAGE].translations[key] || `_${key}_`;
+    if (!LANGUAGES[CONFIG.LANGUAGE]) {
+        return defaultReturn;
+    }
+
+    return LANGUAGES[CONFIG.LANGUAGE].translations[key] || defaultReturn;
 };
