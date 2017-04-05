@@ -20,6 +20,7 @@ export class Button extends Component {
         icon: React.PropTypes.string,
         color: React.PropTypes.string,
         textColor: React.PropTypes.string,
+        style: View.propTypes.style,
     };
 
     static defaultProps = {
@@ -41,7 +42,7 @@ export class Button extends Component {
 
         return (
             <Touchable onPress={this.props.onPress}>
-                <View style={[styles.button, style,]}>
+                <View style={[styles.button, this.props.style, style,]}>
                     {icon}
                     <Text
                         numberOfLines={1}
