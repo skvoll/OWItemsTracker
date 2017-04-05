@@ -1,10 +1,16 @@
 <resources>
 
+    <color name="primary">#27344D </color>
+    <color name="primaryDark">#27344D </color>
+    <color name="accent">#1C75BB </color>
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:colorPrimary">#27344D</item>
-        <item name="android:colorPrimaryDark">#27344D</item>
-        <item name="android:colorAccent">#1C75BB</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/primary</item>
 
         <item name="android:spinnerStyle">@style/AppSpinnerTheme</item>
     </style>
