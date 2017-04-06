@@ -38,6 +38,8 @@ export default class Application extends Component {
         return (
             <View style={styles.container}>
                 <StatusBar
+                    translucent={true}
+                    backgroundColor="transparent"
                     barStyle="light-content"
                 />
 
