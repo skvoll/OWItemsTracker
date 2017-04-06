@@ -127,13 +127,13 @@ export class MainScene extends Scene {
     tabRenderScene({route}) {
         switch (route.key) {
             case 'events':
-                return (<EventsList onItemPress={(index, item) => this.onEventPress(item)}/>);
+                return (<EventsList onItemPress={(item, index) => this.onEventPress(item)}/>);
                 break;
             case 'heroes':
-                return (<HeroesList onItemPress={(index, item) => this.onHeroPress(item)}/>);
+                return (<HeroesList onItemPress={(item, index) => this.onHeroPress(item)}/>);
                 break;
             case 'icons':
-                return (<IconsList addEventIcon={true}/>);
+                return (<IconsList/>);
                 break;
         }
     }

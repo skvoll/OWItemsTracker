@@ -74,8 +74,8 @@ class Item extends Component {
             <View style={{borderRadius: 6,}}>
             <Image source={this.props.item.source} style={[styles.icon, style,]}>
                 <TouchableWithoutFeedback
-                    onPress={() => this.props.onPress(this.props.index, this.props.item)}
-                    onLongPress={() => this.props.onLongPress(this.props.index, this.props.item)}
+                    onPress={() => this.props.onPress(this.props.item, this.props.index)}
+                    onLongPress={() => this.props.onLongPress(this.props.item, this.props.index)}
                 >
 
                     <View style={styles.iconContent}>
@@ -94,15 +94,13 @@ class Item extends Component {
 export class IconsList extends Component {
     static propTypes = {
         onItemPress: React.PropTypes.func,
-        showProgress: React.PropTypes.bool,
         addHeroIcon: React.PropTypes.bool,
         addEventIcon: React.PropTypes.bool,
     };
 
     static defaultProps = {
-        showProgress: true,
         addHeroIcon: true,
-        addEventIcon: false,
+        addEventIcon: true,
     };
 
     isShouldComponentUpdate = false;
@@ -222,8 +220,8 @@ export class IconsList extends Component {
             <Item
                 index={index}
                 item={item}
-                onPress={(index, item) => this.onItemPress(index)}
-                onLongPress={(index, item) => this.onItemLongPress(item)}
+                onPress={(item, index) => this.onItemPress(index)}
+                onLongPress={(item, index) => this.onItemLongPress(item)}
                 addHeroIcon={this.props.addHeroIcon}
                 addEventIcon={this.props.addEventIcon}
             />

@@ -75,10 +75,10 @@ export class EventScene extends Scene {
     tabRenderScene({route}) {
         switch (route.key) {
             case 'by_type':
-                return (<ItemsList event={this.props.item} isCollapsible={true}/>);
+                return (<ItemsList event={this.props.item}/>);
                 break;
             case 'by_heroes':
-                return (<HeroesList progressEvent={this.props.item} onItemPress={(index, item) => this.onHeroPress(item)}/>);
+                return (<HeroesList progressEvent={this.props.item} onItemPress={(item, index) => this.onHeroPress(item)}/>);
                 break;
         }
     }

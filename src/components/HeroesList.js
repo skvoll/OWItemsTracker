@@ -49,8 +49,8 @@ class Item extends Component {
 
         return (
             <TouchableWithoutFeedback
-                onPress={() => this.props.onPress(this.props.index, this.props.item)}
-                onLongPress={() => this.props.onLongPress(this.props.index, this.props.item)}
+                onPress={() => this.props.onPress(this.props.item, this.props.index)}
+                onLongPress={() => this.props.onLongPress(this.props.item, this.props.index)}
             >
 
                 <View style={styles.item}>
@@ -182,7 +182,7 @@ export class HeroesList extends Component {
                 index={index}
                 item={item}
                 onPress={this.props.onItemPress}
-                onLongPress={(index, item) => this.onItemLongPress(item)}
+                onLongPress={(item, index) => this.onItemLongPress(item)}
             />
         );
     }

@@ -43,7 +43,7 @@ class Item extends Component {
         }
 
         return (
-            <Touchable onPress={() => this.props.onPress(this.props.index, this.props.item)}>
+            <Touchable onPress={() => this.props.onPress(this.props.item, this.props.index)}>
                 <View style={styles.item}>
                     <Image source={this.props.item.icon} style={styles.icon}/>
                     <Text
