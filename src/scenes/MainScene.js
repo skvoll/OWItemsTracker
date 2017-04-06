@@ -187,8 +187,8 @@ export class MainScene extends Scene {
             <Layout
                 toolbarTitle="OW Items Tracker"
                 toolbarActions={[
-                    {title: _('SETTINGS'), iconName: 'settings', show: 'always',},
-                    {title: _('INFORMATION'), iconName: 'info', show: 'always',},
+                    {title: '', iconName: 'settings', show: 'always',},
+                    {title: '', iconName: 'info', show: 'always',},
                 ]}
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
             >
