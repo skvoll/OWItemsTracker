@@ -27,8 +27,7 @@ export class MainScene extends Scene {
 
     static defaultProps = {};
 
-    dontTrackTabPosition = false;
-
+    tabHeader;
     whatsNewModal;
 
     constructor(props, context, updater) {
@@ -112,14 +111,14 @@ export class MainScene extends Scene {
                     this.dontTrackTabPosition = true;
                     this.setState({
                         index: index,
-                    }, () => setTimeout(() => this.dontTrackTabPosition = false, 150));
+                    });
                 }, isActive: this.state.index === index,
             });
         });
 
         return (
             <View style={styles.filter}>
-                <ButtonsGroup items={actions}/>
+                <ButtonsGroup ref={(component) => this.tabHeader = component} items={actions}/>
             </View>
         );
     }
@@ -139,12 +138,14 @@ export class MainScene extends Scene {
     }
 
     tabHandleChangePosition(position) {
-        if (this.dontTrackTabPosition) {
-            return;
-        }
+        this.tabHeader.setState({
+            active: Math.round(position),
+        });
+    }
 
+    tabHandleChangeTab(index) {
         this.setState({
-            index: Math.round(position),
+            index: index,
         });
     }
 
@@ -198,8 +199,8 @@ export class MainScene extends Scene {
                     navigationState={this.state}
                     renderHeader={() => this.tabRenderHeader()}
                     renderScene={(route) => this.tabRenderScene(route)}
-                    onChangePosition={(index) => this.tabHandleChangePosition(index)}
-                    onRequestChangeTab={(index) => null}
+                    onChangePosition={(position) => this.tabHandleChangePosition(position)}
+                    onRequestChangeTab={(index) => this.tabHandleChangeTab(index)}
                     style={styles.tabs}
                 />
 
