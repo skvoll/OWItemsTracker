@@ -1568,7 +1568,7 @@ export default {
     'SPRAY-66-97-114-98-97-114-105-97-110': {
         uid: 'SPRAY-66-97-114-98-97-114-105-97-110',
         source: require('./../assets/sprays/SPRAY-66-97-114-98-97-114-105-97-110.png'),
-        default: false,
+        default: true,
         name: `Barbarian`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,

@@ -1421,7 +1421,7 @@
   },
   "SPRAY-66-97-114-98-97-114-105-97-110": {
     "uid": "SPRAY-66-97-114-98-97-114-105-97-110",
-    "default": false,
+    "default": true,
     "name": "Barbarian",
     "type": "SPRAY",
     "rarity": "COMMON",
