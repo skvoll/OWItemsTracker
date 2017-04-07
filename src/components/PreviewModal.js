@@ -41,7 +41,7 @@ export class PreviewModal extends SimpleModal {
     }
 
     vibrate() {
-        if (this.props.vibration) {
+        if (this.props.vibration && !this.state.isVisible) {
             Vibration.vibrate(this.props.vibration);
         }
     }
