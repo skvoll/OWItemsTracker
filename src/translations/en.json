@@ -4,6 +4,7 @@
   "IS_ON": "on",
   "IS_OFF": "off",
   "CLOSE": "close",
+  "REMIND_LATER": "remind later",
   "CANCEL": "cancel",
   "TURN_ON": "turn on",
   "TURN_OFF": "turn off",
