@@ -6,7 +6,6 @@ import {
     StyleSheet,
     Modal,
     View,
-    ScrollView,
     Text,
 } from 'react-native';
 
@@ -21,7 +20,7 @@ export class SimpleModal extends Modal {
         children: React.PropTypes.oneOfType([
             React.PropTypes.element,
             React.PropTypes.arrayOf(React.PropTypes.element),
-        ]).isRequired,
+        ]),
         isVisible: React.PropTypes.bool,
         title: React.PropTypes.string,
         actions: React.PropTypes.arrayOf(React.PropTypes.object),
@@ -40,6 +39,7 @@ export class SimpleModal extends Modal {
         this.state = {
             isVisible: this.props.isVisible,
             title: this.props.title,
+            actions: this.props.actions,
         };
     }
 
@@ -60,16 +60,12 @@ export class SimpleModal extends Modal {
 
         this.setState({
             isVisible: true,
-            title: title || this.props.title,
+            title: title || this.state.title,
         });
     }
 
     renderContent() {
-        return (
-            <ScrollView contentContainerStyle={styles.content}>
-                {this.props.children}
-            </ScrollView>
-        );
+        return this.props.children;
     }
 
     render() {
@@ -79,8 +75,8 @@ export class SimpleModal extends Modal {
             title = (<Text numberOfLines={1} style={styles.title}>{this.state.title.toUpperCase()}</Text>);
         }
 
-        if (this.props.actions) {
-            this.props.actions.map((item, index) => {
+        if (this.state.actions) {
+            this.state.actions.map((item, index) => {
                 actions.push(
                     <Button
                         key={`modal-action-${index}`}
@@ -135,9 +131,6 @@ const styles = StyleSheet.create({
         fontSize: 28,
         fontFamily: 'BigNoodleToo',
         color: CONFIG.COLORS.COMMON,
-    },
-    content: {
-        padding: 8,
     },
     actions: {
         flexDirection: 'row',
