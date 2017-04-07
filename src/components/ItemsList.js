@@ -371,6 +371,7 @@ export class ItemsList extends Component {
 
         this.state = {
             sections: {},
+            openedSections: [],
             itemsPrice: 0,
         };
     }
@@ -434,7 +435,7 @@ export class ItemsList extends Component {
                     type: item.type,
                     title: _(`ITEMS_TYPE_${item.type}`),
                     progress: {received: 0, total: 0,},
-                    isVisible: !this.props.isCollapsible,
+                    isVisible: this.props.isCollapsible ? this.state.openedSections.indexOf(item.type) !== -1 : true,
                     data: [],
                 };
             }
@@ -515,9 +516,17 @@ export class ItemsList extends Component {
     }
 
     onSectionHeaderPress(section) {
-        let sections = this.getSections();
+        let sections = this.getSections(), openedSections = this.state.openedSections;
 
         sections[section.type].isVisible = !sections[section.type].isVisible;
+
+        if (sections[section.type].isVisible) {
+            openedSections.push(section.type);
+        } else {
+            openedSections.filter((item) => {
+                return item !== section.type;
+            });
+        }
 
         this.isShouldComponentUpdate = true;
 
