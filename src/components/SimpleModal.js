@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import CONFIG from './../config';
+import _ from './../l10n';
 import {
     Button,
 } from './';
@@ -94,7 +95,7 @@ export class SimpleModal extends Modal {
             actions.push(
                 <Button
                     key={`modal-action-close`}
-                    title="close"
+                    title={_('CLOSE')}
                     icon="close"
                     onPress={() => this.close()}
                     style={styles.action}
