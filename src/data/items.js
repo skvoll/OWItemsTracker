@@ -1571,7 +1571,7 @@ export default {
     'SPRAY-66-97-114-98-97-114-105-97-110': {
         uid: 'SPRAY-66-97-114-98-97-114-105-97-110',
         source: require('./../assets/sprays/SPRAY-66-97-114-98-97-114-105-97-110.png'),
-        default: true,
+        default: false,
         name: `Barbarian`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -1659,7 +1659,7 @@ export default {
     'SPRAY-67-114-117-115-97-100-101-114': {
         uid: 'SPRAY-67-114-117-115-97-100-101-114',
         source: require('./../assets/sprays/SPRAY-67-114-117-115-97-100-101-114.png'),
-        default: true,
+        default: false,
         name: `Crusader`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -1714,7 +1714,7 @@ export default {
     'SPRAY-68-101-109-111-110-32-72-117-110-116-101-114': {
         uid: 'SPRAY-68-101-109-111-110-32-72-117-110-116-101-114',
         source: require('./../assets/sprays/SPRAY-68-101-109-111-110-32-72-117-110-116-101-114.png'),
-        default: true,
+        default: false,
         name: `Demon Hunter`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -1923,7 +1923,7 @@ export default {
     'SPRAY-77-111-110-107': {
         uid: 'SPRAY-77-111-110-107',
         source: require('./../assets/sprays/SPRAY-77-111-110-107.png'),
-        default: true,
+        default: false,
         name: `Monk`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -2308,7 +2308,7 @@ export default {
     'SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54': {
         uid: 'SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54',
         source: require('./../assets/sprays/SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png'),
-        default: true,
+        default: false,
         name: `Summer Games 2016`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -2396,7 +2396,7 @@ export default {
     'SPRAY-87-105-116-99-104-32-68-111-99-116-111-114': {
         uid: 'SPRAY-87-105-116-99-104-32-68-111-99-116-111-114',
         source: require('./../assets/sprays/SPRAY-87-105-116-99-104-32-68-111-99-116-111-114.png'),
-        default: true,
+        default: false,
         name: `Witch Doctor`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -2418,7 +2418,7 @@ export default {
     'SPRAY-87-105-122-97-114-100': {
         uid: 'SPRAY-87-105-122-97-114-100',
         source: require('./../assets/sprays/SPRAY-87-105-122-97-114-100.png'),
-        default: true,
+        default: false,
         name: `Wizard`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
@@ -2429,7 +2429,7 @@ export default {
     'SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114': {
         uid: 'SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114',
         source: require('./../assets/sprays/SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114.png'),
-        default: true,
+        default: false,
         name: `Year of the Rooster`,
         type: Items.TYPE.SPRAY,
         rarity: Items.RARITY.COMMON,
