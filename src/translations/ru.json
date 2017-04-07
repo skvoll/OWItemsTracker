@@ -24,7 +24,7 @@
 
   // texts
   "COPYRIGHT_TITLE": "Авторские права",
-  "COPYRIGHT_TEXT": "This application is not affiliated with Blizzard Entertainment.\n\nAll trademarks referenced herein are the properties of their respective owners.",
+  "COPYRIGHT_TEXT": "Это приложение не связано никаким образом с Blizzard Entertainment.\n\nВсе использованные торговые марки в приложении являются собственностью их владельцев.\n\nМы не получаем никакой выгоды с этого приложения. Наша единственная мотивация - сильная любовь к игре.",
   "INCLUDE_ICONS_IN_PROGRESS": "Учитывать иконки в прогрессе",
   "INCLUDE_SPECIALS_IN_PROGRESS": "Учитывать специальные предметы",
   "CLEARING_DATA": "Очистка данных",
