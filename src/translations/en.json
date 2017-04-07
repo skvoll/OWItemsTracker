@@ -25,6 +25,7 @@
   "COPYRIGHT_TITLE": "Copyright",
   "COPYRIGHT_TEXT": "This application is not affiliated with Blizzard Entertainment.\n\nAll trademarks referenced herein are the properties of their respective owners.",
   "INCLUDE_ICONS_IN_PROGRESS": "Include icons in progress",
+  "INCLUDE_SPECIALS_IN_PROGRESS": "Include specials in progress",
   "CLEARING_DATA": "Clearing data",
   "CLEARING_DATA_CONFIRM": "All checked items will be reseted!",
   "CLOUD_SYNCHRONIZATION": "Cloud synchronization",

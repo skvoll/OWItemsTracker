@@ -8,6 +8,8 @@ import {
 import CONFIG from './config';
 import _ from './l10n';
 import CloudStorage from './CloudStorage';
+import Events from './Events';
+import Heroes from './Heroes';
 
 export default class Items {
     static isInitialized = false;
@@ -215,6 +217,12 @@ export default class Items {
 
             if (!CONFIG.INCLUDE_ICONS_IN_PROGRESS) {
                 if (item.type === this.TYPE.ICON) {
+                    return;
+                }
+            }
+
+            if (!CONFIG.INCLUDE_SPECIALS_IN_PROGRESS) {
+                if (item.event === Events.SPECIAL && item.hero !== Heroes.GENJI) {
                     return;
                 }
             }

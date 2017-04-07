@@ -25,6 +25,7 @@
   "COPYRIGHT_TITLE": "Авторские права",
   "COPYRIGHT_TEXT": "This application is not affiliated with Blizzard Entertainment.\n\nAll trademarks referenced herein are the properties of their respective owners.",
   "INCLUDE_ICONS_IN_PROGRESS": "Учитывать иконки в прогрессе",
+  "INCLUDE_SPECIALS_IN_PROGRESS": "Учитывать специальные предметы",
   "CLEARING_DATA": "Очистка данных",
   "CLEARING_DATA_CONFIRM": "Все отмеченные предметы будут сброшены!",
   "CLOUD_SYNCHRONIZATION": "Облачное хранение",
