@@ -94,7 +94,10 @@ export class AboutScene extends Scene {
                         <Text style={styles.title}>{`${_('CODE')}:`.toUpperCase()}</Text>
                         <Link title="david volkov" href="http://davidvolkov.tech"/>
                         <Text style={styles.title}>{`${_('DESIGN')}:`.toUpperCase()}</Text>
-                        <Link title="dmitry kurashkin" href="https://www.reddit.com/user/dimitryk_52/"/>
+                        <Link title="dmitry kurashkin" href="https://www.reddit.com/user/dimitryk_52"/>
+                        <Text style={styles.title}>{`${_('SPECIAL_THANKS')}:`.toUpperCase()}</Text>
+                        <Link icon="vk" title="danila semenov" href="https://vk.com/mhgny"/>
+                        <Link icon="reddit-alien" title="/u/FixKun" href="https://www.reddit.com/user/FixKun"/>
                     </View>
                     <Text style={styles.label}>{`${_('THANKS_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
