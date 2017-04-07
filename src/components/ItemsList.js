@@ -429,7 +429,9 @@ export class ItemsList extends Component {
                 }
             }
 
-            itemsPrice += item.price;
+            if (!item.received) {
+                itemsPrice += item.price;
+            }
 
             sections[item.type].data.push(Object.assign({}, item));
 
