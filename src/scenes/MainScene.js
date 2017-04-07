@@ -76,7 +76,7 @@ class WelcomeModal extends SimpleModal {
                 routes: routes,
             });
 
-            this.open(_('TIPS'));
+            setTimeout(() => this.open(_('TIPS')), 1);
         }).catch(() => null);
     }
 
@@ -122,7 +122,7 @@ class WelcomeModal extends SimpleModal {
                 routes: routes,
             });
 
-            this.open(`${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`);
+            setTimeout(() => this.open(`${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`), 1);
         }).catch(() => null);
     }
 
