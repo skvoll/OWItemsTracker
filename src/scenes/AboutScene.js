@@ -85,6 +85,10 @@ export class AboutScene extends Scene {
                     <View style={styles.section}>
                         <Text style={styles.text}>{_('ABOUT_TEXT')}</Text>
                     </View>
+                    <Text style={styles.label}>{`${_('COPYRIGHT_TITLE').toUpperCase()}`}</Text>
+                    <View style={styles.section}>
+                        <Text style={styles.text}>{_('COPYRIGHT_TEXT')}</Text>
+                    </View>
                     <Text style={styles.label}>{`${_('DEVELOPERS').toUpperCase()}`}</Text>
                     <View style={styles.section}>
                         <Text style={styles.title}>{`${_('CODE')}:`.toUpperCase()}</Text>
