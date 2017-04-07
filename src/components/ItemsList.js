@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import {
+    Vibration,
     StyleSheet,
     View,
     ScrollView,
@@ -523,7 +524,7 @@ export class ItemsList extends Component {
         if (sections[section.type].isVisible) {
             openedSections.push(section.type);
         } else {
-            openedSections.filter((item) => {
+            openedSections = openedSections.filter((item) => {
                 return item !== section.type;
             });
         }
@@ -532,10 +533,13 @@ export class ItemsList extends Component {
 
         this.setState({
             sections: sections,
+            openedSections: openedSections,
         });
     }
 
     onSectionHeaderLongPress(section) {
+        Vibration.vibrate(20);
+
         this.getItems().map((item) => {
             if (item.type === section.type) {
                 Items.receiveItem(item.uid, true);
