@@ -11,19 +11,20 @@ export default class Heroes {
     static MCCREE = 8;
     static MEI = 9;
     static MERCY = 10;
-    static PHARAH = 11;
-    static REAPER = 12;
-    static REINHARDT = 13;
-    static ROADHOG = 14;
-    static SOLDIER76 = 15;
-    static SOMBRA = 16;
-    static SYMMETRA = 17;
-    static TORBJORN = 18;
-    static TRACER = 19;
-    static WIDOWMAKER = 20;
-    static WINSTON = 21;
-    static ZARYA = 22;
-    static ZENYATTA = 23;
+    static ORISA = 11;
+    static PHARAH = 12;
+    static REAPER = 13;
+    static REINHARDT = 14;
+    static ROADHOG = 15;
+    static SOLDIER76 = 16;
+    static SOMBRA = 17;
+    static SYMMETRA = 18;
+    static TORBJORN = 19;
+    static TRACER = 20;
+    static WIDOWMAKER = 21;
+    static WINSTON = 22;
+    static ZARYA = 23;
+    static ZENYATTA = 24;
 
     static ROLE = {
         DEFENSE: 1,
@@ -112,6 +113,14 @@ export default class Heroes {
             portrait: require('./assets/heroes/MERCY.portrait.png'),
             background: require('./assets/heroes/MERCY.background.png'),
             role: Heroes.ROLE.SUPPORT,
+        },
+        [Heroes.ORISA]: {
+            id: Heroes.ORISA,
+            code: 'ORISA',
+            icon: require('./assets/heroes/ORISA.icon.png'),
+            portrait: require('./assets/heroes/ORISA.portrait.png'),
+            background: require('./assets/heroes/ORISA.background.png'),
+            role: Heroes.ROLE.TANK,
         },
         [Heroes.PHARAH]: {
             id: Heroes.PHARAH,

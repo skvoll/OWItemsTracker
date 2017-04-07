@@ -20848,5 +20848,625 @@
     "hero": "ANA",
     "price": true,
     "event": "YEAR_OF_THE_ROOSTER_2017"
+  },
+  "SKIN-ORISA-67-108-97-115-115-105-99": {
+    "uid": "SKIN-ORISA-67-108-97-115-115-105-99",
+    "default": true,
+    "name": "Classic",
+    "type": "SKIN",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "SKIN-ORISA-68-97-119-110": {
+    "uid": "SKIN-ORISA-68-97-119-110",
+    "default": false,
+    "name": "Dawn",
+    "type": "SKIN",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-80-108-97-105-110-115": {
+    "uid": "SKIN-ORISA-80-108-97-105-110-115",
+    "default": false,
+    "name": "Plains",
+    "type": "SKIN",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-83-117-110-114-105-115-101": {
+    "uid": "SKIN-ORISA-83-117-110-114-105-115-101",
+    "default": false,
+    "name": "Sunrise",
+    "type": "SKIN",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-84-119-105-108-105-103-104-116": {
+    "uid": "SKIN-ORISA-84-119-105-108-105-103-104-116",
+    "default": false,
+    "name": "Twilight",
+    "type": "SKIN",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-67-97-109-111-117-102-108-97-103-101": {
+    "uid": "SKIN-ORISA-67-97-109-111-117-102-108-97-103-101",
+    "default": false,
+    "name": "Camouflage",
+    "type": "SKIN",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-79-82-49-53": {
+    "uid": "SKIN-ORISA-79-82-49-53",
+    "default": false,
+    "name": "OR15",
+    "type": "SKIN",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-67-97-114-98-111-110-32-70-105-98-101-114": {
+    "uid": "SKIN-ORISA-67-97-114-98-111-110-32-70-105-98-101-114",
+    "default": false,
+    "name": "Carbon Fiber",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-68-121-110-97-115-116-105-110-97-101": {
+    "uid": "SKIN-ORISA-68-121-110-97-115-116-105-110-97-101",
+    "default": false,
+    "name": "Dynastinae",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-77-101-103-97-115-111-109-97": {
+    "uid": "SKIN-ORISA-77-101-103-97-115-111-109-97",
+    "default": false,
+    "name": "Megasoma",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SKIN-ORISA-80-114-111-116-101-99-116-111-114": {
+    "uid": "SKIN-ORISA-80-114-111-116-101-99-116-111-114",
+    "default": false,
+    "name": "Protector",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-ORISA-72-101-114-111-105-99": {
+    "uid": "EMOTE-ORISA-72-101-114-111-105-99",
+    "default": true,
+    "name": "Heroic",
+    "type": "EMOTE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "EMOTE-ORISA-67-104-101-101-114": {
+    "uid": "EMOTE-ORISA-67-104-101-101-114",
+    "default": false,
+    "name": "Cheer",
+    "type": "EMOTE",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-ORISA-72-97-108-116-33": {
+    "uid": "EMOTE-ORISA-72-97-108-116-33",
+    "default": false,
+    "name": "Halt!",
+    "type": "EMOTE",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-ORISA-75-105-99-107-105-110-103-32-68-105-114-116": {
+    "uid": "EMOTE-ORISA-75-105-99-107-105-110-103-32-68-105-114-116",
+    "default": false,
+    "name": "Kicking Dirt",
+    "type": "EMOTE",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VICTORY_POSE-ORISA-72-101-114-111-105-99": {
+    "uid": "VICTORY_POSE-ORISA-72-101-114-111-105-99",
+    "default": true,
+    "name": "Heroic",
+    "type": "VICTORY_POSE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "VICTORY_POSE-ORISA-67-111-110-102-105-100-101-110-116": {
+    "uid": "VICTORY_POSE-ORISA-67-111-110-102-105-100-101-110-116",
+    "default": false,
+    "name": "Confident",
+    "type": "VICTORY_POSE",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VICTORY_POSE-ORISA-70-108-101-120": {
+    "uid": "VICTORY_POSE-ORISA-70-108-101-120",
+    "default": false,
+    "name": "Flex",
+    "type": "VICTORY_POSE",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VICTORY_POSE-ORISA-72-97-108-116-33": {
+    "uid": "VICTORY_POSE-ORISA-72-97-108-116-33",
+    "default": false,
+    "name": "Halt!",
+    "type": "VICTORY_POSE",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-70-111-108-108-111-119-105-110-103-32-109-121-32-112-114-111-103-114-97-109-109-105-110-103": {
+    "uid": "VOICE_LINE-ORISA-70-111-108-108-111-119-105-110-103-32-109-121-32-112-114-111-103-114-97-109-109-105-110-103",
+    "default": false,
+    "name": "Following my programming",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-67-117-114-114-101-110-116-32-111-117-116-108-111-111-107": {
+    "uid": "VOICE_LINE-ORISA-67-117-114-114-101-110-116-32-111-117-116-108-111-111-107",
+    "default": false,
+    "name": "Current outlook",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-68-111-32-121-111-117-32-110-101-101-100-32-97-32-104-117-103-63": {
+    "uid": "VOICE_LINE-ORISA-68-111-32-121-111-117-32-110-101-101-100-32-97-32-104-117-103-63",
+    "default": false,
+    "name": "Do you need a hug?",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-69-102-105-32-119-105-108-108-32-110-111-116-32-98-101-32-104-97-112-112-121": {
+    "uid": "VOICE_LINE-ORISA-69-102-105-32-119-105-108-108-32-110-111-116-32-98-101-32-104-97-112-112-121",
+    "default": false,
+    "name": "Efi will not be happy",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-69-114-114-111-114-58-32-115-97-114-99-97-115-109-32-109-111-100-117-108-101": {
+    "uid": "VOICE_LINE-ORISA-69-114-114-111-114-58-32-115-97-114-99-97-115-109-32-109-111-100-117-108-101",
+    "default": false,
+    "name": "Error: sarcasm module",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-73-32-99-97-110-39-116-32-100-111-32-116-104-97-116": {
+    "uid": "VOICE_LINE-ORISA-73-32-99-97-110-39-116-32-100-111-32-116-104-97-116",
+    "default": false,
+    "name": "I can't do that",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-77-101-100-105-99-97-108-32-97-115-115-105-115-116-97-110-99-101": {
+    "uid": "VOICE_LINE-ORISA-77-101-100-105-99-97-108-32-97-115-115-105-115-116-97-110-99-101",
+    "default": false,
+    "name": "Medical assistance",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-77-121-32-97-110-97-108-121-115-105-115": {
+    "uid": "VOICE_LINE-ORISA-77-121-32-97-110-97-108-121-115-105-115",
+    "default": false,
+    "name": "My analysis",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-78-111-32-112-97-114-107-105-110-103": {
+    "uid": "VOICE_LINE-ORISA-78-111-32-112-97-114-107-105-110-103",
+    "default": false,
+    "name": "No parking",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-83-104-105-110-101-32-121-111-117-114-32-101-121-101-115": {
+    "uid": "VOICE_LINE-ORISA-83-104-105-110-101-32-121-111-117-114-32-101-121-101-115",
+    "default": false,
+    "name": "Shine your eyes",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "VOICE_LINE-ORISA-84-104-97-116-32-100-111-101-115-32-110-111-116-32-99-111-109-112-117-116-101": {
+    "uid": "VOICE_LINE-ORISA-84-104-97-116-32-100-111-101-115-32-110-111-116-32-99-111-109-112-117-116-101",
+    "default": false,
+    "name": "That does not compute",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-94-95-94": {
+    "uid": "SPRAY-ORISA-94-95-94",
+    "default": false,
+    "name": "^_^",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-62-95-60": {
+    "uid": "SPRAY-ORISA-62-95-60",
+    "default": false,
+    "name": ">_<",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-65-109-117-115-101-100": {
+    "uid": "SPRAY-ORISA-65-109-117-115-101-100",
+    "default": false,
+    "name": "Amused",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-97-114-118-105-110-103": {
+    "uid": "SPRAY-ORISA-67-97-114-118-105-110-103",
+    "default": false,
+    "name": "Carving",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121": {
+    "uid": "SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121",
+    "default": false,
+    "name": "City of Harmony",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-108-101-97-110-105-110-103": {
+    "uid": "SPRAY-ORISA-67-108-101-97-110-105-110-103",
+    "default": false,
+    "name": "Cleaning",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115": {
+    "uid": "SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115",
+    "default": false,
+    "name": "Companions",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110": {
+    "uid": "SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110",
+    "default": false,
+    "name": "Construction",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100": {
+    "uid": "SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100",
+    "default": false,
+    "name": "Crossing Guard",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-67-117-116-101": {
+    "uid": "SPRAY-ORISA-67-117-116-101",
+    "default": false,
+    "name": "Cute",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "SPRAY-ORISA-68-114-117-109-109-105-110-103": {
+    "uid": "SPRAY-ORISA-68-114-117-109-109-105-110-103",
+    "default": false,
+    "name": "Drumming",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-71-117-97-114-100-105-97-110": {
+    "uid": "SPRAY-ORISA-71-117-97-114-100-105-97-110",
+    "default": false,
+    "name": "Guardian",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-72-101-114-111-101-115": {
+    "uid": "SPRAY-ORISA-72-101-114-111-101-115",
+    "default": false,
+    "name": "Heroes",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-73-99-111-110": {
+    "uid": "SPRAY-ORISA-73-99-111-110",
+    "default": false,
+    "name": "Icon",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116": {
+    "uid": "SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116",
+    "default": false,
+    "name": "Just Dessert",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-75-105-99-107": {
+    "uid": "SPRAY-ORISA-75-105-99-107",
+    "default": false,
+    "name": "Kick",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-80-105-120-101-108": {
+    "uid": "SPRAY-ORISA-80-105-120-101-108",
+    "default": false,
+    "name": "Pixel",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "SPRAY-ORISA-80-114-111-116-101-99-116-111-114": {
+    "uid": "SPRAY-ORISA-80-114-111-116-101-99-116-111-114",
+    "default": false,
+    "name": "Protector",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-83-104-105-101-108-100": {
+    "uid": "SPRAY-ORISA-83-104-105-101-108-100",
+    "default": false,
+    "name": "Shield",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-83-116-111-112": {
+    "uid": "SPRAY-ORISA-83-116-111-112",
+    "default": false,
+    "name": "Stop",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100": {
+    "uid": "SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100",
+    "default": false,
+    "name": "Supercharged",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-83-119-105-110-103": {
+    "uid": "SPRAY-ORISA-83-119-105-110-103",
+    "default": false,
+    "name": "Swing",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-84-114-97-99-107-115": {
+    "uid": "SPRAY-ORISA-84-114-97-99-107-115",
+    "default": false,
+    "name": "Tracks",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-85-110-109-111-118-105-110-103": {
+    "uid": "SPRAY-ORISA-85-110-109-111-118-105-110-103",
+    "default": false,
+    "name": "Unmoving",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "SPRAY-ORISA-88-105-110-103": {
+    "uid": "SPRAY-ORISA-88-105-110-103",
+    "default": false,
+    "name": "Xing",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "HIGHLIGHT_INTRO-ORISA-72-101-114-111-105-99": {
+    "uid": "HIGHLIGHT_INTRO-ORISA-72-101-114-111-105-99",
+    "default": true,
+    "name": "Heroic",
+    "type": "HIGHLIGHT_INTRO",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "HIGHLIGHT_INTRO-ORISA-75-101-101-112-105-110-103-32-89-111-117-32-83-97-102-101": {
+    "uid": "HIGHLIGHT_INTRO-ORISA-75-101-101-112-105-110-103-32-89-111-117-32-83-97-102-101",
+    "default": false,
+    "name": "Keeping You Safe",
+    "type": "HIGHLIGHT_INTRO",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "HIGHLIGHT_INTRO-ORISA-79-104-33": {
+    "uid": "HIGHLIGHT_INTRO-ORISA-79-104-33",
+    "default": false,
+    "name": "Oh!",
+    "type": "HIGHLIGHT_INTRO",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "HIGHLIGHT_INTRO-ORISA-83-117-112-101-114-99-104-97-114-103-101-114": {
+    "uid": "HIGHLIGHT_INTRO-ORISA-83-117-112-101-114-99-104-97-114-103-101-114",
+    "default": false,
+    "name": "Supercharger",
+    "type": "HIGHLIGHT_INTRO",
+    "rarity": "EPIC",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "ICON-ORISA-79-114-105-115-97": {
+    "uid": "ICON-ORISA-79-114-105-115-97",
+    "default": false,
+    "name": "Orisa",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "ICON-ORISA-80-114-111-116-101-99-116-111-114": {
+    "uid": "ICON-ORISA-80-114-111-116-101-99-116-111-114",
+    "default": false,
+    "name": "Protector",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "ICON-ORISA-69-102-105": {
+    "uid": "ICON-ORISA-69-102-105",
+    "default": false,
+    "name": "Efi",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
   }
 }
