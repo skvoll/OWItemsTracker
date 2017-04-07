@@ -69,7 +69,7 @@ export class MainScene extends Scene {
         }
 
         AsyncStorage.getItem('WHATS_NEW_SHOWN').then((version) => {
-            if (version === CONFIG.VERSION) {
+            if (!version || version === CONFIG.VERSION) {
                 return;
             }
 
