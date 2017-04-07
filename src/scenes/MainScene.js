@@ -6,6 +6,7 @@ import {
     StyleSheet,
     View,
     ScrollView,
+    Image,
     Text,
 } from 'react-native';
 import {TabViewAnimated} from 'react-native-tab-view';
@@ -23,71 +24,60 @@ import {
 import {SimpleModal} from './../components/SimpleModal';
 import Scene from './Scene';
 
-class WhatsNewModal extends SimpleModal {
+class WelcomeModal extends SimpleModal {
     constructor(props, context, updater) {
         super(props, context, updater);
 
         this.state = {
             isVisible: this.props.isVisible,
-            title: `${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`,
             actions: [
                 {title: _('REMIND_LATER'), icon: 'watch-later', action: () => this.close(),},
                 {title: _('CLOSE'), icon: 'close', action: () => {
                     this.close();
-                    AsyncStorage.setItem('WHATS_NEW_SHOWN', CONFIG.VERSION);
+                    AsyncStorage.setItem('WELCOME_SHOWN', 'true');
                 },},
             ],
-        };
-    }
-
-    renderContent() {
-        return (
-            <ScrollView contentContainerStyle={styles.modalContent}>
-                <Text style={styles.modalText}>{_('WHATS_NEW_TEXT')}</Text>
-            </ScrollView>
-        );
-    }
-}
-
-export class MainScene extends Scene {
-    static propTypes = {};
-
-    static defaultProps = {};
-
-    tabHeader;
-    whatsNewModal;
-
-    constructor(props, context, updater) {
-        super(props, context, updater);
-
-        this.state = {
             index: 0,
-            routes: [
-                {key: 'events', title: _('EVENTS'),},
-                {key: 'heroes', title: _('HEROES'),},
-                {key: 'icons', title: _('ICONS'),},
-            ],
+            routes: [],
         };
     }
 
-    componentWillMount() {
-        this.showWhatsNew();
+    componentDidMount() {
+        this.showTips()
     }
 
-    componentWillReceiveProps(nextProps) {
-        if (
-            this.state.routes[0].title !== _('EVENTS')
-            || this.state.routes[1].title !== _('HEROES')
-            || this.state.routes[2].title !== _('ICONS')
-        ) {
-            this.setState({
-                routes: [
-                    {key: 'events', title: _('EVENTS'),},
-                    {key: 'heroes', title: _('HEROES'),},
-                    {key: 'icons', title: _('ICONS'),},
-                ],
+    showTips() {
+        AsyncStorage.getItem('WELCOME_SHOWN').then((WELCOME_SHOWN) => {
+            if (WELCOME_SHOWN) {
+                this.showWhatsNew();
+
+                return;
+            }
+
+            let routes = [], tips = [
+                require('./../assets/tips/tip1.jpg'),
+                require('./../assets/tips/tip2.jpg'),
+                require('./../assets/tips/tip3.jpg'),
+                require('./../assets/tips/tip4.jpg'),
+            ];
+
+            tips.map((tip, index) => {
+                routes.push({
+                    key: index.toString(),
+                    content: (
+                        <View style={styles.modalSlide}>
+                            <Image source={tip} style={styles.modalSlideImage}/>
+                        </View>
+                    ),
+                });
             });
-        }
+
+            this.setState({
+                routes: routes,
+            });
+
+            this.open(_('TIPS'));
+        }).catch(() => null);
     }
 
     showWhatsNew() {
@@ -106,8 +96,119 @@ export class MainScene extends Scene {
                 return;
             }
 
-            this.whatsNewModal.open();
+            let routes = [{
+                key: '0',
+                content: (
+                    <ScrollView contentContainerStyle={styles.modalSlide}>
+                        <Text style={styles.modalText}>{_('WHATS_NEW_TEXT')}</Text>
+                    </ScrollView>
+                ),
+            }], tips = [
+                require('./../assets/tips/tip3.jpg'),
+            ];
+
+            tips.map((tip, index) => {
+                routes.push({
+                    key: (index + 1).toString(),
+                    content: (
+                        <View style={styles.modalSlide}>
+                            <Image source={tip} style={styles.modalSlideImage}/>
+                        </View>
+                    ),
+                });
+            });
+
+            this.setState({
+                routes: routes,
+            });
+
+            this.open(`${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`);
         }).catch(() => null);
+    }
+
+    tabRenderFooter() {
+        let items = [];
+
+        this.state.routes.map((item, index) => {
+            items.push(
+                <View
+                    key={index}
+                    style={[
+                        styles.modalPagerItem,
+                        (this.state.index === index ? styles.modalPagerItemActive : null)
+                    ]}
+                />
+            );
+        });
+
+        if (items.length === 0) {
+            return null;
+        }
+
+        return (
+            <View style={styles.modalPager}>
+                {items}
+            </View>
+        );
+    }
+
+    tabRenderScene({route}) {
+        return route.content;
+    }
+
+    tabHandleChangeTab(index) {
+        this.setState({
+            index: index,
+        });
+    }
+
+    renderContent() {
+        return (
+            <TabViewAnimated
+                navigationState={this.state}
+                renderFooter={() => this.tabRenderFooter()}
+                renderScene={(route) => this.tabRenderScene(route)}
+                onRequestChangeTab={(index) => this.tabHandleChangeTab(index)}
+                style={styles.tabs}
+            />
+        );
+    }
+}
+
+export class MainScene extends Scene {
+    static propTypes = {};
+
+    static defaultProps = {};
+
+    tabHeader;
+
+    constructor(props, context, updater) {
+        super(props, context, updater);
+
+        this.state = {
+            index: 0,
+            routes: [
+                {key: 'events', title: _('EVENTS'),},
+                {key: 'heroes', title: _('HEROES'),},
+                {key: 'icons', title: _('ICONS'),},
+            ],
+        };
+    }
+
+    componentWillReceiveProps(nextProps) {
+        if (
+            this.state.routes[0].title !== _('EVENTS')
+            || this.state.routes[1].title !== _('HEROES')
+            || this.state.routes[2].title !== _('ICONS')
+        ) {
+            this.setState({
+                routes: [
+                    {key: 'events', title: _('EVENTS'),},
+                    {key: 'heroes', title: _('HEROES'),},
+                    {key: 'icons', title: _('ICONS'),},
+                ],
+            });
+        }
     }
 
     onEventPress(item) {
@@ -204,7 +305,7 @@ export class MainScene extends Scene {
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
             >
 
-                <WhatsNewModal ref={(component) => this.whatsNewModal = component}/>
+                <WelcomeModal/>
 
                 <TabViewAnimated
                     navigationState={this.state}
@@ -221,8 +322,33 @@ export class MainScene extends Scene {
 }
 
 const styles = StyleSheet.create({
-    modalContent: {
+    modalPager: {
+        height: 48,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    modalPagerItem: {
+        height: 8,
+        width: 8,
+        marginHorizontal: 4,
+        borderRadius: 4,
+        backgroundColor: CONFIG.COLORS.LIGHT_BLUE,
+    },
+    modalPagerItemActive: {
+        height: 12,
+        width: 12,
+        borderRadius: 6,
+    },
+    modalSlide: {
+        flex: 1,
         padding: 8,
+    },
+    modalSlideImage: {
+        flex: 1,
+        height: null,
+        width: null,
+        resizeMode: 'contain',
     },
     modalText: {
         fontSize: 18,

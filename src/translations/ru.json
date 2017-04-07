@@ -18,6 +18,7 @@
   "CODE": "код",
   "DESIGN": "дизайн",
   "LOADING": "загрузка",
+  "TIPS": "подсказки",
   "PREVIEW_NOT_FOUND": "изображение не найдено",
   "NO_INTERNET_CONNECTION": "нет подключения к интернету",
 
@@ -41,7 +42,7 @@
   "THANKS_TEXT_SOURCES_AND_ASSETS": "Исходники и дополнительные материалы",
   "THANKS_TEXT_COMMUNITY": "Сообщество",
   "WHATS_NEW_TITLE": "Что нового",
-  "WHATS_NEW_TEXT": "",
+  "WHATS_NEW_TEXT": "НОВЫЙ ГЕРОЙ: ОРИСА\n\nВОЗМОЖНОСТИ:\n- при удержании на заголовке группы выделяются все предметы",
 
   // specific
   "CHECK_ALL": "выбрать все",

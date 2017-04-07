@@ -18,6 +18,7 @@
   "CODE": "code",
   "DESIGN": "design",
   "LOADING": "loading",
+  "TIPS": "tips",
   "PREVIEW_NOT_FOUND": "preview not found",
   "NO_INTERNET_CONNECTION": "no internet connection",
 
@@ -41,7 +42,7 @@
   "THANKS_TEXT_SOURCES_AND_ASSETS": "Sources and assets",
   "THANKS_TEXT_COMMUNITY": "Community",
   "WHATS_NEW_TITLE": "What's new",
-  "WHATS_NEW_TEXT": "",
+  "WHATS_NEW_TEXT": "NEW HERO: ORISA\n\nFEATURES:\n- hold on type header to select all items in this section",
 
   // specific
   "CHECK_ALL": "check all",
