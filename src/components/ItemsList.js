@@ -173,6 +173,7 @@ class Section extends Component {
         onItemPress: React.PropTypes.func.isRequired,
         isVisible: React.PropTypes.bool,
         onHeaderPress: React.PropTypes.func,
+        onHeaderLongPress: React.PropTypes.func,
         onItemLongPress: React.PropTypes.func,
         numColumns: React.PropTypes.number,
         addHeroIcon: React.PropTypes.bool,
@@ -303,10 +304,27 @@ class Section extends Component {
             </View>
         );
 
-        if (this.props.onHeaderPress) {
+        if (this.props.onHeaderPress && this.props.onHeaderLongPress) {
             header = (
                 <Touchable
                     onPress={this.props.onHeaderPress}
+                    onLongPress={this.props.onHeaderLongPress}
+                >
+                    {header}
+                </Touchable>
+            );
+        } else if (this.props.onHeaderPress) {
+            header = (
+                <Touchable
+                    onPress={this.props.onHeaderPress}
+                >
+                    {header}
+                </Touchable>
+            );
+        } else if (this.props.onHeaderLongPress) {
+            header = (
+                <Touchable
+                    onLongPress={this.props.onHeaderLongPress}
                 >
                     {header}
                 </Touchable>
@@ -508,6 +526,16 @@ export class ItemsList extends Component {
         });
     }
 
+    onSectionHeaderLongPress(section) {
+        this.getItems().map((item) => {
+            if (item.type === section.type) {
+                Items.receiveItem(item.uid, true);
+            }
+        });
+
+        this.loadItems();
+    }
+
     onItemPress(item, index) {
         if (item.default) {
             return;
@@ -572,6 +600,7 @@ export class ItemsList extends Component {
                     data={section.data}
                     isVisible={section.isVisible}
                     onHeaderPress={onSectionHeaderPress}
+                    onHeaderLongPress={() => this.onSectionHeaderLongPress(section)}
                     onItemPress={(item, index) => this.onItemPress(item, index)}
                     onItemLongPress={(item, index) => this.onItemLongPress(item, index)}
                     addHeroIcon={this.props.addHeroIcon}
