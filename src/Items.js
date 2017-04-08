@@ -221,7 +221,7 @@ export default class Items {
                 }
             }
 
-            if (!CONFIG.INCLUDE_SPECIALS_IN_PROGRESS) {
+            if (event === null && !CONFIG.INCLUDE_SPECIALS_IN_PROGRESS) {
                 if (item.event === Events.SPECIAL && item.hero !== Heroes.GENJI) {
                     return;
                 }
