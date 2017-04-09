@@ -41,7 +41,7 @@ export default class CloudStorage {
 
         try {
             await GoogleSignin.configure(CONFIG.GOOGLE_SIGNIN);
-            user = GoogleSignin.currentUser();
+            user = await GoogleSignin.currentUserAsync();
             if (!user.hasOwnProperty('idToken')) {
                 user = await GoogleSignin.signIn();
             }
