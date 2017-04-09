@@ -672,7 +672,6 @@ const styles = StyleSheet.create({
     },
     sectionHeader: {
         height: 56,
-        width: CONFIG.DIMENSIONS.SCREEN_WIDTH,
         paddingHorizontal: 8,
         flexDirection: 'row',
         justifyContent: 'center',
