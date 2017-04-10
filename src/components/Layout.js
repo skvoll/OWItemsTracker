@@ -22,7 +22,10 @@ export class Layout extends Component {
         onToolbarIconPress: React.PropTypes.func,
         toolbarActions: Icon.ToolbarAndroid.propTypes.actions,
         onToolbarActionSelected: React.PropTypes.func,
-        background: Image.propTypes.source,
+        background: React.PropTypes.oneOfType([
+            Image.propTypes.source,
+            React.PropTypes.string,
+        ]),
         styles: Image.propTypes.style,
     };
 
@@ -101,12 +104,26 @@ export class Layout extends Component {
             }
         }
 
-        return (
-            <Image source={this.props.background} style={[styles.container, this.props.styles,]}>
-                {toolbar}
-                {this.props.children}
-            </Image>
-        );
+        if (typeof this.props.background === 'string') {
+            return (
+                <View style={[styles.container, {backgroundColor: this.props.background,}, this.props.styles,]}>
+                    {toolbar}
+                    {this.props.children}
+                </View>
+            );
+        } else {
+            return (
+                <Image
+                    source={this.props.background}
+                    style={[styles.container, styles.containerImage, this.props.styles,]}
+                >
+
+                    {toolbar}
+                    {this.props.children}
+
+                </Image>
+            );
+        }
     }
 }
 
@@ -114,6 +131,8 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         paddingTop: 24,
+    },
+    containerImage: {
         resizeMode: 'cover',
         width: null,
         height: null,
