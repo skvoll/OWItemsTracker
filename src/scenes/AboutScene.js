@@ -114,7 +114,14 @@ export class AboutScene extends Scene {
                 </ScrollView>
                 <View style={styles.bottom}>
                     <View style={styles.section}>
-                        <Text style={styles.version}>{`${_('VERSION').toUpperCase()}: ${CONFIG.VERSION}`}</Text>
+                        <Text
+                            onPress={() => this.navigator.push({name: 'WelcomeScene', props: {type: 'whats-new'},})}
+                            style={styles.version}
+                        >
+
+                            {`${_('VERSION').toUpperCase()}: ${CONFIG.VERSION}`}
+
+                        </Text>
                     </View>
                 </View>
 

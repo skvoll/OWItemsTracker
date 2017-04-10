@@ -2,11 +2,11 @@
 
 import React, {Component} from 'react';
 import {
+    AsyncStorage,
     Alert,
     StyleSheet,
     View,
     ScrollView,
-    Text,
 } from 'react-native';
 import {GoogleSignin} from 'react-native-google-signin';
 
@@ -140,6 +140,8 @@ export class SettingsScene extends Scene {
         Alert.alert(_('CLEARING_DATA'), _('CLEARING_DATA_CONFIRM'), [
             {text: _('CANCEL'), onPress: () => null, style: 'cancel'},
             {text: _('CLEAR'), onPress: () => {
+                AsyncStorage.removeItem('TIPS_SHOWN');
+                AsyncStorage.removeItem('WHATS_NEW_VERSION');
                 Items.clear();
             }},
         ]);
