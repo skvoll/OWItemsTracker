@@ -2,12 +2,8 @@
 
 import React, {Component} from 'react';
 import {
-    AsyncStorage,
     StyleSheet,
     View,
-    ScrollView,
-    Image,
-    Text,
 } from 'react-native';
 import {TabViewAnimated} from 'react-native-tab-view';
 
@@ -21,159 +17,7 @@ import {
     HeroesList,
     IconsList,
 } from './../components';
-import {SimpleModal} from './../components/SimpleModal';
 import Scene from './Scene';
-
-class WelcomeModal extends SimpleModal {
-    constructor(props, context, updater) {
-        super(props, context, updater);
-
-        this.state = {
-            isVisible: this.props.isVisible,
-            actions: [
-                {title: _('REMIND_LATER'), icon: 'watch-later', action: () => this.close(),},
-                {title: _('CLOSE'), icon: 'close', action: () => {
-                    this.close();
-                    AsyncStorage.setItem('WELCOME_SHOWN', 'true');
-                },},
-            ],
-            index: 0,
-            routes: [],
-        };
-    }
-
-    componentDidMount() {
-        this.showTips()
-    }
-
-    showTips() {
-        AsyncStorage.getItem('WELCOME_SHOWN').then((WELCOME_SHOWN) => {
-            if (WELCOME_SHOWN) {
-                this.showWhatsNew();
-
-                return;
-            }
-
-            let routes = [], tips = [
-                require('./../assets/tips/tip1.jpg'),
-                require('./../assets/tips/tip2.jpg'),
-                require('./../assets/tips/tip3.jpg'),
-                require('./../assets/tips/tip4.jpg'),
-            ];
-
-            tips.map((tip, index) => {
-                routes.push({
-                    key: index.toString(),
-                    content: (
-                        <View style={styles.modalSlide}>
-                            <Image source={tip} style={styles.modalSlideImage}/>
-                        </View>
-                    ),
-                });
-            });
-
-            this.setState({
-                routes: routes,
-            });
-
-            setTimeout(() => this.open(_('TIPS')), 1);
-        }).catch(() => null);
-    }
-
-    showWhatsNew() {
-        if (!_('WHATS_NEW_TEXT', false)) {
-            return;
-        }
-
-        AsyncStorage.getItem('WHATS_NEW_SHOWN').then((version) => {
-            if (!version) {
-                AsyncStorage.setItem('WHATS_NEW_SHOWN', CONFIG.VERSION);
-
-                return;
-            }
-
-            if (version === CONFIG.VERSION) {
-                return;
-            }
-
-            let routes = [{
-                key: '0',
-                content: (
-                    <ScrollView contentContainerStyle={styles.modalSlide}>
-                        <Text style={styles.modalText}>{_('WHATS_NEW_TEXT')}</Text>
-                    </ScrollView>
-                ),
-            }], tips = [
-                require('./../assets/tips/tip3.jpg'),
-            ];
-
-            tips.map((tip, index) => {
-                routes.push({
-                    key: (index + 1).toString(),
-                    content: (
-                        <View style={styles.modalSlide}>
-                            <Image source={tip} style={styles.modalSlideImage}/>
-                        </View>
-                    ),
-                });
-            });
-
-            this.setState({
-                routes: routes,
-            });
-
-            setTimeout(() => this.open(`${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`), 1);
-        }).catch(() => null);
-    }
-
-    tabRenderFooter() {
-        let items = [];
-
-        this.state.routes.map((item, index) => {
-            items.push(
-                <View
-                    key={index}
-                    style={[
-                        styles.modalPagerItem,
-                        (this.state.index === index ? styles.modalPagerItemActive : null)
-                    ]}
-                />
-            );
-        });
-
-        if (items.length === 0) {
-            return null;
-        }
-
-        return (
-            <View style={styles.modalPager}>
-                {items}
-            </View>
-        );
-    }
-
-    tabRenderScene({route}) {
-        return route.content;
-    }
-
-    tabHandleChangeTab(index) {
-        this.setState({
-            index: index,
-        });
-    }
-
-    renderContent() {
-        return (
-            <TabViewAnimated
-                navigationState={this.state}
-                renderFooter={() => this.tabRenderFooter()}
-                renderScene={(route) => this.tabRenderScene(route)}
-                onRequestChangeTab={(index) => this.tabHandleChangeTab(index)}
-                style={styles.tabs}
-            />
-        );
-    }
-}
 
 export class MainScene extends Scene {
     static propTypes = {};
@@ -305,8 +149,6 @@ export class MainScene extends Scene {
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
             >
 
-                <WelcomeModal/>
-
                 <TabViewAnimated
                     navigationState={this.state}
                     renderHeader={() => this.tabRenderHeader()}
@@ -322,46 +164,13 @@ export class MainScene extends Scene {
 }
 
 const styles = StyleSheet.create({
-    modalPager: {
-        height: 48,
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-    modalPagerItem: {
-        height: 8,
-        width: 8,
-        marginHorizontal: 4,
-        borderRadius: 4,
-        backgroundColor: CONFIG.COLORS.LIGHT_BLUE,
-    },
-    modalPagerItemActive: {
-        height: 12,
-        width: 12,
-        borderRadius: 6,
-    },
-    modalSlide: {
+    tabs: {
         flex: 1,
-        padding: 8,
-    },
-    modalSlideImage: {
-        flex: 1,
-        height: null,
-        width: null,
-        resizeMode: 'contain',
-    },
-    modalText: {
-        fontSize: 18,
-        fontFamily: 'Futura',
-        color: CONFIG.COLORS.COMMON,
     },
     filter: {
         height: 56,
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-    },
-    tabs: {
-        flex: 1,
     },
 });
