@@ -677,7 +677,7 @@ const styles = StyleSheet.create({
         backgroundColor: CONFIG.COLORS.LIGHT_BLUE_OPACITY,
     },
     sectionHeaderTitle: {
-        fontSize: 28,
+        fontSize: 24,
         fontFamily: 'BigNoodleToo',
         color: '#FFFFFF',
     },

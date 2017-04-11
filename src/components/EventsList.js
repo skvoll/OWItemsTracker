@@ -208,7 +208,7 @@ const styles = StyleSheet.create({
         width: 24,
     },
     name: {
-        fontSize: 28,
+        fontSize: 24,
         fontFamily: 'BigNoodleToo',
         color: '#FFFFFF',
     },

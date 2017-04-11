@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
     },
     name: {
         textAlign: 'center',
-        fontSize: 16,
+        fontSize: 14,
         fontFamily: 'BigNoodleTooOblique',
         color: CONFIG.COLORS.DARK_BLUE,
     },
