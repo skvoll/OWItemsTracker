@@ -11,7 +11,7 @@
   "dependencies": {
     "firebase": "^3.7.2",
     "react": "^16.0.0-alpha.6",
-    "react-native": "^0.43.0",
+    "react-native": "^0.43.3",
     "react-native-google-signin": "^0.9.0",
     "react-native-tab-view": "0.0.58",
     "react-native-vector-icons": "^4.0.0"
