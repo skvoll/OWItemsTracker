@@ -576,17 +576,19 @@ export class ItemsList extends Component {
     }
 
     onItemLongPress(item, index) {
+        let title = _(item.name);
+
         if (CONFIG.NETWORK === 'NONE') {
-            this.modal.error(item.name, _('NO_INTERNET_CONNECTION'));
+            this.modal.error(title, _('NO_INTERNET_CONNECTION'));
 
             return;
         }
 
-        this.modal.open(item.name, null);
+        this.modal.open(title, null);
 
         CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
-            .then((url) => this.modal.open(item.name, {uri: url,}))
-            .catch((error) => this.modal.error(item.name, _('PREVIEW_NOT_FOUND')));
+            .then((url) => this.modal.open(title, {uri: url,}))
+            .catch((error) => this.modal.error(title, _('PREVIEW_NOT_FOUND')));
     }
 
     render() {
