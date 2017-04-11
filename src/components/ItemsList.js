@@ -628,7 +628,7 @@ export class ItemsList extends Component {
                 {backgroundHero}
                 <PreviewModal ref={(component) => this.modal = component}/>
                 <View style={styles.itemsPrice}>
-                    <Text style={styles.itemsPriceTitle}>{this.state.itemsPrice}</Text>
+                    <Text style={styles.itemsPriceTitle}>{this.state.itemsPrice.toString()}</Text>
                     <Image source={require('./../assets/credit.png')} style={styles.itemsPriceIcon}/>
                 </View>
                 <ScrollView>
