@@ -2206,6 +2206,17 @@ export default {
         price: false,
         event: Events.GENERAL,
     },
+    'SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114': {
+        uid: 'SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114',
+        source: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png'),
+        default: false,
+        name: `Season 4 Competitor`,
+        type: Items.TYPE.SPRAY,
+        rarity: Items.RARITY.COMMON,
+        hero: false,
+        price: false,
+        event: Events.GENERAL,
+    },
     'SPRAY-83-105-101-103-101-32-77-111-100-101': {
         uid: 'SPRAY-83-105-101-103-101-32-77-111-100-101',
         source: require('./../assets/sprays/SPRAY-83-105-101-103-101-32-77-111-100-101.png'),
