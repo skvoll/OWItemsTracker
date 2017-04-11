@@ -11,6 +11,8 @@ import {
 } from 'react-native';
 
 import CONFIG from './../config';
+import _ from './../l10n';
+import CloudStorage from './../CloudStorage';
 import Items from './../Items';
 import Events from './../Events';
 import Heroes from './../Heroes';
@@ -212,7 +214,17 @@ export class IconsList extends Component {
     }
 
     onItemLongPress(item) {
-        this.modal.open(item.name, item.source);
+        if (CONFIG.NETWORK === 'NONE') {
+            this.modal.error(_(item.name), _('NO_INTERNET_CONNECTION'));
+
+            return;
+        }
+
+        this.modal.open(_(item.name), null);
+
+        CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
+            .then((url) => this.modal.open(_(item.name), {uri: url,}))
+            .catch((error) => this.modal.error(_(item.name), _('PREVIEW_NOT_FOUND')));
     }
 
     renderItem(item, index) {

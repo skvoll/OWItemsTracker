@@ -584,13 +584,9 @@ export class ItemsList extends Component {
 
         this.modal.open(item.name, null);
 
-        if (item.type === Items.TYPE.ICON) {
-            this.modal.open(item.name, item.source);
-        } else {
-            CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
-                .then((url) => this.modal.open(item.name, {uri: url,}))
-                .catch((error) => this.modal.error(item.name, _('PREVIEW_NOT_FOUND')));
-        }
+        CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
+            .then((url) => this.modal.open(item.name, {uri: url,}))
+            .catch((error) => this.modal.error(item.name, _('PREVIEW_NOT_FOUND')));
     }
 
     render() {
