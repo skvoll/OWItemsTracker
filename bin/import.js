@@ -524,5 +524,5 @@ function rename(args = {}) {
 }
 
 function temp(args = {}) {
-    error('function is nod realised');
+    error('command is not realised');
 }
