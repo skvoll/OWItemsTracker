@@ -73,7 +73,7 @@ export class WelcomeScene extends Scene {
             );
         });
 
-        if (items.length > 0) {
+        if (items.length > 1) {
             pager = (
                 <View style={styles.pager}>
                     {items}
