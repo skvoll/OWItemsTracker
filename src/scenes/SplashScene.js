@@ -66,7 +66,7 @@ export class SplashScene extends Scene {
 
     render() {
         return (
-            <Layout background={CONFIG.COLORS.DARK_BLUE} styles={styles.layout}>
+            <Layout background={CONFIG.COLORS.DARK_BLUE} disablePadding={true} styles={styles.layout}>
                 <Image source={require('./../assets/loader.gif')} style={styles.loader}/>
             </Layout>
         );

@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import {
+    Platform,
     StyleSheet,
     Image,
     View,
@@ -26,12 +27,14 @@ export class Layout extends Component {
             Image.propTypes.source,
             React.PropTypes.string,
         ]),
+        disablePadding: React.PropTypes.bool,
         styles: Image.propTypes.style,
     };
 
     static defaultProps = {
         toolbarTitle: null,
         background: require('./../assets/background.jpg'),
+        disablePadding: false,
     };
 
     constructor(props, context, updater) {
@@ -104,18 +107,36 @@ export class Layout extends Component {
             }
         }
 
+        let style = [styles.container,];
+
+        if (!this.props.disablePadding) {
+            style.push(styles.containerPadding);
+        }
+
         if (typeof this.props.background === 'string') {
+            style.push({backgroundColor: this.props.background,});
+
+            if (this.props.styles) {
+                style.push(this.props.styles);
+            }
+
             return (
-                <View style={[styles.container, {backgroundColor: this.props.background,}, this.props.styles,]}>
+                <View style={style}>
                     {toolbar}
                     {this.props.children}
                 </View>
             );
         } else {
+            style.push(styles.containerImage);
+
+            if (this.props.styles) {
+                style.push(this.props.styles);
+            }
+
             return (
                 <Image
                     source={this.props.background}
-                    style={[styles.container, styles.containerImage, this.props.styles,]}
+                    style={style}
                 >
 
                     {toolbar}
@@ -130,7 +151,16 @@ export class Layout extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingTop: 24,
+    },
+    containerPadding: {
+        ...Platform.select({
+            ios: {
+                paddingTop: 24,
+            },
+            android: {
+                paddingTop: Platform.Version < 21 ? 0 : 24,
+            },
+        }),
     },
     containerImage: {
         resizeMode: 'cover',

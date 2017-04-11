@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove"/>
 
     <uses-sdk
-            android:minSdkVersion="21"
+            android:minSdkVersion="16"
             android:targetSdkVersion="22"/>
 
     <application

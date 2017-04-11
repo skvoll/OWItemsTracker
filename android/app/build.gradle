@@ -88,7 +88,7 @@ android {
 
     defaultConfig {
         applicationId "tech.davidvolkov.owitemstracker"
-        minSdkVersion 21
+        minSdkVersion 16
         targetSdkVersion 22
         versionCode 19
         versionName "1.0.3"
