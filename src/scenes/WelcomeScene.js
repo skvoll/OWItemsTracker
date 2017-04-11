@@ -36,7 +36,7 @@ export class WelcomeScene extends Scene {
             "whats-new": {
                 title: `${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`,
                 index: 0,
-                routes: [{key: 'whats-new',}, {key: 'tip3',},],
+                routes: [{key: 'whats-new',},],
             },
             "tips": {
                 title: _('TIPS'),

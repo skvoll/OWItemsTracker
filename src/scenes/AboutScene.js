@@ -77,9 +77,7 @@ export class AboutScene extends Scene {
                 styles={styles.container}
             >
 
-                <View style={styles.top}>
-
-                </View>
+                <View style={styles.top}/>
                 <ScrollView style={styles.center} contentContainerStyle={styles.centerContentContainerStyle}>
                     <Text style={styles.label}>{`${_('ABOUT_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
@@ -113,16 +111,14 @@ export class AboutScene extends Scene {
                     </View>
                 </ScrollView>
                 <View style={styles.bottom}>
-                    <View style={styles.section}>
-                        <Text
-                            onPress={() => this.navigator.push({name: 'WelcomeScene', props: {type: 'whats-new'},})}
-                            style={styles.version}
-                        >
+                    <Text
+                        onPress={() => this.navigator.push({name: 'WelcomeScene', props: {type: 'whats-new'},})}
+                        style={styles.version}
+                    >
 
-                            {`${_('VERSION').toUpperCase()}: ${CONFIG.VERSION}`}
+                        {`${_('VERSION').toUpperCase()}: ${CONFIG.VERSION}`}
 
-                        </Text>
-                    </View>
+                    </Text>
                 </View>
 
             </Layout>
@@ -163,7 +159,7 @@ const styles = StyleSheet.create({
     },
     version: {
         fontSize: 11,
-        marginHorizontal: 16,
+        margin: 16,
         fontFamily: 'Futura',
         color: '#F5F5F5',
     },
