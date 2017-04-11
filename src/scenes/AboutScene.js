@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     },
     version: {
         fontSize: 11,
-        margin: 16,
+        padding: 16,
         fontFamily: 'Futura',
         color: '#F5F5F5',
     },
