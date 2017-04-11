@@ -36,6 +36,9 @@ if (process.argv.length > 2) {
                 case 'rename':
                     command = rename;
                     break;
+                case 'temp':
+                    command = temp;
+                    break;
                 default:
                     help();
                     process.exit();
@@ -518,4 +521,8 @@ function rename(args = {}) {
     });
 
     console.log(`${count} file(s) renamed`);
+}
+
+function temp(args = {}) {
+    error('function is nod realised');
 }
