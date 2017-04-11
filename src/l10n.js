@@ -25,7 +25,7 @@ export default function (key, defaultReturn = null) {
     }
 
     if (!LANGUAGES[CONFIG.LANGUAGE]) {
-        return defaultReturn;
+        return LANGUAGES.en.translations[key] || defaultReturn;
     }
 
     return LANGUAGES[CONFIG.LANGUAGE].translations[key] || defaultReturn;
