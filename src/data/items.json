@@ -457,7 +457,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": false,
-    "event": "GENERAL"
+    "event": "SUMMER_GAMES_2016"
   },
   "ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54": {
     "uid": "ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54",
@@ -1029,6 +1029,26 @@
     "price": false,
     "event": "GENERAL"
   },
+  "ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114": {
+    "uid": "ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114",
+    "default": false,
+    "name": "Season 4 Competitor",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "GENERAL"
+  },
+  "ICON-83-101-97-115-111-110-32-52-32-72-101-114-111": {
+    "uid": "ICON-83-101-97-115-111-110-32-52-32-72-101-114-111",
+    "default": false,
+    "name": "Season 4 Hero",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "GENERAL"
+  },
   "ICON-83-101-111-108-108-97-108": {
     "uid": "ICON-83-101-111-108-108-97-108",
     "default": false,
@@ -1387,7 +1407,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": true,
-    "event": "GENERAL"
+    "event": "JUNKENSTEINS_REVENGE_2016"
   },
   "SPRAY-46-46-46-80-117-110-99-104": {
     "uid": "SPRAY-46-46-46-80-117-110-99-104",
@@ -1657,7 +1677,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": true,
-    "event": "GENERAL"
+    "event": "JUNKENSTEINS_REVENGE_2016"
   },
   "SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114": {
     "uid": "SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114",
@@ -1687,7 +1707,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": true,
-    "event": "GENERAL"
+    "event": "JUNKENSTEINS_REVENGE_2016"
   },
   "SPRAY-76-101-101-107": {
     "uid": "SPRAY-76-101-101-107",
@@ -1907,7 +1927,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": true,
-    "event": "GENERAL"
+    "event": "JUNKENSTEINS_REVENGE_2016"
   },
   "SPRAY-82-105-115-101": {
     "uid": "SPRAY-82-105-115-101",
@@ -2127,7 +2147,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": true,
-    "event": "GENERAL"
+    "event": "JUNKENSTEINS_REVENGE_2016"
   },
   "SPRAY-86-105-99-116-111-114-121": {
     "uid": "SPRAY-86-105-99-116-111-114-121",
@@ -2281,7 +2301,7 @@
   },
   "VOICE_LINE-REAPER-87-104-97-116-32-97-114-101-32-121-111-117-32-108-111-111-107-105-110-103-32-97-116": {
     "uid": "VOICE_LINE-REAPER-87-104-97-116-32-97-114-101-32-121-111-117-32-108-111-111-107-105-110-103-32-97-116",
-    "default": false,
+    "default": true,
     "name": "What are you looking at",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -3101,7 +3121,7 @@
   },
   "VOICE_LINE-TRACER-89-111-117-32-103-111-116-32-105-116": {
     "uid": "VOICE_LINE-TRACER-89-111-117-32-103-111-116-32-105-116",
-    "default": false,
+    "default": true,
     "name": "You got it",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -3921,7 +3941,7 @@
   },
   "VOICE_LINE-MERCY-73-32-104-97-118-101-32-109-121-32-101-121-101-32-111-110-32-121-111-117": {
     "uid": "VOICE_LINE-MERCY-73-32-104-97-118-101-32-109-121-32-101-121-101-32-111-110-32-121-111-117",
-    "default": false,
+    "default": true,
     "name": "I have my eye on you",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -4741,7 +4761,7 @@
   },
   "VOICE_LINE-HANZO-69-120-112-101-99-116-32-110-111-116-104-105-110-103-32-108-101-115-115": {
     "uid": "VOICE_LINE-HANZO-69-120-112-101-99-116-32-110-111-116-104-105-110-103-32-108-101-115-115",
-    "default": false,
+    "default": true,
     "name": "Expect nothing less",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -5511,7 +5531,7 @@
   },
   "VOICE_LINE-TORBJORN-72-97-114-100-32-119-111-114-107-32-112-97-121-115-32-111-102-102": {
     "uid": "VOICE_LINE-TORBJORN-72-97-114-100-32-119-111-114-107-32-112-97-121-115-32-111-102-102",
-    "default": false,
+    "default": true,
     "name": "Hard work pays off",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -6321,7 +6341,7 @@
   },
   "VOICE_LINE-REINHARDT-73-32-115-97-108-117-116-101-32-121-111-117": {
     "uid": "VOICE_LINE-REINHARDT-73-32-115-97-108-117-116-101-32-121-111-117",
-    "default": false,
+    "default": true,
     "name": "I salute you",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -7161,7 +7181,7 @@
   },
   "VOICE_LINE-PHARAH-83-101-99-117-114-105-116-121-32-105-110-32-109-121-32-104-97-110-100-115": {
     "uid": "VOICE_LINE-PHARAH-83-101-99-117-114-105-116-121-32-105-110-32-109-121-32-104-97-110-100-115",
-    "default": false,
+    "default": true,
     "name": "Security in my hands",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -7961,7 +7981,7 @@
   },
   "VOICE_LINE-WINSTON-67-117-114-105-111-117-115": {
     "uid": "VOICE_LINE-WINSTON-67-117-114-105-111-117-115",
-    "default": false,
+    "default": true,
     "name": "Curious",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -8757,7 +8777,7 @@
     "rarity": "LEGENDARY",
     "hero": "WIDOWMAKER",
     "price": false,
-    "event": false
+    "event": "SPECIAL"
   },
   "VICTORY_POSE-WIDOWMAKER-72-101-114-111-105-99": {
     "uid": "VICTORY_POSE-WIDOWMAKER-72-101-114-111-105-99",
@@ -8791,7 +8811,7 @@
   },
   "VOICE_LINE-WIDOWMAKER-65-32-115-105-110-103-108-101-32-100-101-97-116-104": {
     "uid": "VOICE_LINE-WIDOWMAKER-65-32-115-105-110-103-108-101-32-100-101-97-116-104",
-    "default": false,
+    "default": true,
     "name": "A single death",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -9601,7 +9621,7 @@
   },
   "VOICE_LINE-BASTION-68-111-111-45-119-111-111": {
     "uid": "VOICE_LINE-BASTION-68-111-111-45-119-111-111",
-    "default": false,
+    "default": true,
     "name": "Doo-woo",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -10401,7 +10421,7 @@
   },
   "VOICE_LINE-SYMMETRA-83-117-99-104-32-97-32-108-97-99-107-32-111-102-32-105-109-97-103-105-110-97-116-105-111-110": {
     "uid": "VOICE_LINE-SYMMETRA-83-117-99-104-32-97-32-108-97-99-107-32-111-102-32-105-109-97-103-105-110-97-116-105-111-110",
-    "default": false,
+    "default": true,
     "name": "Such a lack of imagination",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -11201,7 +11221,7 @@
   },
   "VOICE_LINE-ZENYATTA-87-101-32-97-114-101-32-105-110-32-104-97-114-109-111-110-121": {
     "uid": "VOICE_LINE-ZENYATTA-87-101-32-97-114-101-32-105-110-32-104-97-114-109-111-110-121",
-    "default": false,
+    "default": true,
     "name": "We are in harmony",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -12041,7 +12061,7 @@
   },
   "VOICE_LINE-GENJI-65-32-115-116-101-97-100-121-32-98-108-97-100-101": {
     "uid": "VOICE_LINE-GENJI-65-32-115-116-101-97-100-121-32-98-108-97-100-101",
-    "default": false,
+    "default": true,
     "name": "A steady blade",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -12821,7 +12841,7 @@
   },
   "VOICE_LINE-ROADHOG-84-104-101-32-97-112-111-99-97-108-121-112-115-101": {
     "uid": "VOICE_LINE-ROADHOG-84-104-101-32-97-112-111-99-97-108-121-112-115-101",
-    "default": false,
+    "default": true,
     "name": "The apocalypse",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -13661,7 +13681,7 @@
   },
   "VOICE_LINE-MCCREE-87-97-116-99-104-32-97-110-100-32-108-101-97-114-110": {
     "uid": "VOICE_LINE-MCCREE-87-97-116-99-104-32-97-110-100-32-108-101-97-114-110",
-    "default": false,
+    "default": true,
     "name": "Watch and learn",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -14451,7 +14471,7 @@
   },
   "VOICE_LINE-JUNKRAT-84-105-99-107-45-116-111-99-107-45-116-105-99-107-45-116-111-99-107": {
     "uid": "VOICE_LINE-JUNKRAT-84-105-99-107-45-116-111-99-107-45-116-105-99-107-45-116-111-99-107",
-    "default": false,
+    "default": true,
     "name": "Tick-tock-tick-tock",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -15271,7 +15291,7 @@
   },
   "VOICE_LINE-ZARYA-83-116-114-111-110-103-32-97-115-32-116-104-101-32-109-111-117-110-116-97-105-110": {
     "uid": "VOICE_LINE-ZARYA-83-116-114-111-110-103-32-97-115-32-116-104-101-32-109-111-117-110-116-97-105-110",
-    "default": false,
+    "default": true,
     "name": "Strong as the mountain",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -16081,7 +16101,7 @@
   },
   "VOICE_LINE-SOLDIER76-73-39-118-101-32-115-116-105-108-108-32-103-111-116-32-105-116": {
     "uid": "VOICE_LINE-SOLDIER76-73-39-118-101-32-115-116-105-108-108-32-103-111-116-32-105-116",
-    "default": false,
+    "default": true,
     "name": "I've still got it",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -16871,7 +16891,7 @@
   },
   "VOICE_LINE-LUCIO-84-111-32-116-104-101-32-114-104-121-116-104-109": {
     "uid": "VOICE_LINE-LUCIO-84-111-32-116-104-101-32-114-104-121-116-104-109",
-    "default": false,
+    "default": true,
     "name": "To the rhythm",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -17681,7 +17701,7 @@
   },
   "VOICE_LINE-DVA-76-111-118-101-44-32-68-46-86-97": {
     "uid": "VOICE_LINE-DVA-76-111-118-101-44-32-68-46-86-97",
-    "default": false,
+    "default": true,
     "name": "Love, D.Va",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -18501,7 +18521,7 @@
   },
   "VOICE_LINE-MEI-72-97-110-103-32-105-110-32-116-104-101-114-101": {
     "uid": "VOICE_LINE-MEI-72-97-110-103-32-105-110-32-116-104-101-114-101",
-    "default": false,
+    "default": true,
     "name": "Hang in there",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -19351,7 +19371,7 @@
   },
   "VOICE_LINE-SOMBRA-80-108-97-121-105-110-103-32-70-97-105-114": {
     "uid": "VOICE_LINE-SOMBRA-80-108-97-121-105-110-103-32-70-97-105-114",
-    "default": false,
+    "default": true,
     "name": "Playing Fair",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -20091,7 +20111,7 @@
   },
   "VOICE_LINE-ANA-74-117-115-116-105-99-101-32-100-101-108-105-118-101-114-101-100": {
     "uid": "VOICE_LINE-ANA-74-117-115-116-105-99-101-32-100-101-108-105-118-101-114-101-100",
-    "default": false,
+    "default": true,
     "name": "Justice delivered",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -21041,7 +21061,7 @@
   },
   "VOICE_LINE-ORISA-70-111-108-108-111-119-105-110-103-32-109-121-32-112-114-111-103-114-97-109-109-105-110-103": {
     "uid": "VOICE_LINE-ORISA-70-111-108-108-111-119-105-110-103-32-109-121-32-112-114-111-103-114-97-109-109-105-110-103",
-    "default": false,
+    "default": true,
     "name": "Following my programming",
     "type": "VOICE_LINE",
     "rarity": "COMMON",
@@ -21466,6 +21486,486 @@
     "type": "ICON",
     "rarity": "COMMON",
     "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ANA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-ANA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "ANA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ANA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-ANA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "ANA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-BASTION-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-BASTION-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "BASTION",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-BASTION-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-BASTION-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "BASTION",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-DVA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-DVA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-DVA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-DVA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "DVA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-GENJI-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-GENJI-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "GENJI",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-GENJI-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-GENJI-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "GENJI",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-HANZO-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-HANZO-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "HANZO",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-HANZO-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-HANZO-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "HANZO",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-JUNKRAT-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-JUNKRAT-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "JUNKRAT",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-JUNKRAT-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-JUNKRAT-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "JUNKRAT",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-LUCIO-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-LUCIO-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "LUCIO",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-LUCIO-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-LUCIO-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "LUCIO",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-MCCREE-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-MCCREE-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "MCCREE",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-MCCREE-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-MCCREE-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "MCCREE",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-MEI-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-MEI-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "MEI",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-MEI-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-MEI-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "MEI",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-MERCY-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-MERCY-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "MERCY",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-MERCY-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-MERCY-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "MERCY",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ORISA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-ORISA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ORISA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-ORISA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "ORISA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-PHARAH-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-PHARAH-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "PHARAH",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-PHARAH-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-PHARAH-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "PHARAH",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-REAPER-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-REAPER-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "REAPER",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-REAPER-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-REAPER-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "REAPER",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-REINHARDT-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-REINHARDT-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "REINHARDT",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-REINHARDT-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-REINHARDT-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "REINHARDT",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ROADHOG-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-ROADHOG-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "ROADHOG",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ROADHOG-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-ROADHOG-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "ROADHOG",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-SOLDIER76-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-SOLDIER76-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "SOLDIER76",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-SOLDIER76-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-SOLDIER76-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "SOLDIER76",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-SOMBRA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-SOMBRA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "SOMBRA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-SOMBRA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-SOMBRA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "SOMBRA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-SYMMETRA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-SYMMETRA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "SYMMETRA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-SYMMETRA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-SYMMETRA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "SYMMETRA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-TORBJORN-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-TORBJORN-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "TORBJORN",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-TORBJORN-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-TORBJORN-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "TORBJORN",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-TRACER-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-TRACER-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "TRACER",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-TRACER-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-TRACER-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "TRACER",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-WIDOWMAKER-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-WIDOWMAKER-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "WIDOWMAKER",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-WIDOWMAKER-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-WIDOWMAKER-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "WIDOWMAKER",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-WINSTON-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-WINSTON-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "WINSTON",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-WINSTON-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-WINSTON-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "WINSTON",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ZARYA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-ZARYA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "ZARYA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ZARYA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-ZARYA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "ZARYA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ZENYATTA-87-101-97-112-111-110-32-68-101-102-97-117-108-116": {
+    "uid": "WEAPON-ZENYATTA-87-101-97-112-111-110-32-68-101-102-97-117-108-116",
+    "default": true,
+    "name": "Weapon Default",
+    "type": "WEAPON",
+    "rarity": "COMMON",
+    "hero": "ZENYATTA",
+    "price": false,
+    "event": false
+  },
+  "WEAPON-ZENYATTA-87-101-97-112-111-110-32-71-111-108-100-101-110": {
+    "uid": "WEAPON-ZENYATTA-87-101-97-112-111-110-32-71-111-108-100-101-110",
+    "default": false,
+    "name": "Weapon Golden",
+    "type": "WEAPON",
+    "rarity": "LEGENDARY",
+    "hero": "ZENYATTA",
     "price": false,
     "event": false
   }

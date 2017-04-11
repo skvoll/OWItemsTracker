@@ -97,7 +97,8 @@
   "ITEMS_TYPE_4": "реплики",
   "ITEMS_TYPE_5": "граффити",
   "ITEMS_TYPE_6": "лучший момент матча",
-  "ITEMS_TYPE_7": "значки",
+  "ITEMS_TYPE_7": "оружие",
+  "ITEMS_TYPE_8": "значки",
 
   // important
   "undefined": "undefined"

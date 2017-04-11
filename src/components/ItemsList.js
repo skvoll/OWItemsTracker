@@ -67,7 +67,7 @@ class Item extends Component {
                     size={32}
                 />
             );
-        } else {
+        } else if (this.props.item.type !== Items.TYPE.WEAPON) {
             name = `${name} [ ${_('ITEM_DEFAULT')} ]`;
         }
 

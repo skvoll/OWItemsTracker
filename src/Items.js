@@ -26,7 +26,8 @@ export default class Items {
         VOICE_LINE: 4,
         SPRAY: 5,
         HIGHLIGHT_INTRO: 6,
-        ICON: 7,
+        WEAPON: 7,
+        ICON: 8,
     };
 
     static RARITY = {
