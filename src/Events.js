@@ -7,6 +7,7 @@ export default class Events {
     static JUNKENSTEINS_REVENGE_2016 = 3;
     static WINTER_WONDERLAND_2016 = 4;
     static YEAR_OF_THE_ROOSTER_2017 = 5;
+    static UPRISING_2017 = 6;
 
     static ITEMS = {
         [Events.GENERAL]: {
@@ -44,6 +45,12 @@ export default class Events {
             code: 'YEAR_OF_THE_ROOSTER_2017',
             icon: require('./assets/events/YEAR_OF_THE_ROOSTER_2017.icon.png'),
             background: require('./assets/events/YEAR_OF_THE_ROOSTER_2017.background.jpg'),
+        },
+        [Events.UPRISING_2017]: {
+            id: Events.UPRISING_2017,
+            code: 'UPRISING_2017',
+            icon: require('./assets/events/UPRISING_2017.icon.png'),
+            background: require('./assets/events/UPRISING_2017.background.jpg'),
         },
     };
 

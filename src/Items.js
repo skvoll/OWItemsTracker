@@ -167,13 +167,13 @@ export default class Items {
     static getProgressByEvents() {
         let progress = {};
 
-        this.select().map((item) => {
-            if (item.event === null) {
-                return;
-            }
+        Object.keys(Events.ITEMS).map((event) => {
+            progress[event] = {received: 0, total: 0,};
+        });
 
-            if (!progress[item.event]) {
-                progress[item.event] = {received: 0, total: 0,};
+        this.select().map((item) => {
+            if (item.event === false) {
+                return;
             }
 
             if (item.default) {
@@ -222,7 +222,7 @@ export default class Items {
                 }
             }
 
-            if (event === null && !CONFIG.INCLUDE_SPECIALS_IN_PROGRESS) {
+            if (event === false && !CONFIG.INCLUDE_SPECIALS_IN_PROGRESS) {
                 if (item.event === Events.SPECIAL && item.hero !== Heroes.GENJI) {
                     return;
                 }
