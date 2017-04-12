@@ -218,6 +218,10 @@ function setVersion(args = null) {
         /static VERSION = '.*';/,
         `static VERSION = '${version}';`
     );
+    config = config.replace(
+        /static SHOW_NEWS = .*;/,
+        `static SHOW_NEWS = false;`
+    );
     fs.writeFileSync('./../src/config.js', config);
 }
 
