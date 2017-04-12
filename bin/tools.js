@@ -3,6 +3,7 @@
 "use strict";
 
 const fs = require('fs');
+const packageJson = require('./../package.json');
 let items = require('./../src/data/items.json');
 
 let args = {}, command = help;
@@ -18,20 +19,20 @@ if (process.argv.length > 2) {
                 case 'help':
                     command = help;
                     break;
-                case 'check':
-                    command = check;
+                case 'set-version':
+                    command = setVersion;
                     break;
-                case 'save':
-                    command = save;
+                case 'check-items':
+                    command = checkItems;
                     break;
-                case 'import-overtool':
-                    command = overtool;
+                case 'save-items':
+                    command = saveItems;
                     break;
                 case 'import-csv':
-                    command = csv;
+                    command = importCsv;
                     break;
-                case 'translations':
-                    command = translations;
+                case 'generate-translations':
+                    command = generateTranslations;
                     break;
                 case 'rename':
                     command = rename;
@@ -84,18 +85,18 @@ function help(args = {}) {
     console.log(``);
     console.log(`commands:`);
     console.log(`  help: print this message`);
-    console.log(`  check: check items translations and assets`);
+    console.log(`  set-version: set or increment app version`);
+    console.log(`    -v%MAJOR.MINOR.PATCH%|patch|minor|major: version`);
+    console.log(`  check-items: check items translations and assets`);
     console.log(`    -l%language%: language (if not setted translations check will be skipped)`);
-    console.log(`  save: save items from json to executable`);
+    console.log(`  save-items: save items from json to executable`);
     console.log(`    -c: check before save`);
     console.log(`    -l%language%: language for check if '-c' is setted`);
-    console.log(`  overtool: import items from overtool`);
-    console.log(`    -p%path%: path to items file or general directory`);
-    console.log(`  csv: import items from csv`);
+    console.log(`  import-csv: import items from csv`);
     console.log(`    -f%path%: path to file`);
     console.log(`    -c: check before save`);
     console.log(`    -l%language%: language for check if '-c' is setted`);
-    console.log(`  translations: generate/update translations from items names`);
+    console.log(`  generate-translations: generate/update translations from items names`);
     console.log(`    -l%language%: language`);
     console.log(`  rename: rename files to uid`);
     console.log(`    -p%path%: path to files`);
@@ -104,7 +105,123 @@ function help(args = {}) {
     console.log(``);
 }
 
-function check(args = {}, r = false) {
+function setVersion(args = null) {
+    if (!args['v'] || typeof args['v'] !== 'string') {
+        error('version is missing');
+    }
+
+    let setVersionIOS = function(version) {
+        let plist = fs.readFileSync(`./../ios/${packageJson.name}/Info.plist`, 'utf-8');
+        plist = plist.replace(
+            /<key>CFBundleShortVersionString<\/key>\n([ \t]*)<string>.*<\/string>/,
+            `<key>CFBundleShortVersionString</key>\n$1<string>${version}</string>`
+        );
+        plist = plist.replace(
+            /<key>CFBundleVersion<\/key>\n([ \t]*)<string>(\d*)<\/string>/,
+            (match, match1, match2) => {
+                return `<key>CFBundleVersion</key>\n${match1}<string>${parseInt(match2) + 1}</string>`;
+            }
+        );
+        fs.writeFileSync(`./../ios/${packageJson.name}/Info.plist`, plist);
+    };
+
+    let setVersionANDROID = function(version) {
+        let buildGradle = fs.readFileSync(`./../android/app/build.gradle`, 'utf-8');
+        buildGradle = buildGradle.replace(
+            /versionCode (\d*)/,
+            (match, match1) => {
+                return `versionCode ${parseInt(match1) + 1}`;
+            }
+        );
+        buildGradle = buildGradle.replace(
+            /versionName .*/,
+            `versionName "${version}"`
+        );
+        fs.writeFileSync(`./../android/app/build.gradle`, buildGradle);
+
+        let manifest = fs.readFileSync(`./../android/app/src/main/AndroidManifest.xml`, 'utf-8');
+        manifest = manifest.replace(
+            /android:versionCode="(\d*)"/,
+            (match, match1) => {
+                return `android:versionCode="${parseInt(match1) + 1}"`;
+            }
+        );
+        manifest = manifest.replace(
+            /android:versionName=".*"/,
+            `android:versionName="${version}"`
+        );
+        fs.writeFileSync(`./../android/app/src/main/AndroidManifest.xml`, manifest);
+    };
+
+    let platforms = ['ios', 'android',], version, platform;
+
+    if (['patch', 'minor', 'major',].indexOf(args['v']) !== -1) {
+        version = args['v'];
+    }
+
+    if (!version) {
+        if (args['v'] && args['v'].search(/\d+\.\d+\.\d+/) !== -1) {
+            version = args['v'];
+        } else {
+            error('wrong version format. it should be "MAJOR.MINOR.PATCH" or "patch|minor|major" for increment.');
+        }
+    }
+
+    if (args['p']) {
+        if (platforms.indexOf(args['p']) !== -1) {
+            platform = [args['p']];
+        } else {
+            error(`wrong platform. should be one of [${platforms.join(', ')}].`);
+        }
+    } else {
+        platform = platforms;
+    }
+
+    switch (version) {
+        case 'patch':
+            version = packageJson.version.split('.');
+            version[2]++;
+            version = version.join('.');
+            break;
+        case 'minor':
+            version = packageJson.version.split('.');
+            version[1]++;
+            version[2] = 0;
+            version = version.join('.');
+            break;
+        case 'major':
+            version = packageJson.version.split('.');
+            version[0]++;
+            version[1] = 0;
+            version[2] = 0;
+            version = version.join('.');
+            break;
+    }
+
+    packageJson.version = version;
+
+    platform.map((p) => {
+        switch (p) {
+            case 'ios':
+                setVersionIOS(version);
+                break;
+            case 'android':
+                setVersionANDROID(version);
+                break;
+        }
+    });
+
+    fs.writeFileSync('./../package.json', JSON.stringify(packageJson, null, 2));
+
+    let config = fs.readFileSync('./../src/config.js', 'utf-8');
+    config = config.replace(
+        /static VERSION = '.*';/,
+        `static VERSION = '${version}';`
+    );
+    fs.writeFileSync('./../src/config.js', config);
+}
+
+function checkItems(args = {}, r = false) {
     let translations, result = true;
 
     if (args['l']) {
@@ -144,8 +261,8 @@ function check(args = {}, r = false) {
     console.log(`items checked: ${(result ? 'success' : 'failed')}`);
 }
 
-function save(args = {}) {
-    if (args['c'] && !check(args, true)) {
+function saveItems(args = {}) {
+    if (args['c'] && !checkItems(args, true)) {
         error('save canceled');
     }
 
@@ -181,235 +298,8 @@ function save(args = {}) {
     console.log('items saved');
 }
 
-function overtool(args = {}) {
-    error('command disabled');
-
-    const ASSOCIATIONS = {
-        'Ana': 'ANA',
-        'Bastion': 'BASTION',
-        'D.Va': 'DVA',
-        'Genji': 'GENJI',
-        'Hanzo': 'HANZO',
-        'Junkrat': 'JUNKRAT',
-        'Lúcio': 'LUCIO',
-        'McCree': 'MCCREE',
-        'Mei': 'MEI',
-        'Mercy': 'MERCY',
-        'Pharah': 'PHARAH',
-        'Reaper': 'REAPER',
-        'Reinhardt': 'REINHARDT',
-        'Roadhog': 'ROADHOG',
-        'Soldier: 76': 'SOLDIER76',
-        'Sombra': 'SOMBRA',
-        'Symmetra': 'SYMMETRA',
-        'Torbjörn': 'TORBJORN',
-        'Tracer': 'TRACER',
-        'Widowmaker': 'WIDOWMAKER',
-        'Winston': 'WINSTON',
-        'Zarya': 'ZARYA',
-        'Zenyatta': 'ZENYATTA',
-
-        'Icon': 'ICON',
-        'Spray': 'SPRAY',
-        'Voice Line': 'VOICE_LINE',
-        'Victory Pose': 'VICTORY_POSE',
-        'Emote': 'EMOTE',
-        'Heroic Intro': 'HIGHLIGHT_INTRO',
-        'Skin': 'SKIN',
-
-        'Common': 'COMMON',
-        'Rare': 'RARE',
-        'Epic': 'EPIC',
-        'Legendary': 'LEGENDARY',
-
-        'SUMMER_GAMES_2016': 'SUMMER_GAMES_2016',
-        'JUNKENSTEINS_REVENGE_2016': 'JUNKENSTEINS_REVENGE_2016',
-        'WINTER_WONDERLAND_2016': 'WINTER_WONDERLAND_2016',
-        'YEAR_OF_THE_ROOSTER_2017': 'YEAR_OF_THE_ROOSTER_2017',
-    };
-
-    let parseGeneralItems = function(path, isTranslations = false, locale = null) {
-        let parseFiles = (files, isDefault, type, rarity, hero, price, event) => {
-            let uid, name;
-
-            files.map((file) => {
-                name = file.replace('.dds', '');
-                uid = makeUid(type, name);
-
-                translations[name] = name;
-
-                if (items[uid] !== undefined) {
-                    if (items[uid].name !== name) {
-                        console.log(`${name}: changed`);
-                        console.log(`    name: ${items[uid].name} -> ${name}`);
-                        items[uid].name = name;
-                    }
-                } else {
-                    console.log(`${name}: added`);
-
-                    items[uid] = {
-                        uid: uid,
-                        default: isDefault,
-                        name: name,
-                        type: type,
-                        rarity: rarity,
-                        hero: hero,
-                        price: price,
-                        event: event,
-                    };
-                }
-            });
-        };
-
-        parseFiles(
-            fs.readdirSync(path + '/Icon'),
-            false,
-            'ICON',
-            'COMMON',
-            false,
-            false,
-            "GENERAL"
-        );
-
-        parseFiles(
-            fs.readdirSync(path + '/Spray'),
-            false,
-            'SPRAY',
-            'COMMON',
-            false,
-            true,
-            "GENERAL"
-        );
-
-        if (isTranslations) {
-            saveTranslations(locale);
-        } else {
-            save();
-        }
-    }
-
-    let parseHeroesItems = function(path, isTranslations = false, locale = null) {
-        let file = fs.readFileSync(path, 'utf-8'), lines = file.split('\n');
-        let isAchievement = false, isDefault = false, uid, name, type, rarity, hero, price = null, event = null;
-
-        lines.map((line) => {
-            line = line.replace('\r', '');
-
-            if (line.indexOf(`\t\t`) === 0) {
-                line = line.split(' (');
-
-                name = line.shift().replace(`\t\t`, '');
-
-                if (isDefault && name === 'RANDOM') {
-                    return;
-                }
-
-                line = line[0].split(' ');
-
-                rarity = ASSOCIATIONS[line.shift()];
-
-                type = line.join(' ').replace(')', '');
-
-                if (type === 'Weapon Skin') {
-                    return;
-                }
-
-                type = ASSOCIATIONS[type];
-
-                price = type !== 'ICON';
-
-                if (isDefault || isAchievement) {
-                    price = false;
-                }
-
-                uid = makeUid(type, name, hero);
-
-                translations[name] = name;
-
-                if (items[uid] !== undefined) {
-                    if (items[uid].name !== name) {
-                        console.log(`${name}: changed`);
-                        console.log(`    name: ${items[uid].name} -> ${name}`);
-                        items[uid].name = name;
-                    }
-                } else {
-                    console.log(`${name}: added`);
-
-                    items[uid] = {
-                        uid: uid,
-                        default: type === 'VOICE_LINE' ? false : isDefault,
-                        name: name,
-                        type: type,
-                        rarity: rarity,
-                        hero: hero,
-                        price: price,
-                        event: event,
-                    };
-                }
-
-                return;
-            }
-
-            if (line.indexOf(`\t`) === 0) {
-                if (line.indexOf(`\tACHIEVEMENT`) === 0) {
-                    isAchievement = true;
-                    isDefault = false;
-                    event = false;
-
-                    return;
-                }
-                if (line.indexOf(`\tSTANDARD_COMMON`) === 0) {
-                    isAchievement = false;
-                    isDefault = true;
-                    event = false;
-
-                    return;
-                }
-                if (line.indexOf(`\tCOMMON`) === 0) {
-                    isAchievement = false;
-                    isDefault = false;
-                    event = false;
-
-                    return;
-                }
-
-                event = line.split(' ')[0].replace(`\t`, '');
-
-                if (!ASSOCIATIONS[event]) {
-                    isAchievement = false;
-                    isDefault = false;
-                    event = false;
-
-                    return;
-                }
-
-                isAchievement = false;
-                isDefault = false;
-                event = ASSOCIATIONS[event];
-            }
-
-            if (line.indexOf('Cosmetics for ') === 0) {
-                hero = line.replace('Cosmetics for ', '');
-                hero = ASSOCIATIONS[hero];
-            }
-        });
-
-        if (isTranslations) {
-            saveTranslations(locale);
-        } else {
-            save();
-        }
-    }
-
-    if (fs.lstatSync(args['p']).isDirectory()) {
-        parseGeneralItems(args['p'], args['t'], args['l']);
-    } else {
-        parseHeroesItems(args['p'], args['t'], args['l']);
-    }
-}
-
-function csv(args = {}) {
-    let addedCount = 0, updatedCount = 0;
+function importCsv(args = {}) {
+    let addedCount = 0, skippedCount = 0;
 
     if (!args['f'] || typeof args['f'] !== 'string') {
         error('file is missing');
@@ -421,6 +311,10 @@ function csv(args = {}) {
 
     fs.readFileSync(args['f'], 'utf-8').split('\n').map((item) => {
         item = item.split(';');
+
+        if (item.length === 0) {
+            return;
+        }
 
         item[6] = item[6].replace('\r', '');
 
@@ -436,7 +330,7 @@ function csv(args = {}) {
         };
 
         if (items[item.uid]) {
-            // updatedCount++;
+            skippedCount++;
 
             console.log(`${(item.hero ? `${item.hero} ` : '')}${item.type} '${item.name}': already exists`);
         } else {
@@ -449,13 +343,13 @@ function csv(args = {}) {
     });
 
     console.log(
-        `${(addedCount > 0 ? `${addedCount} item(s) added` : '')}${(updatedCount > 0 ? ` / ${updatedCount} items updated` : '')}`
+        `${(addedCount > 0 ? `${addedCount} item(s) added` : '')}${(skippedCount > 0 ? ` / ${skippedCount} items skipped` : '')}`
     );
 
-    save(args);
+    saveItems(args);
 }
 
-function translations(args = {}) {
+function generateTranslations(args = {}) {
     if (!args['l'] || typeof args['l'] !== 'string') {
         error('language is missing');
     }
