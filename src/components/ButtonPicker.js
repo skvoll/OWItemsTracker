@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     },
     title: {
         paddingHorizontal: 8,
-        fontSize: 24,
+        fontSize: 22,
         fontFamily: 'BigNoodleToo',
     },
     picker: {
