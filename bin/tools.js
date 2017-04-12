@@ -24,10 +24,10 @@ if (process.argv.length > 2) {
                 case 'save':
                     command = save;
                     break;
-                case 'overtool':
+                case 'import-overtool':
                     command = overtool;
                     break;
-                case 'csv':
+                case 'import-csv':
                     command = csv;
                     break;
                 case 'translations':
@@ -74,7 +74,7 @@ function makeUid(type, string, hero = null) {
         uid.push(hero);
     }
 
-    string.split('').map((c) => uid.push(c.charCodeAt(0)));
+    string.toUpperCase().split('').map((c) => uid.push(c.charCodeAt(0)));
 
     return uid.join('-');
 }
