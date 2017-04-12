@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import {
     Vibration,
+    Dimensions,
     StyleSheet,
     View,
     ScrollView,
@@ -23,6 +24,8 @@ import {
     Touchable,
     PreviewModal,
 } from './';
+
+const GRID_SIZE = 4;
 
 class Item extends Component {
     static propTypes = {
@@ -103,12 +106,36 @@ class GridItem extends Component {
         onLongPress: () => null,
     };
 
+    SIZE;
+
+    onDimensionsChangedHandler = (event) => this.onDimensionsChanged(event);
+
     constructor(props, context, updater) {
         super(props, context, updater);
     }
 
+    componentWillMount() {
+        this.setSize(Dimensions.get('window').width);
+
+        Dimensions.addEventListener('change', this.onDimensionsChangedHandler);
+    }
+
+    componentWillUnmount() {
+        Dimensions.removeEventListener('change', this.onDimensionsChangedHandler);
+    }
+
+    onDimensionsChanged(event) {
+        this.setSize(event.window.width);
+
+        this.forceUpdate();
+    }
+
+    setSize(width) {
+        this.SIZE = (width * ((100 / (GRID_SIZE + 1) / 100)));
+    }
+
     render() {
-        let style = null, heroIcon, eventIcon, price;
+        let size = {height: this.SIZE, width: this.SIZE,}, style = null, heroIcon, eventIcon, price;
 
         if (!this.props.item.default && !this.props.item.received) {
             style = styles.gridItemOpacity;
@@ -148,7 +175,7 @@ class GridItem extends Component {
         }
 
         return (
-            <Image source={this.props.item.source} style={[styles.gridItem, style,]}>
+            <Image source={this.props.item.source} style={[styles.gridItem, size, style,]}>
                 <TouchableWithoutFeedback
                     onPress={() => this.props.onPress(this.props.item, this.props.index)}
                     onLongPress={() => this.props.onLongPress(this.props.item, this.props.index)}
@@ -616,7 +643,7 @@ export class ItemsList extends Component {
                     onItemLongPress={(item, index) => this.onItemLongPress(item, index)}
                     addHeroIcon={this.props.addHeroIcon}
                     addEventIcon={this.props.addEventIcon}
-                    numColumns={ItemsList.gridSections.indexOf(section.type) !== -1 ? GRID_ITEMS_COUNT : 1}
+                    numColumns={ItemsList.gridSections.indexOf(section.type) !== -1 ? GRID_SIZE : 1}
                 />
             );
         });
@@ -636,9 +663,6 @@ export class ItemsList extends Component {
         );
     }
 }
-
-const GRID_ITEMS_COUNT = 4;
-const GRID_ITEM_SIZE = Math.round(CONFIG.DIMENSIONS.SCREEN_WIDTH / GRID_ITEMS_COUNT) - (6 * 4);
 
 const styles = StyleSheet.create({
     container: {
@@ -721,8 +745,6 @@ const styles = StyleSheet.create({
         color: CONFIG.COLORS.WHITE_OPACITY,
     },
     gridItem: {
-        height: GRID_ITEM_SIZE,
-        width: GRID_ITEM_SIZE,
         margin: 6,
         borderRadius: 6,
         resizeMode: 'contain',

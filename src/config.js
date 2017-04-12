@@ -5,13 +5,10 @@ import {
     AsyncStorage,
     NativeModules,
     Platform,
-    Dimensions,
 } from 'react-native';
 import moment from 'moment';
 import 'moment/locale/ru';
 import 'moment/locale/en-gb';
-
-const DIMENSIONS = Dimensions.get('window');
 
 const COLORS = {
     LIGHT_GRAY: 'rgba(225, 225, 229, 1)', // #E1E1E5
@@ -39,10 +36,6 @@ export default class CONFIG {
     static PLATFORM = Platform.OS;
     static PLATFORM_VERSION = Platform.Version;
     static LOCALE = 'en';
-    static DIMENSIONS = {
-        SCREEN_HEIGHT: DIMENSIONS.height,
-        SCREEN_WIDTH: DIMENSIONS.width,
-    };
     static NETWORK = 'NONE';
     static COLORS = COLORS;
 

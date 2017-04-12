@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import {
+    Dimensions,
     StyleSheet,
     View,
     FlatList,
@@ -18,7 +19,9 @@ import Events from './../Events';
 import Heroes from './../Heroes';
 import {
     PreviewModal,
-} from './'
+} from './';
+
+const GRID_SIZE = 4;
 
 class Item extends Component {
     static propTypes = {
@@ -35,12 +38,36 @@ class Item extends Component {
         addEventIcon: false,
     };
 
+    SIZE;
+
+    onDimensionsChangedHandler = (event) => this.onDimensionsChanged(event);
+
     constructor(props, context, updater) {
         super(props, context, updater);
     }
 
+    componentWillMount() {
+        this.setSize(Dimensions.get('window').width);
+
+        Dimensions.addEventListener('change', this.onDimensionsChangedHandler);
+    }
+
+    componentWillUnmount() {
+        Dimensions.removeEventListener('change', this.onDimensionsChangedHandler);
+    }
+
+    onDimensionsChanged(event) {
+        this.setSize(event.window.width);
+
+        this.forceUpdate();
+    }
+
+    setSize(width) {
+        this.SIZE = (width * ((100 / (GRID_SIZE + 1) / 100)));
+    }
+
     render() {
-        let style = null, heroIcon, eventIcon, price;
+        let size = {height: this.SIZE, width: this.SIZE,}, style = null, heroIcon, eventIcon, price;
 
         if (!this.props.item.default && !this.props.item.received) {
             style = styles.iconOpacity;
@@ -74,7 +101,7 @@ class Item extends Component {
 
         return (
             <View style={{borderRadius: 6,}}>
-            <Image source={this.props.item.source} style={[styles.icon, style,]}>
+            <Image source={this.props.item.source} style={[styles.icon, size, style,]}>
                 <TouchableWithoutFeedback
                     onPress={() => this.props.onPress(this.props.item, this.props.index)}
                     onLongPress={() => this.props.onLongPress(this.props.item, this.props.index)}
@@ -266,9 +293,6 @@ export class IconsList extends Component {
     }
 }
 
-const GRID_SIZE = 4;
-const ITEM_SIZE = Math.round(CONFIG.DIMENSIONS.SCREEN_WIDTH / GRID_SIZE) - (6 * 4);
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -290,8 +314,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     icon: {
-        height: ITEM_SIZE,
-        width: ITEM_SIZE,
         margin: 6,
         borderRadius: 6,
         resizeMode: 'cover',

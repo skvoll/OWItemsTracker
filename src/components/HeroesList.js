@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import {
+    Dimensions,
     StyleSheet,
     View,
     FlatList,
@@ -16,7 +17,9 @@ import Items from './../Items';
 import Heroes from './../Heroes';
 import {
     PreviewModal,
-} from './'
+} from './';
+
+const GRID_SIZE = 4;
 
 class Item extends Component {
     static propTypes = {
@@ -28,12 +31,36 @@ class Item extends Component {
 
     static defaultProps = {};
 
+    SIZE;
+
+    onDimensionsChangedHandler = (event) => this.onDimensionsChanged(event);
+
     constructor(props, context, updater) {
         super(props, context, updater);
     }
 
+    componentWillMount() {
+        this.setSize(Dimensions.get('window').width);
+
+        Dimensions.addEventListener('change', this.onDimensionsChangedHandler);
+    }
+
+    componentWillUnmount() {
+        Dimensions.removeEventListener('change', this.onDimensionsChangedHandler);
+    }
+
+    onDimensionsChanged(event) {
+        this.setSize(event.window.width);
+
+        this.forceUpdate();
+    }
+
+    setSize(width) {
+        this.SIZE = (width * ((100 / (GRID_SIZE + 1) / 100)));
+    }
+
     render() {
-        let progress;
+        let progress, size = {height: this.SIZE, width: this.SIZE,};
 
         if (this.props.item.progress) {
             progress = (
@@ -43,8 +70,8 @@ class Item extends Component {
 
         // @todo: fix the problem with border radius of background
         // background for portraits
-        // <Image source={require('./../assets/heroes/background.jpg')} style={styles.portrait}>
-        //     <Image source={this.props.item.portrait} style={styles.portrait}/>
+        // <Image source={require('./../assets/heroes/background.jpg')} style={[styles.portrait, size,]}>
+        //     <Image source={this.props.item.portrait} style={[styles.portrait, size,]}/>
         // </Image>
 
         return (
@@ -54,7 +81,7 @@ class Item extends Component {
             >
 
                 <View style={styles.item}>
-                    <Image source={this.props.item.portrait} style={styles.portrait}/>
+                    <Image source={this.props.item.portrait} style={[styles.portrait, size,]}/>
                     <View style={styles.info}>
                         <Text style={styles.name}>{this.props.item.name}</Text>
                         {progress}
@@ -220,9 +247,6 @@ export class HeroesList extends Component {
     }
 }
 
-const GRID_SIZE = 4;
-const ITEM_SIZE = Math.round(CONFIG.DIMENSIONS.SCREEN_WIDTH / GRID_SIZE) - (2 * 2 * GRID_SIZE);
-
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -237,8 +261,6 @@ const styles = StyleSheet.create({
         backgroundColor: CONFIG.COLORS.LIGHT_GRAY,
     },
     portrait: {
-        height: ITEM_SIZE,
-        width: ITEM_SIZE,
         resizeMode: 'cover',
         borderTopLeftRadius: 4,
         borderTopRightRadius: 4,
