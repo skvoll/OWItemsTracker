@@ -141,7 +141,6 @@ export class SettingsScene extends Scene {
             {text: _('CANCEL'), onPress: () => null, style: 'cancel'},
             {text: _('CLEAR'), onPress: () => {
                 AsyncStorage.removeItem('TIPS_SHOWN');
-                AsyncStorage.removeItem('WHATS_NEW_VERSION');
                 Items.clear();
             }},
         ]);

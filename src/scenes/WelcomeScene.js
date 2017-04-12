@@ -20,10 +20,12 @@ import Scene from './Scene';
 
 export class WelcomeScene extends Scene {
     static propTypes = {
-        type: React.PropTypes.oneOf(['whats-new', 'tips',]).isRequired,
+        type: React.PropTypes.oneOf(['news', 'tips',]).isRequired,
     };
 
-    static defaultProps = {};
+    static defaultProps = {
+        type: 'news',
+    };
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -33,12 +35,12 @@ export class WelcomeScene extends Scene {
         }
 
         let types = {
-            "whats-new": {
-                title: `${_('WHATS_NEW_TITLE')} ${_('IN')} ${CONFIG.VERSION}`,
+            news: {
+                title: _('NEWS_TITLE'),
                 index: 0,
-                routes: [{key: 'whats-new',},],
+                routes: [{key: 'news',},],
             },
-            "tips": {
+            tips: {
                 title: _('TIPS'),
                 index: 0,
                 routes: [{key: 'tip1',}, {key: 'tip2',}, {key: 'tip3',}, {key: 'tip4',},],
@@ -91,10 +93,11 @@ export class WelcomeScene extends Scene {
 
     tabRenderScene({route}) {
         switch (route.key) {
-            case 'whats-new':
+            case 'news':
                 return (
                     <ScrollView contentContainerStyle={styles.tab}>
-                        <Text style={styles.text}>{_('WHATS_NEW_TEXT')}</Text>
+                        <Text style={[styles.text, {alignSelf: 'center',},]}>{_('NEWS_TEXT')}</Text>
+                        <Image source={require('./../assets/news/news1.jpg')} style={styles.tip}/>
                     </ScrollView>
                 );
                 break;

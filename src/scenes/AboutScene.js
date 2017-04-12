@@ -112,7 +112,7 @@ export class AboutScene extends Scene {
                 </ScrollView>
                 <View style={styles.bottom}>
                     <Text
-                        onPress={() => this.navigator.push({name: 'WelcomeScene', props: {type: 'whats-new'},})}
+                        onPress={() => this.navigator.push({name: 'WelcomeScene', props: {},})}
                         style={styles.version}
                     >
 

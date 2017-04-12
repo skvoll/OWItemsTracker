@@ -35,17 +35,17 @@ export class SplashScene extends Scene {
                     return;
                 }
 
-                if (_('WHATS_NEW_TEXT', false)) {
-                    const WHATS_NEW_VERSION = await AsyncStorage.getItem('WHATS_NEW_VERSION');
+                if (CONFIG.SHOW_NEWS) {
+                    const VERSION = await AsyncStorage.getItem('VERSION');
 
-                    if (WHATS_NEW_VERSION !== CONFIG.VERSION) {
-                        await AsyncStorage.setItem('WHATS_NEW_VERSION', CONFIG.VERSION);
+                    if (VERSION !== CONFIG.VERSION) {
+                        await AsyncStorage.setItem('VERSION', CONFIG.VERSION);
 
-                        if (WHATS_NEW_VERSION) {
-                            this.navigateTo('WelcomeScene', {type: 'whats-new',});
+                        // if (VERSION) {
+                            this.navigateTo('WelcomeScene');
 
                             return;
-                        }
+                        // }
                     }
                 }
 
