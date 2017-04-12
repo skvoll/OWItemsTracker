@@ -239,7 +239,7 @@ function checkItems(args = {}, r = false) {
     }
 
     Object.values(items).map((item) => {
-        if (["SPRAY", "ICON",].indexOf(item.type) !== -1) {
+        if (['SPRAY', 'ICON',].indexOf(item.type) !== -1) {
             if (!fs.existsSync(`./../src/assets/${item.type.toLowerCase()}s/${item.uid}.png`)) {
                 result = false;
                 console.log(`asset for ${item.type} '${item.name}'(${item.uid}): does not exists`);
@@ -318,15 +318,19 @@ function importCsv(args = {}) {
 
         item[6] = item[6].replace('\r', '');
 
+        item[4] = item[4] === 'false' ? false : item[4];
+        item[5] = item[5] === 'true';
+        item[6] = item[6] === 'false' ? false : item[6];
+
         item = {
             uid: makeUid(item[2], item[1], item[4] || null),
             default: item[0] === 'true',
             name: item[1],
             type: item[2],
             rarity: item[3],
-            hero: item[4] === 'false' ? false : item[4],
-            price: item[5] === 'true',
-            event: item[6] === 'false' ? false : item[6],
+            hero: item[4],
+            price: item[5],
+            event: item[6],
         };
 
         if (items[item.uid]) {
