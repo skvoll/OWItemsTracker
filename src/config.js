@@ -32,7 +32,7 @@ const COLORS = {
 export default class CONFIG {
     static isInitialized = false;
 
-    static VERSION = '1.0.3';
+    static VERSION = '1.0.4';
     static PLATFORM = Platform.OS;
     static PLATFORM_VERSION = Platform.Version;
     static LOCALE = 'en';
@@ -49,7 +49,7 @@ export default class CONFIG {
         storageBucket: 'ow-items-tracker-ce744.appspot.com',
     };
 
-    static SHOW_NEWS = true;
+    static SHOW_NEWS = false;
 
     static LANGUAGE = 'en';
     static INCLUDE_ICONS_IN_PROGRESS = false;

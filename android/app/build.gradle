@@ -90,8 +90,8 @@ android {
         applicationId "tech.davidvolkov.owitemstracker"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 19
-        versionName "1.0.3"
+        versionCode 20
+        versionName "1.0.4"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
