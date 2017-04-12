@@ -28,6 +28,7 @@ export class SplashScene extends Scene {
                 const TIPS_SHOWN = await AsyncStorage.getItem('TIPS_SHOWN');
 
                 if (TIPS_SHOWN !== 'true') {
+                    await AsyncStorage.setItem('VERSION', CONFIG.VERSION);
                     await AsyncStorage.setItem('TIPS_SHOWN', 'true');
 
                     this.navigateTo('WelcomeScene', {type: 'tips',});
@@ -41,11 +42,11 @@ export class SplashScene extends Scene {
                     if (VERSION !== CONFIG.VERSION) {
                         await AsyncStorage.setItem('VERSION', CONFIG.VERSION);
 
-                        // if (VERSION) {
+                        if (VERSION) {
                             this.navigateTo('WelcomeScene');
 
                             return;
-                        // }
+                        }
                     }
                 }
 
