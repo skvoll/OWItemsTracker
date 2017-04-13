@@ -1,0 +1,44 @@
+"use strict";
+
+require('colors');
+const moment = require('moment');
+
+const fatal = function (message) {
+    console.log(`FATAL [${moment().format('HH:mm:ss')}]: ${message}`.bgRed);
+
+    process.exit();
+};
+
+const error = function (message) {
+    console.log(`ERROR [${moment().format('HH:mm:ss')}]: ${message}`.red);
+};
+
+const warn = function (message) {
+    console.log(`WARN [${moment().format('HH:mm:ss')}]: ${message}`.yellow);
+};
+
+const info = function (message) {
+    console.log(`INFO [${moment().format('HH:mm:ss')}]: ${message}`.cyan);
+};
+
+const success = function (message) {
+    console.log(`SUCCESS [${moment().format('HH:mm:ss')}]: ${message}`.green);
+};
+
+const failed = function (message) {
+    console.log(`FAILED [${moment().format('HH:mm:ss')}]: ${message}`.red);
+};
+
+const log = function (message) {
+    console.log(`LOG [${moment().format('HH:mm:ss')}]: ${message}`);
+};
+
+module.exports = {
+    fatal: fatal,
+    error: error,
+    warn: warn,
+    info: info,
+    success: success,
+    failed: failed,
+    log: log,
+};
