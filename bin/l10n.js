@@ -93,7 +93,7 @@ const l10nExport = function (args = {}) {
             Object.keys(l10n[i]).map((key) => {
                 csv[i] += [
                         'INFORMATION',
-                        l10n[i][key],
+                        l10n[i][key].replace(/(\n)+/g, ' '),
                         key,
                     ].join('\t') + '\n';
             });
