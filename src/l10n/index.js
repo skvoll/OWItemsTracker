@@ -1,20 +1,20 @@
 "use strict";
 
-import CONFIG from './config';
+import CONFIG from '../config';
 
 export const LANGUAGES = {
-    en: {
+    en_US: {
         name: 'english',
         translations: Object.assign(
-            require('./translations/en.json'),
-            require('./translations/en.items.json')
+            require('./en_US.json'),
+            require('./en_US.items.json')
         ),
     },
-    ru: {
+    ru_RU: {
         name: 'русский',
         translations: Object.assign(
-            require('./translations/ru.json'),
-            require('./translations/ru.items.json')
+            require('./ru_RU.json'),
+            require('./ru_RU.items.json')
         ),
     },
 };
@@ -25,7 +25,7 @@ export default function (key, defaultReturn = null) {
     }
 
     if (!LANGUAGES[CONFIG.LANGUAGE]) {
-        return LANGUAGES.en.translations[key] || defaultReturn;
+        return LANGUAGES.en_US.translations[key] || defaultReturn;
     }
 
     return LANGUAGES[CONFIG.LANGUAGE].translations[key] || defaultReturn;

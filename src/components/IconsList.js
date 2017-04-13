@@ -241,7 +241,7 @@ export class IconsList extends Component {
     }
 
     onItemLongPress(item) {
-        let title = _(item.name);
+        let title = _(item.uid);
 
         if (CONFIG.NETWORK === 'NONE') {
             this.modal.error(title, _('NO_INTERNET_CONNECTION'));

@@ -35,7 +35,7 @@ export default class CONFIG {
     static VERSION = '1.0.4';
     static PLATFORM = Platform.OS;
     static PLATFORM_VERSION = Platform.Version;
-    static LOCALE = 'en';
+    static LOCALE = 'en_US';
     static NETWORK = 'NONE';
     static COLORS = COLORS;
 
@@ -51,7 +51,7 @@ export default class CONFIG {
 
     static SHOW_NEWS = false;
 
-    static LANGUAGE = 'en';
+    static LANGUAGE = 'en_US';
     static INCLUDE_ICONS_IN_PROGRESS = false;
     static INCLUDE_SPECIALS_IN_PROGRESS = false;
     static CLOUD_SYNCHRONIZATION = false;
@@ -121,9 +121,9 @@ export default class CONFIG {
 }
 
 if (CONFIG.PLATFORM === 'android') {
-    CONFIG.LANGUAGE = CONFIG.LOCALE = NativeModules.I18nManager.localeIdentifier.split('_')[0];
+    CONFIG.LANGUAGE = CONFIG.LOCALE = NativeModules.I18nManager.localeIdentifier;
 } else if (CONFIG.PLATFORM === 'ios') {
-    CONFIG.LANGUAGE = CONFIG.LOCALE = NativeModules.SettingsManager.settings.AppleLocale.split('_')[0];
+    CONFIG.LANGUAGE = CONFIG.LOCALE = NativeModules.SettingsManager.settings.AppleLocale;
 }
 
 moment.locale(CONFIG.LOCALE);

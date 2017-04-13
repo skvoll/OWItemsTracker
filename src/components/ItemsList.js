@@ -44,7 +44,7 @@ class Item extends Component {
     }
 
     render() {
-        let textStyle, heroIcon, eventIcon, name = _(this.props.item.name), price, check;
+        let textStyle, heroIcon, eventIcon, name = _(this.props.item.uid), price, check;
 
         textStyle = {color: Items.COLOR[this.props.item.rarity],};
 
@@ -603,7 +603,7 @@ export class ItemsList extends Component {
     }
 
     onItemLongPress(item, index) {
-        let title = _(item.name);
+        let title = _(item.uid);
 
         if (CONFIG.NETWORK === 'NONE') {
             this.modal.error(title, _('NO_INTERNET_CONNECTION'));
