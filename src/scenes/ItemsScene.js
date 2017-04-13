@@ -64,7 +64,7 @@ export class ItemsScene extends Scene {
             <Layout
                 toolbarTitle={this.props.title}
                 toolbarActions={[
-                    {title: _('CHECK_ALL'), iconName: 'check',},
+                    {title: _('BUTTON__CHECK_ALL'), iconName: 'check',},
                 ]}
                 onToolbarIconPress={() => this.navigationPop()}
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}

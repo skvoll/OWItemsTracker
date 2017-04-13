@@ -85,18 +85,18 @@ export class SettingsScene extends Scene {
         }
 
         if (this.state.profile) {
-            Alert.alert(_('CLOUD_SYNCHRONIZATION'), `${ _('CONNECTED_ACCOUNT')}: ${this.state.profile.name}`, [
-                {text: _('CANCEL'), onPress: () => null, style: 'cancel'},
-                {text: _('TURN_OFF'), onPress: async () => {
+            Alert.alert(_('SETTINGS__CLOUD_SYNCHRONIZATION_TITLE'), `${ _('SETTINGS__CONNECTED_ACCOUNT')}: ${this.state.profile.name}`, [
+                {text: _('BUTTON__CANCEL'), onPress: () => null, style: 'cancel'},
+                {text: _('BUTTON__TURN_OFF'), onPress: async () => {
                     if (CONFIG.NETWORK === 'NONE') {
-                        Alert.alert(_('NO_INTERNET_CONNECTION'), '');
+                        Alert.alert(_('ERROR__NO_INTERNET_CONNECTION'), '');
 
                         return;
                     }
 
                     await CloudStorage.remove('/items');
                     GoogleSignin.revokeAccess().then(() => {
-                        CONFIG.remove(['CLOUD_SYNCHRONIZATION', 'PROFILE',]).then(() => {
+                        CONFIG.remove(['SETTINGS__CLOUD_SYNCHRONIZATION_TITLE', 'PROFILE',]).then(() => {
                             this.setState({
                                 profile: null,
                             }, () => Items.initialize());
@@ -108,11 +108,11 @@ export class SettingsScene extends Scene {
             return;
         }
 
-        Alert.alert(_('CLOUD_SYNCHRONIZATION'), _('CLOUD_SYNCHRONIZATION_CONFIRM'), [
-            {text: _('CANCEL'), onPress: () => null, style: 'cancel'},
-            {text: _('SIGN_IN'), onPress: () => {
+        Alert.alert(_('SETTINGS__CLOUD_SYNCHRONIZATION_TITLE'), _('SETTINGS__CLOUD_SYNCHRONIZATION_CONFIRM'), [
+            {text: _('BUTTON__CANCEL'), onPress: () => null, style: 'cancel'},
+            {text: _('BUTTON__SIGN_IN'), onPress: () => {
                 if (CONFIG.NETWORK === 'NONE') {
-                    Alert.alert(_('NO_INTERNET_CONNECTION'), '');
+                    Alert.alert(_('ERROR__NO_INTERNET_CONNECTION'), '');
 
                     return;
                 }
@@ -137,9 +137,9 @@ export class SettingsScene extends Scene {
     }
 
     eraseData() {
-        Alert.alert(_('CLEARING_DATA'), _('CLEARING_DATA_CONFIRM'), [
-            {text: _('CANCEL'), onPress: () => null, style: 'cancel'},
-            {text: _('CLEAR'), onPress: () => {
+        Alert.alert(_('SETTINGS__CLEARING_DATA_TITLE'), _('SETTINGS__CLEARING_DATA_CONFIRM'), [
+            {text: _('BUTTON__CANCEL'), onPress: () => null, style: 'cancel'},
+            {text: _('BUTTON__CLEAR'), onPress: () => {
                 AsyncStorage.removeItem('TIPS_SHOWN');
                 Items.clear();
             }},
@@ -147,7 +147,7 @@ export class SettingsScene extends Scene {
     }
 
     render() {
-        let languages = [], btnSync, btnSyncTitle = _('CLOUD_SYNCHRONIZATION');
+        let languages = [], btnSync, btnSyncTitle = _('BUTTON__CLOUD_SYNCHRONIZATION');
 
         for (let i in LANGUAGES) if (LANGUAGES.hasOwnProperty(i)) {
             languages.push({label: LANGUAGES[i].name.toUpperCase(), value: i});
@@ -155,9 +155,9 @@ export class SettingsScene extends Scene {
 
         if (this.state.hasPlayServices) {
             if (this.state.profile) {
-                btnSyncTitle += `: ${_('IS_ON')}` ;
+                btnSyncTitle += `: ${_('SETTINGS__IS_ON')}` ;
             } else {
-                btnSyncTitle += `: ${_('IS_OFF')}` ;
+                btnSyncTitle += `: ${_('SETTINGS__IS_OFF')}` ;
             }
 
             btnSync = (
@@ -172,7 +172,7 @@ export class SettingsScene extends Scene {
 
         return (
             <Layout
-                toolbarTitle={_('SETTINGS')}
+                toolbarTitle={_('SETTINGS__SETTINGS_TITLE')}
                 onToolbarIconPress={() => this.navigationPop()}
                 styles={styles.container}
             >
@@ -186,19 +186,19 @@ export class SettingsScene extends Scene {
                             values={languages}
                             selectedValue={this.state.language}
                             onValueChange={(language) => this.setLanguage(language)}
-                            title={_('LANGUAGE').toUpperCase()}
+                            title={_('SETTINGS__LANGUAGE').toUpperCase()}
                             icon="close"
                         />
                     </View>
                     <View style={styles.section}>
                         <Button
-                            title={`${_('INCLUDE_ICONS_IN_PROGRESS')}: ${this.state.includeIconsInProgress ? _('IS_ON') : _('IS_OFF')}`.toUpperCase()}
+                            title={`${_('SETTINGS__INCLUDE_ICONS_IN_PROGRESS')}: ${this.state.includeIconsInProgress ? _('SETTINGS__IS_ON') : _('SETTINGS__IS_OFF')}`.toUpperCase()}
                             onPress={() => this.toggleIncludeIcons()}
                         />
                     </View>
                     <View style={styles.section}>
                         <Button
-                            title={`${_('INCLUDE_SPECIALS_IN_PROGRESS')}: ${this.state.includeSpecialsInProgress ? _('IS_ON') : _('IS_OFF')}`.toUpperCase()}
+                            title={`${_('SETTINGS__INCLUDE_SPECIALS_IN_PROGRESS')}: ${this.state.includeSpecialsInProgress ? _('SETTINGS__IS_ON') : _('SETTINGS__IS_OFF')}`.toUpperCase()}
                             onPress={() => this.toggleIncludeSpecials()}
                         />
                     </View>
@@ -207,7 +207,7 @@ export class SettingsScene extends Scene {
                 <View style={styles.bottom}>
                     <View style={styles.section}>
                         <Button
-                            title={_('CLEAR_DATA').toUpperCase()}
+                            title={_('BUTTON__CLEAR_DATA').toUpperCase()}
                             onPress={() => this.eraseData()}
                             color={CONFIG.COLORS.RED}
                             icon="close"

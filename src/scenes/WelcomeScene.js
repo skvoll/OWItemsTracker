@@ -36,12 +36,12 @@ export class WelcomeScene extends Scene {
 
         let types = {
             news: {
-                title: _('NEWS_TITLE'),
+                title: _('WELCOME__NEWS_TITLE'),
                 index: 0,
                 routes: [{key: 'news',},],
             },
             tips: {
-                title: _('TIPS'),
+                title: _('WELCOME__TIPS_TITLE'),
                 index: 0,
                 routes: [{key: 'tip1',}, {key: 'tip2',}, {key: 'tip3',}, {key: 'tip4',},],
             },
@@ -86,7 +86,7 @@ export class WelcomeScene extends Scene {
         return (
             <View style={styles.footer}>
                 {pager}
-                <Button title={_('CLOSE')} icon="close" onPress={() => this.onClose()}/>
+                <Button title={_('BUTTON__CLOSE')} icon="close" onPress={() => this.onClose()}/>
             </View>
         );
     }
@@ -96,7 +96,7 @@ export class WelcomeScene extends Scene {
             case 'news':
                 return (
                     <ScrollView contentContainerStyle={styles.tab}>
-                        <Text style={[styles.text, {alignSelf: 'center',},]}>{_('NEWS_TEXT')}</Text>
+                        <Text style={[styles.text, {alignSelf: 'center',},]}>{_('WELCOME__NEWS_TEXT')}</Text>
                         <Image source={require('./../assets/news/news1.jpg')} style={styles.tip}/>
                     </ScrollView>
                 );

@@ -91,7 +91,7 @@ export class SimpleModal extends Modal {
             actions.push(
                 <Button
                     key={`modal-action-close`}
-                    title={_('CLOSE')}
+                    title={_('BUTTON__CLOSE')}
                     icon="close"
                     onPress={() => this.close()}
                     style={styles.action}

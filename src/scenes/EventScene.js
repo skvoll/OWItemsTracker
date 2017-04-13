@@ -35,8 +35,8 @@ export class EventScene extends Scene {
             items: [],
             index: 0,
             routes: [
-                {key: 'by_type', title: _('BY_TYPE'),},
-                {key: 'by_heroes', title: _('BY_HEROES'),},
+                {key: 'by_type', title: _('BUTTON__BY_TYPE'),},
+                {key: 'by_heroes', title: _('BUTTON__BY_HEROES'),},
             ],
         };
     }
@@ -116,7 +116,7 @@ export class EventScene extends Scene {
             <Layout
                 toolbarTitle={_(this.props.item.code)}
                 toolbarActions={[
-                    {title: _('CHECK_ALL'), iconName: 'check',},
+                    {title: _('BUTTON__CHECK_ALL'), iconName: 'check',},
                 ]}
                 onToolbarIconPress={() => this.navigationPop()}
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}

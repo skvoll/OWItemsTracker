@@ -71,7 +71,7 @@ class Item extends Component {
                 />
             );
         } else if (this.props.item.type !== Items.TYPE.WEAPON) {
-            name = `${name} [ ${_('ITEM_DEFAULT')} ]`;
+            name = `${name} [ ${_('ITEMS__ITEM_DEFAULT')} ]`;
         }
 
         return (
@@ -461,7 +461,7 @@ export class ItemsList extends Component {
             if (!sections[item.type]) {
                 sections[item.type] = {
                     type: item.type,
-                    title: _(`ITEMS_TYPE_${item.type}`),
+                    title: _(`ITEMS__ITEMS_TYPE_${item.type}`),
                     progress: {received: 0, total: 0,},
                     isVisible: this.props.isCollapsible ? this.state.openedSections.indexOf(item.type) !== -1 : true,
                     data: [],
@@ -606,7 +606,7 @@ export class ItemsList extends Component {
         let title = _(item.uid);
 
         if (CONFIG.NETWORK === 'NONE') {
-            this.modal.error(title, _('NO_INTERNET_CONNECTION'));
+            this.modal.error(title, _('ERROR__NO_INTERNET_CONNECTION'));
 
             return;
         }
@@ -615,7 +615,7 @@ export class ItemsList extends Component {
 
         CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
             .then((url) => this.modal.open(title, {uri: url,}))
-            .catch((error) => this.modal.error(title, _('PREVIEW_NOT_FOUND')));
+            .catch((error) => this.modal.error(title, _('ERROR__PREVIEW_NOT_FOUND')));
     }
 
     render() {

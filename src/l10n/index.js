@@ -6,15 +6,19 @@ export const LANGUAGES = {
     en_US: {
         name: 'english',
         translations: Object.assign(
-            require('./en_US.json'),
-            require('./en_US.items.json')
+            require('./en_US.items.json'),
+            require('./en_US.events.json'),
+            require('./en_US.heroes.json'),
+            require('./en_US.json')
         ),
     },
     ru_RU: {
         name: 'русский',
         translations: Object.assign(
-            require('./ru_RU.json'),
-            require('./ru_RU.items.json')
+            require('./ru_RU.items.json'),
+            require('./ru_RU.events.json'),
+            require('./ru_RU.heroes.json'),
+            require('./ru_RU.json')
         ),
     },
 };

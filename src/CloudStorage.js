@@ -64,7 +64,7 @@ export default class CloudStorage {
         }
 
         if (!this.database) {
-            ToastAndroid.show(_('CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
+            ToastAndroid.show(_('ERROR__CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
 
             return;
         }
@@ -80,7 +80,7 @@ export default class CloudStorage {
         }
 
         if (!this.database) {
-            ToastAndroid.show(_('CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
+            ToastAndroid.show(_('ERROR__CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
 
             return;
         }
@@ -96,7 +96,7 @@ export default class CloudStorage {
         }
 
         if (!this.database) {
-            ToastAndroid.show(_('CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
+            ToastAndroid.show(_('ERROR__CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
 
             return;
         }
@@ -106,7 +106,7 @@ export default class CloudStorage {
 
     static getFileUrl(path) {
         if (!this.storage) {
-            ToastAndroid.show(_('STORAGE_CONNECTION_FAILED'), ToastAndroid.SHORT);
+            ToastAndroid.show(_('ERROR__STORAGE_CONNECTION_FAILED'), ToastAndroid.SHORT);
 
             return;
         }

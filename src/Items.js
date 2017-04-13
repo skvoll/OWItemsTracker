@@ -74,7 +74,7 @@ export default class Items {
                 this.RECEIVED_ITEMS = JSON.parse(await AsyncStorage.getItem('RECEIVED_ITEMS')) || [];
             }
         } catch (error) {
-            ToastAndroid.show(_('CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
+            ToastAndroid.show(_('ERROR__CLOUD_SYNCHRONIZATION_FAILED'), ToastAndroid.SHORT);
 
             this.RECEIVED_ITEMS = JSON.parse(await AsyncStorage.getItem('RECEIVED_ITEMS')) || [];
         }

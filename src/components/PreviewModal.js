@@ -97,7 +97,7 @@ export class PreviewModal extends SimpleModal {
                 <Image
                     source={this.state.source}
                     onLoad={() => this.setState({isLoaded: true,})}
-                    onerror={() => this.setState({error: _('PREVIEW_NOT_FOUND'),})}
+                    onerror={() => this.setState({error: _('ERROR__PREVIEW_NOT_FOUND'),})}
                     style={[styles.preview, (this.state.isLoaded ? null : styles.previewHidden)]}
                 />
 

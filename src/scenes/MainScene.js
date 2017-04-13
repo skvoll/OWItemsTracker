@@ -32,24 +32,24 @@ export class MainScene extends Scene {
         this.state = {
             index: 0,
             routes: [
-                {key: 'events', title: _('EVENTS'),},
-                {key: 'heroes', title: _('HEROES'),},
-                {key: 'icons', title: _('ICONS'),},
+                {key: 'events', title: _('BUTTON__EVENTS'),},
+                {key: 'heroes', title: _('BUTTON__HEROES'),},
+                {key: 'icons', title: _('BUTTON__ICONS'),},
             ],
         };
     }
 
     componentWillReceiveProps(nextProps) {
         if (
-            this.state.routes[0].title !== _('EVENTS')
-            || this.state.routes[1].title !== _('HEROES')
-            || this.state.routes[2].title !== _('ICONS')
+            this.state.routes[0].title !== _('BUTTON__EVENTS')
+            || this.state.routes[1].title !== _('BUTTON__HEROES')
+            || this.state.routes[2].title !== _('BUTTON__ICONS')
         ) {
             this.setState({
                 routes: [
-                    {key: 'events', title: _('EVENTS'),},
-                    {key: 'heroes', title: _('HEROES'),},
-                    {key: 'icons', title: _('ICONS'),},
+                    {key: 'events', title: _('BUTTON__EVENTS'),},
+                    {key: 'heroes', title: _('BUTTON__HEROES'),},
+                    {key: 'icons', title: _('BUTTON__ICONS'),},
                 ],
             });
         }

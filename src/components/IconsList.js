@@ -244,7 +244,7 @@ export class IconsList extends Component {
         let title = _(item.uid);
 
         if (CONFIG.NETWORK === 'NONE') {
-            this.modal.error(title, _('NO_INTERNET_CONNECTION'));
+            this.modal.error(title, _('ERROR__NO_INTERNET_CONNECTION'));
 
             return;
         }
@@ -253,7 +253,7 @@ export class IconsList extends Component {
 
         CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
             .then((url) => this.modal.open(title, {uri: url,}))
-            .catch((error) => this.modal.error(title, _('PREVIEW_NOT_FOUND')));
+            .catch((error) => this.modal.error(title, _('ERROR__PREVIEW_NOT_FOUND')));
     }
 
     renderItem(item, index) {

@@ -71,7 +71,7 @@ export class AboutScene extends Scene {
     render() {
         return (
             <Layout
-                toolbarTitle={_('INFORMATION')}
+                toolbarTitle={_('ABOUT__INFORMATION_TITLE')}
                 onToolbarIconPress={() => this.navigationPop()}
                 background={require('./../assets/background_about_gray.jpg')}
                 styles={styles.container}
@@ -79,34 +79,34 @@ export class AboutScene extends Scene {
 
                 <View style={styles.top}/>
                 <ScrollView style={styles.center} contentContainerStyle={styles.centerContentContainerStyle}>
-                    <Text style={styles.label}>{`${_('ABOUT_TITLE').toUpperCase()}`}</Text>
+                    <Text style={styles.label}>{`${_('ABOUT__ABOUT_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
-                        <Text style={styles.text}>{_('ABOUT_TEXT')}</Text>
+                        <Text style={styles.text}>{_('ABOUT__ABOUT_TEXT')}</Text>
                     </View>
-                    <Text style={styles.label}>{`${_('COPYRIGHT_TITLE').toUpperCase()}`}</Text>
+                    <Text style={styles.label}>{`${_('ABOUT__COPYRIGHT_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
-                        <Text style={styles.text}>{_('COPYRIGHT_TEXT')}</Text>
+                        <Text style={styles.text}>{_('ABOUT__COPYRIGHT_TEXT')}</Text>
                     </View>
-                    <Text style={styles.label}>{`${_('DEVELOPERS').toUpperCase()}`}</Text>
+                    <Text style={styles.label}>{`${_('ABOUT__DEVELOPERS_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
-                        <Text style={styles.title}>{`${_('CODE')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__CODE')}:`.toUpperCase()}</Text>
                         <Link title="david volkov" href="http://davidvolkov.tech"/>
-                        <Text style={styles.title}>{`${_('DESIGN')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__DESIGN')}:`.toUpperCase()}</Text>
                         <Link title="dmitry kurashkin" href="https://www.reddit.com/user/dimitryk_52"/>
-                        <Text style={styles.title}>{`${_('SPECIAL_THANKS')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__SPECIAL_THANKS')}:`.toUpperCase()}</Text>
                         <Link icon="vk" title="danila semenov" href="https://vk.com/mhgny"/>
                         <Link icon="reddit-alien" title="/u/FixKun" href="https://www.reddit.com/user/FixKun"/>
                     </View>
-                    <Text style={styles.label}>{`${_('THANKS_TITLE').toUpperCase()}`}</Text>
+                    <Text style={styles.label}>{`${_('ABOUT__THANKS_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
-                        <Text style={styles.title}>{`${_('THANKS_TEXT_IDEA_INITIAL_DESIGN')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__IDEA_AND_INITIAL_DESIGN')}:`.toUpperCase()}</Text>
                         <Link icon="reddit-alien" title="/u/izzepizze" href="https://www.reddit.com/user/izzepizze"/>
-                        <Text style={styles.title}>{`${_('THANKS_TEXT_SOURCES_AND_ASSETS')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__SOURCES_AND_ASSETS')}:`.toUpperCase()}</Text>
                         <Link icon="reddit-alien" title="/u/js41637" href="https://www.reddit.com/user/js41637"/>
                         <Link icon="github" title="js41637" href="https://github.com/Js41637"/>
                         <Link title="Overwatch Item Tracker" href="https://js41637.github.io/Overwatch-Item-Tracker"/>
                         <Link icon="github" title="Overwatch Item Tracker" href="https://github.com/Js41637/Overwatch-Item-Tracker"/>
-                        <Text style={styles.title}>{`${_('THANKS_TEXT_COMMUNITY')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__COMMUNITY')}:`.toUpperCase()}</Text>
                         <Link icon="reddit-alien" title="/r/overwatch" href="https://www.reddit.com/r/overwatch"/>
                     </View>
                 </ScrollView>
@@ -116,7 +116,7 @@ export class AboutScene extends Scene {
                         style={styles.version}
                     >
 
-                        {`${_('VERSION').toUpperCase()}: ${CONFIG.VERSION}`}
+                        {`${_('SETTINGS__VERSION').toUpperCase()}: ${CONFIG.VERSION}`}
 
                     </Text>
                 </View>
