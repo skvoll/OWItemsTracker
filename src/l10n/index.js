@@ -9,7 +9,7 @@ export const LANGUAGES = {
             require('./en_US.items.json'),
             require('./en_US.events.json'),
             require('./en_US.heroes.json'),
-            require('./en_US.json')
+            require('./en_US.interface.json')
         ),
     },
     ru_RU: {
@@ -18,7 +18,7 @@ export const LANGUAGES = {
             require('./ru_RU.items.json'),
             require('./ru_RU.events.json'),
             require('./ru_RU.heroes.json'),
-            require('./ru_RU.json')
+            require('./ru_RU.interface.json')
         ),
     },
 };
