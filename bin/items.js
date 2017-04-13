@@ -75,7 +75,7 @@ const itemsImport = function (args = {}) {
             return;
         }
 
-        item = item.split(';');
+        item = item.split('\t');
 
         if (item.length < 7) {
             return;

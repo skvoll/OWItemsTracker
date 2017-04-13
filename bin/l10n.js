@@ -5,13 +5,31 @@ const logger = require('./logger');
 
 let items = require('./../src/data/items.json');
 
+function sort(object) {
+    let keys = Object.keys(object), result = {};
+
+    keys.sort((a, b) => {
+        if (a === b) {
+            return 0;
+        }
+
+        return a > b ? 1 : -1;
+    });
+
+    keys.map((key) => {
+        result[key] = object[key];
+    });
+
+    return result;
+}
+
 const l10nCreate = function (args = {}) {
     if (!args['l'] || typeof args['l'] !== 'string') {
         logger.fatal('language is missing');
     }
 
     let l10n = {
-        items: `./../src/translations/${args['l']}.items.json`,
+        items: `./../src/l10n/${args['l']}.items.json`,
     }, count = 0;
 
     if (!fs.existsSync(l10n.items)) {
@@ -33,7 +51,7 @@ const l10nCreate = function (args = {}) {
     if (count === 0) {
         logger.info('nothing to update');
     } else {
-        fs.writeFileSync(`./../src/translations/${args['l']}.items.json`, JSON.stringify(l10n.items, null, 2));
+        fs.writeFileSync(`./../src/l10n/${args['l']}.items.json`, JSON.stringify(l10n.items, null, 2));
 
         logger.success(`${count} translation(s) added`);
     }
@@ -45,45 +63,46 @@ const l10nExport = function (args = {}) {
     }
 
     let l10n = {
-        general: `./../src/translations/${args['l']}.json`,
-        items: `./../src/translations/${args['l']}.items.json`,
-    }, csv = {
-        general: `INFORMATION;TRANSLATION;KEY\n`,
-        items: `INFORMATION;TRANSLATION;KEY\n`,
+        items: `./../src/l10n/${args['l']}.items.json`,
+        events: `./../src/l10n/${args['l']}.events.json`,
+        heroes: `./../src/l10n/${args['l']}.heroes.json`,
+        interface: `./../src/l10n/${args['l']}.interface.json`,
+    }, template = `INFORMATION;TRANSLATION;KEY\n`, csv = {
+        items: template,
+        events: template,
+        heroes: template,
+        interface: template,
     };
 
-    if (!fs.existsSync(l10n.general)) {
-        logger.fatal(`'${l10n.general}' does not exists`);
+    for (let i in l10n) if (l10n.hasOwnProperty(i)) {
+        if (!fs.existsSync(l10n[i])) {
+            logger.fatal(`'${l10n[i]}' does not exists`);
+        }
+
+        l10n[i] = require(l10n[i]);
+
+        if (i === 'items') {
+            Object.values(items).map((item) => {
+                csv[i] += [
+                        `${(item.hero ? `${item.hero} ` : '')}${item.type} ${item.name}`,
+                        `${l10n[i][item.uid]}`,
+                        `${item.uid}`,
+                    ].join('\t') + '\n';
+            });
+        } else {
+            Object.keys(l10n[i]).map((key) => {
+                csv[i] += [
+                        'INFORMATION',
+                        l10n[i][key],
+                        key,
+                    ].join('\t') + '\n';
+            });
+        }
+
+        fs.writeFileSync(`./${args['l']}.${i}.csv`, csv[i]);
+
+        logger.success(`'./${args['l']}.${i}.csv' created`);
     }
-
-    if (!fs.existsSync(l10n.items)) {
-        logger.fatal(`'${l10n.items}' does not exists`);
-    }
-
-    l10n.general = require(l10n.general);
-    l10n.items = require(l10n.items);
-
-    Object.keys(l10n.general).map((key) => {
-        csv.general += [
-                'INFORMATION',
-                l10n.general[key],
-                key,
-            ].join(';') + '\n';
-    });
-
-    Object.values(items).map((item) => {
-        csv.items += [
-                `${(item.hero ? `${item.hero} ` : '')}${item.type} ${item.name}`,
-                `${l10n.items[item.uid]}`,
-                `${item.uid}`,
-            ].join(';') + '\n';
-    });
-
-    fs.writeFileSync(`./${args['l']}.csv`, csv.general);
-    fs.writeFileSync(`./${args['l']}.items.csv`, csv.items);
-
-    logger.success(`'./${args['l']}.csv' created`);
-    logger.success(`'./${args['l']}.item.csv' created`);
 };
 
 const l10nImport = function (args = {}) {
@@ -104,8 +123,10 @@ const l10nImport = function (args = {}) {
     }
 
     let savePath, l10n = {
-        general: `./../src/translations/${args['l']}.json`,
-        items: `./../src/translations/${args['l']}.items.json`,
+        items: `./../src/l10n/${args['l']}.items.json`,
+        events: `./../src/l10n/${args['l']}.events.json`,
+        heroes: `./../src/l10n/${args['l']}.heroes.json`,
+        interface: `./../src/l10n/${args['l']}.interface.json`,
     }, addedCount = 0, updatedCount = 0;
 
     if (Object.keys(l10n).indexOf(args['t']) === -1) {
@@ -127,7 +148,7 @@ const l10nImport = function (args = {}) {
             return;
         }
 
-        line = line.split(';');
+        line = line.split('\t');
 
         if (line.length < 3) {
             return;
@@ -147,6 +168,10 @@ const l10nImport = function (args = {}) {
     if (addedCount === 0 && updatedCount === 0) {
         logger.info('nothing to update');
     } else {
+        if (['interface', 'heroes',].indexOf(args['t']) !== -1) {
+            l10n[args['t']] = sort(l10n[args['t']]);
+        }
+
         fs.writeFileSync(savePath, JSON.stringify(l10n[args['t']], null, 2));
 
         if (addedCount) {
