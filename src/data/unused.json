@@ -1,0 +1,22 @@
+{
+  "SPRAY-83-110-111-119-99-101-114": {
+    "uid": "SPRAY-83-110-111-119-99-101-114",
+    "default": false,
+    "name": "Snowcer",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": true,
+    "event": "GENERAL"
+  },
+  "SPRAY-83-110-111-119-115-99-105-101-110-116-105-115-116": {
+    "uid": "SPRAY-83-110-111-119-115-99-105-101-110-116-105-115-116",
+    "default": false,
+    "name": "Snowscientist",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": true,
+    "event": "GENERAL"
+  }
+}
