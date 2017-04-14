@@ -154,7 +154,7 @@ const l10nImport = function (args = {}) {
             return;
         }
 
-        line[2] = line[2].replace('\r');
+        line[2] = line[2].replace('\r', '');
 
         if (!l10n[args['t']][line[2]]) {
             addedCount++;

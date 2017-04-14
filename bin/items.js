@@ -81,7 +81,7 @@ const itemsImport = function (args = {}) {
             return;
         }
 
-        item[6] = item[6].replace('\r');
+        item[6] = item[6].replace('\r', '');
 
         item[0] = item[0] === 'true';
         item[4] = item[4] === 'false' ? false : item[4];
