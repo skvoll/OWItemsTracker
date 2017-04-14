@@ -2,7 +2,6 @@
 
 import React, {Component} from 'react';
 import {
-    Linking,
     StyleSheet,
     View,
     ScrollView,
@@ -10,6 +9,7 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import IconSocial from 'react-native-vector-icons/FontAwesome';
+import {ANIMATIONS_SLIDE, CustomTabs} from 'react-native-custom-tabs';
 
 import CONFIG from './../config';
 import _ from './../l10n';
@@ -30,7 +30,17 @@ class Link extends Component {
     static defaultProps = {};
 
     onPress() {
-        Linking.openURL(this.props.href);
+        // Linking.openURL(this.props.href);
+        CustomTabs.openURL(this.props.href, {
+            toolbarColor: '#27344D',
+            showPageTitle: true,
+            enableDefaultShare: true,
+            animations: ANIMATIONS_SLIDE,
+        }).then((launched) => {
+            console.log(`Launched custom tabs: ${launched}`);
+        }).catch(err => {
+            console.error(err);
+        });
     }
 
     render() {
@@ -124,7 +134,7 @@ export class AboutScene extends Scene {
                     <View style={styles.section}>
                         <Text style={styles.title}>{`${_('ABOUT__CODE')}:`.toUpperCase()}</Text>
                         <Link title="david volkov" href="http://davidvolkov.tech"/>
-                        <Text style={styles.title}>{`${_('ABOUT__DESIGN')}:`.toUpperCase()}</Text>
+                        <Text style={styles.title}>{`${_('ABOUT__DESIGN_AND_CONTENT')}:`.toUpperCase()}</Text>
                         <Link title="dmitry kurashkin" href="https://www.reddit.com/user/dimitryk_52"/>
                         <Text style={styles.title}>{`${_('ABOUT__SMM')}:`.toUpperCase()}</Text>
                         <Link title="danila semenov" href="https://vk.com/mhgny"/>
@@ -141,7 +151,8 @@ export class AboutScene extends Scene {
                         <Link icon="reddit-alien" title="/u/js41637" href="https://www.reddit.com/user/js41637"/>
                         <Link icon="github" title="js41637" href="https://github.com/Js41637"/>
                         <Link title="Overwatch Item Tracker" href="https://js41637.github.io/Overwatch-Item-Tracker"/>
-                        <Link icon="github" title="Overwatch Item Tracker" href="https://github.com/Js41637/Overwatch-Item-Tracker"/>
+                        <Link icon="github" title="Overwatch Item Tracker"
+                              href="https://github.com/Js41637/Overwatch-Item-Tracker"/>
                         <Text style={styles.title}>{`${_('ABOUT__COMMUNITY')}:`.toUpperCase()}</Text>
                         <Link icon="reddit-alien" title="/r/overwatch" href="https://www.reddit.com/r/overwatch"/>
                     </View>
@@ -163,8 +174,7 @@ export class AboutScene extends Scene {
 }
 
 const styles = StyleSheet.create({
-    container: {
-    },
+    container: {},
     top: {},
     center: {
         flex: 1,
