@@ -11,6 +11,5 @@ export {Preview} from './Preview';
 
 export {EventsList} from './EventsList';
 export {HeroesList} from './HeroesList';
-export {ItemTypesList} from './ItemTypesList';
 export {IconsList} from './IconsList';
 export {ItemsList} from './ItemsList';
