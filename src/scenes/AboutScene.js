@@ -13,6 +13,7 @@ import IconSocial from 'react-native-vector-icons/FontAwesome';
 
 import CONFIG from './../config';
 import _ from './../l10n';
+import {LANGUAGES} from './../l10n';
 import {
     Layout,
     Touchable,
@@ -69,6 +70,38 @@ export class AboutScene extends Scene {
     }
 
     render() {
+        let translators = {}, translatorsSection = [];
+
+        Object.values(LANGUAGES).map((language) => {
+            if (language.translators.length > 0) {
+                translators[language.name] = [];
+
+                language.translators.map((translator) => {
+                    translators[language.name].push(translator);
+                });
+            }
+        });
+
+        if (Object.keys(translators).length > 0) {
+            for (let i in translators) if (translators.hasOwnProperty(i)) {
+                translatorsSection.push(
+                    <Text key={`translators-${i}`} style={styles.title}>
+                        {`${i}:`.toUpperCase()}
+                    </Text>
+                );
+                translators[i].map((translator, index) => {
+                    translatorsSection.push(
+                        <Link
+                            key={`translators-${i}-${index}`}
+                            icon={translator.icon}
+                            title={translator.name}
+                            href={translator.link}
+                        />
+                    );
+                });
+            }
+        }
+
         return (
             <Layout
                 toolbarTitle={_('ABOUT__INFORMATION_TITLE')}
@@ -93,9 +126,12 @@ export class AboutScene extends Scene {
                         <Link title="david volkov" href="http://davidvolkov.tech"/>
                         <Text style={styles.title}>{`${_('ABOUT__DESIGN')}:`.toUpperCase()}</Text>
                         <Link title="dmitry kurashkin" href="https://www.reddit.com/user/dimitryk_52"/>
-                        <Text style={styles.title}>{`${_('ABOUT__SPECIAL_THANKS')}:`.toUpperCase()}</Text>
-                        <Link icon="vk" title="danila semenov" href="https://vk.com/mhgny"/>
-                        <Link icon="reddit-alien" title="/u/FixKun" href="https://www.reddit.com/user/FixKun"/>
+                        <Text style={styles.title}>{`${_('ABOUT__SMM')}:`.toUpperCase()}</Text>
+                        <Link title="danila semenov" href="https://vk.com/mhgny"/>
+                    </View>
+                    <Text style={styles.label}>{`${_('ABOUT__TRANSLATORS_TITLE').toUpperCase()}`}</Text>
+                    <View style={styles.section}>
+                        {translatorsSection}
                     </View>
                     <Text style={styles.label}>{`${_('ABOUT__THANKS_TITLE').toUpperCase()}`}</Text>
                     <View style={styles.section}>
@@ -112,7 +148,7 @@ export class AboutScene extends Scene {
                 </ScrollView>
                 <View style={styles.bottom}>
                     <Text
-                        onPress={() => this.navigator.push({name: 'WelcomeScene', props: {},})}
+                        onLongPress={() => this.navigator.push({name: 'WelcomeScene', props: {},})}
                         style={styles.version}
                     >
 
