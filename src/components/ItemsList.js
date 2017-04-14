@@ -22,7 +22,7 @@ import Events from './../Events';
 import Heroes from './../Heroes';
 import {
     Touchable,
-    PreviewModal,
+    Preview,
 } from './';
 
 const GRID_SIZE = 4;
@@ -651,7 +651,7 @@ export class ItemsList extends Component {
         return (
             <View style={styles.container}>
                 {backgroundHero}
-                <PreviewModal ref={(component) => this.modal = component}/>
+                <Preview ref={(component) => this.modal = component}/>
                 <View style={styles.itemsPrice}>
                     <Text style={styles.itemsPriceTitle}>{this.state.itemsPrice.toString()}</Text>
                     <Image source={require('./../assets/credit.png')} style={styles.itemsPriceIcon}/>

@@ -18,7 +18,7 @@ import Items from './../Items';
 import Events from './../Events';
 import Heroes from './../Heroes';
 import {
-    PreviewModal,
+    Preview,
 } from './';
 
 const GRID_SIZE = 4;
@@ -276,7 +276,7 @@ export class IconsList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <PreviewModal ref={(component) => this.modal = component}/>
+                <Preview ref={(component) => this.modal = component}/>
                 <View style={styles.progress}>
                     <Text style={styles.progressTitle}>{`${this.state.progress.received}/${this.state.progress.total}`}</Text>
                 </View>

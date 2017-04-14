@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import {
     Vibration,
     StyleSheet,
+    Modal,
     View,
     Image,
     Text,
@@ -14,10 +15,10 @@ import CONFIG from './../config';
 import _ from './../l10n';
 import {
     Loader,
+    Button,
 } from './';
-import {SimpleModal} from './SimpleModal';
 
-export class PreviewModal extends SimpleModal {
+export class Preview extends Component {
     static propTypes = {
         isVisible: React.PropTypes.bool,
         vibration: React.PropTypes.number,
@@ -33,7 +34,7 @@ export class PreviewModal extends SimpleModal {
 
         this.state = {
             isVisible: this.props.isVisible,
-            title: null,
+            title: '',
             source: null,
             isLoaded: false,
             error: false,
@@ -49,7 +50,7 @@ export class PreviewModal extends SimpleModal {
     close() {
         this.setState({
             isVisible: false,
-            title: null,
+            title: '',
             source: null,
             isLoaded: false,
             error: false,
@@ -61,7 +62,7 @@ export class PreviewModal extends SimpleModal {
 
         this.setState({
             isVisible: true,
-            title: title,
+            title: title || '',
             source: source,
             error: false,
         });
@@ -72,18 +73,18 @@ export class PreviewModal extends SimpleModal {
 
         this.setState({
             isVisible: true,
-            title: title,
+            title: title || '',
             source: null,
             error: error,
         });
     }
 
-    renderContent() {
+    render() {
         let placeholder;
 
         if (this.state.error) {
-            return (
-                <View style={styles.container}>
+            placeholder = (
+                <View style={styles.content}>
                     <Icon name="error-outline" style={styles.errorIcon} />
                     <Text style={styles.errorText}>{this.state.error.toUpperCase()}</Text>
                 </View>
@@ -93,22 +94,54 @@ export class PreviewModal extends SimpleModal {
         }
 
         return (
-            <View style={styles.container}>
-                <Image
-                    source={this.state.source}
-                    onLoad={() => this.setState({isLoaded: true,})}
-                    onerror={() => this.setState({error: _('ERROR__PREVIEW_NOT_FOUND'),})}
-                    style={[styles.preview, (this.state.isLoaded ? null : styles.previewHidden)]}
-                />
+            <Modal
+                animationType="slide"
+                onRequestClose={() => this.close()}
+                transparent={true}
+                visible={this.state.isVisible}
+            >
 
-                {placeholder}
-            </View>
+                <View style={styles.container}>
+                    <Text numberOfLines={1} style={styles.title}>{this.state.title.toUpperCase()}</Text>
+                    <View style={styles.content}>
+                        <Image
+                            source={this.state.source}
+                            onLoad={() => this.setState({isLoaded: true,})}
+                            onerror={() => this.setState({error: _('ERROR__PREVIEW_NOT_FOUND'),})}
+                            style={[styles.preview, (this.state.isLoaded ? null : styles.previewHidden)]}
+                        />
+
+                        {placeholder}
+                    </View>
+                    <Button
+                        title={_('BUTTON__CLOSE')}
+                        icon="close"
+                        onPress={() => this.close()}
+                        style={styles.close}
+                    />
+                </View>
+
+            </Modal>
         );
-    }
+    };
 }
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
+        backgroundColor: CONFIG.COLORS.DARK_BLUE,
+    },
+    title: {
+        margin: 8,
+        textAlign: 'center',
+        fontSize: 28,
+        fontFamily: 'BigNoodleToo',
+        color: CONFIG.COLORS.COMMON,
+    },
+    close: {
+        margin: 8,
+    },
+    content: {
         flex: 1,
         padding: 8,
         justifyContent: 'center',

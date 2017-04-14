@@ -16,7 +16,7 @@ import _ from './../l10n';
 import Items from './../Items';
 import Heroes from './../Heroes';
 import {
-    PreviewModal,
+    Preview,
 } from './';
 
 const GRID_SIZE = 4;
@@ -233,7 +233,7 @@ export class HeroesList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <PreviewModal ref={(component) => this.modal = component}/>
+                <Preview ref={(component) => this.modal = component}/>
                 <FlatList
                     data={this.state.data}
                     keyExtractor={(item, index) => item.id}

@@ -7,8 +7,7 @@ export {ButtonPicker} from './ButtonPicker';
 export {ButtonsGroup} from './ButtonsGroup';
 export {Layout} from './Layout';
 export {Loader} from './Loader';
-export {PreviewModal} from './PreviewModal';
-export {SimpleModal} from './SimpleModal';
+export {Preview} from './Preview';
 
 export {EventsList} from './EventsList';
 export {HeroesList} from './HeroesList';
