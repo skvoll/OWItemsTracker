@@ -5034,7 +5034,7 @@ export default {
     'SKIN-MERCY-71-111-108-100-101-110': {
         uid: 'SKIN-MERCY-71-111-108-100-101-110',
         default: false,
-        name: `Golden`,
+        name: `Fortune`,
         type: Items.TYPE.SKIN,
         rarity: Items.RARITY.EPIC,
         hero: Heroes.MERCY,
