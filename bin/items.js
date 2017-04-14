@@ -19,7 +19,7 @@ function getTranslations() {
     return l10n;
 }
 
-function makeUid(type, string, hero = null) {
+const makeUid = function (type, string, hero = null) {
     let uid = [type];
 
     if (hero) {
@@ -29,7 +29,7 @@ function makeUid(type, string, hero = null) {
     string.toUpperCase().split('').map((c) => uid.push(c.charCodeAt(0)));
 
     return uid.join('-');
-}
+};
 
 const itemsCheck = function (args = {}) {
     let result = true, l10n = getTranslations();
@@ -157,6 +157,7 @@ const itemsSave = function (args = {}) {
 };
 
 module.exports = {
+    makeUid: makeUid,
     check: itemsCheck,
     import: itemsImport,
     save: itemsSave,
