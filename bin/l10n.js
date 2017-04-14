@@ -67,7 +67,7 @@ const l10nExport = function (args = {}) {
         events: `./../src/l10n/${args['l']}.events.json`,
         heroes: `./../src/l10n/${args['l']}.heroes.json`,
         interface: `./../src/l10n/${args['l']}.interface.json`,
-    }, template = `INFORMATION;TRANSLATION;KEY\n`, csv = {
+    }, template = `INFORMATION;TRANSLATION;KEY\n`, tsv = {
         items: template,
         events: template,
         heroes: template,
@@ -83,7 +83,7 @@ const l10nExport = function (args = {}) {
 
         if (i === 'items') {
             Object.values(items).map((item) => {
-                csv[i] += [
+                tsv[i] += [
                         `${(item.hero ? `${item.hero} ` : '')}${item.type} ${item.name}`,
                         `${l10n[i][item.uid]}`,
                         `${item.uid}`,
@@ -91,7 +91,7 @@ const l10nExport = function (args = {}) {
             });
         } else {
             Object.keys(l10n[i]).map((key) => {
-                csv[i] += [
+                tsv[i] += [
                         'INFORMATION',
                         l10n[i][key].replace(/(\n)+/g, ' '),
                         key,
@@ -99,9 +99,9 @@ const l10nExport = function (args = {}) {
             });
         }
 
-        fs.writeFileSync(`./${args['l']}.${i}.csv`, csv[i]);
+        fs.writeFileSync(`./${args['l']}.${i}.tsv`, tsv[i]);
 
-        logger.success(`'./${args['l']}.${i}.csv' created`);
+        logger.success(`'./${args['l']}.${i}.tsv' created`);
     }
 };
 
@@ -115,7 +115,7 @@ const l10nImport = function (args = {}) {
     }
 
     if (!args['f'] || typeof args['f'] !== 'string') {
-        logger.fatal('csv file is missing');
+        logger.fatal('tsv file is missing');
     }
 
     if (!fs.existsSync(args['f'])) {

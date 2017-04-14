@@ -61,7 +61,7 @@ const itemsCheck = function (args = {}) {
 
 const itemsImport = function (args = {}) {
     if (!args['f'] || typeof args['f'] !== 'string') {
-        logger.fatal('csv file is missing');
+        logger.fatal('tsv file is missing');
     }
 
     if (!fs.existsSync(args['f'])) {
