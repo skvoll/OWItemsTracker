@@ -6,6 +6,7 @@ export {Button} from './Button';
 export {ButtonPicker} from './ButtonPicker';
 export {ButtonsGroup} from './ButtonsGroup';
 export {Layout} from './Layout';
+export {Link} from './Link';
 export {Loader} from './Loader';
 export {Preview} from './Preview';
 
