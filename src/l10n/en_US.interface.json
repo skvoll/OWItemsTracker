@@ -1,9 +1,9 @@
 {
-  "ABOUT__ABOUT_TEXT": "This is an app made precisely for tracking the in-game items of Overwatch.\n\nWith this app you can easily keep track of which skins, sprays, voice lines you already have and which items are still absent in your collection.\n\nMain features:\n- in-game event items tracking\n- (non-event) regular items tracking\n- calculation of gold required to buy the rest of the items",
+  "ABOUT__ABOUT_TEXT": "This is an app made precisely for tracking the in-game items of Overwatch. With this app you can easily keep track of which skins, sprays, voice lines you already have and which items are still absent in your collection. Main features: - in-game event items tracking - (non-event) regular items tracking - calculation of gold required to buy the rest of the items",
   "ABOUT__ABOUT_TITLE": "About",
   "ABOUT__CODE": "code",
   "ABOUT__COMMUNITY": "community",
-  "ABOUT__COPYRIGHT_TEXT": "This application is not affiliated with Blizzard Entertainment.\n\nAll trademarks referenced herein are the properties of their respective owners.\n\nWe are not making any profit from it, our only motivation is sincere love for the game.",
+  "ABOUT__COPYRIGHT_TEXT": "This application is not affiliated with Blizzard Entertainment. All trademarks referenced herein are the properties of their respective owners. We are not making any profit from it, our only motivation is sincere love for the game.",
   "ABOUT__COPYRIGHT_TITLE": "Copyright",
   "ABOUT__DESIGN_AND_CONTENT": "design and content",
   "ABOUT__DEVELOPERS_TITLE": "Developers",
@@ -54,7 +54,8 @@
   "SETTINGS__LANGUAGE": "language",
   "SETTINGS__SETTINGS_TITLE": "Settings",
   "SETTINGS__VERSION": "version",
-  "WELCOME__NEWS_TEXT": "April 11 - May 1",
-  "WELCOME__NEWS_TITLE": "Limited-time event: Uprising",
+  "WELCOME__LINK_TITLE": "Help our cause",
+  "WELCOME__NEWS_TEXT": "Want to see your language?",
+  "WELCOME__NEWS_TITLE": "Full Russian Translation",
   "WELCOME__TIPS_TITLE": "Tips"
 }
