@@ -14,6 +14,7 @@ import CONFIG from './../config';
 import _ from './../l10n';
 import {
     Layout,
+    Link,
     Button,
 } from './../components';
 import Scene from './Scene';
@@ -95,9 +96,19 @@ export class WelcomeScene extends Scene {
         switch (route.key) {
             case 'news':
                 return (
-                    <ScrollView contentContainerStyle={styles.tab}>
-                        <Text style={[styles.text, {alignSelf: 'center',},]}>{_('WELCOME__NEWS_TEXT')}</Text>
-                        <Image source={require('./../assets/news/news1.jpg')} style={styles.tip}/>
+                    <ScrollView style={styles.tab}>
+                        <Image
+                            source={require('./../assets/news/news1.jpg')}
+                            style={{width: '100%', alignSelf: 'center',}}
+                        />
+                        <Text style={styles.text}>{_('WELCOME__NEWS_TEXT')}</Text>
+                        <Link
+                            title={_('WELCOME__LINK_TITLE').toUpperCase()}
+                            href="https://github.com/skvoll/OWItemsTracker/wiki/Translations"
+                            icon="globe"
+                            backgroundColor={CONFIG.COLORS.LEGENDARY}
+                            style={{marginVertical: 8,}}
+                        />
                     </ScrollView>
                 );
                 break;
@@ -197,6 +208,7 @@ const styles = StyleSheet.create({
         margin: 16,
         fontSize: 18,
         fontFamily: 'Futura',
+        textAlign: 'center',
         color: CONFIG.COLORS.COMMON,
     },
 });

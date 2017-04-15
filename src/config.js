@@ -49,7 +49,7 @@ export default class CONFIG {
         storageBucket: 'ow-items-tracker-ce744.appspot.com',
     };
 
-    static SHOW_NEWS = false;
+    static SHOW_NEWS = true;
 
     static LANGUAGE = 'en_US';
     static INCLUDE_ICONS_IN_PROGRESS = false;
