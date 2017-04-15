@@ -22,6 +22,7 @@ export class Link extends Component {
         icon: React.PropTypes.string,
         backgroundColor: React.PropTypes.string,
         textColor: React.PropTypes.string,
+        style: View.propTypes.style,
     };
 
     static defaultProps = {
@@ -61,7 +62,7 @@ export class Link extends Component {
 
         return (
             <Touchable onPress={() => this.onPress()}>
-                <View style={[styles.container, {backgroundColor: style.backgroundColor,},]}>
+                <View style={[styles.container, this.props.style, {backgroundColor: style.backgroundColor,},]}>
                     {icon}
                     <Text style={[styles.title, {color: style.textColor,},]}>{this.props.title}</Text>
                     <Icon
