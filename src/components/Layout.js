@@ -57,7 +57,9 @@ export class Layout extends Component {
                         style={styles.toolbar}
                     >
 
-                        <Text style={styles.toolbarTitle}>{this.props.toolbarTitle.toUpperCase()}</Text>
+                        <Text numberOfLines={1} style={styles.toolbarTitle}>
+                            {this.props.toolbarTitle.toUpperCase()}
+                        </Text>
 
                     </Icon.ToolbarAndroid>
                 );
@@ -100,7 +102,9 @@ export class Layout extends Component {
                 toolbar = (
                     <View style={styles.mpToolbar}>
                         {tbBack}
-                        <Text style={styles.mpToolbarTitle}>{this.props.toolbarTitle.toUpperCase()}</Text>
+                        <Text numberOfLines={1} style={styles.mpToolbarTitle}>
+                            {this.props.toolbarTitle.toUpperCase()}
+                        </Text>
                         {tbActions}
                     </View>
                 );
