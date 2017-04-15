@@ -483,11 +483,11 @@ export class ItemsList extends Component {
             sections[item.type].data.push(Object.assign({}, item));
 
             sections[item.type].data.sort((a, b) => {
-                if (a.name === b.name) {
+                if (_(a.uid) === _(b.uid)) {
                     return 0;
                 }
 
-                return a.name < b.name ? -1 : 1;
+                return _(a.uid) < _(b.uid) ? -1 : 1;
             });
 
             sections[item.type].data.sort((a, b) => {
