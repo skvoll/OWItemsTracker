@@ -32,7 +32,6 @@ export class SettingsScene extends Scene {
             hasPlayServices: false,
             language: CONFIG.LANGUAGE,
             includeIconsInProgress: CONFIG.INCLUDE_ICONS_IN_PROGRESS,
-            includeSpecialsInProgress: CONFIG.INCLUDE_SPECIALS_IN_PROGRESS,
             profile: CONFIG.PROFILE || null,
         };
     }
@@ -67,14 +66,6 @@ export class SettingsScene extends Scene {
         CONFIG.set('INCLUDE_ICONS_IN_PROGRESS', !this.state.includeIconsInProgress).then(() => {
             this.setState({
                 includeIconsInProgress: !this.state.includeIconsInProgress,
-            });
-        });
-    }
-
-    toggleIncludeSpecials() {
-        CONFIG.set('INCLUDE_SPECIALS_IN_PROGRESS', !this.state.includeSpecialsInProgress).then(() => {
-            this.setState({
-                includeSpecialsInProgress: !this.state.includeSpecialsInProgress,
             });
         });
     }
@@ -194,12 +185,6 @@ export class SettingsScene extends Scene {
                         <Button
                             title={`${_('SETTINGS__INCLUDE_ICONS_IN_PROGRESS')}: ${this.state.includeIconsInProgress ? _('SETTINGS__IS_ON') : _('SETTINGS__IS_OFF')}`.toUpperCase()}
                             onPress={() => this.toggleIncludeIcons()}
-                        />
-                    </View>
-                    <View style={styles.section}>
-                        <Button
-                            title={`${_('SETTINGS__INCLUDE_SPECIALS_IN_PROGRESS')}: ${this.state.includeSpecialsInProgress ? _('SETTINGS__IS_ON') : _('SETTINGS__IS_OFF')}`.toUpperCase()}
-                            onPress={() => this.toggleIncludeSpecials()}
                         />
                     </View>
                     {btnSync}

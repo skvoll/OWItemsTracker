@@ -53,7 +53,6 @@ export default class CONFIG {
 
     static LANGUAGE = 'en_US';
     static INCLUDE_ICONS_IN_PROGRESS = false;
-    static INCLUDE_SPECIALS_IN_PROGRESS = false;
     static CLOUD_SYNCHRONIZATION = false;
     static PROFILE = null;
 

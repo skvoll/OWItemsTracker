@@ -222,12 +222,6 @@ export default class Items {
                 }
             }
 
-            if (event === false && !CONFIG.INCLUDE_SPECIALS_IN_PROGRESS) {
-                if (item.event === Events.SPECIAL && item.hero !== Heroes.GENJI) {
-                    return;
-                }
-            }
-
             if (!progress[hero]) {
                 progress[hero] = {received: 0, total: 0,};
             }
