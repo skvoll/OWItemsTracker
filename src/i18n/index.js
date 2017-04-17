@@ -1,6 +1,6 @@
 "use strict";
 
-import CONFIG from '../config';
+import CONFIG from './../config';
 
 export const LANGUAGES = {
     en_US: {
