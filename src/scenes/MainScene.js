@@ -16,6 +16,8 @@ import {
     EventsList,
     HeroesList,
     IconsList,
+
+    Quiz,
 } from './../components';
 import Scene from './Scene';
 
@@ -25,6 +27,7 @@ export class MainScene extends Scene {
     static defaultProps = {};
 
     tabHeader;
+    quiz;
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -69,6 +72,12 @@ export class MainScene extends Scene {
         }
     }
 
+    onEventLongPress(item) {
+        if (item.id === Events.SPECIAL) {
+            this.quiz.open();
+        }
+    }
+
     onHeroPress(item) {
         let props = {
             title: _(item.code),
@@ -86,7 +95,6 @@ export class MainScene extends Scene {
         this.state.routes.map((item, index) => {
             actions.push({
                 title: item.title, action: () => {
-                    this.dontTrackTabPosition = true;
                     this.setState({
                         index: index,
                     });
@@ -104,7 +112,12 @@ export class MainScene extends Scene {
     tabRenderScene({route}) {
         switch (route.key) {
             case 'events':
-                return (<EventsList onItemPress={(item, index) => this.onEventPress(item)}/>);
+                return (
+                    <EventsList
+                        onItemPress={(item, index) => this.onEventPress(item)}
+                        onItemLongPress={(item, index) => this.onEventLongPress(item)}
+                    />
+                );
                 break;
             case 'heroes':
                 return (<HeroesList onItemPress={(item, index) => this.onHeroPress(item)}/>);
@@ -148,6 +161,8 @@ export class MainScene extends Scene {
                 ]}
                 onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
             >
+
+                <Quiz ref={(component) => this.quiz = component}/>
 
                 <TabViewAnimated
                     navigationState={this.state}
