@@ -159,7 +159,7 @@ export class Quiz extends Component {
 
             content = (
                 <View style={styles.content}>
-                    <Text numberOfLines={1} style={styles.title}>{_('EE__TITLE').toUpperCase()}</Text>
+                    <Text numberOfLines={1} style={styles.title}>{`${_('EE__TITLE')}?`.toUpperCase()}</Text>
                     <Text style={styles.question}>"{this.state.question.value}"</Text>
                     <View style={styles.answers}>
                         {answers}
