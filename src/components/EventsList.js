@@ -23,9 +23,12 @@ class Item extends Component {
         index: React.PropTypes.number.isRequired,
         item: React.PropTypes.object.isRequired,
         onPress: React.PropTypes.func.isRequired,
+        onLongPress: React.PropTypes.func,
     };
 
-    static defaultProps = {};
+    static defaultProps = {
+        onLongPress: () => null,
+    };
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -43,7 +46,11 @@ class Item extends Component {
         }
 
         return (
-            <Touchable onPress={() => this.props.onPress(this.props.item, this.props.index)}>
+            <Touchable
+                onPress={() => this.props.onPress(this.props.item, this.props.index)}
+                onLongPress={() => this.props.onLongPress(this.props.item, this.props.index)}
+            >
+
                 <View style={styles.item}>
                     <Image source={this.props.item.icon} style={styles.icon}/>
                     <Text
@@ -61,6 +68,7 @@ class Item extends Component {
                         size={24}
                     />
                 </View>
+
             </Touchable>
         );
     }
@@ -69,6 +77,7 @@ class Item extends Component {
 export class EventsList extends Component {
     static propTypes = {
         onItemPress: React.PropTypes.func.isRequired,
+        onItemLongPress: React.PropTypes.func,
         showProgress: React.PropTypes.bool,
     };
 
@@ -160,6 +169,7 @@ export class EventsList extends Component {
                 index={index}
                 item={item}
                 onPress={this.props.onItemPress}
+                onLongPress={this.props.onItemLongPress}
             />
         );
     }
