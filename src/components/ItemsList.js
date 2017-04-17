@@ -503,7 +503,7 @@ export class ItemsList extends Component {
                     return 0;
                 }
 
-                return a.rarity < b.rarity ? 1 : -1;
+                return a.rarity < b.rarity ? -1 : 1;
             });
 
             sections[item.type].data.sort((a, b) => {
