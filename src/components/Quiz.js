@@ -121,8 +121,12 @@ export class Quiz extends Component {
         }
 
         this.setState({
-            selectedAnswer: answer,
-        }, () => setTimeout(() => this.loadQuestion(), 1000));
+        selectedAnswer: answer
+        }, () => setTimeout(() => {
+            if (this.state.isVisible) {
+                this.loadQuestion();
+            }
+        }, 1000));
     }
 
     render() {
@@ -155,7 +159,7 @@ export class Quiz extends Component {
 
             content = (
                 <View style={styles.content}>
-                    <Text numberOfLines={1} style={styles.title}>{_('who said that?').toUpperCase()}</Text>
+                    <Text numberOfLines={1} style={styles.title}>{_('EE__TITLE').toUpperCase()}</Text>
                     <Text style={styles.question}>"{this.state.question.value}"</Text>
                     <View style={styles.answers}>
                         {answers}
