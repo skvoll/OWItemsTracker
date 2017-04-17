@@ -5,7 +5,7 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import _ from './../l10n';
+import _ from './../i18n';
 import Items from './../Items';
 import {
     Layout,

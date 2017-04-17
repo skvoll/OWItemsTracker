@@ -11,7 +11,7 @@ import {
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import CONFIG from './../config';
-import _ from './../l10n';
+import _ from './../i18n';
 import Events from './../Events';
 import Items from './../Items';
 import {

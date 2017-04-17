@@ -6,17 +6,17 @@ const logger = require('./logger');
 let items = require('./../src/data/items.json');
 
 function getTranslations() {
-    let l10n = {}, matches;
+    let i18n = {}, matches;
 
-    fs.readdirSync('./../src/l10n').map((file) => {
+    fs.readdirSync('./../src/i18n').map((file) => {
         matches = file.match(/(.*).items.json/);
 
         if (matches) {
-            l10n[matches[1]] = require('./../src/l10n/' + file);
+            i18n[matches[1]] = require('./../src/i18n/' + file);
         }
     });
 
-    return l10n;
+    return i18n;
 }
 
 const makeUid = function (type, string, hero = null) {
@@ -32,11 +32,11 @@ const makeUid = function (type, string, hero = null) {
 };
 
 const itemsCheck = function (args = {}) {
-    let result = true, l10n = getTranslations();
+    let result = true, i18n = getTranslations();
 
     Object.values(items).map((item) => {
-        for (let i in l10n) if (l10n.hasOwnProperty(i)) {
-            if (l10n[i][item.uid] === undefined) {
+        for (let i in i18n) if (i18n.hasOwnProperty(i)) {
+            if (i18n[i][item.uid] === undefined) {
                 result = false;
                 logger.warn(`${i} translation for ${item.type} ${item.name} (${item.uid}) does not exists`);
             }

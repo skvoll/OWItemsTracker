@@ -7,7 +7,7 @@ import {GoogleSignin} from 'react-native-google-signin';
 import * as firebase from 'firebase';
 
 import CONFIG from './config';
-import _ from './l10n';
+import _ from './i18n';
 
 export default class CloudStorage {
     static instance;

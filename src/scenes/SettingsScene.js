@@ -11,8 +11,7 @@ import {
 import {GoogleSignin} from 'react-native-google-signin';
 
 import CONFIG from './../config';
-import _ from './../l10n';
-import {LANGUAGES} from './../l10n';
+import _, {LANGUAGES} from './../i18n';
 import CloudStorage from './../CloudStorage';
 import Items from './../Items';
 import {

@@ -5,7 +5,7 @@
 const logger = require('./logger');
 const application = require('./application');
 const items = require('./items');
-const l10n = require('./l10n');
+const i18n = require('./i18n');
 
 let args = {}, command = temp;
 
@@ -33,17 +33,17 @@ if (process.argv.length > 2) {
                 case 'items-s':
                     command = items.save;
                     break;
-                case 'l10n-create':
-                case 'l10n-c':
-                    command = l10n.create;
+                case 'i18n-create':
+                case 'i18n-c':
+                    command = i18n.create;
                     break;
-                case 'l10n-export':
-                case 'l10n-e':
-                    command = l10n.export;
+                case 'i18n-export':
+                case 'i18n-e':
+                    command = i18n.export;
                     break;
-                case 'l10n-import':
-                case 'l10n-i':
-                    command = l10n.import;
+                case 'i18n-import':
+                case 'i18n-i':
+                    command = i18n.import;
                     break;
                 case 'temp':
                     command = temp;

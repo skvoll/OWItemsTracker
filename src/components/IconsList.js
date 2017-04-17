@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 
 import CONFIG from './../config';
-import _ from './../l10n';
+import _ from './../i18n';
 import CloudStorage from './../CloudStorage';
 import Items from './../Items';
 import Events from './../Events';

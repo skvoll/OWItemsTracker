@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import {TabViewAnimated} from 'react-native-tab-view';
 
-import _ from './../l10n';
+import _ from './../i18n';
 import Items from './../Items';
 import {
     Layout,
