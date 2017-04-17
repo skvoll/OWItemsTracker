@@ -18,7 +18,7 @@ import {
 export class Link extends Component {
     static propTypes = {
         title: React.PropTypes.string.isRequired,
-        href: React.PropTypes.string.isRequired,
+        href: React.PropTypes.string,
         icon: React.PropTypes.string,
         backgroundColor: React.PropTypes.string,
         textColor: React.PropTypes.string,
@@ -45,7 +45,7 @@ export class Link extends Component {
     }
 
     render() {
-        let style = {
+        let content, style = {
             backgroundColor: this.props.backgroundColor,
             textColor: this.props.textColor,
         }, icon;
@@ -60,19 +60,28 @@ export class Link extends Component {
             );
         }
 
-        return (
-            <Touchable onPress={() => this.onPress()}>
-                <View style={[styles.container, this.props.style, {backgroundColor: style.backgroundColor,},]}>
-                    {icon}
-                    <Text style={[styles.title, {color: style.textColor,},]}>{this.props.title}</Text>
+        content = (
+            <View style={[styles.container, this.props.style, {backgroundColor: style.backgroundColor,},]}>
+                {icon}
+                <Text style={[styles.title, {color: style.textColor,},]}>{this.props.title}</Text>
+                {this.props.href && (
                     <Icon
                         name="open-in-browser"
                         size={24}
                         color={style.textColor}
-                    />
-                </View>
-            </Touchable>
+                    />)}
+            </View>
         );
+
+        if (this.props.href) {
+            content = (
+                <Touchable onPress={() => this.onPress()}>
+                    {content}
+                </Touchable>
+            );
+        }
+
+        return content;
     }
 }
 
