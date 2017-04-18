@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import {
+    Platform,
     Vibration,
     StyleSheet,
     Modal,
@@ -137,6 +138,11 @@ const styles = StyleSheet.create({
         fontSize: 28,
         fontFamily: 'BigNoodleToo',
         color: CONFIG.COLORS.COMMON,
+        ...Platform.select({
+            'ios': {
+                marginTop: 24,
+            },
+        }),
     },
     close: {
         margin: 8,
@@ -155,7 +161,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     previewHidden: {
-        display: 'none',
+        flex: 0,
+        width: 1,
+        height: 1,
     },
     errorIcon: {
         alignSelf: 'center',

@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
         color: CONFIG.COLORS.COMMON,
     },
     answers: {
-        flex: 2,
+        flex: 3,
     },
     answer: {
         marginVertical: 8,

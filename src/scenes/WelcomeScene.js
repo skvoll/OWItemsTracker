@@ -96,7 +96,7 @@ export class WelcomeScene extends Scene {
         switch (route.key) {
             case 'news':
                 return (
-                    <ScrollView style={styles.tab}>
+                    <ScrollView style={styles.tab} contentContainerStyle={styles.contentContainerStyle}>
                         <Image
                             source={require('./../assets/news/news1.jpg')}
                             style={{width: '100%', alignSelf: 'center',}}
@@ -206,6 +206,7 @@ const styles = StyleSheet.create({
     tab: {
         flex: 1,
     },
+    contentContainerStyle: {},
     tip: {
         flex: 1,
         height: null,
