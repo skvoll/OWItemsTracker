@@ -9,6 +9,7 @@ export const LANGUAGES = {
             // {name: '', icon: '', link: '',},
         ],
         translations: Object.assign(
+            {},
             require('./en_US.items.json'),
             require('./en_US.events.json'),
             require('./en_US.heroes.json'),
@@ -22,17 +23,31 @@ export const LANGUAGES = {
             {name: 'BurzZzum', icon: 'twitter', link: 'https://twitter.com/BurzZzum',},
         ],
         translations: Object.assign(
+            {},
             require('./ru_RU.items.json'),
             require('./ru_RU.events.json'),
             require('./ru_RU.heroes.json'),
             require('./ru_RU.interface.json')
         ),
     },
+    hu_HU: {
+        name: 'magyar',
+        translators: [
+            {name: '/u/skagx', icon: 'reddit-alien', link: 'https://www.reddit.com/user/skagx',},
+        ],
+        translations: Object.assign(
+            {},
+            require('./en_US.items.json'),
+            require('./en_US.events.json'),
+            require('./en_US.heroes.json'),
+            require('./hu_HU.interface.json')
+        ),
+    },
 };
 
 export default function (key, defaultReturn = null) {
     if (defaultReturn === null) {
-        defaultReturn = `_${key}_`
+        defaultReturn = `_${key}_`;
     }
 
     if (!LANGUAGES[CONFIG.LANGUAGE]) {
