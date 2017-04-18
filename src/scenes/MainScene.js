@@ -141,12 +141,22 @@ export class MainScene extends Scene {
     }
 
     onToolbarActionSelected(index) {
+        let currentRoutes = this.navigator.getCurrentRoutes();
+
+        let navigatePush = (route, props = {}) => {
+            if (currentRoutes.length > 1) {
+                return;
+            }
+
+            this.navigator.push({name: route, props: props,});
+        };
+
         switch (index) {
             case 0:
-                this.navigator.push({name: 'SettingsScene', props: {},});
+                navigatePush('SettingsScene');
                 break;
             case 1:
-                this.navigator.push({name: 'AboutScene', props: {},});
+                navigatePush('AboutScene');
                 break;
         }
     }
