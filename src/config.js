@@ -17,6 +17,8 @@ const COLORS = {
     DARK_BLUE_OPACITY: 'rgba(39, 52, 77, 0.8)', // #27344D
     LIGHT_BLUE: 'rgba(28, 117, 187, 1)', // #1C75BB
     LIGHT_BLUE_OPACITY: 'rgba(28, 117, 187, 0.8)', // #1C75BB
+    GRAY_BLUE: 'rgba(44, 59, 87, 1)', // #2C3B57
+    GRAY_BLUE_OPACITY: 'rgba(44, 59, 87, 0.8)', // #2C3B57
     GREEN: 'rgba(55, 224, 60, 1)', // #37E03C
     RED: 'rgba(173, 31, 4, 1)', // #AD1F04
 
