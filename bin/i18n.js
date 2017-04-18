@@ -186,8 +186,32 @@ const i18nImport = function (args = {}) {
     }
 };
 
+const i18nSet = function (args = {}) {
+    if (!args['k'] || typeof args['k'] !== 'string') {
+        logger.fatal('key is missing');
+    }
+
+    if (!args['v'] || typeof args['v'] !== 'string') {
+        logger.fatal('value is missing');
+    }
+
+    let i18n;
+
+    fs.readdirSync(`./../src/i18n/`).map((file) => {
+        if (file.match(/[a-z]{2}_[A-Z]{2}\.interface\.json/)) {
+            i18n = require(`./../src/i18n/${file}`);
+            i18n[args['k']] = args['v'];
+
+            fs.writeFileSync(`./../src/i18n/${file}`, JSON.stringify(sort(i18n), null, 2));
+        }
+    });
+
+    logger.success(`${args['k']} setted to "${args['v']}"`);
+};
+
 module.exports = {
     create: i18nCreate,
     export: i18nExport,
     import: i18nImport,
+    set: i18nSet,
 };

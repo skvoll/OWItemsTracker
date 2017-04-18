@@ -45,6 +45,9 @@ if (process.argv.length > 2) {
                 case 'i18n-i':
                     command = i18n.import;
                     break;
+                case 'i18n-set':
+                    command = i18n.set;
+                    break;
                 case 'temp':
                     command = temp;
                     break;
