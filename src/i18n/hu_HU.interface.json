@@ -43,7 +43,7 @@
   "ITEMS__ITEMS_TYPE_7": "weapons",
   "ITEMS__ITEMS_TYPE_8": "player icons",
   "ITEMS__ITEM_DEFAULT": "alapértelmezett",
-  "OTHER__THANKS_FOR_TRANSLATION": "Köszönjük, fordítás",
+  "OTHER__THANKS_FOR_TRANSLATION": "Köszönjük a fordítást",
   "SETTINGS__CLEARING_DATA_CONFIRM": "Minden bejelölt mező ki lesz törölve!",
   "SETTINGS__CLEARING_DATA_TITLE": "Adatok tisztítása",
   "SETTINGS__CLOUD_SYNCHRONIZATION_CONFIRM": "Ahhoz, hogy el tudja menteni az adatait a felhőbe, be kell jelentkeznie a google fiókjával",
@@ -57,6 +57,6 @@
   "SETTINGS__VERSION": "verzió",
   "WELCOME__LINK_TITLE": "Segíts nekünk",
   "WELCOME__NEWS_TEXT": "Hogy más nyelveket?",
-  "WELCOME__NEWS_TITLE": "Bemutatjuk a magyar",
+  "WELCOME__NEWS_TITLE": "Bemutatjuk a magyart",
   "WELCOME__TIPS_TITLE": "Tippek"
 }
