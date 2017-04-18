@@ -29,6 +29,7 @@
   "BUTTON__SIGN_OUT": "выйти",
   "BUTTON__TURN_OFF": "выключить",
   "BUTTON__TURN_ON": "включить",
+  "EE__TITLE": "Кто это сказал",
   "ERROR__CLOUD_SYNCHRONIZATION_FAILED": "Ошибка синхронизации",
   "ERROR__NO_INTERNET_CONNECTION": "Нет подключения к интернету",
   "ERROR__PREVIEW_NOT_FOUND": "Изображение не найдено",
@@ -42,6 +43,7 @@
   "ITEMS__ITEMS_TYPE_7": "оружие",
   "ITEMS__ITEMS_TYPE_8": "значки",
   "ITEMS__ITEM_DEFAULT": "базовый",
+  "OTHER__THANKS_FOR_TRANSLATION": "Благодарим за перевод",
   "SETTINGS__CLEARING_DATA_CONFIRM": "Все отмеченные предметы будут сброшены!",
   "SETTINGS__CLEARING_DATA_TITLE": "Очистка данных",
   "SETTINGS__CLOUD_SYNCHRONIZATION_CONFIRM": "Для синхронизации данных и настроек необходимо войти в аккаунт google.",
@@ -55,6 +57,6 @@
   "SETTINGS__VERSION": "версия",
   "WELCOME__LINK_TITLE": "Помогите нам перевести",
   "WELCOME__NEWS_TEXT": "Знаете другие языки? ",
-  "WELCOME__NEWS_TITLE": "Полный русский перевод",
+  "WELCOME__NEWS_TITLE": "Добавлен венгерский язык",
   "WELCOME__TIPS_TITLE": "Подсказки"
 }

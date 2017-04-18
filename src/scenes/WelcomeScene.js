@@ -101,13 +101,21 @@ export class WelcomeScene extends Scene {
                             source={require('./../assets/news/news1.jpg')}
                             style={{width: '100%', alignSelf: 'center',}}
                         />
+                        <Text style={{margin: 8, fontSize: 18, fontFamily: 'Futura', color: CONFIG.COLORS.COMMON,}}>
+                            {`${_('OTHER__THANKS_FOR_TRANSLATION')}:`}
+                        </Text>
+                        <Link
+                            title="/u/skagx"
+                            href="https://www.reddit.com/user/skagx"
+                            icon="reddit-alien"
+                            backgroundColor={CONFIG.COLORS.GRAY_BLUE}
+                        />
                         <Text style={styles.text}>{_('WELCOME__NEWS_TEXT')}</Text>
                         <Link
                             title={_('WELCOME__LINK_TITLE').toUpperCase()}
                             href="https://github.com/skvoll/OWItemsTracker/wiki/Translations"
                             icon="globe"
                             backgroundColor={CONFIG.COLORS.LEGENDARY}
-                            style={{marginVertical: 8,}}
                         />
                     </ScrollView>
                 );

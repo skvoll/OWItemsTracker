@@ -29,6 +29,7 @@
   "BUTTON__SIGN_OUT": "sign out",
   "BUTTON__TURN_OFF": "turn off",
   "BUTTON__TURN_ON": "turn on",
+  "EE__TITLE": "Who said that",
   "ERROR__CLOUD_SYNCHRONIZATION_FAILED": "Cloud synchronization failed",
   "ERROR__NO_INTERNET_CONNECTION": "No internet connection",
   "ERROR__PREVIEW_NOT_FOUND": "Preview not found",
@@ -42,6 +43,7 @@
   "ITEMS__ITEMS_TYPE_7": "weapons",
   "ITEMS__ITEMS_TYPE_8": "player icons",
   "ITEMS__ITEM_DEFAULT": "default",
+  "OTHER__THANKS_FOR_TRANSLATION": "Thanks for translation",
   "SETTINGS__CLEARING_DATA_CONFIRM": "All checked items will be reseted!",
   "SETTINGS__CLEARING_DATA_TITLE": "Clearing data",
   "SETTINGS__CLOUD_SYNCHRONIZATION_CONFIRM": "To save your items progress and settings in cloud you need to sign in to your google account.",
@@ -55,6 +57,6 @@
   "SETTINGS__VERSION": "version",
   "WELCOME__LINK_TITLE": "Help our cause",
   "WELCOME__NEWS_TEXT": "Want to see your language?",
-  "WELCOME__NEWS_TITLE": "Full Russian Translation",
+  "WELCOME__NEWS_TITLE": "Introducing Hungarian",
   "WELCOME__TIPS_TITLE": "Tips"
 }
