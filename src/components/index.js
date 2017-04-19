@@ -9,6 +9,7 @@ export {Layout} from './Layout';
 export {Link} from './Link';
 export {Loader} from './Loader';
 export {Preview} from './Preview';
+export {RemainingAmount} from './RemainingAmount';
 
 export {EventsList} from './EventsList';
 export {HeroesList} from './HeroesList';
