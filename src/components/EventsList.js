@@ -16,6 +16,7 @@ import Events from './../Events';
 import Items from './../Items';
 import {
     Touchable,
+    RemainingAmount,
 } from './';
 
 class Item extends Component {
@@ -92,6 +93,7 @@ export class EventsList extends Component {
 
         this.state = {
             data: [],
+            remainingAmount: 0,
         };
     }
 
@@ -137,7 +139,7 @@ export class EventsList extends Component {
     }
 
     loadItems() {
-        let data = [], progress;
+        let data = [], remainingAmount = Items.getRemainingAmount(), progress;
 
         Object.values(Events.ITEMS).map((item) => {
             data.push(Object.assign({}, item));
@@ -160,6 +162,7 @@ export class EventsList extends Component {
 
         this.setState({
             data: data,
+            remainingAmount: remainingAmount,
         });
     }
 
@@ -189,6 +192,7 @@ export class EventsList extends Component {
     render() {
         return (
             <View style={styles.container}>
+                <RemainingAmount amount={this.state.remainingAmount}/>
                 <FlatList
                     data={this.state.data}
                     keyExtractor={(item, index) => item.id}
