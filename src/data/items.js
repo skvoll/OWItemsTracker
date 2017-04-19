@@ -12,7 +12,8 @@ import Heroes from './../Heroes';
 export default {
     'ICON-46-46-46-78-101-118-101-114-32-68-105-101': {
         uid: 'ICON-46-46-46-78-101-118-101-114-32-68-105-101',
-        source: require('./../assets/icons/ICON-46-46-46-78-101-118-101-114-32-68-105-101.png'),
+        thumbnail: require('./../assets/icons/ICON-46-46-46-78-101-118-101-114-32-68-105-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-46-46-46-78-101-118-101-114-32-68-105-101.png`,
         default: false,
         name: `...Never Die`,
         type: Items.TYPE.ICON,
@@ -23,7 +24,8 @@ export default {
     },
     'ICON-49-54-45-66-105-116-32-72-101-114-111': {
         uid: 'ICON-49-54-45-66-105-116-32-72-101-114-111',
-        source: require('./../assets/icons/ICON-49-54-45-66-105-116-32-72-101-114-111.png'),
+        thumbnail: require('./../assets/icons/ICON-49-54-45-66-105-116-32-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-49-54-45-66-105-116-32-72-101-114-111.png`,
         default: false,
         name: `16-Bit Hero`,
         type: Items.TYPE.ICON,
@@ -34,7 +36,8 @@ export default {
     },
     'ICON-50-48-49-55': {
         uid: 'ICON-50-48-49-55',
-        source: require('./../assets/icons/ICON-50-48-49-55.png'),
+        thumbnail: require('./../assets/icons/ICON-50-48-49-55.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-50-48-49-55.png`,
         default: false,
         name: `2017`,
         type: Items.TYPE.ICON,
@@ -45,7 +48,8 @@ export default {
     },
     'ICON-65-110-117-98-105-115': {
         uid: 'ICON-65-110-117-98-105-115',
-        source: require('./../assets/icons/ICON-65-110-117-98-105-115.png'),
+        thumbnail: require('./../assets/icons/ICON-65-110-117-98-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-65-110-117-98-105-115.png`,
         default: false,
         name: `Anubis`,
         type: Items.TYPE.ICON,
@@ -56,7 +60,8 @@ export default {
     },
     'ICON-65-117-115-116-114-97-108-105-97': {
         uid: 'ICON-65-117-115-116-114-97-108-105-97',
-        source: require('./../assets/icons/ICON-65-117-115-116-114-97-108-105-97.png'),
+        thumbnail: require('./../assets/icons/ICON-65-117-115-116-114-97-108-105-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-65-117-115-116-114-97-108-105-97.png`,
         default: false,
         name: `Australia`,
         type: Items.TYPE.ICON,
@@ -67,7 +72,8 @@ export default {
     },
     'ICON-66-97-111': {
         uid: 'ICON-66-97-111',
-        source: require('./../assets/icons/ICON-66-97-111.png'),
+        thumbnail: require('./../assets/icons/ICON-66-97-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-97-111.png`,
         default: false,
         name: `Bao`,
         type: Items.TYPE.ICON,
@@ -78,7 +84,8 @@ export default {
     },
     'ICON-66-97-114-98-97-114-105-97-110': {
         uid: 'ICON-66-97-114-98-97-114-105-97-110',
-        source: require('./../assets/icons/ICON-66-97-114-98-97-114-105-97-110.png'),
+        thumbnail: require('./../assets/icons/ICON-66-97-114-98-97-114-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-97-114-98-97-114-105-97-110.png`,
         default: false,
         name: `Barbarian`,
         type: Items.TYPE.ICON,
@@ -89,7 +96,8 @@ export default {
     },
     'ICON-66-101-108-108-115': {
         uid: 'ICON-66-101-108-108-115',
-        source: require('./../assets/icons/ICON-66-101-108-108-115.png'),
+        thumbnail: require('./../assets/icons/ICON-66-101-108-108-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-101-108-108-115.png`,
         default: false,
         name: `Bells`,
         type: Items.TYPE.ICON,
@@ -100,7 +108,8 @@ export default {
     },
     'ICON-66-101-119-105-116-99-104-105-110-103': {
         uid: 'ICON-66-101-119-105-116-99-104-105-110-103',
-        source: require('./../assets/icons/ICON-66-101-119-105-116-99-104-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-66-101-119-105-116-99-104-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-101-119-105-116-99-104-105-110-103.png`,
         default: false,
         name: `Bewitching`,
         type: Items.TYPE.ICON,
@@ -111,7 +120,8 @@ export default {
     },
     'ICON-66-111-107-105-109-97-114-105': {
         uid: 'ICON-66-111-107-105-109-97-114-105',
-        source: require('./../assets/icons/ICON-66-111-107-105-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-66-111-107-105-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-111-107-105-109-97-114-105.png`,
         default: false,
         name: `Bokimari`,
         type: Items.TYPE.ICON,
@@ -122,7 +132,8 @@ export default {
     },
     'ICON-66-114-97-122-105-108': {
         uid: 'ICON-66-114-97-122-105-108',
-        source: require('./../assets/icons/ICON-66-114-97-122-105-108.png'),
+        thumbnail: require('./../assets/icons/ICON-66-114-97-122-105-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-114-97-122-105-108.png`,
         default: false,
         name: `Brazil`,
         type: Items.TYPE.ICON,
@@ -133,7 +144,8 @@ export default {
     },
     'ICON-66-117-98-98-108-121': {
         uid: 'ICON-66-117-98-98-108-121',
-        source: require('./../assets/icons/ICON-66-117-98-98-108-121.png'),
+        thumbnail: require('./../assets/icons/ICON-66-117-98-98-108-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-117-98-98-108-121.png`,
         default: false,
         name: `Bubbly`,
         type: Items.TYPE.ICON,
@@ -144,7 +156,8 @@ export default {
     },
     'ICON-67-97-108-97-118-101-114-97': {
         uid: 'ICON-67-97-108-97-118-101-114-97',
-        source: require('./../assets/icons/ICON-67-97-108-97-118-101-114-97.png'),
+        thumbnail: require('./../assets/icons/ICON-67-97-108-97-118-101-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-97-108-97-118-101-114-97.png`,
         default: false,
         name: `Calavera`,
         type: Items.TYPE.ICON,
@@ -155,7 +168,8 @@ export default {
     },
     'ICON-67-97-110-100-108-101': {
         uid: 'ICON-67-97-110-100-108-101',
-        source: require('./../assets/icons/ICON-67-97-110-100-108-101.png'),
+        thumbnail: require('./../assets/icons/ICON-67-97-110-100-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-97-110-100-108-101.png`,
         default: false,
         name: `Candle`,
         type: Items.TYPE.ICON,
@@ -166,7 +180,8 @@ export default {
     },
     'ICON-67-97-110-100-121-32-67-97-110-101': {
         uid: 'ICON-67-97-110-100-121-32-67-97-110-101',
-        source: require('./../assets/icons/ICON-67-97-110-100-121-32-67-97-110-101.png'),
+        thumbnail: require('./../assets/icons/ICON-67-97-110-100-121-32-67-97-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-97-110-100-121-32-67-97-110-101.png`,
         default: false,
         name: `Candy Cane`,
         type: Items.TYPE.ICON,
@@ -177,7 +192,8 @@ export default {
     },
     'ICON-67-97-112-115-117-108-101': {
         uid: 'ICON-67-97-112-115-117-108-101',
-        source: require('./../assets/icons/ICON-67-97-112-115-117-108-101.png'),
+        thumbnail: require('./../assets/icons/ICON-67-97-112-115-117-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-97-112-115-117-108-101.png`,
         default: false,
         name: `Capsule`,
         type: Items.TYPE.ICON,
@@ -188,7 +204,8 @@ export default {
     },
     'ICON-67-104-101-101-114-115-33': {
         uid: 'ICON-67-104-101-101-114-115-33',
-        source: require('./../assets/icons/ICON-67-104-101-101-114-115-33.png'),
+        thumbnail: require('./../assets/icons/ICON-67-104-101-101-114-115-33.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-104-101-101-114-115-33.png`,
         default: false,
         name: `Cheers!`,
         type: Items.TYPE.ICON,
@@ -199,7 +216,8 @@ export default {
     },
     'ICON-67-104-101-101-114-115': {
         uid: 'ICON-67-104-101-101-114-115',
-        source: require('./../assets/icons/ICON-67-104-101-101-114-115.png'),
+        thumbnail: require('./../assets/icons/ICON-67-104-101-101-114-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-104-101-101-114-115.png`,
         default: false,
         name: `Cheers`,
         type: Items.TYPE.ICON,
@@ -210,7 +228,8 @@ export default {
     },
     'ICON-67-104-105-110-97': {
         uid: 'ICON-67-104-105-110-97',
-        source: require('./../assets/icons/ICON-67-104-105-110-97.png'),
+        thumbnail: require('./../assets/icons/ICON-67-104-105-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-104-105-110-97.png`,
         default: false,
         name: `China`,
         type: Items.TYPE.ICON,
@@ -221,7 +240,8 @@ export default {
     },
     'ICON-67-111-105-110': {
         uid: 'ICON-67-111-105-110',
-        source: require('./../assets/icons/ICON-67-111-105-110.png'),
+        thumbnail: require('./../assets/icons/ICON-67-111-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-111-105-110.png`,
         default: false,
         name: `Coin`,
         type: Items.TYPE.ICON,
@@ -232,7 +252,8 @@ export default {
     },
     'ICON-67-111-108-111-115-115-117-115': {
         uid: 'ICON-67-111-108-111-115-115-117-115',
-        source: require('./../assets/icons/ICON-67-111-108-111-115-115-117-115.png'),
+        thumbnail: require('./../assets/icons/ICON-67-111-108-111-115-115-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-111-108-111-115-115-117-115.png`,
         default: false,
         name: `Colossus`,
         type: Items.TYPE.ICON,
@@ -243,7 +264,8 @@ export default {
     },
     'ICON-67-114-101-100-105-116': {
         uid: 'ICON-67-114-101-100-105-116',
-        source: require('./../assets/icons/ICON-67-114-101-100-105-116.png'),
+        thumbnail: require('./../assets/icons/ICON-67-114-101-100-105-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-114-101-100-105-116.png`,
         default: false,
         name: `Credit`,
         type: Items.TYPE.ICON,
@@ -254,7 +276,8 @@ export default {
     },
     'ICON-67-114-117-115-97-100-101-114': {
         uid: 'ICON-67-114-117-115-97-100-101-114',
-        source: require('./../assets/icons/ICON-67-114-117-115-97-100-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-67-114-117-115-97-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-67-114-117-115-97-100-101-114.png`,
         default: false,
         name: `Crusader`,
         type: Items.TYPE.ICON,
@@ -265,7 +288,8 @@ export default {
     },
     'ICON-68-97-114-107-32-76-97-100-121': {
         uid: 'ICON-68-97-114-107-32-76-97-100-121',
-        source: require('./../assets/icons/ICON-68-97-114-107-32-76-97-100-121.png'),
+        thumbnail: require('./../assets/icons/ICON-68-97-114-107-32-76-97-100-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-97-114-107-32-76-97-100-121.png`,
         default: false,
         name: `Dark Lady`,
         type: Items.TYPE.ICON,
@@ -276,7 +300,8 @@ export default {
     },
     'ICON-68-97-114-107-32-87-97-110-100-101-114-101-114': {
         uid: 'ICON-68-97-114-107-32-87-97-110-100-101-114-101-114',
-        source: require('./../assets/icons/ICON-68-97-114-107-32-87-97-110-100-101-114-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-68-97-114-107-32-87-97-110-100-101-114-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-97-114-107-32-87-97-110-100-101-114-101-114.png`,
         default: false,
         name: `Dark Wanderer`,
         type: Items.TYPE.ICON,
@@ -287,7 +312,8 @@ export default {
     },
     'ICON-68-101-109-111-108-105-116-105-111-110': {
         uid: 'ICON-68-101-109-111-108-105-116-105-111-110',
-        source: require('./../assets/icons/ICON-68-101-109-111-108-105-116-105-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-68-101-109-111-108-105-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-101-109-111-108-105-116-105-111-110.png`,
         default: false,
         name: `Demolition`,
         type: Items.TYPE.ICON,
@@ -298,7 +324,8 @@ export default {
     },
     'ICON-68-101-109-111-110-32-72-117-110-116-101-114': {
         uid: 'ICON-68-101-109-111-110-32-72-117-110-116-101-114',
-        source: require('./../assets/icons/ICON-68-101-109-111-110-32-72-117-110-116-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-68-101-109-111-110-32-72-117-110-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-101-109-111-110-32-72-117-110-116-101-114.png`,
         default: false,
         name: `Demon Hunter`,
         type: Items.TYPE.ICON,
@@ -309,7 +336,8 @@ export default {
     },
     'ICON-68-111-109-105-110-105-111-110': {
         uid: 'ICON-68-111-109-105-110-105-111-110',
-        source: require('./../assets/icons/ICON-68-111-109-105-110-105-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-68-111-109-105-110-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-111-109-105-110-105-111-110.png`,
         default: false,
         name: `Dominion`,
         type: Items.TYPE.ICON,
@@ -320,7 +348,8 @@ export default {
     },
     'ICON-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'ICON-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/icons/ICON-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/icons/ICON-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.ICON,
@@ -331,7 +360,8 @@ export default {
     },
     'ICON-68-114-101-105-100-101-108': {
         uid: 'ICON-68-114-101-105-100-101-108',
-        source: require('./../assets/icons/ICON-68-114-101-105-100-101-108.png'),
+        thumbnail: require('./../assets/icons/ICON-68-114-101-105-100-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-114-101-105-100-101-108.png`,
         default: false,
         name: `Dreidel`,
         type: Items.TYPE.ICON,
@@ -342,7 +372,8 @@ export default {
     },
     'ICON-69-103-121-112-116': {
         uid: 'ICON-69-103-121-112-116',
-        source: require('./../assets/icons/ICON-69-103-121-112-116.png'),
+        thumbnail: require('./../assets/icons/ICON-69-103-121-112-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-69-103-121-112-116.png`,
         default: false,
         name: `Egypt`,
         type: Items.TYPE.ICON,
@@ -353,7 +384,8 @@ export default {
     },
     'ICON-69-108-101-112-104-97-110-116': {
         uid: 'ICON-69-108-101-112-104-97-110-116',
-        source: require('./../assets/icons/ICON-69-108-101-112-104-97-110-116.png'),
+        thumbnail: require('./../assets/icons/ICON-69-108-101-112-104-97-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-69-108-101-112-104-97-110-116.png`,
         default: false,
         name: `Elephant`,
         type: Items.TYPE.ICON,
@@ -364,7 +396,8 @@ export default {
     },
     'ICON-69-121-101-98-97-108-108': {
         uid: 'ICON-69-121-101-98-97-108-108',
-        source: require('./../assets/icons/ICON-69-121-101-98-97-108-108.png'),
+        thumbnail: require('./../assets/icons/ICON-69-121-101-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-69-121-101-98-97-108-108.png`,
         default: false,
         name: `Eyeball`,
         type: Items.TYPE.ICON,
@@ -375,7 +408,8 @@ export default {
     },
     'ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101': {
         uid: 'ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101',
-        source: require('./../assets/icons/ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101.png'),
+        thumbnail: require('./../assets/icons/ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101.png`,
         default: false,
         name: `For the Alliance`,
         type: Items.TYPE.ICON,
@@ -386,7 +420,8 @@ export default {
     },
     'ICON-70-111-114-32-116-104-101-32-72-111-114-100-101': {
         uid: 'ICON-70-111-114-32-116-104-101-32-72-111-114-100-101',
-        source: require('./../assets/icons/ICON-70-111-114-32-116-104-101-32-72-111-114-100-101.png'),
+        thumbnail: require('./../assets/icons/ICON-70-111-114-32-116-104-101-32-72-111-114-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-70-111-114-32-116-104-101-32-72-111-114-100-101.png`,
         default: false,
         name: `For the Horde`,
         type: Items.TYPE.ICON,
@@ -397,7 +432,8 @@ export default {
     },
     'ICON-70-111-114-116-117-110-101': {
         uid: 'ICON-70-111-114-116-117-110-101',
-        source: require('./../assets/icons/ICON-70-111-114-116-117-110-101.png'),
+        thumbnail: require('./../assets/icons/ICON-70-111-114-116-117-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-70-111-114-116-117-110-101.png`,
         default: false,
         name: `Fortune`,
         type: Items.TYPE.ICON,
@@ -408,7 +444,8 @@ export default {
     },
     'ICON-70-114-97-110-99-101': {
         uid: 'ICON-70-114-97-110-99-101',
-        source: require('./../assets/icons/ICON-70-114-97-110-99-101.png'),
+        thumbnail: require('./../assets/icons/ICON-70-114-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-70-114-97-110-99-101.png`,
         default: false,
         name: `France`,
         type: Items.TYPE.ICON,
@@ -419,7 +456,8 @@ export default {
     },
     'ICON-70-114-111-109-32-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110': {
         uid: 'ICON-70-114-111-109-32-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110',
-        source: require('./../assets/icons/ICON-70-114-111-109-32-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-70-114-111-109-32-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-70-114-111-109-32-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110.png`,
         default: false,
         name: `From Beyond the Moon`,
         type: Items.TYPE.ICON,
@@ -430,7 +468,8 @@ export default {
     },
     'ICON-70-117-99-104-105-109-97-114-105': {
         uid: 'ICON-70-117-99-104-105-109-97-114-105',
-        source: require('./../assets/icons/ICON-70-117-99-104-105-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-70-117-99-104-105-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-70-117-99-104-105-109-97-114-105.png`,
         default: false,
         name: `Fuchimari`,
         type: Items.TYPE.ICON,
@@ -441,7 +480,8 @@ export default {
     },
     'ICON-71-97-114-114-111-115-104': {
         uid: 'ICON-71-97-114-114-111-115-104',
-        source: require('./../assets/icons/ICON-71-97-114-114-111-115-104.png'),
+        thumbnail: require('./../assets/icons/ICON-71-97-114-114-111-115-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-97-114-114-111-115-104.png`,
         default: false,
         name: `Garrosh`,
         type: Items.TYPE.ICON,
@@ -452,7 +492,8 @@ export default {
     },
     'ICON-71-101-114-109-97-110-121': {
         uid: 'ICON-71-101-114-109-97-110-121',
-        source: require('./../assets/icons/ICON-71-101-114-109-97-110-121.png'),
+        thumbnail: require('./../assets/icons/ICON-71-101-114-109-97-110-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-101-114-109-97-110-121.png`,
         default: false,
         name: `Germany`,
         type: Items.TYPE.ICON,
@@ -463,7 +504,8 @@ export default {
     },
     'ICON-71-104-111-115-116-121-109-97-114-105': {
         uid: 'ICON-71-104-111-115-116-121-109-97-114-105',
-        source: require('./../assets/icons/ICON-71-104-111-115-116-121-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-71-104-111-115-116-121-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-104-111-115-116-121-109-97-114-105.png`,
         default: false,
         name: `Ghostymari`,
         type: Items.TYPE.ICON,
@@ -474,7 +516,8 @@ export default {
     },
     'ICON-71-105-110-103-101-114-98-114-101-97-100': {
         uid: 'ICON-71-105-110-103-101-114-98-114-101-97-100',
-        source: require('./../assets/icons/ICON-71-105-110-103-101-114-98-114-101-97-100.png'),
+        thumbnail: require('./../assets/icons/ICON-71-105-110-103-101-114-98-114-101-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-105-110-103-101-114-98-114-101-97-100.png`,
         default: false,
         name: `Gingerbread`,
         type: Items.TYPE.ICON,
@@ -485,7 +528,8 @@ export default {
     },
     'ICON-71-105-110-103-101-114-109-97-114-105': {
         uid: 'ICON-71-105-110-103-101-114-109-97-114-105',
-        source: require('./../assets/icons/ICON-71-105-110-103-101-114-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-71-105-110-103-101-114-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-105-110-103-101-114-109-97-114-105.png`,
         default: false,
         name: `Gingermari`,
         type: Items.TYPE.ICON,
@@ -496,7 +540,8 @@ export default {
     },
     'ICON-71-111-108-100': {
         uid: 'ICON-71-111-108-100',
-        source: require('./../assets/icons/ICON-71-111-108-100.png'),
+        thumbnail: require('./../assets/icons/ICON-71-111-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-111-108-100.png`,
         default: false,
         name: `Gold`,
         type: Items.TYPE.ICON,
@@ -507,7 +552,8 @@ export default {
     },
     'ICON-71-114-101-101-99-101': {
         uid: 'ICON-71-114-101-101-99-101',
-        source: require('./../assets/icons/ICON-71-114-101-101-99-101.png'),
+        thumbnail: require('./../assets/icons/ICON-71-114-101-101-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-71-114-101-101-99-101.png`,
         default: false,
         name: `Greece`,
         type: Items.TYPE.ICON,
@@ -518,7 +564,8 @@ export default {
     },
     'ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54': {
         uid: 'ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54',
-        source: require('./../assets/icons/ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54.png'),
+        thumbnail: require('./../assets/icons/ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114-32-50-48-49-54.png`,
         default: false,
         name: `Halloween Terror 2016`,
         type: Items.TYPE.ICON,
@@ -529,7 +576,8 @@ export default {
     },
     'ICON-72-97-112-112-121-32-83-113-117-105-100': {
         uid: 'ICON-72-97-112-112-121-32-83-113-117-105-100',
-        source: require('./../assets/icons/ICON-72-97-112-112-121-32-83-113-117-105-100.png'),
+        thumbnail: require('./../assets/icons/ICON-72-97-112-112-121-32-83-113-117-105-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-97-112-112-121-32-83-113-117-105-100.png`,
         default: false,
         name: `Happy Squid`,
         type: Items.TYPE.ICON,
@@ -540,7 +588,8 @@ export default {
     },
     'ICON-72-97-118-101-32-70-105-115-104': {
         uid: 'ICON-72-97-118-101-32-70-105-115-104',
-        source: require('./../assets/icons/ICON-72-97-118-101-32-70-105-115-104.png'),
+        thumbnail: require('./../assets/icons/ICON-72-97-118-101-32-70-105-115-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-97-118-101-32-70-105-115-104.png`,
         default: false,
         name: `Have Fish`,
         type: Items.TYPE.ICON,
@@ -551,7 +600,8 @@ export default {
     },
     'ICON-72-101-97-114-116-104-115-116-111-110-101': {
         uid: 'ICON-72-101-97-114-116-104-115-116-111-110-101',
-        source: require('./../assets/icons/ICON-72-101-97-114-116-104-115-116-111-110-101.png'),
+        thumbnail: require('./../assets/icons/ICON-72-101-97-114-116-104-115-116-111-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-101-97-114-116-104-115-116-111-110-101.png`,
         default: false,
         name: `Hearthstone`,
         type: Items.TYPE.ICON,
@@ -562,7 +612,8 @@ export default {
     },
     'ICON-72-105-101-114-97-114-99-104': {
         uid: 'ICON-72-105-101-114-97-114-99-104',
-        source: require('./../assets/icons/ICON-72-105-101-114-97-114-99-104.png'),
+        thumbnail: require('./../assets/icons/ICON-72-105-101-114-97-114-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-105-101-114-97-114-99-104.png`,
         default: false,
         name: `Hierarch`,
         type: Items.TYPE.ICON,
@@ -573,7 +624,8 @@ export default {
     },
     'ICON-72-111-108-108-121': {
         uid: 'ICON-72-111-108-108-121',
-        source: require('./../assets/icons/ICON-72-111-108-108-121.png'),
+        thumbnail: require('./../assets/icons/ICON-72-111-108-108-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-111-108-108-121.png`,
         default: false,
         name: `Holly`,
         type: Items.TYPE.ICON,
@@ -584,7 +636,8 @@ export default {
     },
     'ICON-72-111-116-32-67-111-99-111-97': {
         uid: 'ICON-72-111-116-32-67-111-99-111-97',
-        source: require('./../assets/icons/ICON-72-111-116-32-67-111-99-111-97.png'),
+        thumbnail: require('./../assets/icons/ICON-72-111-116-32-67-111-99-111-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-72-111-116-32-67-111-99-111-97.png`,
         default: false,
         name: `Hot Cocoa`,
         type: Items.TYPE.ICON,
@@ -595,7 +648,8 @@ export default {
     },
     'ICON-74-97-105-110-97': {
         uid: 'ICON-74-97-105-110-97',
-        source: require('./../assets/icons/ICON-74-97-105-110-97.png'),
+        thumbnail: require('./../assets/icons/ICON-74-97-105-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-74-97-105-110-97.png`,
         default: false,
         name: `Jaina`,
         type: Items.TYPE.ICON,
@@ -606,7 +660,8 @@ export default {
     },
     'ICON-74-97-112-97-110': {
         uid: 'ICON-74-97-112-97-110',
-        source: require('./../assets/icons/ICON-74-97-112-97-110.png'),
+        thumbnail: require('./../assets/icons/ICON-74-97-112-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-74-97-112-97-110.png`,
         default: false,
         name: `Japan`,
         type: Items.TYPE.ICON,
@@ -617,7 +672,8 @@ export default {
     },
     'ICON-74-105-109': {
         uid: 'ICON-74-105-109',
-        source: require('./../assets/icons/ICON-74-105-109.png'),
+        thumbnail: require('./../assets/icons/ICON-74-105-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-74-105-109.png`,
         default: false,
         name: `Jim`,
         type: Items.TYPE.ICON,
@@ -628,7 +684,8 @@ export default {
     },
     'ICON-75-111-803-102-105-803-32-65-114-111-109-111': {
         uid: 'ICON-75-111-803-102-105-803-32-65-114-111-109-111',
-        source: require('./../assets/icons/ICON-75-111-803-102-105-803-32-65-114-111-109-111.png'),
+        thumbnail: require('./../assets/icons/ICON-75-111-803-102-105-803-32-65-114-111-109-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-75-111-803-102-105-803-32-65-114-111-109-111.png`,
         default: false,
         name: `Kọfị Aromo`,
         type: Items.TYPE.ICON,
@@ -639,7 +696,8 @@ export default {
     },
     'ICON-76-97-110-116-101-114-110': {
         uid: 'ICON-76-97-110-116-101-114-110',
-        source: require('./../assets/icons/ICON-76-97-110-116-101-114-110.png'),
+        thumbnail: require('./../assets/icons/ICON-76-97-110-116-101-114-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-97-110-116-101-114-110.png`,
         default: false,
         name: `Lantern`,
         type: Items.TYPE.ICON,
@@ -650,7 +708,8 @@ export default {
     },
     'ICON-76-105-99-104-32-75-105-110-103': {
         uid: 'ICON-76-105-99-104-32-75-105-110-103',
-        source: require('./../assets/icons/ICON-76-105-99-104-32-75-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-76-105-99-104-32-75-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-105-99-104-32-75-105-110-103.png`,
         default: false,
         name: `Lich King`,
         type: Items.TYPE.ICON,
@@ -661,7 +720,8 @@ export default {
     },
     'ICON-76-105-111-110-32-68-97-110-99-101': {
         uid: 'ICON-76-105-111-110-32-68-97-110-99-101',
-        source: require('./../assets/icons/ICON-76-105-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/icons/ICON-76-105-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-105-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Lion Dance`,
         type: Items.TYPE.ICON,
@@ -672,7 +732,8 @@ export default {
     },
     'ICON-76-111-111-116-32-66-111-120': {
         uid: 'ICON-76-111-111-116-32-66-111-120',
-        source: require('./../assets/icons/ICON-76-111-111-116-32-66-111-120.png'),
+        thumbnail: require('./../assets/icons/ICON-76-111-111-116-32-66-111-120.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-111-111-116-32-66-111-120.png`,
         default: false,
         name: `Loot Box`,
         type: Items.TYPE.ICON,
@@ -683,7 +744,8 @@ export default {
     },
     'ICON-76-111-114-100-32-111-102-32-67-97-110-100-121': {
         uid: 'ICON-76-111-114-100-32-111-102-32-67-97-110-100-121',
-        source: require('./../assets/icons/ICON-76-111-114-100-32-111-102-32-67-97-110-100-121.png'),
+        thumbnail: require('./../assets/icons/ICON-76-111-114-100-32-111-102-32-67-97-110-100-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-111-114-100-32-111-102-32-67-97-110-100-121.png`,
         default: false,
         name: `Lord of Candy`,
         type: Items.TYPE.ICON,
@@ -694,7 +756,8 @@ export default {
     },
     'ICON-76-111-114-100-32-111-102-32-84-101-114-114-111-114': {
         uid: 'ICON-76-111-114-100-32-111-102-32-84-101-114-114-111-114',
-        source: require('./../assets/icons/ICON-76-111-114-100-32-111-102-32-84-101-114-114-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-76-111-114-100-32-111-102-32-84-101-114-114-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-111-114-100-32-111-102-32-84-101-114-114-111-114.png`,
         default: false,
         name: `Lord of Terror`,
         type: Items.TYPE.ICON,
@@ -705,7 +768,8 @@ export default {
     },
     'ICON-76-111-115-32-77-117-101-114-116-111-115': {
         uid: 'ICON-76-111-115-32-77-117-101-114-116-111-115',
-        source: require('./../assets/icons/ICON-76-111-115-32-77-117-101-114-116-111-115.png'),
+        thumbnail: require('./../assets/icons/ICON-76-111-115-32-77-117-101-114-116-111-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-111-115-32-77-117-101-114-116-111-115.png`,
         default: false,
         name: `Los Muertos`,
         type: Items.TYPE.ICON,
@@ -716,7 +780,8 @@ export default {
     },
     'ICON-76-117-99-107-121-32-80-111-117-99-104': {
         uid: 'ICON-76-117-99-107-121-32-80-111-117-99-104',
-        source: require('./../assets/icons/ICON-76-117-99-107-121-32-80-111-117-99-104.png'),
+        thumbnail: require('./../assets/icons/ICON-76-117-99-107-121-32-80-111-117-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-117-99-107-121-32-80-111-117-99-104.png`,
         default: false,
         name: `Lucky Pouch`,
         type: Items.TYPE.ICON,
@@ -727,7 +792,8 @@ export default {
     },
     'ICON-76-117-110-97-109-97-114-105': {
         uid: 'ICON-76-117-110-97-109-97-114-105',
-        source: require('./../assets/icons/ICON-76-117-110-97-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-76-117-110-97-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-76-117-110-97-109-97-114-105.png`,
         default: false,
         name: `Lunamari`,
         type: Items.TYPE.ICON,
@@ -738,7 +804,8 @@ export default {
     },
     'ICON-77-97-109-97-32-80-105-103-39-115': {
         uid: 'ICON-77-97-109-97-32-80-105-103-39-115',
-        source: require('./../assets/icons/ICON-77-97-109-97-32-80-105-103-39-115.png'),
+        thumbnail: require('./../assets/icons/ICON-77-97-109-97-32-80-105-103-39-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-77-97-109-97-32-80-105-103-39-115.png`,
         default: false,
         name: `Mama Pig's`,
         type: Items.TYPE.ICON,
@@ -749,7 +816,8 @@ export default {
     },
     'ICON-77-97-114-105-97-99-104-105': {
         uid: 'ICON-77-97-114-105-97-99-104-105',
-        source: require('./../assets/icons/ICON-77-97-114-105-97-99-104-105.png'),
+        thumbnail: require('./../assets/icons/ICON-77-97-114-105-97-99-104-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-77-97-114-105-97-99-104-105.png`,
         default: false,
         name: `Mariachi`,
         type: Items.TYPE.ICON,
@@ -760,7 +828,8 @@ export default {
     },
     'ICON-77-101-99-104': {
         uid: 'ICON-77-101-99-104',
-        source: require('./../assets/icons/ICON-77-101-99-104.png'),
+        thumbnail: require('./../assets/icons/ICON-77-101-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-77-101-99-104.png`,
         default: false,
         name: `Mech`,
         type: Items.TYPE.ICON,
@@ -771,7 +840,8 @@ export default {
     },
     'ICON-77-101-120-105-99-111': {
         uid: 'ICON-77-101-120-105-99-111',
-        source: require('./../assets/icons/ICON-77-101-120-105-99-111.png'),
+        thumbnail: require('./../assets/icons/ICON-77-101-120-105-99-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-77-101-120-105-99-111.png`,
         default: false,
         name: `Mexico`,
         type: Items.TYPE.ICON,
@@ -782,7 +852,8 @@ export default {
     },
     'ICON-77-111-99-104-105': {
         uid: 'ICON-77-111-99-104-105',
-        source: require('./../assets/icons/ICON-77-111-99-104-105.png'),
+        thumbnail: require('./../assets/icons/ICON-77-111-99-104-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-77-111-99-104-105.png`,
         default: false,
         name: `Mochi`,
         type: Items.TYPE.ICON,
@@ -793,7 +864,8 @@ export default {
     },
     'ICON-77-111-110-107': {
         uid: 'ICON-77-111-110-107',
-        source: require('./../assets/icons/ICON-77-111-110-107.png'),
+        thumbnail: require('./../assets/icons/ICON-77-111-110-107.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-77-111-110-107.png`,
         default: false,
         name: `Monk`,
         type: Items.TYPE.ICON,
@@ -804,7 +876,8 @@ export default {
     },
     'ICON-78-101-112-97-108': {
         uid: 'ICON-78-101-112-97-108',
-        source: require('./../assets/icons/ICON-78-101-112-97-108.png'),
+        thumbnail: require('./../assets/icons/ICON-78-101-112-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-78-101-112-97-108.png`,
         default: false,
         name: `Nepal`,
         type: Items.TYPE.ICON,
@@ -815,7 +888,8 @@ export default {
     },
     'ICON-78-101-119-32-89-101-97-114-32-67-97-107-101': {
         uid: 'ICON-78-101-119-32-89-101-97-114-32-67-97-107-101',
-        source: require('./../assets/icons/ICON-78-101-119-32-89-101-97-114-32-67-97-107-101.png'),
+        thumbnail: require('./../assets/icons/ICON-78-101-119-32-89-101-97-114-32-67-97-107-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-78-101-119-32-89-101-97-114-32-67-97-107-101.png`,
         default: false,
         name: `New Year Cake`,
         type: Items.TYPE.ICON,
@@ -826,7 +900,8 @@ export default {
     },
     'ICON-78-101-120-117-115': {
         uid: 'ICON-78-101-120-117-115',
-        source: require('./../assets/icons/ICON-78-101-120-117-115.png'),
+        thumbnail: require('./../assets/icons/ICON-78-101-120-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-78-101-120-117-115.png`,
         default: false,
         name: `Nexus`,
         type: Items.TYPE.ICON,
@@ -837,7 +912,8 @@ export default {
     },
     'ICON-78-117-109-98-97-110-105': {
         uid: 'ICON-78-117-109-98-97-110-105',
-        source: require('./../assets/icons/ICON-78-117-109-98-97-110-105.png'),
+        thumbnail: require('./../assets/icons/ICON-78-117-109-98-97-110-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-78-117-109-98-97-110-105.png`,
         default: false,
         name: `Numbani`,
         type: Items.TYPE.ICON,
@@ -848,7 +924,8 @@ export default {
     },
     'ICON-79-110-105': {
         uid: 'ICON-79-110-105',
-        source: require('./../assets/icons/ICON-79-110-105.png'),
+        thumbnail: require('./../assets/icons/ICON-79-110-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-79-110-105.png`,
         default: false,
         name: `Oni`,
         type: Items.TYPE.ICON,
@@ -859,7 +936,8 @@ export default {
     },
     'ICON-79-114-110-97-109-101-110-116': {
         uid: 'ICON-79-114-110-97-109-101-110-116',
-        source: require('./../assets/icons/ICON-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/icons/ICON-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.ICON,
@@ -870,7 +948,8 @@ export default {
     },
     'ICON-79-118-101-114-119-97-116-99-104-32-68-97-114-107': {
         uid: 'ICON-79-118-101-114-119-97-116-99-104-32-68-97-114-107',
-        source: require('./../assets/icons/ICON-79-118-101-114-119-97-116-99-104-32-68-97-114-107.png'),
+        thumbnail: require('./../assets/icons/ICON-79-118-101-114-119-97-116-99-104-32-68-97-114-107.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-79-118-101-114-119-97-116-99-104-32-68-97-114-107.png`,
         default: true,
         name: `Overwatch Dark`,
         type: Items.TYPE.ICON,
@@ -881,7 +960,8 @@ export default {
     },
     'ICON-79-118-101-114-119-97-116-99-104-32-76-105-103-104-116': {
         uid: 'ICON-79-118-101-114-119-97-116-99-104-32-76-105-103-104-116',
-        source: require('./../assets/icons/ICON-79-118-101-114-119-97-116-99-104-32-76-105-103-104-116.png'),
+        thumbnail: require('./../assets/icons/ICON-79-118-101-114-119-97-116-99-104-32-76-105-103-104-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-79-118-101-114-119-97-116-99-104-32-76-105-103-104-116.png`,
         default: true,
         name: `Overwatch Light`,
         type: Items.TYPE.ICON,
@@ -892,7 +972,8 @@ export default {
     },
     'ICON-80-97-99-104-105-108-97-110-116-101-114-110': {
         uid: 'ICON-80-97-99-104-105-108-97-110-116-101-114-110',
-        source: require('./../assets/icons/ICON-80-97-99-104-105-108-97-110-116-101-114-110.png'),
+        thumbnail: require('./../assets/icons/ICON-80-97-99-104-105-108-97-110-116-101-114-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-97-99-104-105-108-97-110-116-101-114-110.png`,
         default: false,
         name: `Pachilantern`,
         type: Items.TYPE.ICON,
@@ -903,7 +984,8 @@ export default {
     },
     'ICON-80-97-99-104-105-109-97-114-105': {
         uid: 'ICON-80-97-99-104-105-109-97-114-105',
-        source: require('./../assets/icons/ICON-80-97-99-104-105-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-80-97-99-104-105-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-97-99-104-105-109-97-114-105.png`,
         default: false,
         name: `Pachimari`,
         type: Items.TYPE.ICON,
@@ -914,7 +996,8 @@ export default {
     },
     'ICON-80-97-99-104-105-109-101-114-114-121': {
         uid: 'ICON-80-97-99-104-105-109-101-114-114-121',
-        source: require('./../assets/icons/ICON-80-97-99-104-105-109-101-114-114-121.png'),
+        thumbnail: require('./../assets/icons/ICON-80-97-99-104-105-109-101-114-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-97-99-104-105-109-101-114-114-121.png`,
         default: false,
         name: `Pachimerry`,
         type: Items.TYPE.ICON,
@@ -925,7 +1008,8 @@ export default {
     },
     'ICON-80-97-99-104-105-114-101-105-110-100-101-101-114': {
         uid: 'ICON-80-97-99-104-105-114-101-105-110-100-101-101-114',
-        source: require('./../assets/icons/ICON-80-97-99-104-105-114-101-105-110-100-101-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-80-97-99-104-105-114-101-105-110-100-101-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-97-99-104-105-114-101-105-110-100-101-101-114.png`,
         default: false,
         name: `Pachireindeer`,
         type: Items.TYPE.ICON,
@@ -936,7 +1020,8 @@ export default {
     },
     'ICON-80-101-112-112-101-114-109-105-110-116': {
         uid: 'ICON-80-101-112-112-101-114-109-105-110-116',
-        source: require('./../assets/icons/ICON-80-101-112-112-101-114-109-105-110-116.png'),
+        thumbnail: require('./../assets/icons/ICON-80-101-112-112-101-114-109-105-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-101-112-112-101-114-109-105-110-116.png`,
         default: false,
         name: `Peppermint`,
         type: Items.TYPE.ICON,
@@ -947,7 +1032,8 @@ export default {
     },
     'ICON-80-104-97-114-97-111-104': {
         uid: 'ICON-80-104-97-114-97-111-104',
-        source: require('./../assets/icons/ICON-80-104-97-114-97-111-104.png'),
+        thumbnail: require('./../assets/icons/ICON-80-104-97-114-97-111-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-104-97-114-97-111-104.png`,
         default: false,
         name: `Pharaoh`,
         type: Items.TYPE.ICON,
@@ -958,7 +1044,8 @@ export default {
     },
     'ICON-80-114-101-115-101-110-116': {
         uid: 'ICON-80-114-101-115-101-110-116',
-        source: require('./../assets/icons/ICON-80-114-101-115-101-110-116.png'),
+        thumbnail: require('./../assets/icons/ICON-80-114-101-115-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-114-101-115-101-110-116.png`,
         default: false,
         name: `Present`,
         type: Items.TYPE.ICON,
@@ -969,7 +1056,8 @@ export default {
     },
     'ICON-80-114-111-116-111-115-115': {
         uid: 'ICON-80-114-111-116-111-115-115',
-        source: require('./../assets/icons/ICON-80-114-111-116-111-115-115.png'),
+        thumbnail: require('./../assets/icons/ICON-80-114-111-116-111-115-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-80-114-111-116-111-115-115.png`,
         default: false,
         name: `Protoss`,
         type: Items.TYPE.ICON,
@@ -980,7 +1068,8 @@ export default {
     },
     'ICON-81-117-101-101-110-32-111-102-32-66-108-97-100-101-115': {
         uid: 'ICON-81-117-101-101-110-32-111-102-32-66-108-97-100-101-115',
-        source: require('./../assets/icons/ICON-81-117-101-101-110-32-111-102-32-66-108-97-100-101-115.png'),
+        thumbnail: require('./../assets/icons/ICON-81-117-101-101-110-32-111-102-32-66-108-97-100-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-81-117-101-101-110-32-111-102-32-66-108-97-100-101-115.png`,
         default: false,
         name: `Queen of Blades`,
         type: Items.TYPE.ICON,
@@ -991,7 +1080,8 @@ export default {
     },
     'ICON-82-97-109-101-110': {
         uid: 'ICON-82-97-109-101-110',
-        source: require('./../assets/icons/ICON-82-97-109-101-110.png'),
+        thumbnail: require('./../assets/icons/ICON-82-97-109-101-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-82-97-109-101-110.png`,
         default: false,
         name: `Ramen`,
         type: Items.TYPE.ICON,
@@ -1002,7 +1092,8 @@ export default {
     },
     'ICON-82-101-100-32-69-110-118-101-108-111-112-101': {
         uid: 'ICON-82-101-100-32-69-110-118-101-108-111-112-101',
-        source: require('./../assets/icons/ICON-82-101-100-32-69-110-118-101-108-111-112-101.png'),
+        thumbnail: require('./../assets/icons/ICON-82-101-100-32-69-110-118-101-108-111-112-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-82-101-100-32-69-110-118-101-108-111-112-101.png`,
         default: false,
         name: `Red Envelope`,
         type: Items.TYPE.ICON,
@@ -1013,7 +1104,8 @@ export default {
     },
     'ICON-82-104-105-110-111': {
         uid: 'ICON-82-104-105-110-111',
-        source: require('./../assets/icons/ICON-82-104-105-110-111.png'),
+        thumbnail: require('./../assets/icons/ICON-82-104-105-110-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-82-104-105-110-111.png`,
         default: false,
         name: `Rhino`,
         type: Items.TYPE.ICON,
@@ -1024,7 +1116,8 @@ export default {
     },
     'ICON-82-105-107-105-109-97-114-117': {
         uid: 'ICON-82-105-107-105-109-97-114-117',
-        source: require('./../assets/icons/ICON-82-105-107-105-109-97-114-117.png'),
+        thumbnail: require('./../assets/icons/ICON-82-105-107-105-109-97-114-117.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-82-105-107-105-109-97-114-117.png`,
         default: false,
         name: `Rikimaru`,
         type: Items.TYPE.ICON,
@@ -1035,7 +1128,8 @@ export default {
     },
     'ICON-82-111-117-116-101-32-54-54': {
         uid: 'ICON-82-111-117-116-101-32-54-54',
-        source: require('./../assets/icons/ICON-82-111-117-116-101-32-54-54.png'),
+        thumbnail: require('./../assets/icons/ICON-82-111-117-116-101-32-54-54.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-82-111-117-116-101-32-54-54.png`,
         default: false,
         name: `Route 66`,
         type: Items.TYPE.ICON,
@@ -1046,7 +1140,8 @@ export default {
     },
     'ICON-82-117-115-115-105-97': {
         uid: 'ICON-82-117-115-115-105-97',
-        source: require('./../assets/icons/ICON-82-117-115-115-105-97.png'),
+        thumbnail: require('./../assets/icons/ICON-82-117-115-115-105-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-82-117-115-115-105-97.png`,
         default: false,
         name: `Russia`,
         type: Items.TYPE.ICON,
@@ -1057,7 +1152,8 @@ export default {
     },
     'ICON-83-97-107-117-114-97': {
         uid: 'ICON-83-97-107-117-114-97',
-        source: require('./../assets/icons/ICON-83-97-107-117-114-97.png'),
+        thumbnail: require('./../assets/icons/ICON-83-97-107-117-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-97-107-117-114-97.png`,
         default: false,
         name: `Sakura`,
         type: Items.TYPE.ICON,
@@ -1068,7 +1164,8 @@ export default {
     },
     'ICON-83-99-111-111-116-101-114': {
         uid: 'ICON-83-99-111-111-116-101-114',
-        source: require('./../assets/icons/ICON-83-99-111-111-116-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-99-111-111-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-99-111-111-116-101-114.png`,
         default: false,
         name: `Scooter`,
         type: Items.TYPE.ICON,
@@ -1079,7 +1176,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'ICON-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 1 Competitor`,
         type: Items.TYPE.ICON,
@@ -1090,7 +1188,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-49-32-72-101-114-111': {
         uid: 'ICON-83-101-97-115-111-110-32-49-32-72-101-114-111',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-49-32-72-101-114-111.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-49-32-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-49-32-72-101-114-111.png`,
         default: false,
         name: `Season 1 Hero`,
         type: Items.TYPE.ICON,
@@ -1101,7 +1200,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'ICON-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 2 Competitor`,
         type: Items.TYPE.ICON,
@@ -1112,7 +1212,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-50-32-72-101-114-111': {
         uid: 'ICON-83-101-97-115-111-110-32-50-32-72-101-114-111',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-50-32-72-101-114-111.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-50-32-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-50-32-72-101-114-111.png`,
         default: false,
         name: `Season 2 Hero`,
         type: Items.TYPE.ICON,
@@ -1123,7 +1224,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'ICON-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 3 Competitor`,
         type: Items.TYPE.ICON,
@@ -1134,7 +1236,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-51-32-72-101-114-111': {
         uid: 'ICON-83-101-97-115-111-110-32-51-32-72-101-114-111',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-51-32-72-101-114-111.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-51-32-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-51-32-72-101-114-111.png`,
         default: false,
         name: `Season 3 Hero`,
         type: Items.TYPE.ICON,
@@ -1145,7 +1248,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 4 Competitor`,
         type: Items.TYPE.ICON,
@@ -1156,7 +1260,8 @@ export default {
     },
     'ICON-83-101-97-115-111-110-32-52-32-72-101-114-111': {
         uid: 'ICON-83-101-97-115-111-110-32-52-32-72-101-114-111',
-        source: require('./../assets/icons/ICON-83-101-97-115-111-110-32-52-32-72-101-114-111.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-97-115-111-110-32-52-32-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-97-115-111-110-32-52-32-72-101-114-111.png`,
         default: false,
         name: `Season 4 Hero`,
         type: Items.TYPE.ICON,
@@ -1167,7 +1272,8 @@ export default {
     },
     'ICON-83-101-111-108-108-97-108': {
         uid: 'ICON-83-101-111-108-108-97-108',
-        source: require('./../assets/icons/ICON-83-101-111-108-108-97-108.png'),
+        thumbnail: require('./../assets/icons/ICON-83-101-111-108-108-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-101-111-108-108-97-108.png`,
         default: false,
         name: `Seollal`,
         type: Items.TYPE.ICON,
@@ -1178,7 +1284,8 @@ export default {
     },
     'ICON-83-105-101-103-101-32-77-111-100-101': {
         uid: 'ICON-83-105-101-103-101-32-77-111-100-101',
-        source: require('./../assets/icons/ICON-83-105-101-103-101-32-77-111-100-101.png'),
+        thumbnail: require('./../assets/icons/ICON-83-105-101-103-101-32-77-111-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-105-101-103-101-32-77-111-100-101.png`,
         default: false,
         name: `Siege Mode`,
         type: Items.TYPE.ICON,
@@ -1189,7 +1296,8 @@ export default {
     },
     'ICON-83-105-120-45-71-117-110-32-75-105-108-108-101-114': {
         uid: 'ICON-83-105-120-45-71-117-110-32-75-105-108-108-101-114',
-        source: require('./../assets/icons/ICON-83-105-120-45-71-117-110-32-75-105-108-108-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-105-120-45-71-117-110-32-75-105-108-108-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-105-120-45-71-117-110-32-75-105-108-108-101-114.png`,
         default: false,
         name: `Six-Gun Killer`,
         type: Items.TYPE.ICON,
@@ -1200,7 +1308,8 @@ export default {
     },
     'ICON-83-110-111-119-32-71-108-111-98-101': {
         uid: 'ICON-83-110-111-119-32-71-108-111-98-101',
-        source: require('./../assets/icons/ICON-83-110-111-119-32-71-108-111-98-101.png'),
+        thumbnail: require('./../assets/icons/ICON-83-110-111-119-32-71-108-111-98-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-110-111-119-32-71-108-111-98-101.png`,
         default: false,
         name: `Snow Globe`,
         type: Items.TYPE.ICON,
@@ -1211,7 +1320,8 @@ export default {
     },
     'ICON-83-110-111-119-109-97-110': {
         uid: 'ICON-83-110-111-119-109-97-110',
-        source: require('./../assets/icons/ICON-83-110-111-119-109-97-110.png'),
+        thumbnail: require('./../assets/icons/ICON-83-110-111-119-109-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-110-111-119-109-97-110.png`,
         default: false,
         name: `Snowman`,
         type: Items.TYPE.ICON,
@@ -1222,7 +1332,8 @@ export default {
     },
     'ICON-83-111-117-116-104-32-75-111-114-101-97': {
         uid: 'ICON-83-111-117-116-104-32-75-111-114-101-97',
-        source: require('./../assets/icons/ICON-83-111-117-116-104-32-75-111-114-101-97.png'),
+        thumbnail: require('./../assets/icons/ICON-83-111-117-116-104-32-75-111-114-101-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-111-117-116-104-32-75-111-114-101-97.png`,
         default: false,
         name: `South Korea`,
         type: Items.TYPE.ICON,
@@ -1233,7 +1344,8 @@ export default {
     },
     'ICON-83-112-105-100-101-114': {
         uid: 'ICON-83-112-105-100-101-114',
-        source: require('./../assets/icons/ICON-83-112-105-100-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-112-105-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-112-105-100-101-114.png`,
         default: false,
         name: `Spider`,
         type: Items.TYPE.ICON,
@@ -1244,7 +1356,8 @@ export default {
     },
     'ICON-83-116-111-99-107-105-110-103': {
         uid: 'ICON-83-116-111-99-107-105-110-103',
-        source: require('./../assets/icons/ICON-83-116-111-99-107-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-83-116-111-99-107-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-116-111-99-107-105-110-103.png`,
         default: false,
         name: `Stocking`,
         type: Items.TYPE.ICON,
@@ -1255,7 +1368,8 @@ export default {
     },
     'ICON-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54': {
         uid: 'ICON-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54',
-        source: require('./../assets/icons/ICON-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png'),
+        thumbnail: require('./../assets/icons/ICON-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png`,
         default: false,
         name: `Summer Games 2016`,
         type: Items.TYPE.ICON,
@@ -1266,7 +1380,8 @@ export default {
     },
     'ICON-83-117-112-101-114-115-116-105-116-105-111-110': {
         uid: 'ICON-83-117-112-101-114-115-116-105-116-105-111-110',
-        source: require('./../assets/icons/ICON-83-117-112-101-114-115-116-105-116-105-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-83-117-112-101-114-115-116-105-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-117-112-101-114-115-116-105-116-105-111-110.png`,
         default: false,
         name: `Superstition`,
         type: Items.TYPE.ICON,
@@ -1277,7 +1392,8 @@ export default {
     },
     'ICON-83-118-121-97-116-111-103-111-114': {
         uid: 'ICON-83-118-121-97-116-111-103-111-114',
-        source: require('./../assets/icons/ICON-83-118-121-97-116-111-103-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-83-118-121-97-116-111-103-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-118-121-97-116-111-103-111-114.png`,
         default: false,
         name: `Svyatogor`,
         type: Items.TYPE.ICON,
@@ -1288,7 +1404,8 @@ export default {
     },
     'ICON-83-119-101-100-101-110': {
         uid: 'ICON-83-119-101-100-101-110',
-        source: require('./../assets/icons/ICON-83-119-101-100-101-110.png'),
+        thumbnail: require('./../assets/icons/ICON-83-119-101-100-101-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-119-101-100-101-110.png`,
         default: false,
         name: `Sweden`,
         type: Items.TYPE.ICON,
@@ -1299,7 +1416,8 @@ export default {
     },
     'ICON-83-119-105-116-122-101-114-108-97-110-100': {
         uid: 'ICON-83-119-105-116-122-101-114-108-97-110-100',
-        source: require('./../assets/icons/ICON-83-119-105-116-122-101-114-108-97-110-100.png'),
+        thumbnail: require('./../assets/icons/ICON-83-119-105-116-122-101-114-108-97-110-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-83-119-105-116-122-101-114-108-97-110-100.png`,
         default: false,
         name: `Switzerland`,
         type: Items.TYPE.ICON,
@@ -1310,7 +1428,8 @@ export default {
     },
     'ICON-84-97-110-103-101-114-105-110-101-115': {
         uid: 'ICON-84-97-110-103-101-114-105-110-101-115',
-        source: require('./../assets/icons/ICON-84-97-110-103-101-114-105-110-101-115.png'),
+        thumbnail: require('./../assets/icons/ICON-84-97-110-103-101-114-105-110-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-97-110-103-101-114-105-110-101-115.png`,
         default: false,
         name: `Tangerines`,
         type: Items.TYPE.ICON,
@@ -1321,7 +1440,8 @@ export default {
     },
     'ICON-84-97-110-110-101-110-98-97-117-109': {
         uid: 'ICON-84-97-110-110-101-110-98-97-117-109',
-        source: require('./../assets/icons/ICON-84-97-110-110-101-110-98-97-117-109.png'),
+        thumbnail: require('./../assets/icons/ICON-84-97-110-110-101-110-98-97-117-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-97-110-110-101-110-98-97-117-109.png`,
         default: false,
         name: `Tannenbaum`,
         type: Items.TYPE.ICON,
@@ -1332,7 +1452,8 @@ export default {
     },
     'ICON-84-101-114-114-97-110': {
         uid: 'ICON-84-101-114-114-97-110',
-        source: require('./../assets/icons/ICON-84-101-114-114-97-110.png'),
+        thumbnail: require('./../assets/icons/ICON-84-101-114-114-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-101-114-114-97-110.png`,
         default: false,
         name: `Terran`,
         type: Items.TYPE.ICON,
@@ -1343,7 +1464,8 @@ export default {
     },
     'ICON-84-111-109-98-115-116-111-110-101': {
         uid: 'ICON-84-111-109-98-115-116-111-110-101',
-        source: require('./../assets/icons/ICON-84-111-109-98-115-116-111-110-101.png'),
+        thumbnail: require('./../assets/icons/ICON-84-111-109-98-115-116-111-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-111-109-98-115-116-111-110-101.png`,
         default: false,
         name: `Tombstone`,
         type: Items.TYPE.ICON,
@@ -1354,7 +1476,8 @@ export default {
     },
     'ICON-84-111-112-32-53-48-48': {
         uid: 'ICON-84-111-112-32-53-48-48',
-        source: require('./../assets/icons/ICON-84-111-112-32-53-48-48.png'),
+        thumbnail: require('./../assets/icons/ICON-84-111-112-32-53-48-48.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-111-112-32-53-48-48.png`,
         default: false,
         name: `Top 500`,
         type: Items.TYPE.ICON,
@@ -1365,7 +1488,8 @@ export default {
     },
     'ICON-84-111-116-101-109': {
         uid: 'ICON-84-111-116-101-109',
-        source: require('./../assets/icons/ICON-84-111-116-101-109.png'),
+        thumbnail: require('./../assets/icons/ICON-84-111-116-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-111-116-101-109.png`,
         default: false,
         name: `Totem`,
         type: Items.TYPE.ICON,
@@ -1376,7 +1500,8 @@ export default {
     },
     'ICON-84-114-97-105-110-105-110-103-32-66-111-116': {
         uid: 'ICON-84-114-97-105-110-105-110-103-32-66-111-116',
-        source: require('./../assets/icons/ICON-84-114-97-105-110-105-110-103-32-66-111-116.png'),
+        thumbnail: require('./../assets/icons/ICON-84-114-97-105-110-105-110-103-32-66-111-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-84-114-97-105-110-105-110-103-32-66-111-116.png`,
         default: false,
         name: `Training Bot`,
         type: Items.TYPE.ICON,
@@ -1387,7 +1512,8 @@ export default {
     },
     'ICON-85-110-105-116-101-100-32-75-105-110-103-100-111-109': {
         uid: 'ICON-85-110-105-116-101-100-32-75-105-110-103-100-111-109',
-        source: require('./../assets/icons/ICON-85-110-105-116-101-100-32-75-105-110-103-100-111-109.png'),
+        thumbnail: require('./../assets/icons/ICON-85-110-105-116-101-100-32-75-105-110-103-100-111-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-85-110-105-116-101-100-32-75-105-110-103-100-111-109.png`,
         default: false,
         name: `United Kingdom`,
         type: Items.TYPE.ICON,
@@ -1398,7 +1524,8 @@ export default {
     },
     'ICON-85-110-105-116-101-100-32-83-116-97-116-101-115-32-111-102-32-65-109-101-114-105-99-97': {
         uid: 'ICON-85-110-105-116-101-100-32-83-116-97-116-101-115-32-111-102-32-65-109-101-114-105-99-97',
-        source: require('./../assets/icons/ICON-85-110-105-116-101-100-32-83-116-97-116-101-115-32-111-102-32-65-109-101-114-105-99-97.png'),
+        thumbnail: require('./../assets/icons/ICON-85-110-105-116-101-100-32-83-116-97-116-101-115-32-111-102-32-65-109-101-114-105-99-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-85-110-105-116-101-100-32-83-116-97-116-101-115-32-111-102-32-65-109-101-114-105-99-97.png`,
         default: false,
         name: `United States of America`,
         type: Items.TYPE.ICON,
@@ -1409,7 +1536,8 @@ export default {
     },
     'ICON-86-97-109-112-97-99-104-105-109-97-114-105': {
         uid: 'ICON-86-97-109-112-97-99-104-105-109-97-114-105',
-        source: require('./../assets/icons/ICON-86-97-109-112-97-99-104-105-109-97-114-105.png'),
+        thumbnail: require('./../assets/icons/ICON-86-97-109-112-97-99-104-105-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-86-97-109-112-97-99-104-105-109-97-114-105.png`,
         default: false,
         name: `Vampachimari`,
         type: Items.TYPE.ICON,
@@ -1420,7 +1548,8 @@ export default {
     },
     'ICON-86-97-114-105-97-110': {
         uid: 'ICON-86-97-114-105-97-110',
-        source: require('./../assets/icons/ICON-86-97-114-105-97-110.png'),
+        thumbnail: require('./../assets/icons/ICON-86-97-114-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-86-97-114-105-97-110.png`,
         default: false,
         name: `Varian`,
         type: Items.TYPE.ICON,
@@ -1431,7 +1560,8 @@ export default {
     },
     'ICON-86-105-118-105': {
         uid: 'ICON-86-105-118-105',
-        source: require('./../assets/icons/ICON-86-105-118-105.png'),
+        thumbnail: require('./../assets/icons/ICON-86-105-118-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-86-105-118-105.png`,
         default: false,
         name: `Vivi`,
         type: Items.TYPE.ICON,
@@ -1442,7 +1572,8 @@ export default {
     },
     'ICON-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100-32-50-48-49-54': {
         uid: 'ICON-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100-32-50-48-49-54',
-        source: require('./../assets/icons/ICON-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100-32-50-48-49-54.png'),
+        thumbnail: require('./../assets/icons/ICON-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100-32-50-48-49-54.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100-32-50-48-49-54.png`,
         default: false,
         name: `Winter Wonderland 2016`,
         type: Items.TYPE.ICON,
@@ -1453,7 +1584,8 @@ export default {
     },
     'ICON-87-105-116-99-104-32-68-111-99-116-111-114': {
         uid: 'ICON-87-105-116-99-104-32-68-111-99-116-111-114',
-        source: require('./../assets/icons/ICON-87-105-116-99-104-32-68-111-99-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-87-105-116-99-104-32-68-111-99-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-105-116-99-104-32-68-111-99-116-111-114.png`,
         default: false,
         name: `Witch Doctor`,
         type: Items.TYPE.ICON,
@@ -1464,7 +1596,8 @@ export default {
     },
     'ICON-87-105-116-99-104-39-115-32-66-114-101-119': {
         uid: 'ICON-87-105-116-99-104-39-115-32-66-114-101-119',
-        source: require('./../assets/icons/ICON-87-105-116-99-104-39-115-32-66-114-101-119.png'),
+        thumbnail: require('./../assets/icons/ICON-87-105-116-99-104-39-115-32-66-114-101-119.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-105-116-99-104-39-115-32-66-114-101-119.png`,
         default: false,
         name: `Witch's Brew`,
         type: Items.TYPE.ICON,
@@ -1475,7 +1608,8 @@ export default {
     },
     'ICON-87-105-116-99-104-39-115-32-72-97-116': {
         uid: 'ICON-87-105-116-99-104-39-115-32-72-97-116',
-        source: require('./../assets/icons/ICON-87-105-116-99-104-39-115-32-72-97-116.png'),
+        thumbnail: require('./../assets/icons/ICON-87-105-116-99-104-39-115-32-72-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-105-116-99-104-39-115-32-72-97-116.png`,
         default: false,
         name: `Witch's Hat`,
         type: Items.TYPE.ICON,
@@ -1486,7 +1620,8 @@ export default {
     },
     'ICON-87-105-122-97-114-100': {
         uid: 'ICON-87-105-122-97-114-100',
-        source: require('./../assets/icons/ICON-87-105-122-97-114-100.png'),
+        thumbnail: require('./../assets/icons/ICON-87-105-122-97-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-105-122-97-114-100.png`,
         default: false,
         name: `Wizard`,
         type: Items.TYPE.ICON,
@@ -1497,7 +1632,8 @@ export default {
     },
     'ICON-87-111-108-102': {
         uid: 'ICON-87-111-108-102',
-        source: require('./../assets/icons/ICON-87-111-108-102.png'),
+        thumbnail: require('./../assets/icons/ICON-87-111-108-102.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-111-108-102.png`,
         default: false,
         name: `Wolf`,
         type: Items.TYPE.ICON,
@@ -1508,7 +1644,8 @@ export default {
     },
     'ICON-87-114-101-97-116-104': {
         uid: 'ICON-87-114-101-97-116-104',
-        source: require('./../assets/icons/ICON-87-114-101-97-116-104.png'),
+        thumbnail: require('./../assets/icons/ICON-87-114-101-97-116-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-87-114-101-97-116-104.png`,
         default: false,
         name: `Wreath`,
         type: Items.TYPE.ICON,
@@ -1519,7 +1656,8 @@ export default {
     },
     'ICON-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114-32-50-48-49-55': {
         uid: 'ICON-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114-32-50-48-49-55',
-        source: require('./../assets/icons/ICON-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114-32-50-48-49-55.png'),
+        thumbnail: require('./../assets/icons/ICON-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114-32-50-48-49-55.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114-32-50-48-49-55.png`,
         default: false,
         name: `Year of the Rooster 2017`,
         type: Items.TYPE.ICON,
@@ -1530,7 +1668,8 @@ export default {
     },
     'ICON-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100': {
         uid: 'ICON-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100',
-        source: require('./../assets/icons/ICON-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100.png'),
+        thumbnail: require('./../assets/icons/ICON-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100.png`,
         default: false,
         name: `You are not prepared`,
         type: Items.TYPE.ICON,
@@ -1541,7 +1680,8 @@ export default {
     },
     'ICON-90-101-114-103': {
         uid: 'ICON-90-101-114-103',
-        source: require('./../assets/icons/ICON-90-101-114-103.png'),
+        thumbnail: require('./../assets/icons/ICON-90-101-114-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-90-101-114-103.png`,
         default: false,
         name: `Zerg`,
         type: Items.TYPE.ICON,
@@ -1552,7 +1692,8 @@ export default {
     },
     'SPRAY-46-46-46-78-101-118-101-114-32-68-105-101': {
         uid: 'SPRAY-46-46-46-78-101-118-101-114-32-68-105-101',
-        source: require('./../assets/sprays/SPRAY-46-46-46-78-101-118-101-114-32-68-105-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-46-46-46-78-101-118-101-114-32-68-105-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-46-46-46-78-101-118-101-114-32-68-105-101.png`,
         default: false,
         name: `...Never Die`,
         type: Items.TYPE.SPRAY,
@@ -1563,7 +1704,8 @@ export default {
     },
     'SPRAY-46-46-46-80-117-110-99-104': {
         uid: 'SPRAY-46-46-46-80-117-110-99-104',
-        source: require('./../assets/sprays/SPRAY-46-46-46-80-117-110-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-46-46-46-80-117-110-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-46-46-46-80-117-110-99-104.png`,
         default: false,
         name: `...Punch`,
         type: Items.TYPE.SPRAY,
@@ -1574,7 +1716,8 @@ export default {
     },
     'SPRAY-65-117-115-112-105-99-105-111-117-115-32-76-105-111-110': {
         uid: 'SPRAY-65-117-115-112-105-99-105-111-117-115-32-76-105-111-110',
-        source: require('./../assets/sprays/SPRAY-65-117-115-112-105-99-105-111-117-115-32-76-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-65-117-115-112-105-99-105-111-117-115-32-76-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-65-117-115-112-105-99-105-111-117-115-32-76-105-111-110.png`,
         default: false,
         name: `Auspicious Lion`,
         type: Items.TYPE.SPRAY,
@@ -1585,7 +1728,8 @@ export default {
     },
     'SPRAY-65-119-97-107-101-110-101-100-32-76-105-111-110': {
         uid: 'SPRAY-65-119-97-107-101-110-101-100-32-76-105-111-110',
-        source: require('./../assets/sprays/SPRAY-65-119-97-107-101-110-101-100-32-76-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-65-119-97-107-101-110-101-100-32-76-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-65-119-97-107-101-110-101-100-32-76-105-111-110.png`,
         default: false,
         name: `Awakened Lion`,
         type: Items.TYPE.SPRAY,
@@ -1596,7 +1740,8 @@ export default {
     },
     'SPRAY-66-97-114-98-97-114-105-97-110': {
         uid: 'SPRAY-66-97-114-98-97-114-105-97-110',
-        source: require('./../assets/sprays/SPRAY-66-97-114-98-97-114-105-97-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-66-97-114-98-97-114-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-66-97-114-98-97-114-105-97-110.png`,
         default: false,
         name: `Barbarian`,
         type: Items.TYPE.SPRAY,
@@ -1607,7 +1752,8 @@ export default {
     },
     'SPRAY-66-97-116-115': {
         uid: 'SPRAY-66-97-116-115',
-        source: require('./../assets/sprays/SPRAY-66-97-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-66-97-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-66-97-116-115.png`,
         default: false,
         name: `Bats`,
         type: Items.TYPE.SPRAY,
@@ -1618,7 +1764,8 @@ export default {
     },
     'SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110': {
         uid: 'SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110',
-        source: require('./../assets/sprays/SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110.png`,
         default: false,
         name: `Beyond the Moon`,
         type: Items.TYPE.SPRAY,
@@ -1629,7 +1776,8 @@ export default {
     },
     'SPRAY-66-111-111-33': {
         uid: 'SPRAY-66-111-111-33',
-        source: require('./../assets/sprays/SPRAY-66-111-111-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-66-111-111-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-66-111-111-33.png`,
         default: false,
         name: `Boo!`,
         type: Items.TYPE.SPRAY,
@@ -1640,7 +1788,8 @@ export default {
     },
     'SPRAY-66-111-111-112-33': {
         uid: 'SPRAY-66-111-111-112-33',
-        source: require('./../assets/sprays/SPRAY-66-111-111-112-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-66-111-111-112-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-66-111-111-112-33.png`,
         default: false,
         name: `Boop!`,
         type: Items.TYPE.SPRAY,
@@ -1651,7 +1800,8 @@ export default {
     },
     'SPRAY-67-97-110-100-121-98-97-108-108': {
         uid: 'SPRAY-67-97-110-100-121-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-67-97-110-100-121-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-67-97-110-100-121-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-67-97-110-100-121-98-97-108-108.png`,
         default: false,
         name: `Candyball`,
         type: Items.TYPE.SPRAY,
@@ -1662,7 +1812,8 @@ export default {
     },
     'SPRAY-67-97-116-99-104-101-114': {
         uid: 'SPRAY-67-97-116-99-104-101-114',
-        source: require('./../assets/sprays/SPRAY-67-97-116-99-104-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-67-97-116-99-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-67-97-116-99-104-101-114.png`,
         default: false,
         name: `Catcher`,
         type: Items.TYPE.SPRAY,
@@ -1673,7 +1824,8 @@ export default {
     },
     'SPRAY-67-97-117-116-105-111-110': {
         uid: 'SPRAY-67-97-117-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-67-97-117-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-67-97-117-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-67-97-117-116-105-111-110.png`,
         default: false,
         name: `Caution`,
         type: Items.TYPE.SPRAY,
@@ -1684,7 +1836,8 @@ export default {
     },
     'SPRAY-67-114-117-115-97-100-101-114': {
         uid: 'SPRAY-67-114-117-115-97-100-101-114',
-        source: require('./../assets/sprays/SPRAY-67-114-117-115-97-100-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-67-114-117-115-97-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-67-114-117-115-97-100-101-114.png`,
         default: false,
         name: `Crusader`,
         type: Items.TYPE.SPRAY,
@@ -1695,7 +1848,8 @@ export default {
     },
     'SPRAY-68-97-110-99-101': {
         uid: 'SPRAY-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-97-110-99-101.png`,
         default: false,
         name: `Dance`,
         type: Items.TYPE.SPRAY,
@@ -1706,7 +1860,8 @@ export default {
     },
     'SPRAY-68-97-114-107-32-76-111-103-111': {
         uid: 'SPRAY-68-97-114-107-32-76-111-103-111',
-        source: require('./../assets/sprays/SPRAY-68-97-114-107-32-76-111-103-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-97-114-107-32-76-111-103-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-97-114-107-32-76-111-103-111.png`,
         default: false,
         name: `Dark Logo`,
         type: Items.TYPE.SPRAY,
@@ -1717,7 +1872,8 @@ export default {
     },
     'SPRAY-68-97-114-107-32-79-118-101-114-119-97-116-99-104': {
         uid: 'SPRAY-68-97-114-107-32-79-118-101-114-119-97-116-99-104',
-        source: require('./../assets/sprays/SPRAY-68-97-114-107-32-79-118-101-114-119-97-116-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-97-114-107-32-79-118-101-114-119-97-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-97-114-107-32-79-118-101-114-119-97-116-99-104.png`,
         default: false,
         name: `Dark Overwatch`,
         type: Items.TYPE.SPRAY,
@@ -1728,7 +1884,8 @@ export default {
     },
     'SPRAY-68-97-114-107-32-84-105-116-108-101': {
         uid: 'SPRAY-68-97-114-107-32-84-105-116-108-101',
-        source: require('./../assets/sprays/SPRAY-68-97-114-107-32-84-105-116-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-97-114-107-32-84-105-116-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-97-114-107-32-84-105-116-108-101.png`,
         default: false,
         name: `Dark Title`,
         type: Items.TYPE.SPRAY,
@@ -1739,7 +1896,8 @@ export default {
     },
     'SPRAY-68-101-109-111-110-32-72-117-110-116-101-114': {
         uid: 'SPRAY-68-101-109-111-110-32-72-117-110-116-101-114',
-        source: require('./../assets/sprays/SPRAY-68-101-109-111-110-32-72-117-110-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-101-109-111-110-32-72-117-110-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-101-109-111-110-32-72-117-110-116-101-114.png`,
         default: false,
         name: `Demon Hunter`,
         type: Items.TYPE.SPRAY,
@@ -1750,7 +1908,8 @@ export default {
     },
     'SPRAY-68-114-97-103-111-110-39-115-32-72-101-97-100': {
         uid: 'SPRAY-68-114-97-103-111-110-39-115-32-72-101-97-100',
-        source: require('./../assets/sprays/SPRAY-68-114-97-103-111-110-39-115-32-72-101-97-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-114-97-103-111-110-39-115-32-72-101-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-114-97-103-111-110-39-115-32-72-101-97-100.png`,
         default: false,
         name: `Dragon's Head`,
         type: Items.TYPE.SPRAY,
@@ -1761,7 +1920,8 @@ export default {
     },
     'SPRAY-68-105-769-97-32-100-101-32-108-111-115-32-77-117-101-114-116-111-115': {
         uid: 'SPRAY-68-105-769-97-32-100-101-32-108-111-115-32-77-117-101-114-116-111-115',
-        source: require('./../assets/sprays/SPRAY-68-105-769-97-32-100-101-32-108-111-115-32-77-117-101-114-116-111-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-68-105-769-97-32-100-101-32-108-111-115-32-77-117-101-114-116-111-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-68-105-769-97-32-100-101-32-108-111-115-32-77-117-101-114-116-111-115.png`,
         default: false,
         name: `Día de los Muertos`,
         type: Items.TYPE.SPRAY,
@@ -1772,7 +1932,8 @@ export default {
     },
     'SPRAY-70-97-110-103-115': {
         uid: 'SPRAY-70-97-110-103-115',
-        source: require('./../assets/sprays/SPRAY-70-97-110-103-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-70-97-110-103-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-70-97-110-103-115.png`,
         default: false,
         name: `Fangs`,
         type: Items.TYPE.SPRAY,
@@ -1783,7 +1944,8 @@ export default {
     },
     'SPRAY-70-111-114-103-101-32-79-110-119-97-114-100': {
         uid: 'SPRAY-70-111-114-103-101-32-79-110-119-97-114-100',
-        source: require('./../assets/sprays/SPRAY-70-111-114-103-101-32-79-110-119-97-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-70-111-114-103-101-32-79-110-119-97-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-70-111-114-103-101-32-79-110-119-97-114-100.png`,
         default: false,
         name: `Forge Onward`,
         type: Items.TYPE.SPRAY,
@@ -1794,7 +1956,8 @@ export default {
     },
     'SPRAY-70-111-116-83-50': {
         uid: 'SPRAY-70-111-116-83-50',
-        source: require('./../assets/sprays/SPRAY-70-111-116-83-50.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-70-111-116-83-50.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-70-111-116-83-50.png`,
         default: false,
         name: `FotS2`,
         type: Items.TYPE.SPRAY,
@@ -1805,7 +1968,8 @@ export default {
     },
     'SPRAY-70-117-106-105': {
         uid: 'SPRAY-70-117-106-105',
-        source: require('./../assets/sprays/SPRAY-70-117-106-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-70-117-106-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-70-117-106-105.png`,
         default: false,
         name: `Fuji`,
         type: Items.TYPE.SPRAY,
@@ -1816,7 +1980,8 @@ export default {
     },
     'SPRAY-71-76-32-72-70': {
         uid: 'SPRAY-71-76-32-72-70',
-        source: require('./../assets/sprays/SPRAY-71-76-32-72-70.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-71-76-32-72-70.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-71-76-32-72-70.png`,
         default: false,
         name: `GL HF`,
         type: Items.TYPE.SPRAY,
@@ -1827,7 +1992,8 @@ export default {
     },
     'SPRAY-71-111-108-100-115-104-105-114-101-32-80-105-99-116-117-114-101-115': {
         uid: 'SPRAY-71-111-108-100-115-104-105-114-101-32-80-105-99-116-117-114-101-115',
-        source: require('./../assets/sprays/SPRAY-71-111-108-100-115-104-105-114-101-32-80-105-99-116-117-114-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-71-111-108-100-115-104-105-114-101-32-80-105-99-116-117-114-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-71-111-108-100-115-104-105-114-101-32-80-105-99-116-117-114-101-115.png`,
         default: false,
         name: `Goldshire Pictures`,
         type: Items.TYPE.SPRAY,
@@ -1838,7 +2004,8 @@ export default {
     },
     'SPRAY-71-117-109-109-121-32-72-111-103': {
         uid: 'SPRAY-71-117-109-109-121-32-72-111-103',
-        source: require('./../assets/sprays/SPRAY-71-117-109-109-121-32-72-111-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-71-117-109-109-121-32-72-111-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-71-117-109-109-121-32-72-111-103.png`,
         default: false,
         name: `Gummy Hog`,
         type: Items.TYPE.SPRAY,
@@ -1849,7 +2016,8 @@ export default {
     },
     'SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108': {
         uid: 'SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108',
-        source: require('./../assets/sprays/SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108.png`,
         default: false,
         name: `Halloween Special`,
         type: Items.TYPE.SPRAY,
@@ -1860,7 +2028,8 @@ export default {
     },
     'SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114': {
         uid: 'SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114',
-        source: require('./../assets/sprays/SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114.png`,
         default: false,
         name: `Halloween Terror`,
         type: Items.TYPE.SPRAY,
@@ -1871,7 +2040,8 @@ export default {
     },
     'SPRAY-74-97-105-108': {
         uid: 'SPRAY-74-97-105-108',
-        source: require('./../assets/sprays/SPRAY-74-97-105-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-74-97-105-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-74-97-105-108.png`,
         default: false,
         name: `Jail`,
         type: Items.TYPE.SPRAY,
@@ -1882,7 +2052,8 @@ export default {
     },
     'SPRAY-74-117-110-107-101-110-115-116-101-105-110-39-115-32-82-101-118-101-110-103-101': {
         uid: 'SPRAY-74-117-110-107-101-110-115-116-101-105-110-39-115-32-82-101-118-101-110-103-101',
-        source: require('./../assets/sprays/SPRAY-74-117-110-107-101-110-115-116-101-105-110-39-115-32-82-101-118-101-110-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-74-117-110-107-101-110-115-116-101-105-110-39-115-32-82-101-118-101-110-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-74-117-110-107-101-110-115-116-101-105-110-39-115-32-82-101-118-101-110-103-101.png`,
         default: false,
         name: `Junkenstein's Revenge`,
         type: Items.TYPE.SPRAY,
@@ -1893,7 +2064,8 @@ export default {
     },
     'SPRAY-76-101-101-107': {
         uid: 'SPRAY-76-101-101-107',
-        source: require('./../assets/sprays/SPRAY-76-101-101-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-76-101-101-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-76-101-101-107.png`,
         default: false,
         name: `Leek`,
         type: Items.TYPE.SPRAY,
@@ -1904,7 +2076,8 @@ export default {
     },
     'SPRAY-76-111-103-111': {
         uid: 'SPRAY-76-111-103-111',
-        source: require('./../assets/sprays/SPRAY-76-111-103-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-76-111-103-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-76-111-103-111.png`,
         default: true,
         name: `Logo`,
         type: Items.TYPE.SPRAY,
@@ -1915,7 +2088,8 @@ export default {
     },
     'SPRAY-76-117-99-107-121-32-80-111-117-99-104': {
         uid: 'SPRAY-76-117-99-107-121-32-80-111-117-99-104',
-        source: require('./../assets/sprays/SPRAY-76-117-99-107-121-32-80-111-117-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-76-117-99-107-121-32-80-111-117-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-76-117-99-107-121-32-80-111-117-99-104.png`,
         default: false,
         name: `Lucky Pouch`,
         type: Items.TYPE.SPRAY,
@@ -1926,7 +2100,8 @@ export default {
     },
     'SPRAY-76-117-109-101-769-114-105-99-111': {
         uid: 'SPRAY-76-117-109-101-769-114-105-99-111',
-        source: require('./../assets/sprays/SPRAY-76-117-109-101-769-114-105-99-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-76-117-109-101-769-114-105-99-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-76-117-109-101-769-114-105-99-111.png`,
         default: false,
         name: `Lumérico`,
         type: Items.TYPE.SPRAY,
@@ -1937,7 +2112,8 @@ export default {
     },
     'SPRAY-77-97-110-32-97-110-100-32-79-109-110-105-99': {
         uid: 'SPRAY-77-97-110-32-97-110-100-32-79-109-110-105-99',
-        source: require('./../assets/sprays/SPRAY-77-97-110-32-97-110-100-32-79-109-110-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-77-97-110-32-97-110-100-32-79-109-110-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-77-97-110-32-97-110-100-32-79-109-110-105-99.png`,
         default: false,
         name: `Man and Omnic`,
         type: Items.TYPE.SPRAY,
@@ -1948,7 +2124,8 @@ export default {
     },
     'SPRAY-77-111-110-107': {
         uid: 'SPRAY-77-111-110-107',
-        source: require('./../assets/sprays/SPRAY-77-111-110-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-77-111-110-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-77-111-110-107.png`,
         default: false,
         name: `Monk`,
         type: Items.TYPE.SPRAY,
@@ -1959,7 +2136,8 @@ export default {
     },
     'SPRAY-78-117-109-98-97-110-105-32-83-116-97-116-117-101': {
         uid: 'SPRAY-78-117-109-98-97-110-105-32-83-116-97-116-117-101',
-        source: require('./../assets/sprays/SPRAY-78-117-109-98-97-110-105-32-83-116-97-116-117-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-78-117-109-98-97-110-105-32-83-116-97-116-117-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-78-117-109-98-97-110-105-32-83-116-97-116-117-101.png`,
         default: false,
         name: `Numbani Statue`,
         type: Items.TYPE.SPRAY,
@@ -1970,7 +2148,8 @@ export default {
     },
     'SPRAY-79-109-110-105-99-32-82-105-103-104-116-115': {
         uid: 'SPRAY-79-109-110-105-99-32-82-105-103-104-116-115',
-        source: require('./../assets/sprays/SPRAY-79-109-110-105-99-32-82-105-103-104-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-79-109-110-105-99-32-82-105-103-104-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-79-109-110-105-99-32-82-105-103-104-116-115.png`,
         default: false,
         name: `Omnic Rights`,
         type: Items.TYPE.SPRAY,
@@ -1981,7 +2160,8 @@ export default {
     },
     'SPRAY-79-111-112-115': {
         uid: 'SPRAY-79-111-112-115',
-        source: require('./../assets/sprays/SPRAY-79-111-112-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-79-111-112-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-79-111-112-115.png`,
         default: false,
         name: `Oops`,
         type: Items.TYPE.SPRAY,
@@ -1992,7 +2172,8 @@ export default {
     },
     'SPRAY-79-117-116-32-111-102-32-77-121-32-87-97-121': {
         uid: 'SPRAY-79-117-116-32-111-102-32-77-121-32-87-97-121',
-        source: require('./../assets/sprays/SPRAY-79-117-116-32-111-102-32-77-121-32-87-97-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-79-117-116-32-111-102-32-77-121-32-87-97-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-79-117-116-32-111-102-32-77-121-32-87-97-121.png`,
         default: false,
         name: `Out of My Way`,
         type: Items.TYPE.SPRAY,
@@ -2003,7 +2184,8 @@ export default {
     },
     'SPRAY-79-118-101-114-119-97-116-99-104-32-84-105-116-108-101': {
         uid: 'SPRAY-79-118-101-114-119-97-116-99-104-32-84-105-116-108-101',
-        source: require('./../assets/sprays/SPRAY-79-118-101-114-119-97-116-99-104-32-84-105-116-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-79-118-101-114-119-97-116-99-104-32-84-105-116-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-79-118-101-114-119-97-116-99-104-32-84-105-116-108-101.png`,
         default: false,
         name: `Overwatch Title`,
         type: Items.TYPE.SPRAY,
@@ -2014,7 +2196,8 @@ export default {
     },
     'SPRAY-79-118-101-114-119-97-116-99-104': {
         uid: 'SPRAY-79-118-101-114-119-97-116-99-104',
-        source: require('./../assets/sprays/SPRAY-79-118-101-114-119-97-116-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-79-118-101-114-119-97-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-79-118-101-114-119-97-116-99-104.png`,
         default: false,
         name: `Overwatch`,
         type: Items.TYPE.SPRAY,
@@ -2025,7 +2208,8 @@ export default {
     },
     'SPRAY-80-97-99-104-105-109-97-114-105': {
         uid: 'SPRAY-80-97-99-104-105-109-97-114-105',
-        source: require('./../assets/sprays/SPRAY-80-97-99-104-105-109-97-114-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-80-97-99-104-105-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-80-97-99-104-105-109-97-114-105.png`,
         default: false,
         name: `Pachimari`,
         type: Items.TYPE.SPRAY,
@@ -2036,7 +2220,8 @@ export default {
     },
     'SPRAY-80-105-110-771-97-116-97': {
         uid: 'SPRAY-80-105-110-771-97-116-97',
-        source: require('./../assets/sprays/SPRAY-80-105-110-771-97-116-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-80-105-110-771-97-116-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-80-105-110-771-97-116-97.png`,
         default: false,
         name: `Piñata`,
         type: Items.TYPE.SPRAY,
@@ -2047,7 +2232,8 @@ export default {
     },
     'SPRAY-80-117-109-112-107-105-110-115': {
         uid: 'SPRAY-80-117-109-112-107-105-110-115',
-        source: require('./../assets/sprays/SPRAY-80-117-109-112-107-105-110-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-80-117-109-112-107-105-110-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-80-117-109-112-107-105-110-115.png`,
         default: false,
         name: `Pumpkins`,
         type: Items.TYPE.SPRAY,
@@ -2058,7 +2244,8 @@ export default {
     },
     'SPRAY-82-101-100-32-69-110-118-101-108-111-112-101': {
         uid: 'SPRAY-82-101-100-32-69-110-118-101-108-111-112-101',
-        source: require('./../assets/sprays/SPRAY-82-101-100-32-69-110-118-101-108-111-112-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-101-100-32-69-110-118-101-108-111-112-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-101-100-32-69-110-118-101-108-111-112-101.png`,
         default: false,
         name: `Red Envelope`,
         type: Items.TYPE.SPRAY,
@@ -2069,7 +2256,8 @@ export default {
     },
     'SPRAY-82-101-100-32-79': {
         uid: 'SPRAY-82-101-100-32-79',
-        source: require('./../assets/sprays/SPRAY-82-101-100-32-79.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-101-100-32-79.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-101-100-32-79.png`,
         default: false,
         name: `Red O`,
         type: Items.TYPE.SPRAY,
@@ -2080,7 +2268,8 @@ export default {
     },
     'SPRAY-82-101-100-32-88': {
         uid: 'SPRAY-82-101-100-32-88',
-        source: require('./../assets/sprays/SPRAY-82-101-100-32-88.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-101-100-32-88.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-101-100-32-88.png`,
         default: false,
         name: `Red X`,
         type: Items.TYPE.SPRAY,
@@ -2091,7 +2280,8 @@ export default {
     },
     'SPRAY-82-101-115-112-101-99-116': {
         uid: 'SPRAY-82-101-115-112-101-99-116',
-        source: require('./../assets/sprays/SPRAY-82-101-115-112-101-99-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-101-115-112-101-99-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-101-115-112-101-99-116.png`,
         default: false,
         name: `Respect`,
         type: Items.TYPE.SPRAY,
@@ -2102,7 +2292,8 @@ export default {
     },
     'SPRAY-82-104-105-110-111': {
         uid: 'SPRAY-82-104-105-110-111',
-        source: require('./../assets/sprays/SPRAY-82-104-105-110-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-104-105-110-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-104-105-110-111.png`,
         default: false,
         name: `Rhino`,
         type: Items.TYPE.SPRAY,
@@ -2113,7 +2304,8 @@ export default {
     },
     'SPRAY-82-105-107-105-109-97-114-117': {
         uid: 'SPRAY-82-105-107-105-109-97-114-117',
-        source: require('./../assets/sprays/SPRAY-82-105-107-105-109-97-114-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-105-107-105-109-97-114-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-105-107-105-109-97-114-117.png`,
         default: false,
         name: `Rikimaru`,
         type: Items.TYPE.SPRAY,
@@ -2124,7 +2316,8 @@ export default {
     },
     'SPRAY-82-105-115-101-32-111-102-32-116-104-101-32-90-111-109-110-105-99-115': {
         uid: 'SPRAY-82-105-115-101-32-111-102-32-116-104-101-32-90-111-109-110-105-99-115',
-        source: require('./../assets/sprays/SPRAY-82-105-115-101-32-111-102-32-116-104-101-32-90-111-109-110-105-99-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-105-115-101-32-111-102-32-116-104-101-32-90-111-109-110-105-99-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-105-115-101-32-111-102-32-116-104-101-32-90-111-109-110-105-99-115.png`,
         default: false,
         name: `Rise of the Zomnics`,
         type: Items.TYPE.SPRAY,
@@ -2135,7 +2328,8 @@ export default {
     },
     'SPRAY-82-105-115-101': {
         uid: 'SPRAY-82-105-115-101',
-        source: require('./../assets/sprays/SPRAY-82-105-115-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-82-105-115-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-82-105-115-101.png`,
         default: false,
         name: `Rise`,
         type: Items.TYPE.SPRAY,
@@ -2146,7 +2340,8 @@ export default {
     },
     'SPRAY-83-97-114-99-111-112-104-97-103-117-115': {
         uid: 'SPRAY-83-97-114-99-111-112-104-97-103-117-115',
-        source: require('./../assets/sprays/SPRAY-83-97-114-99-111-112-104-97-103-117-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-97-114-99-111-112-104-97-103-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-97-114-99-111-112-104-97-103-117-115.png`,
         default: false,
         name: `Sarcophagus`,
         type: Items.TYPE.SPRAY,
@@ -2157,7 +2352,8 @@ export default {
     },
     'SPRAY-83-99-111-111-116-101-114': {
         uid: 'SPRAY-83-99-111-111-116-101-114',
-        source: require('./../assets/sprays/SPRAY-83-99-111-111-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-99-111-111-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-99-111-111-116-101-114.png`,
         default: false,
         name: `Scooter`,
         type: Items.TYPE.SPRAY,
@@ -2168,7 +2364,8 @@ export default {
     },
     'SPRAY-83-99-114-111-108-108': {
         uid: 'SPRAY-83-99-114-111-108-108',
-        source: require('./../assets/sprays/SPRAY-83-99-114-111-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-99-114-111-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-99-114-111-108-108.png`,
         default: false,
         name: `Scroll`,
         type: Items.TYPE.SPRAY,
@@ -2179,7 +2376,8 @@ export default {
     },
     'SPRAY-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'SPRAY-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-101-97-115-111-110-32-49-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 1 Competitor`,
         type: Items.TYPE.SPRAY,
@@ -2190,7 +2388,8 @@ export default {
     },
     'SPRAY-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'SPRAY-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-101-97-115-111-110-32-50-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 2 Competitor`,
         type: Items.TYPE.SPRAY,
@@ -2201,7 +2400,8 @@ export default {
     },
     'SPRAY-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'SPRAY-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-101-97-115-111-110-32-51-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 3 Competitor`,
         type: Items.TYPE.SPRAY,
@@ -2212,7 +2412,8 @@ export default {
     },
     'SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114': {
         uid: 'SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114',
-        source: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114.png`,
         default: false,
         name: `Season 4 Competitor`,
         type: Items.TYPE.SPRAY,
@@ -2223,7 +2424,8 @@ export default {
     },
     'SPRAY-83-105-101-103-101-32-77-111-100-101': {
         uid: 'SPRAY-83-105-101-103-101-32-77-111-100-101',
-        source: require('./../assets/sprays/SPRAY-83-105-101-103-101-32-77-111-100-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-105-101-103-101-32-77-111-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-105-101-103-101-32-77-111-100-101.png`,
         default: false,
         name: `Siege Mode`,
         type: Items.TYPE.SPRAY,
@@ -2234,7 +2436,8 @@ export default {
     },
     'SPRAY-83-105-120-45-71-117-110-32-75-105-108-108-101-114': {
         uid: 'SPRAY-83-105-120-45-71-117-110-32-75-105-108-108-101-114',
-        source: require('./../assets/sprays/SPRAY-83-105-120-45-71-117-110-32-75-105-108-108-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-105-120-45-71-117-110-32-75-105-108-108-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-105-120-45-71-117-110-32-75-105-108-108-101-114.png`,
         default: false,
         name: `Six-Gun Killer`,
         type: Items.TYPE.SPRAY,
@@ -2245,7 +2448,8 @@ export default {
     },
     'SPRAY-83-110-111-119-99-114-101-101': {
         uid: 'SPRAY-83-110-111-119-99-114-101-101',
-        source: require('./../assets/sprays/SPRAY-83-110-111-119-99-114-101-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-110-111-119-99-114-101-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-110-111-119-99-114-101-101.png`,
         default: false,
         name: `Snowcree`,
         type: Items.TYPE.SPRAY,
@@ -2256,7 +2460,8 @@ export default {
     },
     'SPRAY-83-110-111-119-104-111-103': {
         uid: 'SPRAY-83-110-111-119-104-111-103',
-        source: require('./../assets/sprays/SPRAY-83-110-111-119-104-111-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-110-111-119-104-111-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-110-111-119-104-111-103.png`,
         default: false,
         name: `Snowhog`,
         type: Items.TYPE.SPRAY,
@@ -2267,7 +2472,8 @@ export default {
     },
     'SPRAY-83-110-111-119-109-101-105': {
         uid: 'SPRAY-83-110-111-119-109-101-105',
-        source: require('./../assets/sprays/SPRAY-83-110-111-119-109-101-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-110-111-119-109-101-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-110-111-119-109-101-105.png`,
         default: false,
         name: `Snowmei`,
         type: Items.TYPE.SPRAY,
@@ -2278,7 +2484,8 @@ export default {
     },
     'SPRAY-83-110-111-119-114-101-97-112-101-114': {
         uid: 'SPRAY-83-110-111-119-114-101-97-112-101-114',
-        source: require('./../assets/sprays/SPRAY-83-110-111-119-114-101-97-112-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-110-111-119-114-101-97-112-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-110-111-119-114-101-97-112-101-114.png`,
         default: false,
         name: `Snowreaper`,
         type: Items.TYPE.SPRAY,
@@ -2289,7 +2496,8 @@ export default {
     },
     'SPRAY-83-111-108': {
         uid: 'SPRAY-83-111-108',
-        source: require('./../assets/sprays/SPRAY-83-111-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-111-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-111-108.png`,
         default: false,
         name: `Sol`,
         type: Items.TYPE.SPRAY,
@@ -2300,7 +2508,8 @@ export default {
     },
     'SPRAY-83-111-114-114-121': {
         uid: 'SPRAY-83-111-114-114-121',
-        source: require('./../assets/sprays/SPRAY-83-111-114-114-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-111-114-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-111-114-114-121.png`,
         default: false,
         name: `Sorry`,
         type: Items.TYPE.SPRAY,
@@ -2311,7 +2520,8 @@ export default {
     },
     'SPRAY-83-111-117-108-115-116-111-110-101': {
         uid: 'SPRAY-83-111-117-108-115-116-111-110-101',
-        source: require('./../assets/sprays/SPRAY-83-111-117-108-115-116-111-110-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-111-117-108-115-116-111-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-111-117-108-115-116-111-110-101.png`,
         default: false,
         name: `Soulstone`,
         type: Items.TYPE.SPRAY,
@@ -2322,7 +2532,8 @@ export default {
     },
     'SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54': {
         uid: 'SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54',
-        source: require('./../assets/sprays/SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-117-109-109-101-114-32-71-97-109-101-115-32-50-48-49-54.png`,
         default: false,
         name: `Summer Games 2016`,
         type: Items.TYPE.SPRAY,
@@ -2333,7 +2544,8 @@ export default {
     },
     'SPRAY-84-101-97-32-84-105-109-101': {
         uid: 'SPRAY-84-101-97-32-84-105-109-101',
-        source: require('./../assets/sprays/SPRAY-84-101-97-32-84-105-109-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-84-101-97-32-84-105-109-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-84-101-97-32-84-105-109-101.png`,
         default: false,
         name: `Tea Time`,
         type: Items.TYPE.SPRAY,
@@ -2344,7 +2556,8 @@ export default {
     },
     'SPRAY-84-104-97-110-107-115': {
         uid: 'SPRAY-84-104-97-110-107-115',
-        source: require('./../assets/sprays/SPRAY-84-104-97-110-107-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-84-104-97-110-107-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-84-104-97-110-107-115.png`,
         default: false,
         name: `Thanks`,
         type: Items.TYPE.SPRAY,
@@ -2355,7 +2568,8 @@ export default {
     },
     'SPRAY-84-104-101-32-82-101-97-112-101-110-105-110-103': {
         uid: 'SPRAY-84-104-101-32-82-101-97-112-101-110-105-110-103',
-        source: require('./../assets/sprays/SPRAY-84-104-101-32-82-101-97-112-101-110-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-84-104-101-32-82-101-97-112-101-110-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-84-104-101-32-82-101-97-112-101-110-105-110-103.png`,
         default: false,
         name: `The Reapening`,
         type: Items.TYPE.SPRAY,
@@ -2366,7 +2580,8 @@ export default {
     },
     'SPRAY-86-105-99-116-111-114-121': {
         uid: 'SPRAY-86-105-99-116-111-114-121',
-        source: require('./../assets/sprays/SPRAY-86-105-99-116-111-114-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-86-105-99-116-111-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-86-105-99-116-111-114-121.png`,
         default: false,
         name: `Victory`,
         type: Items.TYPE.SPRAY,
@@ -2377,7 +2592,8 @@ export default {
     },
     'SPRAY-86-105-118-105-39-115-32-65-100-118-101-110-116-117-114-101': {
         uid: 'SPRAY-86-105-118-105-39-115-32-65-100-118-101-110-116-117-114-101',
-        source: require('./../assets/sprays/SPRAY-86-105-118-105-39-115-32-65-100-118-101-110-116-117-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-86-105-118-105-39-115-32-65-100-118-101-110-116-117-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-86-105-118-105-39-115-32-65-100-118-101-110-116-117-114-101.png`,
         default: false,
         name: `Vivi's Adventure`,
         type: Items.TYPE.SPRAY,
@@ -2388,7 +2604,8 @@ export default {
     },
     'SPRAY-87-101-108-108-32-80-108-97-121-101-100': {
         uid: 'SPRAY-87-101-108-108-32-80-108-97-121-101-100',
-        source: require('./../assets/sprays/SPRAY-87-101-108-108-32-80-108-97-121-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-87-101-108-108-32-80-108-97-121-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-87-101-108-108-32-80-108-97-121-101-100.png`,
         default: false,
         name: `Well Played`,
         type: Items.TYPE.SPRAY,
@@ -2399,7 +2616,8 @@ export default {
     },
     'SPRAY-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100': {
         uid: 'SPRAY-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100',
-        source: require('./../assets/sprays/SPRAY-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-87-105-110-116-101-114-32-87-111-110-100-101-114-108-97-110-100.png`,
         default: false,
         name: `Winter Wonderland`,
         type: Items.TYPE.SPRAY,
@@ -2410,7 +2628,8 @@ export default {
     },
     'SPRAY-87-105-116-99-104-32-68-111-99-116-111-114': {
         uid: 'SPRAY-87-105-116-99-104-32-68-111-99-116-111-114',
-        source: require('./../assets/sprays/SPRAY-87-105-116-99-104-32-68-111-99-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-87-105-116-99-104-32-68-111-99-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-87-105-116-99-104-32-68-111-99-116-111-114.png`,
         default: false,
         name: `Witch Doctor`,
         type: Items.TYPE.SPRAY,
@@ -2421,7 +2640,8 @@ export default {
     },
     'SPRAY-87-105-116-99-104-39-115-32-66-114-101-119': {
         uid: 'SPRAY-87-105-116-99-104-39-115-32-66-114-101-119',
-        source: require('./../assets/sprays/SPRAY-87-105-116-99-104-39-115-32-66-114-101-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-87-105-116-99-104-39-115-32-66-114-101-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-87-105-116-99-104-39-115-32-66-114-101-119.png`,
         default: false,
         name: `Witch's Brew`,
         type: Items.TYPE.SPRAY,
@@ -2432,7 +2652,8 @@ export default {
     },
     'SPRAY-87-105-122-97-114-100': {
         uid: 'SPRAY-87-105-122-97-114-100',
-        source: require('./../assets/sprays/SPRAY-87-105-122-97-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-87-105-122-97-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-87-105-122-97-114-100.png`,
         default: false,
         name: `Wizard`,
         type: Items.TYPE.SPRAY,
@@ -2443,7 +2664,8 @@ export default {
     },
     'SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114': {
         uid: 'SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114',
-        source: require('./../assets/sprays/SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-89-101-97-114-32-111-102-32-116-104-101-32-82-111-111-115-116-101-114.png`,
         default: false,
         name: `Year of the Rooster`,
         type: Items.TYPE.SPRAY,
@@ -2454,7 +2676,8 @@ export default {
     },
     'SPRAY-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100-33': {
         uid: 'SPRAY-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100-33',
-        source: require('./../assets/sprays/SPRAY-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-89-111-117-32-97-114-101-32-110-111-116-32-112-114-101-112-97-114-101-100-33.png`,
         default: true,
         name: `You are not prepared!`,
         type: Items.TYPE.SPRAY,
@@ -2465,7 +2688,8 @@ export default {
     },
     'SPRAY-REAPER-80-105-120-101-108': {
         uid: 'SPRAY-REAPER-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-REAPER-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -2476,7 +2700,8 @@ export default {
     },
     'SPRAY-REAPER-67-117-116-101': {
         uid: 'SPRAY-REAPER-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -2547,7 +2772,8 @@ export default {
     },
     'ICON-REAPER-82-101-97-112-101-114': {
         uid: 'ICON-REAPER-82-101-97-112-101-114',
-        source: require('./../assets/icons/ICON-REAPER-82-101-97-112-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-REAPER-82-101-97-112-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REAPER-82-101-97-112-101-114.png`,
         default: false,
         name: `Reaper`,
         type: Items.TYPE.ICON,
@@ -2558,7 +2784,8 @@ export default {
     },
     'ICON-REAPER-83-111-117-108': {
         uid: 'ICON-REAPER-83-111-117-108',
-        source: require('./../assets/icons/ICON-REAPER-83-111-117-108.png'),
+        thumbnail: require('./../assets/icons/ICON-REAPER-83-111-117-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REAPER-83-111-117-108.png`,
         default: false,
         name: `Soul`,
         type: Items.TYPE.ICON,
@@ -2569,7 +2796,8 @@ export default {
     },
     'ICON-REAPER-69-109-98-108-101-109': {
         uid: 'ICON-REAPER-69-109-98-108-101-109',
-        source: require('./../assets/icons/ICON-REAPER-69-109-98-108-101-109.png'),
+        thumbnail: require('./../assets/icons/ICON-REAPER-69-109-98-108-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REAPER-69-109-98-108-101-109.png`,
         default: false,
         name: `Emblem`,
         type: Items.TYPE.ICON,
@@ -2890,7 +3118,8 @@ export default {
     },
     'SPRAY-REAPER-73-99-111-110': {
         uid: 'SPRAY-REAPER-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-REAPER-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -2901,7 +3130,8 @@ export default {
     },
     'SPRAY-REAPER-80-115-115-116': {
         uid: 'SPRAY-REAPER-80-115-115-116',
-        source: require('./../assets/sprays/SPRAY-REAPER-80-115-115-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-80-115-115-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-80-115-115-116.png`,
         default: false,
         name: `Psst`,
         type: Items.TYPE.SPRAY,
@@ -2912,7 +3142,8 @@ export default {
     },
     'SPRAY-REAPER-69-118-101-114-121-119-104-101-114-101': {
         uid: 'SPRAY-REAPER-69-118-101-114-121-119-104-101-114-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-69-118-101-114-121-119-104-101-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-69-118-101-114-121-119-104-101-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-69-118-101-114-121-119-104-101-114-101.png`,
         default: false,
         name: `Everywhere`,
         type: Items.TYPE.SPRAY,
@@ -2923,7 +3154,8 @@ export default {
     },
     'SPRAY-REAPER-82-101-118-101-110-103-101': {
         uid: 'SPRAY-REAPER-82-101-118-101-110-103-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-82-101-118-101-110-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-82-101-118-101-110-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-82-101-118-101-110-103-101.png`,
         default: false,
         name: `Revenge`,
         type: Items.TYPE.SPRAY,
@@ -2934,7 +3166,8 @@ export default {
     },
     'SPRAY-REAPER-83-111-117-108-32-71-108-111-98-101': {
         uid: 'SPRAY-REAPER-83-111-117-108-32-71-108-111-98-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-83-111-117-108-32-71-108-111-98-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-83-111-117-108-32-71-108-111-98-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-83-111-117-108-32-71-108-111-98-101.png`,
         default: false,
         name: `Soul Globe`,
         type: Items.TYPE.SPRAY,
@@ -2945,7 +3178,8 @@ export default {
     },
     'SPRAY-REAPER-79-111-112-115': {
         uid: 'SPRAY-REAPER-79-111-112-115',
-        source: require('./../assets/sprays/SPRAY-REAPER-79-111-112-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-79-111-112-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-79-111-112-115.png`,
         default: false,
         name: `Oops`,
         type: Items.TYPE.SPRAY,
@@ -2956,7 +3190,8 @@ export default {
     },
     'SPRAY-REAPER-66-108-111-115-115-111-109': {
         uid: 'SPRAY-REAPER-66-108-111-115-115-111-109',
-        source: require('./../assets/sprays/SPRAY-REAPER-66-108-111-115-115-111-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-66-108-111-115-115-111-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-66-108-111-115-115-111-109.png`,
         default: false,
         name: `Blossom`,
         type: Items.TYPE.SPRAY,
@@ -2967,7 +3202,8 @@ export default {
     },
     'SPRAY-REAPER-83-104-97-100-111-119': {
         uid: 'SPRAY-REAPER-83-104-97-100-111-119',
-        source: require('./../assets/sprays/SPRAY-REAPER-83-104-97-100-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-83-104-97-100-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-83-104-97-100-111-119.png`,
         default: false,
         name: `Shadow`,
         type: Items.TYPE.SPRAY,
@@ -2978,7 +3214,8 @@ export default {
     },
     'SPRAY-REAPER-67-108-111-97-107-101-100': {
         uid: 'SPRAY-REAPER-67-108-111-97-107-101-100',
-        source: require('./../assets/sprays/SPRAY-REAPER-67-108-111-97-107-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-67-108-111-97-107-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-67-108-111-97-107-101-100.png`,
         default: false,
         name: `Cloaked`,
         type: Items.TYPE.SPRAY,
@@ -2989,7 +3226,8 @@ export default {
     },
     'SPRAY-REAPER-66-108-97-99-107-119-97-116-99-104': {
         uid: 'SPRAY-REAPER-66-108-97-99-107-119-97-116-99-104',
-        source: require('./../assets/sprays/SPRAY-REAPER-66-108-97-99-107-119-97-116-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-66-108-97-99-107-119-97-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-66-108-97-99-107-119-97-116-99-104.png`,
         default: false,
         name: `Blackwatch`,
         type: Items.TYPE.SPRAY,
@@ -3000,7 +3238,8 @@ export default {
     },
     'SPRAY-REAPER-72-111-111-100-101-100': {
         uid: 'SPRAY-REAPER-72-111-111-100-101-100',
-        source: require('./../assets/sprays/SPRAY-REAPER-72-111-111-100-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-72-111-111-100-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-72-111-111-100-101-100.png`,
         default: false,
         name: `Hooded`,
         type: Items.TYPE.SPRAY,
@@ -3011,7 +3250,8 @@ export default {
     },
     'SPRAY-REAPER-68-101-97-116-104-32-66-108-111-115-115-111-109': {
         uid: 'SPRAY-REAPER-68-101-97-116-104-32-66-108-111-115-115-111-109',
-        source: require('./../assets/sprays/SPRAY-REAPER-68-101-97-116-104-32-66-108-111-115-115-111-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-68-101-97-116-104-32-66-108-111-115-115-111-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-68-101-97-116-104-32-66-108-111-115-115-111-109.png`,
         default: false,
         name: `Death Blossom`,
         type: Items.TYPE.SPRAY,
@@ -3022,7 +3262,8 @@ export default {
     },
     'SPRAY-REAPER-83-104-97-100-111-119-32-83-116-101-112': {
         uid: 'SPRAY-REAPER-83-104-97-100-111-119-32-83-116-101-112',
-        source: require('./../assets/sprays/SPRAY-REAPER-83-104-97-100-111-119-32-83-116-101-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-83-104-97-100-111-119-32-83-116-101-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-83-104-97-100-111-119-32-83-116-101-112.png`,
         default: false,
         name: `Shadow Step`,
         type: Items.TYPE.SPRAY,
@@ -3033,7 +3274,8 @@ export default {
     },
     'SPRAY-REAPER-83-99-121-116-104-101-115': {
         uid: 'SPRAY-REAPER-83-99-121-116-104-101-115',
-        source: require('./../assets/sprays/SPRAY-REAPER-83-99-121-116-104-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-83-99-121-116-104-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-83-99-121-116-104-101-115.png`,
         default: false,
         name: `Scythes`,
         type: Items.TYPE.SPRAY,
@@ -3044,7 +3286,8 @@ export default {
     },
     'SPRAY-REAPER-71-114-97-118-101': {
         uid: 'SPRAY-REAPER-71-114-97-118-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-71-114-97-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-71-114-97-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-71-114-97-118-101.png`,
         default: false,
         name: `Grave`,
         type: Items.TYPE.SPRAY,
@@ -3055,7 +3298,8 @@ export default {
     },
     'SPRAY-REAPER-83-105-108-101-110-116': {
         uid: 'SPRAY-REAPER-83-105-108-101-110-116',
-        source: require('./../assets/sprays/SPRAY-REAPER-83-105-108-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-83-105-108-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-83-105-108-101-110-116.png`,
         default: false,
         name: `Silent`,
         type: Items.TYPE.SPRAY,
@@ -3066,7 +3310,8 @@ export default {
     },
     'SPRAY-REAPER-82-101-97-112-105-110-103': {
         uid: 'SPRAY-REAPER-82-101-97-112-105-110-103',
-        source: require('./../assets/sprays/SPRAY-REAPER-82-101-97-112-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-82-101-97-112-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-82-101-97-112-105-110-103.png`,
         default: false,
         name: `Reaping`,
         type: Items.TYPE.SPRAY,
@@ -3077,7 +3322,8 @@ export default {
     },
     'SPRAY-REAPER-68-101-97-116-104-32-67-111-109-101-115': {
         uid: 'SPRAY-REAPER-68-101-97-116-104-32-67-111-109-101-115',
-        source: require('./../assets/sprays/SPRAY-REAPER-68-101-97-116-104-32-67-111-109-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-68-101-97-116-104-32-67-111-109-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-68-101-97-116-104-32-67-111-109-101-115.png`,
         default: false,
         name: `Death Comes`,
         type: Items.TYPE.SPRAY,
@@ -3088,7 +3334,8 @@ export default {
     },
     'SPRAY-REAPER-84-105-109-101-32-116-111-32-75-105-108-108': {
         uid: 'SPRAY-REAPER-84-105-109-101-32-116-111-32-75-105-108-108',
-        source: require('./../assets/sprays/SPRAY-REAPER-84-105-109-101-32-116-111-32-75-105-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-84-105-109-101-32-116-111-32-75-105-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-84-105-109-101-32-116-111-32-75-105-108-108.png`,
         default: false,
         name: `Time to Kill`,
         type: Items.TYPE.SPRAY,
@@ -3099,7 +3346,8 @@ export default {
     },
     'SPRAY-REAPER-68-105-101-32-68-105-101-32-68-105-101': {
         uid: 'SPRAY-REAPER-68-105-101-32-68-105-101-32-68-105-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-68-105-101-32-68-105-101-32-68-105-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-68-105-101-32-68-105-101-32-68-105-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-68-105-101-32-68-105-101-32-68-105-101.png`,
         default: false,
         name: `Die Die Die`,
         type: Items.TYPE.SPRAY,
@@ -3110,7 +3358,8 @@ export default {
     },
     'SPRAY-REAPER-82-101-97-112-32-79-110': {
         uid: 'SPRAY-REAPER-82-101-97-112-32-79-110',
-        source: require('./../assets/sprays/SPRAY-REAPER-82-101-97-112-32-79-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-82-101-97-112-32-79-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-82-101-97-112-32-79-110.png`,
         default: false,
         name: `Reap On`,
         type: Items.TYPE.SPRAY,
@@ -3121,7 +3370,8 @@ export default {
     },
     'SPRAY-REAPER-72-101-108-108-102-105-114-101': {
         uid: 'SPRAY-REAPER-72-101-108-108-102-105-114-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-72-101-108-108-102-105-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-72-101-108-108-102-105-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-72-101-108-108-102-105-114-101.png`,
         default: false,
         name: `Hellfire`,
         type: Items.TYPE.SPRAY,
@@ -3132,7 +3382,8 @@ export default {
     },
     'SPRAY-REAPER-72-111-114-110-115': {
         uid: 'SPRAY-REAPER-72-111-114-110-115',
-        source: require('./../assets/sprays/SPRAY-REAPER-72-111-114-110-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-72-111-114-110-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-72-111-114-110-115.png`,
         default: false,
         name: `Horns`,
         type: Items.TYPE.SPRAY,
@@ -3143,7 +3394,8 @@ export default {
     },
     'ICON-REAPER-66-77-88': {
         uid: 'ICON-REAPER-66-77-88',
-        source: require('./../assets/icons/ICON-REAPER-66-77-88.png'),
+        thumbnail: require('./../assets/icons/ICON-REAPER-66-77-88.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REAPER-66-77-88.png`,
         default: false,
         name: `BMX`,
         type: Items.TYPE.ICON,
@@ -3154,7 +3406,8 @@ export default {
     },
     'SPRAY-REAPER-66-77-88': {
         uid: 'SPRAY-REAPER-66-77-88',
-        source: require('./../assets/sprays/SPRAY-REAPER-66-77-88.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-66-77-88.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-66-77-88.png`,
         default: false,
         name: `BMX`,
         type: Items.TYPE.SPRAY,
@@ -3185,7 +3438,8 @@ export default {
     },
     'SPRAY-REAPER-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-REAPER-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-REAPER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -3226,7 +3480,8 @@ export default {
     },
     'ICON-REAPER-84-104-101-32-82-101-97-112-101-114': {
         uid: 'ICON-REAPER-84-104-101-32-82-101-97-112-101-114',
-        source: require('./../assets/icons/ICON-REAPER-84-104-101-32-82-101-97-112-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-REAPER-84-104-101-32-82-101-97-112-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REAPER-84-104-101-32-82-101-97-112-101-114.png`,
         default: false,
         name: `The Reaper`,
         type: Items.TYPE.ICON,
@@ -3247,7 +3502,8 @@ export default {
     },
     'SPRAY-REAPER-83-116-111-99-107-105-110-103': {
         uid: 'SPRAY-REAPER-83-116-111-99-107-105-110-103',
-        source: require('./../assets/sprays/SPRAY-REAPER-83-116-111-99-107-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-83-116-111-99-107-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-83-116-111-99-107-105-110-103.png`,
         default: false,
         name: `Stocking`,
         type: Items.TYPE.SPRAY,
@@ -3258,7 +3514,8 @@ export default {
     },
     'SPRAY-REAPER-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-REAPER-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-REAPER-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -3289,7 +3546,8 @@ export default {
     },
     'SPRAY-REAPER-70-105-114-101-32-66-108-111-115-115-111-109': {
         uid: 'SPRAY-REAPER-70-105-114-101-32-66-108-111-115-115-111-109',
-        source: require('./../assets/sprays/SPRAY-REAPER-70-105-114-101-32-66-108-111-115-115-111-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-70-105-114-101-32-66-108-111-115-115-111-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-70-105-114-101-32-66-108-111-115-115-111-109.png`,
         default: false,
         name: `Fire Blossom`,
         type: Items.TYPE.SPRAY,
@@ -3300,7 +3558,8 @@ export default {
     },
     'SPRAY-REAPER-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-REAPER-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-REAPER-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -3321,7 +3580,8 @@ export default {
     },
     'SPRAY-TRACER-80-105-120-101-108': {
         uid: 'SPRAY-TRACER-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-TRACER-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -3332,7 +3592,8 @@ export default {
     },
     'SPRAY-TRACER-67-117-116-101': {
         uid: 'SPRAY-TRACER-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -3403,7 +3664,8 @@ export default {
     },
     'ICON-TRACER-84-114-97-99-101-114': {
         uid: 'ICON-TRACER-84-114-97-99-101-114',
-        source: require('./../assets/icons/ICON-TRACER-84-114-97-99-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-TRACER-84-114-97-99-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TRACER-84-114-97-99-101-114.png`,
         default: false,
         name: `Tracer`,
         type: Items.TYPE.ICON,
@@ -3414,7 +3676,8 @@ export default {
     },
     'ICON-TRACER-80-117-108-115-101-32-66-111-109-98': {
         uid: 'ICON-TRACER-80-117-108-115-101-32-66-111-109-98',
-        source: require('./../assets/icons/ICON-TRACER-80-117-108-115-101-32-66-111-109-98.png'),
+        thumbnail: require('./../assets/icons/ICON-TRACER-80-117-108-115-101-32-66-111-109-98.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TRACER-80-117-108-115-101-32-66-111-109-98.png`,
         default: false,
         name: `Pulse Bomb`,
         type: Items.TYPE.ICON,
@@ -3425,7 +3688,8 @@ export default {
     },
     'ICON-TRACER-80-97-116-99-104': {
         uid: 'ICON-TRACER-80-97-116-99-104',
-        source: require('./../assets/icons/ICON-TRACER-80-97-116-99-104.png'),
+        thumbnail: require('./../assets/icons/ICON-TRACER-80-97-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TRACER-80-97-116-99-104.png`,
         default: false,
         name: `Patch`,
         type: Items.TYPE.ICON,
@@ -3736,7 +4000,8 @@ export default {
     },
     'SPRAY-TRACER-73-99-111-110': {
         uid: 'SPRAY-TRACER-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-TRACER-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -3747,7 +4012,8 @@ export default {
     },
     'SPRAY-TRACER-87-105-110-103-115': {
         uid: 'SPRAY-TRACER-87-105-110-103-115',
-        source: require('./../assets/sprays/SPRAY-TRACER-87-105-110-103-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-87-105-110-103-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-87-105-110-103-115.png`,
         default: false,
         name: `Wings`,
         type: Items.TYPE.SPRAY,
@@ -3758,7 +4024,8 @@ export default {
     },
     'SPRAY-TRACER-66-108-105-110-107': {
         uid: 'SPRAY-TRACER-66-108-105-110-107',
-        source: require('./../assets/sprays/SPRAY-TRACER-66-108-105-110-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-66-108-105-110-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-66-108-105-110-107.png`,
         default: false,
         name: `Blink`,
         type: Items.TYPE.SPRAY,
@@ -3769,7 +4036,8 @@ export default {
     },
     'SPRAY-TRACER-70-105-103-104-116-101-114': {
         uid: 'SPRAY-TRACER-70-105-103-104-116-101-114',
-        source: require('./../assets/sprays/SPRAY-TRACER-70-105-103-104-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-70-105-103-104-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-70-105-103-104-116-101-114.png`,
         default: false,
         name: `Fighter`,
         type: Items.TYPE.SPRAY,
@@ -3780,7 +4048,8 @@ export default {
     },
     'SPRAY-TRACER-67-104-101-101-114-115-44-32-76-111-118-101': {
         uid: 'SPRAY-TRACER-67-104-101-101-114-115-44-32-76-111-118-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-67-104-101-101-114-115-44-32-76-111-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-67-104-101-101-114-115-44-32-76-111-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-67-104-101-101-114-115-44-32-76-111-118-101.png`,
         default: false,
         name: `Cheers, Love`,
         type: Items.TYPE.SPRAY,
@@ -3791,7 +4060,8 @@ export default {
     },
     'SPRAY-TRACER-84-97-103-103-101-100': {
         uid: 'SPRAY-TRACER-84-97-103-103-101-100',
-        source: require('./../assets/sprays/SPRAY-TRACER-84-97-103-103-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-84-97-103-103-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-84-97-103-103-101-100.png`,
         default: false,
         name: `Tagged`,
         type: Items.TYPE.SPRAY,
@@ -3802,7 +4072,8 @@ export default {
     },
     'SPRAY-TRACER-79-114-97-110-103-101': {
         uid: 'SPRAY-TRACER-79-114-97-110-103-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-79-114-97-110-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-79-114-97-110-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-79-114-97-110-103-101.png`,
         default: false,
         name: `Orange`,
         type: Items.TYPE.SPRAY,
@@ -3813,7 +4084,8 @@ export default {
     },
     'SPRAY-TRACER-76-101-110-97': {
         uid: 'SPRAY-TRACER-76-101-110-97',
-        source: require('./../assets/sprays/SPRAY-TRACER-76-101-110-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-76-101-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-76-101-110-97.png`,
         default: false,
         name: `Lena`,
         type: Items.TYPE.SPRAY,
@@ -3824,7 +4096,8 @@ export default {
     },
     'SPRAY-TRACER-67-108-111-99-107-39-115-32-84-105-99-107-105-110-39': {
         uid: 'SPRAY-TRACER-67-108-111-99-107-39-115-32-84-105-99-107-105-110-39',
-        source: require('./../assets/sprays/SPRAY-TRACER-67-108-111-99-107-39-115-32-84-105-99-107-105-110-39.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-67-108-111-99-107-39-115-32-84-105-99-107-105-110-39.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-67-108-111-99-107-39-115-32-84-105-99-107-105-110-39.png`,
         default: false,
         name: `Clock's Tickin'`,
         type: Items.TYPE.SPRAY,
@@ -3835,7 +4108,8 @@ export default {
     },
     'SPRAY-TRACER-80-105-115-116-111-108-115': {
         uid: 'SPRAY-TRACER-80-105-115-116-111-108-115',
-        source: require('./../assets/sprays/SPRAY-TRACER-80-105-115-116-111-108-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-80-105-115-116-111-108-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-80-105-115-116-111-108-115.png`,
         default: false,
         name: `Pistols`,
         type: Items.TYPE.SPRAY,
@@ -3846,7 +4120,8 @@ export default {
     },
     'SPRAY-TRACER-83-104-97-100-101-100': {
         uid: 'SPRAY-TRACER-83-104-97-100-101-100',
-        source: require('./../assets/sprays/SPRAY-TRACER-83-104-97-100-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-83-104-97-100-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-83-104-97-100-101-100.png`,
         default: false,
         name: `Shaded`,
         type: Items.TYPE.SPRAY,
@@ -3857,7 +4132,8 @@ export default {
     },
     'SPRAY-TRACER-80-117-108-115-101-32-66-111-109-98': {
         uid: 'SPRAY-TRACER-80-117-108-115-101-32-66-111-109-98',
-        source: require('./../assets/sprays/SPRAY-TRACER-80-117-108-115-101-32-66-111-109-98.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-80-117-108-115-101-32-66-111-109-98.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-80-117-108-115-101-32-66-111-109-98.png`,
         default: false,
         name: `Pulse Bomb`,
         type: Items.TYPE.SPRAY,
@@ -3868,7 +4144,8 @@ export default {
     },
     'SPRAY-TRACER-66-111-109-98-39-115-32-65-119-97-121-33': {
         uid: 'SPRAY-TRACER-66-111-109-98-39-115-32-65-119-97-121-33',
-        source: require('./../assets/sprays/SPRAY-TRACER-66-111-109-98-39-115-32-65-119-97-121-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-66-111-109-98-39-115-32-65-119-97-121-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-66-111-109-98-39-115-32-65-119-97-121-33.png`,
         default: false,
         name: `Bomb's Away!`,
         type: Items.TYPE.SPRAY,
@@ -3879,7 +4156,8 @@ export default {
     },
     'SPRAY-TRACER-82-101-97-100-121-32-102-111-114-32-65-99-116-105-111-110': {
         uid: 'SPRAY-TRACER-82-101-97-100-121-32-102-111-114-32-65-99-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-TRACER-82-101-97-100-121-32-102-111-114-32-65-99-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-82-101-97-100-121-32-102-111-114-32-65-99-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-82-101-97-100-121-32-102-111-114-32-65-99-116-105-111-110.png`,
         default: false,
         name: `Ready for Action`,
         type: Items.TYPE.SPRAY,
@@ -3890,7 +4168,8 @@ export default {
     },
     'SPRAY-TRACER-67-111-110-102-105-100-101-110-116': {
         uid: 'SPRAY-TRACER-67-111-110-102-105-100-101-110-116',
-        source: require('./../assets/sprays/SPRAY-TRACER-67-111-110-102-105-100-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-67-111-110-102-105-100-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-67-111-110-102-105-100-101-110-116.png`,
         default: false,
         name: `Confident`,
         type: Items.TYPE.SPRAY,
@@ -3901,7 +4180,8 @@ export default {
     },
     'SPRAY-TRACER-75-110-101-101-108-105-110-103': {
         uid: 'SPRAY-TRACER-75-110-101-101-108-105-110-103',
-        source: require('./../assets/sprays/SPRAY-TRACER-75-110-101-101-108-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-75-110-101-101-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-75-110-101-101-108-105-110-103.png`,
         default: false,
         name: `Kneeling`,
         type: Items.TYPE.SPRAY,
@@ -3912,7 +4192,8 @@ export default {
     },
     'SPRAY-TRACER-87-104-97-116-99-104-97-39-32-76-111-111-107-105-110-39-32-65-116-63': {
         uid: 'SPRAY-TRACER-87-104-97-116-99-104-97-39-32-76-111-111-107-105-110-39-32-65-116-63',
-        source: require('./../assets/sprays/SPRAY-TRACER-87-104-97-116-99-104-97-39-32-76-111-111-107-105-110-39-32-65-116-63.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-87-104-97-116-99-104-97-39-32-76-111-111-107-105-110-39-32-65-116-63.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-87-104-97-116-99-104-97-39-32-76-111-111-107-105-110-39-32-65-116-63.png`,
         default: false,
         name: `Whatcha' Lookin' At?`,
         type: Items.TYPE.SPRAY,
@@ -3923,7 +4204,8 @@ export default {
     },
     'SPRAY-TRACER-67-97-118-97-108-114-121-39-115-32-72-101-114-101': {
         uid: 'SPRAY-TRACER-67-97-118-97-108-114-121-39-115-32-72-101-114-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-67-97-118-97-108-114-121-39-115-32-72-101-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-67-97-118-97-108-114-121-39-115-32-72-101-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-67-97-118-97-108-114-121-39-115-32-72-101-114-101.png`,
         default: false,
         name: `Cavalry's Here`,
         type: Items.TYPE.SPRAY,
@@ -3934,7 +4216,8 @@ export default {
     },
     'SPRAY-TRACER-67-104-101-101-114-115': {
         uid: 'SPRAY-TRACER-67-104-101-101-114-115',
-        source: require('./../assets/sprays/SPRAY-TRACER-67-104-101-101-114-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-67-104-101-101-114-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-67-104-101-101-114-115.png`,
         default: false,
         name: `Cheers`,
         type: Items.TYPE.SPRAY,
@@ -3945,7 +4228,8 @@ export default {
     },
     'SPRAY-TRACER-80-101-119-33-32-80-101-119-33-32-80-101-119-33': {
         uid: 'SPRAY-TRACER-80-101-119-33-32-80-101-119-33-32-80-101-119-33',
-        source: require('./../assets/sprays/SPRAY-TRACER-80-101-119-33-32-80-101-119-33-32-80-101-119-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-80-101-119-33-32-80-101-119-33-32-80-101-119-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-80-101-119-33-32-80-101-119-33-32-80-101-119-33.png`,
         default: false,
         name: `Pew! Pew! Pew!`,
         type: Items.TYPE.SPRAY,
@@ -3956,7 +4240,8 @@ export default {
     },
     'SPRAY-TRACER-80-111-115-116-101-114': {
         uid: 'SPRAY-TRACER-80-111-115-116-101-114',
-        source: require('./../assets/sprays/SPRAY-TRACER-80-111-115-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-80-111-115-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-80-111-115-116-101-114.png`,
         default: false,
         name: `Poster`,
         type: Items.TYPE.SPRAY,
@@ -3967,7 +4252,8 @@ export default {
     },
     'SPRAY-TRACER-83-97-108-117-116-101': {
         uid: 'SPRAY-TRACER-83-97-108-117-116-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-83-97-108-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-83-97-108-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-83-97-108-117-116-101.png`,
         default: false,
         name: `Salute`,
         type: Items.TYPE.SPRAY,
@@ -3978,7 +4264,8 @@ export default {
     },
     'SPRAY-TRACER-80-111-114-116-114-97-105-116': {
         uid: 'SPRAY-TRACER-80-111-114-116-114-97-105-116',
-        source: require('./../assets/sprays/SPRAY-TRACER-80-111-114-116-114-97-105-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-80-111-114-116-114-97-105-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-80-111-114-116-114-97-105-116.png`,
         default: false,
         name: `Portrait`,
         type: Items.TYPE.SPRAY,
@@ -3989,7 +4276,8 @@ export default {
     },
     'ICON-TRACER-84-114-97-99-107': {
         uid: 'ICON-TRACER-84-114-97-99-107',
-        source: require('./../assets/icons/ICON-TRACER-84-114-97-99-107.png'),
+        thumbnail: require('./../assets/icons/ICON-TRACER-84-114-97-99-107.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TRACER-84-114-97-99-107.png`,
         default: false,
         name: `Track`,
         type: Items.TYPE.ICON,
@@ -4000,7 +4288,8 @@ export default {
     },
     'SPRAY-TRACER-84-114-97-99-107': {
         uid: 'SPRAY-TRACER-84-114-97-99-107',
-        source: require('./../assets/sprays/SPRAY-TRACER-84-114-97-99-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-84-114-97-99-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-84-114-97-99-107.png`,
         default: false,
         name: `Track`,
         type: Items.TYPE.SPRAY,
@@ -4051,7 +4340,8 @@ export default {
     },
     'SPRAY-TRACER-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-TRACER-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-TRACER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -4082,7 +4372,8 @@ export default {
     },
     'SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103': {
         uid: 'SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103',
-        source: require('./../assets/sprays/SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103.png`,
         default: false,
         name: `Snowboarding`,
         type: Items.TYPE.SPRAY,
@@ -4093,7 +4384,8 @@ export default {
     },
     'SPRAY-TRACER-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-TRACER-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-TRACER-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -4114,7 +4406,8 @@ export default {
     },
     'ICON-TRACER-74-105-110-103-108-101': {
         uid: 'ICON-TRACER-74-105-110-103-108-101',
-        source: require('./../assets/icons/ICON-TRACER-74-105-110-103-108-101.png'),
+        thumbnail: require('./../assets/icons/ICON-TRACER-74-105-110-103-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TRACER-74-105-110-103-108-101.png`,
         default: false,
         name: `Jingle`,
         type: Items.TYPE.ICON,
@@ -4135,7 +4428,8 @@ export default {
     },
     'SPRAY-TRACER-70-97-110-32-68-97-110-99-101': {
         uid: 'SPRAY-TRACER-70-97-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-70-97-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-70-97-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-70-97-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Fan Dance`,
         type: Items.TYPE.SPRAY,
@@ -4146,7 +4440,8 @@ export default {
     },
     'SPRAY-TRACER-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-TRACER-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-TRACER-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -4187,7 +4482,8 @@ export default {
     },
     'SPRAY-MERCY-80-105-120-101-108': {
         uid: 'SPRAY-MERCY-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-MERCY-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -4198,7 +4494,8 @@ export default {
     },
     'SPRAY-MERCY-67-117-116-101': {
         uid: 'SPRAY-MERCY-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -4259,7 +4556,8 @@ export default {
     },
     'ICON-MERCY-77-101-114-99-121': {
         uid: 'ICON-MERCY-77-101-114-99-121',
-        source: require('./../assets/icons/ICON-MERCY-77-101-114-99-121.png'),
+        thumbnail: require('./../assets/icons/ICON-MERCY-77-101-114-99-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MERCY-77-101-114-99-121.png`,
         default: false,
         name: `Mercy`,
         type: Items.TYPE.ICON,
@@ -4270,7 +4568,8 @@ export default {
     },
     'ICON-MERCY-71-117-97-114-100-105-97-110-32-65-110-103-101-108': {
         uid: 'ICON-MERCY-71-117-97-114-100-105-97-110-32-65-110-103-101-108',
-        source: require('./../assets/icons/ICON-MERCY-71-117-97-114-100-105-97-110-32-65-110-103-101-108.png'),
+        thumbnail: require('./../assets/icons/ICON-MERCY-71-117-97-114-100-105-97-110-32-65-110-103-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MERCY-71-117-97-114-100-105-97-110-32-65-110-103-101-108.png`,
         default: false,
         name: `Guardian Angel`,
         type: Items.TYPE.ICON,
@@ -4281,7 +4580,8 @@ export default {
     },
     'ICON-MERCY-86-97-108-107-121-114-105-101': {
         uid: 'ICON-MERCY-86-97-108-107-121-114-105-101',
-        source: require('./../assets/icons/ICON-MERCY-86-97-108-107-121-114-105-101.png'),
+        thumbnail: require('./../assets/icons/ICON-MERCY-86-97-108-107-121-114-105-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MERCY-86-97-108-107-121-114-105-101.png`,
         default: false,
         name: `Valkyrie`,
         type: Items.TYPE.ICON,
@@ -4602,7 +4902,8 @@ export default {
     },
     'SPRAY-MERCY-73-99-111-110': {
         uid: 'SPRAY-MERCY-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-MERCY-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -4613,7 +4914,8 @@ export default {
     },
     'SPRAY-MERCY-69-109-98-108-101-109': {
         uid: 'SPRAY-MERCY-69-109-98-108-101-109',
-        source: require('./../assets/sprays/SPRAY-MERCY-69-109-98-108-101-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-69-109-98-108-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-69-109-98-108-101-109.png`,
         default: false,
         name: `Emblem`,
         type: Items.TYPE.SPRAY,
@@ -4624,7 +4926,8 @@ export default {
     },
     'SPRAY-MERCY-66-108-97-115-116-101-114': {
         uid: 'SPRAY-MERCY-66-108-97-115-116-101-114',
-        source: require('./../assets/sprays/SPRAY-MERCY-66-108-97-115-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-66-108-97-115-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-66-108-97-115-116-101-114.png`,
         default: false,
         name: `Blaster`,
         type: Items.TYPE.SPRAY,
@@ -4635,7 +4938,8 @@ export default {
     },
     'SPRAY-MERCY-83-117-112-112-111-114-116': {
         uid: 'SPRAY-MERCY-83-117-112-112-111-114-116',
-        source: require('./../assets/sprays/SPRAY-MERCY-83-117-112-112-111-114-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-83-117-112-112-111-114-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-83-117-112-112-111-114-116.png`,
         default: false,
         name: `Support`,
         type: Items.TYPE.SPRAY,
@@ -4646,7 +4950,8 @@ export default {
     },
     'SPRAY-MERCY-72-97-108-111': {
         uid: 'SPRAY-MERCY-72-97-108-111',
-        source: require('./../assets/sprays/SPRAY-MERCY-72-97-108-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-72-97-108-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-72-97-108-111.png`,
         default: false,
         name: `Halo`,
         type: Items.TYPE.SPRAY,
@@ -4657,7 +4962,8 @@ export default {
     },
     'SPRAY-MERCY-76-105-103-104-116': {
         uid: 'SPRAY-MERCY-76-105-103-104-116',
-        source: require('./../assets/sprays/SPRAY-MERCY-76-105-103-104-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-76-105-103-104-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-76-105-103-104-116.png`,
         default: false,
         name: `Light`,
         type: Items.TYPE.SPRAY,
@@ -4668,7 +4974,8 @@ export default {
     },
     'SPRAY-MERCY-83-109-105-108-101': {
         uid: 'SPRAY-MERCY-83-109-105-108-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-83-109-105-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-83-109-105-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-83-109-105-108-101.png`,
         default: false,
         name: `Smile`,
         type: Items.TYPE.SPRAY,
@@ -4679,7 +4986,8 @@ export default {
     },
     'SPRAY-MERCY-79-110-32-67-97-108-108': {
         uid: 'SPRAY-MERCY-79-110-32-67-97-108-108',
-        source: require('./../assets/sprays/SPRAY-MERCY-79-110-32-67-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-79-110-32-67-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-79-110-32-67-97-108-108.png`,
         default: false,
         name: `On Call`,
         type: Items.TYPE.SPRAY,
@@ -4690,7 +4998,8 @@ export default {
     },
     'SPRAY-MERCY-86-97-108-107-121-114-105-101': {
         uid: 'SPRAY-MERCY-86-97-108-107-121-114-105-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-86-97-108-107-121-114-105-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-86-97-108-107-121-114-105-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-86-97-108-107-121-114-105-101.png`,
         default: false,
         name: `Valkyrie`,
         type: Items.TYPE.SPRAY,
@@ -4701,7 +5010,8 @@ export default {
     },
     'SPRAY-MERCY-83-119-105-115-115': {
         uid: 'SPRAY-MERCY-83-119-105-115-115',
-        source: require('./../assets/sprays/SPRAY-MERCY-83-119-105-115-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-83-119-105-115-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-83-119-105-115-115.png`,
         default: false,
         name: `Swiss`,
         type: Items.TYPE.SPRAY,
@@ -4712,7 +5022,8 @@ export default {
     },
     'SPRAY-MERCY-65-114-114-111-119': {
         uid: 'SPRAY-MERCY-65-114-114-111-119',
-        source: require('./../assets/sprays/SPRAY-MERCY-65-114-114-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-65-114-114-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-65-114-114-111-119.png`,
         default: false,
         name: `Arrow`,
         type: Items.TYPE.SPRAY,
@@ -4723,7 +5034,8 @@ export default {
     },
     'SPRAY-MERCY-77-101-100-105-99': {
         uid: 'SPRAY-MERCY-77-101-100-105-99',
-        source: require('./../assets/sprays/SPRAY-MERCY-77-101-100-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-77-101-100-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-77-101-100-105-99.png`,
         default: false,
         name: `Medic`,
         type: Items.TYPE.SPRAY,
@@ -4734,7 +5046,8 @@ export default {
     },
     'SPRAY-MERCY-66-97-116-116-108-101-32-82-101-97-100-121': {
         uid: 'SPRAY-MERCY-66-97-116-116-108-101-32-82-101-97-100-121',
-        source: require('./../assets/sprays/SPRAY-MERCY-66-97-116-116-108-101-32-82-101-97-100-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-66-97-116-116-108-101-32-82-101-97-100-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-66-97-116-116-108-101-32-82-101-97-100-121.png`,
         default: false,
         name: `Battle Ready`,
         type: Items.TYPE.SPRAY,
@@ -4745,7 +5058,8 @@ export default {
     },
     'SPRAY-MERCY-83-116-105-110-103': {
         uid: 'SPRAY-MERCY-83-116-105-110-103',
-        source: require('./../assets/sprays/SPRAY-MERCY-83-116-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-83-116-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-83-116-105-110-103.png`,
         default: false,
         name: `Sting`,
         type: Items.TYPE.SPRAY,
@@ -4756,7 +5070,8 @@ export default {
     },
     'SPRAY-MERCY-71-97-117-122-101': {
         uid: 'SPRAY-MERCY-71-97-117-122-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-71-97-117-122-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-71-97-117-122-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-71-97-117-122-101.png`,
         default: false,
         name: `Gauze`,
         type: Items.TYPE.SPRAY,
@@ -4767,7 +5082,8 @@ export default {
     },
     'SPRAY-MERCY-83-116-101-116-104-111-115-99-111-112-101': {
         uid: 'SPRAY-MERCY-83-116-101-116-104-111-115-99-111-112-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-83-116-101-116-104-111-115-99-111-112-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-83-116-101-116-104-111-115-99-111-112-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-83-116-101-116-104-111-115-99-111-112-101.png`,
         default: false,
         name: `Stethoscope`,
         type: Items.TYPE.SPRAY,
@@ -4778,7 +5094,8 @@ export default {
     },
     'SPRAY-MERCY-66-97-110-100-97-103-101': {
         uid: 'SPRAY-MERCY-66-97-110-100-97-103-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-66-97-110-100-97-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-66-97-110-100-97-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-66-97-110-100-97-103-101.png`,
         default: false,
         name: `Bandage`,
         type: Items.TYPE.SPRAY,
@@ -4789,7 +5106,8 @@ export default {
     },
     'SPRAY-MERCY-80-97-116-99-104-101-100-32-85-112': {
         uid: 'SPRAY-MERCY-80-97-116-99-104-101-100-32-85-112',
-        source: require('./../assets/sprays/SPRAY-MERCY-80-97-116-99-104-101-100-32-85-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-80-97-116-99-104-101-100-32-85-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-80-97-116-99-104-101-100-32-85-112.png`,
         default: false,
         name: `Patched Up`,
         type: Items.TYPE.SPRAY,
@@ -4800,7 +5118,8 @@ export default {
     },
     'SPRAY-MERCY-90-105-101-103-108-101-114': {
         uid: 'SPRAY-MERCY-90-105-101-103-108-101-114',
-        source: require('./../assets/sprays/SPRAY-MERCY-90-105-101-103-108-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-90-105-101-103-108-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-90-105-101-103-108-101-114.png`,
         default: false,
         name: `Ziegler`,
         type: Items.TYPE.SPRAY,
@@ -4811,7 +5130,8 @@ export default {
     },
     'SPRAY-MERCY-72-117-103-101-32-82-101-122-33-33': {
         uid: 'SPRAY-MERCY-72-117-103-101-32-82-101-122-33-33',
-        source: require('./../assets/sprays/SPRAY-MERCY-72-117-103-101-32-82-101-122-33-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-72-117-103-101-32-82-101-122-33-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-72-117-103-101-32-82-101-122-33-33.png`,
         default: false,
         name: `Huge Rez!!`,
         type: Items.TYPE.SPRAY,
@@ -4822,7 +5142,8 @@ export default {
     },
     'SPRAY-MERCY-72-101-114-111-101-115-32-78-101-118-101-114-32-68-105-101': {
         uid: 'SPRAY-MERCY-72-101-114-111-101-115-32-78-101-118-101-114-32-68-105-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-72-101-114-111-101-115-32-78-101-118-101-114-32-68-105-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-72-101-114-111-101-115-32-78-101-118-101-114-32-68-105-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-72-101-114-111-101-115-32-78-101-118-101-114-32-68-105-101.png`,
         default: false,
         name: `Heroes Never Die`,
         type: Items.TYPE.SPRAY,
@@ -4833,7 +5154,8 @@ export default {
     },
     'SPRAY-MERCY-82-101-115-117-114-114-101-99-116': {
         uid: 'SPRAY-MERCY-82-101-115-117-114-114-101-99-116',
-        source: require('./../assets/sprays/SPRAY-MERCY-82-101-115-117-114-114-101-99-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-82-101-115-117-114-114-101-99-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-82-101-115-117-114-114-101-99-116.png`,
         default: false,
         name: `Resurrect`,
         type: Items.TYPE.SPRAY,
@@ -4844,7 +5166,8 @@ export default {
     },
     'SPRAY-MERCY-87-105-110-103-115': {
         uid: 'SPRAY-MERCY-87-105-110-103-115',
-        source: require('./../assets/sprays/SPRAY-MERCY-87-105-110-103-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-87-105-110-103-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-87-105-110-103-115.png`,
         default: false,
         name: `Wings`,
         type: Items.TYPE.SPRAY,
@@ -4855,7 +5178,8 @@ export default {
     },
     'ICON-MERCY-66-97-100-109-105-110-116-111-110': {
         uid: 'ICON-MERCY-66-97-100-109-105-110-116-111-110',
-        source: require('./../assets/icons/ICON-MERCY-66-97-100-109-105-110-116-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-MERCY-66-97-100-109-105-110-116-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MERCY-66-97-100-109-105-110-116-111-110.png`,
         default: false,
         name: `Badminton`,
         type: Items.TYPE.ICON,
@@ -4866,7 +5190,8 @@ export default {
     },
     'SPRAY-MERCY-66-97-100-109-105-110-116-111-110': {
         uid: 'SPRAY-MERCY-66-97-100-109-105-110-116-111-110',
-        source: require('./../assets/sprays/SPRAY-MERCY-66-97-100-109-105-110-116-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-66-97-100-109-105-110-116-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-66-97-100-109-105-110-116-111-110.png`,
         default: false,
         name: `Badminton`,
         type: Items.TYPE.SPRAY,
@@ -4897,7 +5222,8 @@ export default {
     },
     'SPRAY-MERCY-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-MERCY-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-MERCY-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -4928,7 +5254,8 @@ export default {
     },
     'ICON-MERCY-84-104-101-32-87-105-116-99-104': {
         uid: 'ICON-MERCY-84-104-101-32-87-105-116-99-104',
-        source: require('./../assets/icons/ICON-MERCY-84-104-101-32-87-105-116-99-104.png'),
+        thumbnail: require('./../assets/icons/ICON-MERCY-84-104-101-32-87-105-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MERCY-84-104-101-32-87-105-116-99-104.png`,
         default: false,
         name: `The Witch`,
         type: Items.TYPE.ICON,
@@ -4949,7 +5276,8 @@ export default {
     },
     'SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108': {
         uid: 'SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108',
-        source: require('./../assets/sprays/SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108.png`,
         default: false,
         name: `Snow Angel`,
         type: Items.TYPE.SPRAY,
@@ -4960,7 +5288,8 @@ export default {
     },
     'SPRAY-MERCY-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-MERCY-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-MERCY-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -4991,7 +5320,8 @@ export default {
     },
     'SPRAY-MERCY-80-97-114-97-115-111-108': {
         uid: 'SPRAY-MERCY-80-97-114-97-115-111-108',
-        source: require('./../assets/sprays/SPRAY-MERCY-80-97-114-97-115-111-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-80-97-114-97-115-111-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-80-97-114-97-115-111-108.png`,
         default: false,
         name: `Parasol`,
         type: Items.TYPE.SPRAY,
@@ -5002,7 +5332,8 @@ export default {
     },
     'SPRAY-MERCY-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-MERCY-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-MERCY-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -5043,7 +5374,8 @@ export default {
     },
     'SPRAY-HANZO-80-105-120-101-108': {
         uid: 'SPRAY-HANZO-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-HANZO-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -5054,7 +5386,8 @@ export default {
     },
     'SPRAY-HANZO-67-117-116-101': {
         uid: 'SPRAY-HANZO-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-HANZO-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -5115,7 +5448,8 @@ export default {
     },
     'ICON-HANZO-72-97-110-122-111': {
         uid: 'ICON-HANZO-72-97-110-122-111',
-        source: require('./../assets/icons/ICON-HANZO-72-97-110-122-111.png'),
+        thumbnail: require('./../assets/icons/ICON-HANZO-72-97-110-122-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-HANZO-72-97-110-122-111.png`,
         default: false,
         name: `Hanzo`,
         type: Items.TYPE.ICON,
@@ -5126,7 +5460,8 @@ export default {
     },
     'ICON-HANZO-83-116-111-114-109': {
         uid: 'ICON-HANZO-83-116-111-114-109',
-        source: require('./../assets/icons/ICON-HANZO-83-116-111-114-109.png'),
+        thumbnail: require('./../assets/icons/ICON-HANZO-83-116-111-114-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-HANZO-83-116-111-114-109.png`,
         default: false,
         name: `Storm`,
         type: Items.TYPE.ICON,
@@ -5137,7 +5472,8 @@ export default {
     },
     'ICON-HANZO-83-104-105-109-97-100-97': {
         uid: 'ICON-HANZO-83-104-105-109-97-100-97',
-        source: require('./../assets/icons/ICON-HANZO-83-104-105-109-97-100-97.png'),
+        thumbnail: require('./../assets/icons/ICON-HANZO-83-104-105-109-97-100-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-HANZO-83-104-105-109-97-100-97.png`,
         default: false,
         name: `Shimada`,
         type: Items.TYPE.ICON,
@@ -5458,7 +5794,8 @@ export default {
     },
     'SPRAY-HANZO-73-99-111-110': {
         uid: 'SPRAY-HANZO-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-HANZO-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -5469,7 +5806,8 @@ export default {
     },
     'SPRAY-HANZO-83-101-97-108': {
         uid: 'SPRAY-HANZO-83-101-97-108',
-        source: require('./../assets/sprays/SPRAY-HANZO-83-101-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-83-101-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-83-101-97-108.png`,
         default: false,
         name: `Seal`,
         type: Items.TYPE.SPRAY,
@@ -5480,7 +5818,8 @@ export default {
     },
     'SPRAY-HANZO-78-105-110': {
         uid: 'SPRAY-HANZO-78-105-110',
-        source: require('./../assets/sprays/SPRAY-HANZO-78-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-78-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-78-105-110.png`,
         default: false,
         name: `Nin`,
         type: Items.TYPE.SPRAY,
@@ -5491,7 +5830,8 @@ export default {
     },
     'SPRAY-HANZO-72-97-111-114-105': {
         uid: 'SPRAY-HANZO-72-97-111-114-105',
-        source: require('./../assets/sprays/SPRAY-HANZO-72-97-111-114-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-72-97-111-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-72-97-111-114-105.png`,
         default: false,
         name: `Haori`,
         type: Items.TYPE.SPRAY,
@@ -5502,7 +5842,8 @@ export default {
     },
     'SPRAY-HANZO-68-117-116-121': {
         uid: 'SPRAY-HANZO-68-117-116-121',
-        source: require('./../assets/sprays/SPRAY-HANZO-68-117-116-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-68-117-116-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-68-117-116-121.png`,
         default: false,
         name: `Duty`,
         type: Items.TYPE.SPRAY,
@@ -5513,7 +5854,8 @@ export default {
     },
     'SPRAY-HANZO-87-97-110-100-101-114-101-114': {
         uid: 'SPRAY-HANZO-87-97-110-100-101-114-101-114',
-        source: require('./../assets/sprays/SPRAY-HANZO-87-97-110-100-101-114-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-87-97-110-100-101-114-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-87-97-110-100-101-114-101-114.png`,
         default: false,
         name: `Wanderer`,
         type: Items.TYPE.SPRAY,
@@ -5524,7 +5866,8 @@ export default {
     },
     'SPRAY-HANZO-89-101-108-108-111-119': {
         uid: 'SPRAY-HANZO-89-101-108-108-111-119',
-        source: require('./../assets/sprays/SPRAY-HANZO-89-101-108-108-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-89-101-108-108-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-89-101-108-108-111-119.png`,
         default: false,
         name: `Yellow`,
         type: Items.TYPE.SPRAY,
@@ -5535,7 +5878,8 @@ export default {
     },
     'SPRAY-HANZO-83-112-114-97-121': {
         uid: 'SPRAY-HANZO-83-112-114-97-121',
-        source: require('./../assets/sprays/SPRAY-HANZO-83-112-114-97-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-83-112-114-97-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-83-112-114-97-121.png`,
         default: false,
         name: `Spray`,
         type: Items.TYPE.SPRAY,
@@ -5546,7 +5890,8 @@ export default {
     },
     'SPRAY-HANZO-75-117-109-111': {
         uid: 'SPRAY-HANZO-75-117-109-111',
-        source: require('./../assets/sprays/SPRAY-HANZO-75-117-109-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-75-117-109-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-75-117-109-111.png`,
         default: false,
         name: `Kumo`,
         type: Items.TYPE.SPRAY,
@@ -5557,7 +5902,8 @@ export default {
     },
     'SPRAY-HANZO-65-114-99-104-101-114': {
         uid: 'SPRAY-HANZO-65-114-99-104-101-114',
-        source: require('./../assets/sprays/SPRAY-HANZO-65-114-99-104-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-65-114-99-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-65-114-99-104-101-114.png`,
         default: false,
         name: `Archer`,
         type: Items.TYPE.SPRAY,
@@ -5568,7 +5914,8 @@ export default {
     },
     'SPRAY-HANZO-68-114-97-103-111-110-115-116-114-105-107-101': {
         uid: 'SPRAY-HANZO-68-114-97-103-111-110-115-116-114-105-107-101',
-        source: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110-115-116-114-105-107-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110-115-116-114-105-107-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-68-114-97-103-111-110-115-116-114-105-107-101.png`,
         default: false,
         name: `Dragonstrike`,
         type: Items.TYPE.SPRAY,
@@ -5579,7 +5926,8 @@ export default {
     },
     'SPRAY-HANZO-83-117-99-99-101-115-115-111-114': {
         uid: 'SPRAY-HANZO-83-117-99-99-101-115-115-111-114',
-        source: require('./../assets/sprays/SPRAY-HANZO-83-117-99-99-101-115-115-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-83-117-99-99-101-115-115-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-83-117-99-99-101-115-115-111-114.png`,
         default: false,
         name: `Successor`,
         type: Items.TYPE.SPRAY,
@@ -5590,7 +5938,8 @@ export default {
     },
     'SPRAY-HANZO-67-104-97-108-108-101-110-103-101': {
         uid: 'SPRAY-HANZO-67-104-97-108-108-101-110-103-101',
-        source: require('./../assets/sprays/SPRAY-HANZO-67-104-97-108-108-101-110-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-67-104-97-108-108-101-110-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-67-104-97-108-108-101-110-103-101.png`,
         default: false,
         name: `Challenge`,
         type: Items.TYPE.SPRAY,
@@ -5601,7 +5950,8 @@ export default {
     },
     'SPRAY-HANZO-67-108-111-117-100': {
         uid: 'SPRAY-HANZO-67-108-111-117-100',
-        source: require('./../assets/sprays/SPRAY-HANZO-67-108-111-117-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-67-108-111-117-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-67-108-111-117-100.png`,
         default: false,
         name: `Cloud`,
         type: Items.TYPE.SPRAY,
@@ -5612,7 +5962,8 @@ export default {
     },
     'SPRAY-HANZO-75-110-101-101-108-105-110-103': {
         uid: 'SPRAY-HANZO-75-110-101-101-108-105-110-103',
-        source: require('./../assets/sprays/SPRAY-HANZO-75-110-101-101-108-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-75-110-101-101-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-75-110-101-101-108-105-110-103.png`,
         default: false,
         name: `Kneeling`,
         type: Items.TYPE.SPRAY,
@@ -5623,7 +5974,8 @@ export default {
     },
     'SPRAY-HANZO-68-114-97-103-111-110-115': {
         uid: 'SPRAY-HANZO-68-114-97-103-111-110-115',
-        source: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-68-114-97-103-111-110-115.png`,
         default: false,
         name: `Dragons`,
         type: Items.TYPE.SPRAY,
@@ -5634,7 +5986,8 @@ export default {
     },
     'SPRAY-HANZO-83-99-97-114-102': {
         uid: 'SPRAY-HANZO-83-99-97-114-102',
-        source: require('./../assets/sprays/SPRAY-HANZO-83-99-97-114-102.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-83-99-97-114-102.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-83-99-97-114-102.png`,
         default: false,
         name: `Scarf`,
         type: Items.TYPE.SPRAY,
@@ -5645,7 +5998,8 @@ export default {
     },
     'SPRAY-HANZO-83-116-111-105-99': {
         uid: 'SPRAY-HANZO-83-116-111-105-99',
-        source: require('./../assets/sprays/SPRAY-HANZO-83-116-111-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-83-116-111-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-83-116-111-105-99.png`,
         default: false,
         name: `Stoic`,
         type: Items.TYPE.SPRAY,
@@ -5656,7 +6010,8 @@ export default {
     },
     'SPRAY-HANZO-77-111-111-110': {
         uid: 'SPRAY-HANZO-77-111-111-110',
-        source: require('./../assets/sprays/SPRAY-HANZO-77-111-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-77-111-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-77-111-111-110.png`,
         default: false,
         name: `Moon`,
         type: Items.TYPE.SPRAY,
@@ -5667,7 +6022,8 @@ export default {
     },
     'SPRAY-HANZO-68-114-97-103-111-110': {
         uid: 'SPRAY-HANZO-68-114-97-103-111-110',
-        source: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-68-114-97-103-111-110.png`,
         default: false,
         name: `Dragon`,
         type: Items.TYPE.SPRAY,
@@ -5678,7 +6034,8 @@ export default {
     },
     'SPRAY-HANZO-83-97-107-101': {
         uid: 'SPRAY-HANZO-83-97-107-101',
-        source: require('./../assets/sprays/SPRAY-HANZO-83-97-107-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-83-97-107-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-83-97-107-101.png`,
         default: false,
         name: `Sake`,
         type: Items.TYPE.SPRAY,
@@ -5689,7 +6046,8 @@ export default {
     },
     'SPRAY-HANZO-84-101-97': {
         uid: 'SPRAY-HANZO-84-101-97',
-        source: require('./../assets/sprays/SPRAY-HANZO-84-101-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-84-101-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-84-101-97.png`,
         default: false,
         name: `Tea`,
         type: Items.TYPE.SPRAY,
@@ -5700,7 +6058,8 @@ export default {
     },
     'SPRAY-HANZO-68-114-97-119-110': {
         uid: 'SPRAY-HANZO-68-114-97-119-110',
-        source: require('./../assets/sprays/SPRAY-HANZO-68-114-97-119-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-68-114-97-119-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-68-114-97-119-110.png`,
         default: false,
         name: `Drawn`,
         type: Items.TYPE.SPRAY,
@@ -5711,7 +6070,8 @@ export default {
     },
     'ICON-HANZO-65-114-99-104-101-114-121': {
         uid: 'ICON-HANZO-65-114-99-104-101-114-121',
-        source: require('./../assets/icons/ICON-HANZO-65-114-99-104-101-114-121.png'),
+        thumbnail: require('./../assets/icons/ICON-HANZO-65-114-99-104-101-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-HANZO-65-114-99-104-101-114-121.png`,
         default: false,
         name: `Archery`,
         type: Items.TYPE.ICON,
@@ -5722,7 +6082,8 @@ export default {
     },
     'SPRAY-HANZO-65-114-99-104-101-114-121': {
         uid: 'SPRAY-HANZO-65-114-99-104-101-114-121',
-        source: require('./../assets/sprays/SPRAY-HANZO-65-114-99-104-101-114-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-65-114-99-104-101-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-65-114-99-104-101-114-121.png`,
         default: false,
         name: `Archery`,
         type: Items.TYPE.SPRAY,
@@ -5743,7 +6104,8 @@ export default {
     },
     'SPRAY-HANZO-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-HANZO-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-HANZO-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -5784,7 +6146,8 @@ export default {
     },
     'SPRAY-HANZO-75-97-100-111-109-97-116-115-117': {
         uid: 'SPRAY-HANZO-75-97-100-111-109-97-116-115-117',
-        source: require('./../assets/sprays/SPRAY-HANZO-75-97-100-111-109-97-116-115-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-75-97-100-111-109-97-116-115-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-75-97-100-111-109-97-116-115-117.png`,
         default: false,
         name: `Kadomatsu`,
         type: Items.TYPE.SPRAY,
@@ -5795,7 +6158,8 @@ export default {
     },
     'SPRAY-HANZO-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-HANZO-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-HANZO-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -5816,7 +6180,8 @@ export default {
     },
     'SPRAY-HANZO-66-108-117-101-32-68-114-97-103-111-110': {
         uid: 'SPRAY-HANZO-66-108-117-101-32-68-114-97-103-111-110',
-        source: require('./../assets/sprays/SPRAY-HANZO-66-108-117-101-32-68-114-97-103-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-66-108-117-101-32-68-114-97-103-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-66-108-117-101-32-68-114-97-103-111-110.png`,
         default: false,
         name: `Blue Dragon`,
         type: Items.TYPE.SPRAY,
@@ -5827,7 +6192,8 @@ export default {
     },
     'SPRAY-HANZO-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-HANZO-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -5848,7 +6214,8 @@ export default {
     },
     'SPRAY-TORBJORN-80-105-120-101-108': {
         uid: 'SPRAY-TORBJORN-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -5859,7 +6226,8 @@ export default {
     },
     'SPRAY-TORBJORN-67-117-116-101': {
         uid: 'SPRAY-TORBJORN-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -5920,7 +6288,8 @@ export default {
     },
     'ICON-TORBJORN-84-111-114-98-106-246-114-110': {
         uid: 'ICON-TORBJORN-84-111-114-98-106-246-114-110',
-        source: require('./../assets/icons/ICON-TORBJORN-84-111-114-98-106-246-114-110.png'),
+        thumbnail: require('./../assets/icons/ICON-TORBJORN-84-111-114-98-106-246-114-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TORBJORN-84-111-114-98-106-246-114-110.png`,
         default: false,
         name: `Torbjörn`,
         type: Items.TYPE.ICON,
@@ -5931,7 +6300,8 @@ export default {
     },
     'ICON-TORBJORN-70-111-114-103-101': {
         uid: 'ICON-TORBJORN-70-111-114-103-101',
-        source: require('./../assets/icons/ICON-TORBJORN-70-111-114-103-101.png'),
+        thumbnail: require('./../assets/icons/ICON-TORBJORN-70-111-114-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TORBJORN-70-111-114-103-101.png`,
         default: false,
         name: `Forge`,
         type: Items.TYPE.ICON,
@@ -5942,7 +6312,8 @@ export default {
     },
     'ICON-TORBJORN-71-101-97-114-115': {
         uid: 'ICON-TORBJORN-71-101-97-114-115',
-        source: require('./../assets/icons/ICON-TORBJORN-71-101-97-114-115.png'),
+        thumbnail: require('./../assets/icons/ICON-TORBJORN-71-101-97-114-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TORBJORN-71-101-97-114-115.png`,
         default: false,
         name: `Gears`,
         type: Items.TYPE.ICON,
@@ -6263,7 +6634,8 @@ export default {
     },
     'SPRAY-TORBJORN-73-99-111-110': {
         uid: 'SPRAY-TORBJORN-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -6274,7 +6646,8 @@ export default {
     },
     'SPRAY-TORBJORN-71-101-97-114-115': {
         uid: 'SPRAY-TORBJORN-71-101-97-114-115',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-71-101-97-114-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-71-101-97-114-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-71-101-97-114-115.png`,
         default: false,
         name: `Gears`,
         type: Items.TYPE.SPRAY,
@@ -6285,7 +6658,8 @@ export default {
     },
     'SPRAY-TORBJORN-85-112-112-103-114-97-100-101-114-97': {
         uid: 'SPRAY-TORBJORN-85-112-112-103-114-97-100-101-114-97',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-85-112-112-103-114-97-100-101-114-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-85-112-112-103-114-97-100-101-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-85-112-112-103-114-97-100-101-114-97.png`,
         default: false,
         name: `Uppgradera`,
         type: Items.TYPE.SPRAY,
@@ -6296,7 +6670,8 @@ export default {
     },
     'SPRAY-TORBJORN-83-109-228-108-116': {
         uid: 'SPRAY-TORBJORN-83-109-228-108-116',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-83-109-228-108-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-83-109-228-108-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-83-109-228-108-116.png`,
         default: false,
         name: `Smält`,
         type: Items.TYPE.SPRAY,
@@ -6307,7 +6682,8 @@ export default {
     },
     'SPRAY-TORBJORN-70-105-120-32-73-116-32-85-112': {
         uid: 'SPRAY-TORBJORN-70-105-120-32-73-116-32-85-112',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-70-105-120-32-73-116-32-85-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-70-105-120-32-73-116-32-85-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-70-105-120-32-73-116-32-85-112.png`,
         default: false,
         name: `Fix It Up`,
         type: Items.TYPE.SPRAY,
@@ -6318,7 +6694,8 @@ export default {
     },
     'SPRAY-TORBJORN-75-97-110-111-110': {
         uid: 'SPRAY-TORBJORN-75-97-110-111-110',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-75-97-110-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-75-97-110-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-75-97-110-111-110.png`,
         default: false,
         name: `Kanon`,
         type: Items.TYPE.SPRAY,
@@ -6329,7 +6706,8 @@ export default {
     },
     'SPRAY-TORBJORN-70-111-114-103-101-100': {
         uid: 'SPRAY-TORBJORN-70-111-114-103-101-100',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-70-111-114-103-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-70-111-114-103-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-70-111-114-103-101-100.png`,
         default: false,
         name: `Forged`,
         type: Items.TYPE.SPRAY,
@@ -6340,7 +6718,8 @@ export default {
     },
     'SPRAY-TORBJORN-65-114-109-111-114': {
         uid: 'SPRAY-TORBJORN-65-114-109-111-114',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-65-114-109-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-65-114-109-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-65-114-109-111-114.png`,
         default: false,
         name: `Armor`,
         type: Items.TYPE.SPRAY,
@@ -6351,7 +6730,8 @@ export default {
     },
     'SPRAY-TORBJORN-83-116-111-105-99': {
         uid: 'SPRAY-TORBJORN-83-116-111-105-99',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-83-116-111-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-83-116-111-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-83-116-111-105-99.png`,
         default: false,
         name: `Stoic`,
         type: Items.TYPE.SPRAY,
@@ -6362,7 +6742,8 @@ export default {
     },
     'SPRAY-TORBJORN-73-114-111-110-99-108-97-100': {
         uid: 'SPRAY-TORBJORN-73-114-111-110-99-108-97-100',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-73-114-111-110-99-108-97-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-73-114-111-110-99-108-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-73-114-111-110-99-108-97-100.png`,
         default: false,
         name: `Ironclad`,
         type: Items.TYPE.SPRAY,
@@ -6373,7 +6754,8 @@ export default {
     },
     'SPRAY-TORBJORN-84-117-114-114-101-116': {
         uid: 'SPRAY-TORBJORN-84-117-114-114-101-116',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-84-117-114-114-101-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-84-117-114-114-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-84-117-114-114-101-116.png`,
         default: false,
         name: `Turret`,
         type: Items.TYPE.SPRAY,
@@ -6384,7 +6766,8 @@ export default {
     },
     'SPRAY-TORBJORN-72-111-116': {
         uid: 'SPRAY-TORBJORN-72-111-116',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-72-111-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-72-111-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-72-111-116.png`,
         default: false,
         name: `Hot`,
         type: Items.TYPE.SPRAY,
@@ -6395,7 +6778,8 @@ export default {
     },
     'SPRAY-TORBJORN-72-97-109-109-101-114': {
         uid: 'SPRAY-TORBJORN-72-97-109-109-101-114',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-72-97-109-109-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-72-97-109-109-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-72-97-109-109-101-114.png`,
         default: false,
         name: `Hammer`,
         type: Items.TYPE.SPRAY,
@@ -6406,7 +6790,8 @@ export default {
     },
     'SPRAY-TORBJORN-67-108-97-119': {
         uid: 'SPRAY-TORBJORN-67-108-97-119',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-67-108-97-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-67-108-97-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-67-108-97-119.png`,
         default: false,
         name: `Claw`,
         type: Items.TYPE.SPRAY,
@@ -6417,7 +6802,8 @@ export default {
     },
     'SPRAY-TORBJORN-77-97-115-107': {
         uid: 'SPRAY-TORBJORN-77-97-115-107',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-77-97-115-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-77-97-115-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-77-97-115-107.png`,
         default: false,
         name: `Mask`,
         type: Items.TYPE.SPRAY,
@@ -6428,7 +6814,8 @@ export default {
     },
     'SPRAY-TORBJORN-66-101-97-114-100': {
         uid: 'SPRAY-TORBJORN-66-101-97-114-100',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-66-101-97-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-66-101-97-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-66-101-97-114-100.png`,
         default: false,
         name: `Beard`,
         type: Items.TYPE.SPRAY,
@@ -6439,7 +6826,8 @@ export default {
     },
     'SPRAY-TORBJORN-82-101-97-100-121-32-116-111-32-87-111-114-107': {
         uid: 'SPRAY-TORBJORN-82-101-97-100-121-32-116-111-32-87-111-114-107',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-82-101-97-100-121-32-116-111-32-87-111-114-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-82-101-97-100-121-32-116-111-32-87-111-114-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-82-101-97-100-121-32-116-111-32-87-111-114-107.png`,
         default: false,
         name: `Ready to Work`,
         type: Items.TYPE.SPRAY,
@@ -6450,7 +6838,8 @@ export default {
     },
     'SPRAY-TORBJORN-67-97-116-99-104-32-97-32-82-105-100-101': {
         uid: 'SPRAY-TORBJORN-67-97-116-99-104-32-97-32-82-105-100-101',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-67-97-116-99-104-32-97-32-82-105-100-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-67-97-116-99-104-32-97-32-82-105-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-67-97-116-99-104-32-97-32-82-105-100-101.png`,
         default: false,
         name: `Catch a Ride`,
         type: Items.TYPE.SPRAY,
@@ -6461,7 +6850,8 @@ export default {
     },
     'SPRAY-TORBJORN-82-117-110-33': {
         uid: 'SPRAY-TORBJORN-82-117-110-33',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-82-117-110-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-82-117-110-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-82-117-110-33.png`,
         default: false,
         name: `Run!`,
         type: Items.TYPE.SPRAY,
@@ -6472,7 +6862,8 @@ export default {
     },
     'SPRAY-TORBJORN-67-104-101-102': {
         uid: 'SPRAY-TORBJORN-67-104-101-102',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-67-104-101-102.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-67-104-101-102.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-67-104-101-102.png`,
         default: false,
         name: `Chef`,
         type: Items.TYPE.SPRAY,
@@ -6483,7 +6874,8 @@ export default {
     },
     'SPRAY-TORBJORN-77-111-108-116-101-110-32-67-111-114-101': {
         uid: 'SPRAY-TORBJORN-77-111-108-116-101-110-32-67-111-114-101',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-77-111-108-116-101-110-32-67-111-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-77-111-108-116-101-110-32-67-111-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-77-111-108-116-101-110-32-67-111-114-101.png`,
         default: false,
         name: `Molten Core`,
         type: Items.TYPE.SPRAY,
@@ -6494,7 +6886,8 @@ export default {
     },
     'SPRAY-TORBJORN-84-117-114-114-101-116-115': {
         uid: 'SPRAY-TORBJORN-84-117-114-114-101-116-115',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-84-117-114-114-101-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-84-117-114-114-101-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-84-117-114-114-101-116-115.png`,
         default: false,
         name: `Turrets`,
         type: Items.TYPE.SPRAY,
@@ -6505,7 +6898,8 @@ export default {
     },
     'SPRAY-TORBJORN-71-101-116-32-82-101-97-100-121': {
         uid: 'SPRAY-TORBJORN-71-101-116-32-82-101-97-100-121',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-71-101-116-32-82-101-97-100-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-71-101-116-32-82-101-97-100-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-71-101-116-32-82-101-97-100-121.png`,
         default: false,
         name: `Get Ready`,
         type: Items.TYPE.SPRAY,
@@ -6516,7 +6910,8 @@ export default {
     },
     'ICON-TORBJORN-87-97-116-101-114-32-80-111-108-111': {
         uid: 'ICON-TORBJORN-87-97-116-101-114-32-80-111-108-111',
-        source: require('./../assets/icons/ICON-TORBJORN-87-97-116-101-114-32-80-111-108-111.png'),
+        thumbnail: require('./../assets/icons/ICON-TORBJORN-87-97-116-101-114-32-80-111-108-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TORBJORN-87-97-116-101-114-32-80-111-108-111.png`,
         default: false,
         name: `Water Polo`,
         type: Items.TYPE.ICON,
@@ -6527,7 +6922,8 @@ export default {
     },
     'SPRAY-TORBJORN-87-97-116-101-114-32-80-111-108-111': {
         uid: 'SPRAY-TORBJORN-87-97-116-101-114-32-80-111-108-111',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-87-97-116-101-114-32-80-111-108-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-87-97-116-101-114-32-80-111-108-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-87-97-116-101-114-32-80-111-108-111.png`,
         default: false,
         name: `Water Polo`,
         type: Items.TYPE.SPRAY,
@@ -6568,7 +6964,8 @@ export default {
     },
     'SPRAY-TORBJORN-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-TORBJORN-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -6599,7 +6996,8 @@ export default {
     },
     'SPRAY-TORBJORN-87-111-114-107-115-104-111-112': {
         uid: 'SPRAY-TORBJORN-87-111-114-107-115-104-111-112',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-87-111-114-107-115-104-111-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-87-111-114-107-115-104-111-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-87-111-114-107-115-104-111-112.png`,
         default: false,
         name: `Workshop`,
         type: Items.TYPE.SPRAY,
@@ -6610,7 +7008,8 @@ export default {
     },
     'SPRAY-TORBJORN-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-TORBJORN-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -6641,7 +7040,8 @@ export default {
     },
     'ICON-TORBJORN-83-97-110-116-97-99-108-97-100': {
         uid: 'ICON-TORBJORN-83-97-110-116-97-99-108-97-100',
-        source: require('./../assets/icons/ICON-TORBJORN-83-97-110-116-97-99-108-97-100.png'),
+        thumbnail: require('./../assets/icons/ICON-TORBJORN-83-97-110-116-97-99-108-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TORBJORN-83-97-110-116-97-99-108-97-100.png`,
         default: false,
         name: `Santaclad`,
         type: Items.TYPE.ICON,
@@ -6662,7 +7062,8 @@ export default {
     },
     'SPRAY-TORBJORN-71-111-108-100': {
         uid: 'SPRAY-TORBJORN-71-111-108-100',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-71-111-108-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-71-111-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-71-111-108-100.png`,
         default: false,
         name: `Gold`,
         type: Items.TYPE.SPRAY,
@@ -6673,7 +7074,8 @@ export default {
     },
     'SPRAY-TORBJORN-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-TORBJORN-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -6694,7 +7096,8 @@ export default {
     },
     'SPRAY-REINHARDT-80-105-120-101-108': {
         uid: 'SPRAY-REINHARDT-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -6705,7 +7108,8 @@ export default {
     },
     'SPRAY-REINHARDT-67-117-116-101': {
         uid: 'SPRAY-REINHARDT-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -6766,7 +7170,8 @@ export default {
     },
     'ICON-REINHARDT-82-101-105-110-104-97-114-100-116': {
         uid: 'ICON-REINHARDT-82-101-105-110-104-97-114-100-116',
-        source: require('./../assets/icons/ICON-REINHARDT-82-101-105-110-104-97-114-100-116.png'),
+        thumbnail: require('./../assets/icons/ICON-REINHARDT-82-101-105-110-104-97-114-100-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REINHARDT-82-101-105-110-104-97-114-100-116.png`,
         default: false,
         name: `Reinhardt`,
         type: Items.TYPE.ICON,
@@ -6777,7 +7182,8 @@ export default {
     },
     'ICON-REINHARDT-83-99-97-114': {
         uid: 'ICON-REINHARDT-83-99-97-114',
-        source: require('./../assets/icons/ICON-REINHARDT-83-99-97-114.png'),
+        thumbnail: require('./../assets/icons/ICON-REINHARDT-83-99-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REINHARDT-83-99-97-114.png`,
         default: false,
         name: `Scar`,
         type: Items.TYPE.ICON,
@@ -6788,7 +7194,8 @@ export default {
     },
     'ICON-REINHARDT-76-105-111-110-104-97-114-100-116': {
         uid: 'ICON-REINHARDT-76-105-111-110-104-97-114-100-116',
-        source: require('./../assets/icons/ICON-REINHARDT-76-105-111-110-104-97-114-100-116.png'),
+        thumbnail: require('./../assets/icons/ICON-REINHARDT-76-105-111-110-104-97-114-100-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REINHARDT-76-105-111-110-104-97-114-100-116.png`,
         default: false,
         name: `Lionhardt`,
         type: Items.TYPE.ICON,
@@ -7129,7 +7536,8 @@ export default {
     },
     'SPRAY-REINHARDT-73-99-111-110': {
         uid: 'SPRAY-REINHARDT-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -7140,7 +7548,8 @@ export default {
     },
     'SPRAY-REINHARDT-69-109-98-108-101-109': {
         uid: 'SPRAY-REINHARDT-69-109-98-108-101-109',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-69-109-98-108-101-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-69-109-98-108-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-69-109-98-108-101-109.png`,
         default: false,
         name: `Emblem`,
         type: Items.TYPE.SPRAY,
@@ -7151,7 +7560,8 @@ export default {
     },
     'SPRAY-REINHARDT-72-101-108-109': {
         uid: 'SPRAY-REINHARDT-72-101-108-109',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-72-101-108-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-72-101-108-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-72-101-108-109.png`,
         default: false,
         name: `Helm`,
         type: Items.TYPE.SPRAY,
@@ -7162,7 +7572,8 @@ export default {
     },
     'SPRAY-REINHARDT-67-114-117-115-97-100-101-114': {
         uid: 'SPRAY-REINHARDT-67-114-117-115-97-100-101-114',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-67-114-117-115-97-100-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-67-114-117-115-97-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-67-114-117-115-97-100-101-114.png`,
         default: false,
         name: `Crusader`,
         type: Items.TYPE.SPRAY,
@@ -7173,7 +7584,8 @@ export default {
     },
     'SPRAY-REINHARDT-87-104-105-116-101': {
         uid: 'SPRAY-REINHARDT-87-104-105-116-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-87-104-105-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-87-104-105-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-87-104-105-116-101.png`,
         default: false,
         name: `White`,
         type: Items.TYPE.SPRAY,
@@ -7184,7 +7596,8 @@ export default {
     },
     'SPRAY-REINHARDT-72-97-109-109-101-114-32-68-111-119-110': {
         uid: 'SPRAY-REINHARDT-72-97-109-109-101-114-32-68-111-119-110',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-72-97-109-109-101-114-32-68-111-119-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-72-97-109-109-101-114-32-68-111-119-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-72-97-109-109-101-114-32-68-111-119-110.png`,
         default: false,
         name: `Hammer Down`,
         type: Items.TYPE.SPRAY,
@@ -7195,7 +7608,8 @@ export default {
     },
     'SPRAY-REINHARDT-67-114-97-99-107-115': {
         uid: 'SPRAY-REINHARDT-67-114-97-99-107-115',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-67-114-97-99-107-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-67-114-97-99-107-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-67-114-97-99-107-115.png`,
         default: false,
         name: `Cracks`,
         type: Items.TYPE.SPRAY,
@@ -7206,7 +7620,8 @@ export default {
     },
     'SPRAY-REINHARDT-67-104-97-114-103-101': {
         uid: 'SPRAY-REINHARDT-67-104-97-114-103-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-67-104-97-114-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-67-104-97-114-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-67-104-97-114-103-101.png`,
         default: false,
         name: `Charge`,
         type: Items.TYPE.SPRAY,
@@ -7217,7 +7632,8 @@ export default {
     },
     'SPRAY-REINHARDT-70-105-114-101-32-83-116-114-105-107-101': {
         uid: 'SPRAY-REINHARDT-70-105-114-101-32-83-116-114-105-107-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-70-105-114-101-32-83-116-114-105-107-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-70-105-114-101-32-83-116-114-105-107-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-70-105-114-101-32-83-116-114-105-107-101.png`,
         default: false,
         name: `Fire Strike`,
         type: Items.TYPE.SPRAY,
@@ -7228,7 +7644,8 @@ export default {
     },
     'SPRAY-REINHARDT-86-105-103-105-108-97-110-116': {
         uid: 'SPRAY-REINHARDT-86-105-103-105-108-97-110-116',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-86-105-103-105-108-97-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-86-105-103-105-108-97-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-86-105-103-105-108-97-110-116.png`,
         default: false,
         name: `Vigilant`,
         type: Items.TYPE.SPRAY,
@@ -7239,7 +7656,8 @@ export default {
     },
     'SPRAY-REINHARDT-82-111-121-97-108': {
         uid: 'SPRAY-REINHARDT-82-111-121-97-108',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-82-111-121-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-82-111-121-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-82-111-121-97-108.png`,
         default: false,
         name: `Royal`,
         type: Items.TYPE.SPRAY,
@@ -7250,7 +7668,8 @@ export default {
     },
     'SPRAY-REINHARDT-75-110-105-103-104-116': {
         uid: 'SPRAY-REINHARDT-75-110-105-103-104-116',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-75-110-105-103-104-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-75-110-105-103-104-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-75-110-105-103-104-116.png`,
         default: false,
         name: `Knight`,
         type: Items.TYPE.SPRAY,
@@ -7261,7 +7680,8 @@ export default {
     },
     'SPRAY-REINHARDT-87-105-108-104-101-108-109': {
         uid: 'SPRAY-REINHARDT-87-105-108-104-101-108-109',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-87-105-108-104-101-108-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-87-105-108-104-101-108-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-87-105-108-104-101-108-109.png`,
         default: false,
         name: `Wilhelm`,
         type: Items.TYPE.SPRAY,
@@ -7272,7 +7692,8 @@ export default {
     },
     'SPRAY-REINHARDT-82-111-97-114': {
         uid: 'SPRAY-REINHARDT-82-111-97-114',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-82-111-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-82-111-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-82-111-97-114.png`,
         default: false,
         name: `Roar`,
         type: Items.TYPE.SPRAY,
@@ -7283,7 +7704,8 @@ export default {
     },
     'SPRAY-REINHARDT-71-108-111-114-105-111-117-115': {
         uid: 'SPRAY-REINHARDT-71-108-111-114-105-111-117-115',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-71-108-111-114-105-111-117-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-71-108-111-114-105-111-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-71-108-111-114-105-111-117-115.png`,
         default: false,
         name: `Glorious`,
         type: Items.TYPE.SPRAY,
@@ -7294,7 +7716,8 @@ export default {
     },
     'SPRAY-REINHARDT-83-119-105-110-103': {
         uid: 'SPRAY-REINHARDT-83-119-105-110-103',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-83-119-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-83-119-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-83-119-105-110-103.png`,
         default: false,
         name: `Swing`,
         type: Items.TYPE.SPRAY,
@@ -7305,7 +7728,8 @@ export default {
     },
     'SPRAY-REINHARDT-87-114-101-115-116-108-101': {
         uid: 'SPRAY-REINHARDT-87-114-101-115-116-108-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-87-114-101-115-116-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-87-114-101-115-116-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-87-114-101-115-116-108-101.png`,
         default: false,
         name: `Wrestle`,
         type: Items.TYPE.SPRAY,
@@ -7316,7 +7740,8 @@ export default {
     },
     'SPRAY-REINHARDT-72-111-110-111-114': {
         uid: 'SPRAY-REINHARDT-72-111-110-111-114',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-72-111-110-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-72-111-110-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-72-111-110-111-114.png`,
         default: false,
         name: `Honor`,
         type: Items.TYPE.SPRAY,
@@ -7327,7 +7752,8 @@ export default {
     },
     'SPRAY-REINHARDT-83-116-101-105-110': {
         uid: 'SPRAY-REINHARDT-83-116-101-105-110',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-83-116-101-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-83-116-101-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-83-116-101-105-110.png`,
         default: false,
         name: `Stein`,
         type: Items.TYPE.SPRAY,
@@ -7338,7 +7764,8 @@ export default {
     },
     'SPRAY-REINHARDT-66-97-114-114-105-101-114': {
         uid: 'SPRAY-REINHARDT-66-97-114-114-105-101-114',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-66-97-114-114-105-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-66-97-114-114-105-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-66-97-114-114-105-101-114.png`,
         default: false,
         name: `Barrier`,
         type: Items.TYPE.SPRAY,
@@ -7349,7 +7776,8 @@ export default {
     },
     'SPRAY-REINHARDT-69-97-114-116-104-115-104-97-116-116-101-114': {
         uid: 'SPRAY-REINHARDT-69-97-114-116-104-115-104-97-116-116-101-114',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-69-97-114-116-104-115-104-97-116-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-69-97-114-116-104-115-104-97-116-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-69-97-114-116-104-115-104-97-116-116-101-114.png`,
         default: false,
         name: `Earthshatter`,
         type: Items.TYPE.SPRAY,
@@ -7360,7 +7788,8 @@ export default {
     },
     'SPRAY-REINHARDT-76-105-111-110': {
         uid: 'SPRAY-REINHARDT-76-105-111-110',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-76-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-76-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-76-105-111-110.png`,
         default: false,
         name: `Lion`,
         type: Items.TYPE.SPRAY,
@@ -7371,7 +7800,8 @@ export default {
     },
     'SPRAY-REINHARDT-83-104-105-101-108-100-32-85-112': {
         uid: 'SPRAY-REINHARDT-83-104-105-101-108-100-32-85-112',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-83-104-105-101-108-100-32-85-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-83-104-105-101-108-100-32-85-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-83-104-105-101-108-100-32-85-112.png`,
         default: false,
         name: `Shield Up`,
         type: Items.TYPE.SPRAY,
@@ -7382,7 +7812,8 @@ export default {
     },
     'ICON-REINHARDT-87-114-101-115-116-108-105-110-103': {
         uid: 'ICON-REINHARDT-87-114-101-115-116-108-105-110-103',
-        source: require('./../assets/icons/ICON-REINHARDT-87-114-101-115-116-108-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-REINHARDT-87-114-101-115-116-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REINHARDT-87-114-101-115-116-108-105-110-103.png`,
         default: false,
         name: `Wrestling`,
         type: Items.TYPE.ICON,
@@ -7393,7 +7824,8 @@ export default {
     },
     'SPRAY-REINHARDT-87-114-101-115-116-108-105-110-103': {
         uid: 'SPRAY-REINHARDT-87-114-101-115-116-108-105-110-103',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-87-114-101-115-116-108-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-87-114-101-115-116-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-87-114-101-115-116-108-105-110-103.png`,
         default: false,
         name: `Wrestling`,
         type: Items.TYPE.SPRAY,
@@ -7414,7 +7846,8 @@ export default {
     },
     'SPRAY-REINHARDT-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-REINHARDT-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -7465,7 +7898,8 @@ export default {
     },
     'SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103': {
         uid: 'SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103.png`,
         default: false,
         name: `Ice Fishing`,
         type: Items.TYPE.SPRAY,
@@ -7476,7 +7910,8 @@ export default {
     },
     'SPRAY-REINHARDT-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-REINHARDT-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -7507,7 +7942,8 @@ export default {
     },
     'SPRAY-REINHARDT-76-105-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-REINHARDT-76-105-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-76-105-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-76-105-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-76-105-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Lion Dance`,
         type: Items.TYPE.SPRAY,
@@ -7518,7 +7954,8 @@ export default {
     },
     'SPRAY-REINHARDT-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-REINHARDT-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -7539,7 +7976,8 @@ export default {
     },
     'ICON-REINHARDT-83-97-110-100-121': {
         uid: 'ICON-REINHARDT-83-97-110-100-121',
-        source: require('./../assets/icons/ICON-REINHARDT-83-97-110-100-121.png'),
+        thumbnail: require('./../assets/icons/ICON-REINHARDT-83-97-110-100-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REINHARDT-83-97-110-100-121.png`,
         default: false,
         name: `Sandy`,
         type: Items.TYPE.ICON,
@@ -7560,7 +7998,8 @@ export default {
     },
     'SPRAY-PHARAH-80-105-120-101-108': {
         uid: 'SPRAY-PHARAH-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-PHARAH-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -7571,7 +8010,8 @@ export default {
     },
     'SPRAY-PHARAH-67-117-116-101': {
         uid: 'SPRAY-PHARAH-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-PHARAH-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -7642,7 +8082,8 @@ export default {
     },
     'ICON-PHARAH-80-104-97-114-97-104': {
         uid: 'ICON-PHARAH-80-104-97-114-97-104',
-        source: require('./../assets/icons/ICON-PHARAH-80-104-97-114-97-104.png'),
+        thumbnail: require('./../assets/icons/ICON-PHARAH-80-104-97-114-97-104.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-PHARAH-80-104-97-114-97-104.png`,
         default: false,
         name: `Pharah`,
         type: Items.TYPE.ICON,
@@ -7653,7 +8094,8 @@ export default {
     },
     'ICON-PHARAH-82-97-112-116-111-114-97': {
         uid: 'ICON-PHARAH-82-97-112-116-111-114-97',
-        source: require('./../assets/icons/ICON-PHARAH-82-97-112-116-111-114-97.png'),
+        thumbnail: require('./../assets/icons/ICON-PHARAH-82-97-112-116-111-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-PHARAH-82-97-112-116-111-114-97.png`,
         default: false,
         name: `Raptora`,
         type: Items.TYPE.ICON,
@@ -7664,7 +8106,8 @@ export default {
     },
     'ICON-PHARAH-87-97-100-106-101-116': {
         uid: 'ICON-PHARAH-87-97-100-106-101-116',
-        source: require('./../assets/icons/ICON-PHARAH-87-97-100-106-101-116.png'),
+        thumbnail: require('./../assets/icons/ICON-PHARAH-87-97-100-106-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-PHARAH-87-97-100-106-101-116.png`,
         default: false,
         name: `Wadjet`,
         type: Items.TYPE.ICON,
@@ -7985,7 +8428,8 @@ export default {
     },
     'SPRAY-PHARAH-82-97-112-116-111-114-97': {
         uid: 'SPRAY-PHARAH-82-97-112-116-111-114-97',
-        source: require('./../assets/sprays/SPRAY-PHARAH-82-97-112-116-111-114-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-82-97-112-116-111-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-82-97-112-116-111-114-97.png`,
         default: false,
         name: `Raptora`,
         type: Items.TYPE.SPRAY,
@@ -7996,7 +8440,8 @@ export default {
     },
     'SPRAY-PHARAH-87-101-100-106-97-116': {
         uid: 'SPRAY-PHARAH-87-101-100-106-97-116',
-        source: require('./../assets/sprays/SPRAY-PHARAH-87-101-100-106-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-87-101-100-106-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-87-101-100-106-97-116.png`,
         default: false,
         name: `Wedjat`,
         type: Items.TYPE.SPRAY,
@@ -8007,7 +8452,8 @@ export default {
     },
     'SPRAY-PHARAH-83-116-97-116-117-101': {
         uid: 'SPRAY-PHARAH-83-116-97-116-117-101',
-        source: require('./../assets/sprays/SPRAY-PHARAH-83-116-97-116-117-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-83-116-97-116-117-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-83-116-97-116-117-101.png`,
         default: false,
         name: `Statue`,
         type: Items.TYPE.SPRAY,
@@ -8018,7 +8464,8 @@ export default {
     },
     'SPRAY-PHARAH-82-111-99-107-101-116-32-74-117-109-112': {
         uid: 'SPRAY-PHARAH-82-111-99-107-101-116-32-74-117-109-112',
-        source: require('./../assets/sprays/SPRAY-PHARAH-82-111-99-107-101-116-32-74-117-109-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-82-111-99-107-101-116-32-74-117-109-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-82-111-99-107-101-116-32-74-117-109-112.png`,
         default: false,
         name: `Rocket Jump`,
         type: Items.TYPE.SPRAY,
@@ -8029,7 +8476,8 @@ export default {
     },
     'SPRAY-PHARAH-73-99-111-110': {
         uid: 'SPRAY-PHARAH-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-PHARAH-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -8040,7 +8488,8 @@ export default {
     },
     'SPRAY-PHARAH-72-105-101-114-111-103-108-121-112-104': {
         uid: 'SPRAY-PHARAH-72-105-101-114-111-103-108-121-112-104',
-        source: require('./../assets/sprays/SPRAY-PHARAH-72-105-101-114-111-103-108-121-112-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-72-105-101-114-111-103-108-121-112-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-72-105-101-114-111-103-108-121-112-104.png`,
         default: false,
         name: `Hieroglyph`,
         type: Items.TYPE.SPRAY,
@@ -8051,7 +8500,8 @@ export default {
     },
     'SPRAY-PHARAH-74-117-115-116-105-99-101-46-46-46': {
         uid: 'SPRAY-PHARAH-74-117-115-116-105-99-101-46-46-46',
-        source: require('./../assets/sprays/SPRAY-PHARAH-74-117-115-116-105-99-101-46-46-46.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-74-117-115-116-105-99-101-46-46-46.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-74-117-115-116-105-99-101-46-46-46.png`,
         default: false,
         name: `Justice...`,
         type: Items.TYPE.SPRAY,
@@ -8062,7 +8512,8 @@ export default {
     },
     'SPRAY-PHARAH-71-117-97-114-100-105-97-110': {
         uid: 'SPRAY-PHARAH-71-117-97-114-100-105-97-110',
-        source: require('./../assets/sprays/SPRAY-PHARAH-71-117-97-114-100-105-97-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-71-117-97-114-100-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-71-117-97-114-100-105-97-110.png`,
         default: false,
         name: `Guardian`,
         type: Items.TYPE.SPRAY,
@@ -8073,7 +8524,8 @@ export default {
     },
     'SPRAY-PHARAH-87-105-110-103-115': {
         uid: 'SPRAY-PHARAH-87-105-110-103-115',
-        source: require('./../assets/sprays/SPRAY-PHARAH-87-105-110-103-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-87-105-110-103-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-87-105-110-103-115.png`,
         default: false,
         name: `Wings`,
         type: Items.TYPE.SPRAY,
@@ -8084,7 +8536,8 @@ export default {
     },
     'SPRAY-PHARAH-83-116-111-110-101': {
         uid: 'SPRAY-PHARAH-83-116-111-110-101',
-        source: require('./../assets/sprays/SPRAY-PHARAH-83-116-111-110-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-83-116-111-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-83-116-111-110-101.png`,
         default: false,
         name: `Stone`,
         type: Items.TYPE.SPRAY,
@@ -8095,7 +8548,8 @@ export default {
     },
     'SPRAY-PHARAH-82-111-99-107-101-116-32-76-97-117-110-99-104-101-114': {
         uid: 'SPRAY-PHARAH-82-111-99-107-101-116-32-76-97-117-110-99-104-101-114',
-        source: require('./../assets/sprays/SPRAY-PHARAH-82-111-99-107-101-116-32-76-97-117-110-99-104-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-82-111-99-107-101-116-32-76-97-117-110-99-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-82-111-99-107-101-116-32-76-97-117-110-99-104-101-114.png`,
         default: false,
         name: `Rocket Launcher`,
         type: Items.TYPE.SPRAY,
@@ -8106,7 +8560,8 @@ export default {
     },
     'SPRAY-PHARAH-84-97-116-116-111-111': {
         uid: 'SPRAY-PHARAH-84-97-116-116-111-111',
-        source: require('./../assets/sprays/SPRAY-PHARAH-84-97-116-116-111-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-84-97-116-116-111-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-84-97-116-116-111-111.png`,
         default: false,
         name: `Tattoo`,
         type: Items.TYPE.SPRAY,
@@ -8117,7 +8572,8 @@ export default {
     },
     'SPRAY-PHARAH-65-110-97': {
         uid: 'SPRAY-PHARAH-65-110-97',
-        source: require('./../assets/sprays/SPRAY-PHARAH-65-110-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-65-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-65-110-97.png`,
         default: false,
         name: `Ana`,
         type: Items.TYPE.SPRAY,
@@ -8128,7 +8584,8 @@ export default {
     },
     'SPRAY-PHARAH-73-110-99-111-109-105-110-103': {
         uid: 'SPRAY-PHARAH-73-110-99-111-109-105-110-103',
-        source: require('./../assets/sprays/SPRAY-PHARAH-73-110-99-111-109-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-73-110-99-111-109-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-73-110-99-111-109-105-110-103.png`,
         default: false,
         name: `Incoming`,
         type: Items.TYPE.SPRAY,
@@ -8139,7 +8596,8 @@ export default {
     },
     'SPRAY-PHARAH-87-114-105-115-116-32-76-97-117-110-99-104-101-114': {
         uid: 'SPRAY-PHARAH-87-114-105-115-116-32-76-97-117-110-99-104-101-114',
-        source: require('./../assets/sprays/SPRAY-PHARAH-87-114-105-115-116-32-76-97-117-110-99-104-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-87-114-105-115-116-32-76-97-117-110-99-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-87-114-105-115-116-32-76-97-117-110-99-104-101-114.png`,
         default: false,
         name: `Wrist Launcher`,
         type: Items.TYPE.SPRAY,
@@ -8150,7 +8608,8 @@ export default {
     },
     'SPRAY-PHARAH-67-111-98-114-97': {
         uid: 'SPRAY-PHARAH-67-111-98-114-97',
-        source: require('./../assets/sprays/SPRAY-PHARAH-67-111-98-114-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-67-111-98-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-67-111-98-114-97.png`,
         default: false,
         name: `Cobra`,
         type: Items.TYPE.SPRAY,
@@ -8161,7 +8620,8 @@ export default {
     },
     'SPRAY-PHARAH-83-99-97-114-97-98': {
         uid: 'SPRAY-PHARAH-83-99-97-114-97-98',
-        source: require('./../assets/sprays/SPRAY-PHARAH-83-99-97-114-97-98.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-83-99-97-114-97-98.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-83-99-97-114-97-98.png`,
         default: false,
         name: `Scarab`,
         type: Items.TYPE.SPRAY,
@@ -8172,7 +8632,8 @@ export default {
     },
     'SPRAY-PHARAH-65-109-97-114-105': {
         uid: 'SPRAY-PHARAH-65-109-97-114-105',
-        source: require('./../assets/sprays/SPRAY-PHARAH-65-109-97-114-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-65-109-97-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-65-109-97-114-105.png`,
         default: false,
         name: `Amari`,
         type: Items.TYPE.SPRAY,
@@ -8183,7 +8644,8 @@ export default {
     },
     'SPRAY-PHARAH-79-110-32-71-117-97-114-100': {
         uid: 'SPRAY-PHARAH-79-110-32-71-117-97-114-100',
-        source: require('./../assets/sprays/SPRAY-PHARAH-79-110-32-71-117-97-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-79-110-32-71-117-97-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-79-110-32-71-117-97-114-100.png`,
         default: false,
         name: `On Guard`,
         type: Items.TYPE.SPRAY,
@@ -8194,7 +8656,8 @@ export default {
     },
     'SPRAY-PHARAH-83-97-108-117-116-101': {
         uid: 'SPRAY-PHARAH-83-97-108-117-116-101',
-        source: require('./../assets/sprays/SPRAY-PHARAH-83-97-108-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-83-97-108-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-83-97-108-117-116-101.png`,
         default: false,
         name: `Salute`,
         type: Items.TYPE.SPRAY,
@@ -8205,7 +8668,8 @@ export default {
     },
     'SPRAY-PHARAH-80-108-97-121-32-80-104-97-114-97-104': {
         uid: 'SPRAY-PHARAH-80-108-97-121-32-80-104-97-114-97-104',
-        source: require('./../assets/sprays/SPRAY-PHARAH-80-108-97-121-32-80-104-97-114-97-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-80-108-97-121-32-80-104-97-114-97-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-80-108-97-121-32-80-104-97-114-97-104.png`,
         default: false,
         name: `Play Pharah`,
         type: Items.TYPE.SPRAY,
@@ -8216,7 +8680,8 @@ export default {
     },
     'SPRAY-PHARAH-65-101-114-105-97-108-32-83-117-112-101-114-105-111-114-105-116-121': {
         uid: 'SPRAY-PHARAH-65-101-114-105-97-108-32-83-117-112-101-114-105-111-114-105-116-121',
-        source: require('./../assets/sprays/SPRAY-PHARAH-65-101-114-105-97-108-32-83-117-112-101-114-105-111-114-105-116-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-65-101-114-105-97-108-32-83-117-112-101-114-105-111-114-105-116-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-65-101-114-105-97-108-32-83-117-112-101-114-105-111-114-105-116-121.png`,
         default: false,
         name: `Aerial Superiority`,
         type: Items.TYPE.SPRAY,
@@ -8227,7 +8692,8 @@ export default {
     },
     'SPRAY-PHARAH-67-111-110-99-117-115-115-105-118-101-32-66-108-97-115-116': {
         uid: 'SPRAY-PHARAH-67-111-110-99-117-115-115-105-118-101-32-66-108-97-115-116',
-        source: require('./../assets/sprays/SPRAY-PHARAH-67-111-110-99-117-115-115-105-118-101-32-66-108-97-115-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-67-111-110-99-117-115-115-105-118-101-32-66-108-97-115-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-67-111-110-99-117-115-115-105-118-101-32-66-108-97-115-116.png`,
         default: false,
         name: `Concussive Blast`,
         type: Items.TYPE.SPRAY,
@@ -8238,7 +8704,8 @@ export default {
     },
     'ICON-PHARAH-66-97-115-107-101-116-98-97-108-108': {
         uid: 'ICON-PHARAH-66-97-115-107-101-116-98-97-108-108',
-        source: require('./../assets/icons/ICON-PHARAH-66-97-115-107-101-116-98-97-108-108.png'),
+        thumbnail: require('./../assets/icons/ICON-PHARAH-66-97-115-107-101-116-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-PHARAH-66-97-115-107-101-116-98-97-108-108.png`,
         default: false,
         name: `Basketball`,
         type: Items.TYPE.ICON,
@@ -8249,7 +8716,8 @@ export default {
     },
     'SPRAY-PHARAH-66-97-115-107-101-116-98-97-108-108': {
         uid: 'SPRAY-PHARAH-66-97-115-107-101-116-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-PHARAH-66-97-115-107-101-116-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-66-97-115-107-101-116-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-66-97-115-107-101-116-98-97-108-108.png`,
         default: false,
         name: `Basketball`,
         type: Items.TYPE.SPRAY,
@@ -8280,7 +8748,8 @@ export default {
     },
     'SPRAY-PHARAH-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-PHARAH-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-PHARAH-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -8321,7 +8790,8 @@ export default {
     },
     'SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103': {
         uid: 'SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103',
-        source: require('./../assets/sprays/SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103.png`,
         default: false,
         name: `Ice Fishing`,
         type: Items.TYPE.SPRAY,
@@ -8332,7 +8802,8 @@ export default {
     },
     'SPRAY-PHARAH-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-PHARAH-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-PHARAH-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -8373,7 +8844,8 @@ export default {
     },
     'SPRAY-PHARAH-72-97-112-112-121-32-78-101-119-32-89-101-97-114': {
         uid: 'SPRAY-PHARAH-72-97-112-112-121-32-78-101-119-32-89-101-97-114',
-        source: require('./../assets/sprays/SPRAY-PHARAH-72-97-112-112-121-32-78-101-119-32-89-101-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-72-97-112-112-121-32-78-101-119-32-89-101-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-72-97-112-112-121-32-78-101-119-32-89-101-97-114.png`,
         default: false,
         name: `Happy New Year`,
         type: Items.TYPE.SPRAY,
@@ -8384,7 +8856,8 @@ export default {
     },
     'SPRAY-PHARAH-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-PHARAH-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-PHARAH-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -8405,7 +8878,8 @@ export default {
     },
     'SPRAY-WINSTON-80-105-120-101-108': {
         uid: 'SPRAY-WINSTON-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-WINSTON-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -8416,7 +8890,8 @@ export default {
     },
     'SPRAY-WINSTON-67-117-116-101': {
         uid: 'SPRAY-WINSTON-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-WINSTON-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -8477,7 +8952,8 @@ export default {
     },
     'ICON-WINSTON-87-105-110-115-116-111-110': {
         uid: 'ICON-WINSTON-87-105-110-115-116-111-110',
-        source: require('./../assets/icons/ICON-WINSTON-87-105-110-115-116-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-WINSTON-87-105-110-115-116-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WINSTON-87-105-110-115-116-111-110.png`,
         default: false,
         name: `Winston`,
         type: Items.TYPE.ICON,
@@ -8488,7 +8964,8 @@ export default {
     },
     'ICON-WINSTON-80-101-97-110-117-116-32-66-117-116-116-101-114': {
         uid: 'ICON-WINSTON-80-101-97-110-117-116-32-66-117-116-116-101-114',
-        source: require('./../assets/icons/ICON-WINSTON-80-101-97-110-117-116-32-66-117-116-116-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-WINSTON-80-101-97-110-117-116-32-66-117-116-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WINSTON-80-101-97-110-117-116-32-66-117-116-116-101-114.png`,
         default: false,
         name: `Peanut Butter`,
         type: Items.TYPE.ICON,
@@ -8499,7 +8976,8 @@ export default {
     },
     'ICON-WINSTON-76-117-110-97-114-32-79-112-115': {
         uid: 'ICON-WINSTON-76-117-110-97-114-32-79-112-115',
-        source: require('./../assets/icons/ICON-WINSTON-76-117-110-97-114-32-79-112-115.png'),
+        thumbnail: require('./../assets/icons/ICON-WINSTON-76-117-110-97-114-32-79-112-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WINSTON-76-117-110-97-114-32-79-112-115.png`,
         default: false,
         name: `Lunar Ops`,
         type: Items.TYPE.ICON,
@@ -8820,7 +9298,8 @@ export default {
     },
     'SPRAY-WINSTON-73-99-111-110': {
         uid: 'SPRAY-WINSTON-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-WINSTON-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -8831,7 +9310,8 @@ export default {
     },
     'SPRAY-WINSTON-76-101-120-105-103-114-97-109-115': {
         uid: 'SPRAY-WINSTON-76-101-120-105-103-114-97-109-115',
-        source: require('./../assets/sprays/SPRAY-WINSTON-76-101-120-105-103-114-97-109-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-76-101-120-105-103-114-97-109-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-76-101-120-105-103-114-97-109-115.png`,
         default: false,
         name: `Lexigrams`,
         type: Items.TYPE.SPRAY,
@@ -8842,7 +9322,8 @@ export default {
     },
     'SPRAY-WINSTON-83-99-105-101-110-99-101-33': {
         uid: 'SPRAY-WINSTON-83-99-105-101-110-99-101-33',
-        source: require('./../assets/sprays/SPRAY-WINSTON-83-99-105-101-110-99-101-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-83-99-105-101-110-99-101-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-83-99-105-101-110-99-101-33.png`,
         default: false,
         name: `Science!`,
         type: Items.TYPE.SPRAY,
@@ -8853,7 +9334,8 @@ export default {
     },
     'SPRAY-WINSTON-72-111-114-105-122-111-110': {
         uid: 'SPRAY-WINSTON-72-111-114-105-122-111-110',
-        source: require('./../assets/sprays/SPRAY-WINSTON-72-111-114-105-122-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-72-111-114-105-122-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-72-111-114-105-122-111-110.png`,
         default: false,
         name: `Horizon`,
         type: Items.TYPE.SPRAY,
@@ -8864,7 +9346,8 @@ export default {
     },
     'SPRAY-WINSTON-80-66': {
         uid: 'SPRAY-WINSTON-80-66',
-        source: require('./../assets/sprays/SPRAY-WINSTON-80-66.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-80-66.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-80-66.png`,
         default: false,
         name: `PB`,
         type: Items.TYPE.SPRAY,
@@ -8875,7 +9358,8 @@ export default {
     },
     'SPRAY-WINSTON-87-104-105-116-101': {
         uid: 'SPRAY-WINSTON-87-104-105-116-101',
-        source: require('./../assets/sprays/SPRAY-WINSTON-87-104-105-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-87-104-105-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-87-104-105-116-101.png`,
         default: false,
         name: `White`,
         type: Items.TYPE.SPRAY,
@@ -8886,7 +9370,8 @@ export default {
     },
     'SPRAY-WINSTON-65-112-101-32-67-114-111-115-115-105-110-103': {
         uid: 'SPRAY-WINSTON-65-112-101-32-67-114-111-115-115-105-110-103',
-        source: require('./../assets/sprays/SPRAY-WINSTON-65-112-101-32-67-114-111-115-115-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-65-112-101-32-67-114-111-115-115-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-65-112-101-32-67-114-111-115-115-105-110-103.png`,
         default: false,
         name: `Ape Crossing`,
         type: Items.TYPE.SPRAY,
@@ -8897,7 +9382,8 @@ export default {
     },
     'SPRAY-WINSTON-81-46-69-46-68-46': {
         uid: 'SPRAY-WINSTON-81-46-69-46-68-46',
-        source: require('./../assets/sprays/SPRAY-WINSTON-81-46-69-46-68-46.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-81-46-69-46-68-46.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-81-46-69-46-68-46.png`,
         default: false,
         name: `Q.E.D.`,
         type: Items.TYPE.SPRAY,
@@ -8908,7 +9394,8 @@ export default {
     },
     'SPRAY-WINSTON-83-101-114-105-111-117-115': {
         uid: 'SPRAY-WINSTON-83-101-114-105-111-117-115',
-        source: require('./../assets/sprays/SPRAY-WINSTON-83-101-114-105-111-117-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-83-101-114-105-111-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-83-101-114-105-111-117-115.png`,
         default: false,
         name: `Serious`,
         type: Items.TYPE.SPRAY,
@@ -8919,7 +9406,8 @@ export default {
     },
     'SPRAY-WINSTON-77-105-110-101-33': {
         uid: 'SPRAY-WINSTON-77-105-110-101-33',
-        source: require('./../assets/sprays/SPRAY-WINSTON-77-105-110-101-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-77-105-110-101-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-77-105-110-101-33.png`,
         default: false,
         name: `Mine!`,
         type: Items.TYPE.SPRAY,
@@ -8930,7 +9418,8 @@ export default {
     },
     'SPRAY-WINSTON-76-105-103-104-116-110-105-110-103': {
         uid: 'SPRAY-WINSTON-76-105-103-104-116-110-105-110-103',
-        source: require('./../assets/sprays/SPRAY-WINSTON-76-105-103-104-116-110-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-76-105-103-104-116-110-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-76-105-103-104-116-110-105-110-103.png`,
         default: false,
         name: `Lightning`,
         type: Items.TYPE.SPRAY,
@@ -8941,7 +9430,8 @@ export default {
     },
     'SPRAY-WINSTON-69-120-112-108-111-114-101-114': {
         uid: 'SPRAY-WINSTON-69-120-112-108-111-114-101-114',
-        source: require('./../assets/sprays/SPRAY-WINSTON-69-120-112-108-111-114-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-69-120-112-108-111-114-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-69-120-112-108-111-114-101-114.png`,
         default: false,
         name: `Explorer`,
         type: Items.TYPE.SPRAY,
@@ -8952,7 +9442,8 @@ export default {
     },
     'SPRAY-WINSTON-87-111-119': {
         uid: 'SPRAY-WINSTON-87-111-119',
-        source: require('./../assets/sprays/SPRAY-WINSTON-87-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-87-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-87-111-119.png`,
         default: false,
         name: `Wow`,
         type: Items.TYPE.SPRAY,
@@ -8963,7 +9454,8 @@ export default {
     },
     'SPRAY-WINSTON-82-101-115-101-97-114-99-104': {
         uid: 'SPRAY-WINSTON-82-101-115-101-97-114-99-104',
-        source: require('./../assets/sprays/SPRAY-WINSTON-82-101-115-101-97-114-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-82-101-115-101-97-114-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-82-101-115-101-97-114-99-104.png`,
         default: false,
         name: `Research`,
         type: Items.TYPE.SPRAY,
@@ -8974,7 +9466,8 @@ export default {
     },
     'SPRAY-WINSTON-72-97-114-111-108-100': {
         uid: 'SPRAY-WINSTON-72-97-114-111-108-100',
-        source: require('./../assets/sprays/SPRAY-WINSTON-72-97-114-111-108-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-72-97-114-111-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-72-97-114-111-108-100.png`,
         default: false,
         name: `Harold`,
         type: Items.TYPE.SPRAY,
@@ -8985,7 +9478,8 @@ export default {
     },
     'SPRAY-WINSTON-83-119-105-110-103': {
         uid: 'SPRAY-WINSTON-83-119-105-110-103',
-        source: require('./../assets/sprays/SPRAY-WINSTON-83-119-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-83-119-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-83-119-105-110-103.png`,
         default: false,
         name: `Swing`,
         type: Items.TYPE.SPRAY,
@@ -8996,7 +9490,8 @@ export default {
     },
     'SPRAY-WINSTON-66-97-110-97-110-97': {
         uid: 'SPRAY-WINSTON-66-97-110-97-110-97',
-        source: require('./../assets/sprays/SPRAY-WINSTON-66-97-110-97-110-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-66-97-110-97-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-66-97-110-97-110-97.png`,
         default: false,
         name: `Banana`,
         type: Items.TYPE.SPRAY,
@@ -9007,7 +9502,8 @@ export default {
     },
     'SPRAY-WINSTON-66-97-98-121': {
         uid: 'SPRAY-WINSTON-66-97-98-121',
-        source: require('./../assets/sprays/SPRAY-WINSTON-66-97-98-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-66-97-98-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-66-97-98-121.png`,
         default: false,
         name: `Baby`,
         type: Items.TYPE.SPRAY,
@@ -9018,7 +9514,8 @@ export default {
     },
     'SPRAY-WINSTON-80-114-105-109-97-108-32-82-97-103-101': {
         uid: 'SPRAY-WINSTON-80-114-105-109-97-108-32-82-97-103-101',
-        source: require('./../assets/sprays/SPRAY-WINSTON-80-114-105-109-97-108-32-82-97-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-80-114-105-109-97-108-32-82-97-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-80-114-105-109-97-108-32-82-97-103-101.png`,
         default: false,
         name: `Primal Rage`,
         type: Items.TYPE.SPRAY,
@@ -9029,7 +9526,8 @@ export default {
     },
     'SPRAY-WINSTON-65-110-103-114-121': {
         uid: 'SPRAY-WINSTON-65-110-103-114-121',
-        source: require('./../assets/sprays/SPRAY-WINSTON-65-110-103-114-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-65-110-103-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-65-110-103-114-121.png`,
         default: false,
         name: `Angry`,
         type: Items.TYPE.SPRAY,
@@ -9040,7 +9538,8 @@ export default {
     },
     'SPRAY-WINSTON-82-111-97-114': {
         uid: 'SPRAY-WINSTON-82-111-97-114',
-        source: require('./../assets/sprays/SPRAY-WINSTON-82-111-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-82-111-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-82-111-97-114.png`,
         default: false,
         name: `Roar`,
         type: Items.TYPE.SPRAY,
@@ -9051,7 +9550,8 @@ export default {
     },
     'SPRAY-WINSTON-82-97-103-101': {
         uid: 'SPRAY-WINSTON-82-97-103-101',
-        source: require('./../assets/sprays/SPRAY-WINSTON-82-97-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-82-97-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-82-97-103-101.png`,
         default: false,
         name: `Rage`,
         type: Items.TYPE.SPRAY,
@@ -9062,7 +9562,8 @@ export default {
     },
     'SPRAY-WINSTON-70-97-115-116-98-97-108-108': {
         uid: 'SPRAY-WINSTON-70-97-115-116-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-WINSTON-70-97-115-116-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-70-97-115-116-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-70-97-115-116-98-97-108-108.png`,
         default: false,
         name: `Fastball`,
         type: Items.TYPE.SPRAY,
@@ -9073,7 +9574,8 @@ export default {
     },
     'ICON-WINSTON-86-111-108-108-101-121-98-97-108-108': {
         uid: 'ICON-WINSTON-86-111-108-108-101-121-98-97-108-108',
-        source: require('./../assets/icons/ICON-WINSTON-86-111-108-108-101-121-98-97-108-108.png'),
+        thumbnail: require('./../assets/icons/ICON-WINSTON-86-111-108-108-101-121-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WINSTON-86-111-108-108-101-121-98-97-108-108.png`,
         default: false,
         name: `Volleyball`,
         type: Items.TYPE.ICON,
@@ -9084,7 +9586,8 @@ export default {
     },
     'SPRAY-WINSTON-86-111-108-108-101-121-98-97-108-108': {
         uid: 'SPRAY-WINSTON-86-111-108-108-101-121-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-WINSTON-86-111-108-108-101-121-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-86-111-108-108-101-121-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-86-111-108-108-101-121-98-97-108-108.png`,
         default: false,
         name: `Volleyball`,
         type: Items.TYPE.SPRAY,
@@ -9115,7 +9618,8 @@ export default {
     },
     'SPRAY-WINSTON-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-WINSTON-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-WINSTON-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -9156,7 +9660,8 @@ export default {
     },
     'SPRAY-WINSTON-80-114-101-115-101-110-116-115': {
         uid: 'SPRAY-WINSTON-80-114-101-115-101-110-116-115',
-        source: require('./../assets/sprays/SPRAY-WINSTON-80-114-101-115-101-110-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-80-114-101-115-101-110-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-80-114-101-115-101-110-116-115.png`,
         default: false,
         name: `Presents`,
         type: Items.TYPE.SPRAY,
@@ -9167,7 +9672,8 @@ export default {
     },
     'SPRAY-WINSTON-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-WINSTON-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-WINSTON-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -9188,7 +9694,8 @@ export default {
     },
     'ICON-WINSTON-89-101-116-105': {
         uid: 'ICON-WINSTON-89-101-116-105',
-        source: require('./../assets/icons/ICON-WINSTON-89-101-116-105.png'),
+        thumbnail: require('./../assets/icons/ICON-WINSTON-89-101-116-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WINSTON-89-101-116-105.png`,
         default: false,
         name: `Yeti`,
         type: Items.TYPE.ICON,
@@ -9209,7 +9716,8 @@ export default {
     },
     'SPRAY-WINSTON-75-105-116-101': {
         uid: 'SPRAY-WINSTON-75-105-116-101',
-        source: require('./../assets/sprays/SPRAY-WINSTON-75-105-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-75-105-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-75-105-116-101.png`,
         default: false,
         name: `Kite`,
         type: Items.TYPE.SPRAY,
@@ -9220,7 +9728,8 @@ export default {
     },
     'SPRAY-WINSTON-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-WINSTON-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-WINSTON-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -9241,7 +9750,8 @@ export default {
     },
     'ICON-WINSTON-77-111-110-107-101-121': {
         uid: 'ICON-WINSTON-77-111-110-107-101-121',
-        source: require('./../assets/icons/ICON-WINSTON-77-111-110-107-101-121.png'),
+        thumbnail: require('./../assets/icons/ICON-WINSTON-77-111-110-107-101-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WINSTON-77-111-110-107-101-121.png`,
         default: false,
         name: `Monkey`,
         type: Items.TYPE.ICON,
@@ -9262,7 +9772,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-80-105-120-101-108': {
         uid: 'SPRAY-WIDOWMAKER-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -9273,7 +9784,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-67-117-116-101': {
         uid: 'SPRAY-WIDOWMAKER-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -9344,7 +9856,8 @@ export default {
     },
     'ICON-WIDOWMAKER-87-105-100-111-119-109-97-107-101-114': {
         uid: 'ICON-WIDOWMAKER-87-105-100-111-119-109-97-107-101-114',
-        source: require('./../assets/icons/ICON-WIDOWMAKER-87-105-100-111-119-109-97-107-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-WIDOWMAKER-87-105-100-111-119-109-97-107-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WIDOWMAKER-87-105-100-111-119-109-97-107-101-114.png`,
         default: false,
         name: `Widowmaker`,
         type: Items.TYPE.ICON,
@@ -9355,7 +9868,8 @@ export default {
     },
     'ICON-WIDOWMAKER-71-114-97-112-112-108-105-110-103-32-72-111-111-107': {
         uid: 'ICON-WIDOWMAKER-71-114-97-112-112-108-105-110-103-32-72-111-111-107',
-        source: require('./../assets/icons/ICON-WIDOWMAKER-71-114-97-112-112-108-105-110-103-32-72-111-111-107.png'),
+        thumbnail: require('./../assets/icons/ICON-WIDOWMAKER-71-114-97-112-112-108-105-110-103-32-72-111-111-107.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WIDOWMAKER-71-114-97-112-112-108-105-110-103-32-72-111-111-107.png`,
         default: false,
         name: `Grappling Hook`,
         type: Items.TYPE.ICON,
@@ -9366,7 +9880,8 @@ export default {
     },
     'ICON-WIDOWMAKER-66-97-105-115-101-114': {
         uid: 'ICON-WIDOWMAKER-66-97-105-115-101-114',
-        source: require('./../assets/icons/ICON-WIDOWMAKER-66-97-105-115-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-WIDOWMAKER-66-97-105-115-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WIDOWMAKER-66-97-105-115-101-114.png`,
         default: false,
         name: `Baiser`,
         type: Items.TYPE.ICON,
@@ -9687,7 +10202,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-73-99-111-110': {
         uid: 'SPRAY-WIDOWMAKER-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -9698,7 +10214,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-66-108-111-111-100': {
         uid: 'SPRAY-WIDOWMAKER-66-108-111-111-100',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-66-108-111-111-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-66-108-111-111-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-66-108-111-111-100.png`,
         default: false,
         name: `Blood`,
         type: Items.TYPE.SPRAY,
@@ -9709,7 +10226,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-66-97-105-115-101-114': {
         uid: 'SPRAY-WIDOWMAKER-66-97-105-115-101-114',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-66-97-105-115-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-66-97-105-115-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-66-97-105-115-101-114.png`,
         default: false,
         name: `Baiser`,
         type: Items.TYPE.SPRAY,
@@ -9720,7 +10238,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-87-105-100-111-119-39-115-32-75-105-115-115': {
         uid: 'SPRAY-WIDOWMAKER-87-105-100-111-119-39-115-32-75-105-115-115',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-87-105-100-111-119-39-115-32-75-105-115-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-87-105-100-111-119-39-115-32-75-105-115-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-87-105-100-111-119-39-115-32-75-105-115-115.png`,
         default: false,
         name: `Widow's Kiss`,
         type: Items.TYPE.SPRAY,
@@ -9731,7 +10250,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-69-109-98-108-101-109': {
         uid: 'SPRAY-WIDOWMAKER-69-109-98-108-101-109',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-69-109-98-108-101-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-69-109-98-108-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-69-109-98-108-101-109.png`,
         default: false,
         name: `Emblem`,
         type: Items.TYPE.SPRAY,
@@ -9742,7 +10262,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-67-114-111-117-99-104': {
         uid: 'SPRAY-WIDOWMAKER-67-114-111-117-99-104',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-67-114-111-117-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-67-114-111-117-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-67-114-111-117-99-104.png`,
         default: false,
         name: `Crouch`,
         type: Items.TYPE.SPRAY,
@@ -9753,7 +10274,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-83-119-105-110-103': {
         uid: 'SPRAY-WIDOWMAKER-83-119-105-110-103',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-119-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-119-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-83-119-105-110-103.png`,
         default: false,
         name: `Swing`,
         type: Items.TYPE.SPRAY,
@@ -9764,7 +10286,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-68-101-116-101-99-116-101-100': {
         uid: 'SPRAY-WIDOWMAKER-68-101-116-101-99-116-101-100',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-68-101-116-101-99-116-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-68-101-116-101-99-116-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-68-101-116-101-99-116-101-100.png`,
         default: false,
         name: `Detected`,
         type: Items.TYPE.SPRAY,
@@ -9775,7 +10298,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-78-111-105-114-101': {
         uid: 'SPRAY-WIDOWMAKER-78-111-105-114-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-78-111-105-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-78-111-105-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-78-111-105-114-101.png`,
         default: false,
         name: `Noire`,
         type: Items.TYPE.SPRAY,
@@ -9786,7 +10310,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-75-110-101-101-108-105-110-103': {
         uid: 'SPRAY-WIDOWMAKER-75-110-101-101-108-105-110-103',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-75-110-101-101-108-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-75-110-101-101-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-75-110-101-101-108-105-110-103.png`,
         default: false,
         name: `Kneeling`,
         type: Items.TYPE.SPRAY,
@@ -9797,7 +10322,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-71-97-122-101': {
         uid: 'SPRAY-WIDOWMAKER-71-97-122-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-71-97-122-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-71-97-122-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-71-97-122-101.png`,
         default: false,
         name: `Gaze`,
         type: Items.TYPE.SPRAY,
@@ -9808,7 +10334,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-86-101-117-118-101': {
         uid: 'SPRAY-WIDOWMAKER-86-101-117-118-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-86-101-117-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-86-101-117-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-86-101-117-118-101.png`,
         default: false,
         name: `Veuve`,
         type: Items.TYPE.SPRAY,
@@ -9819,7 +10346,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-87-105-100-111-119': {
         uid: 'SPRAY-WIDOWMAKER-87-105-100-111-119',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-87-105-100-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-87-105-100-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-87-105-100-111-119.png`,
         default: false,
         name: `Widow`,
         type: Items.TYPE.SPRAY,
@@ -9830,7 +10358,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-83-110-105-112-101-114': {
         uid: 'SPRAY-WIDOWMAKER-83-110-105-112-101-114',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-110-105-112-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-110-105-112-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-83-110-105-112-101-114.png`,
         default: false,
         name: `Sniper`,
         type: Items.TYPE.SPRAY,
@@ -9841,7 +10370,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-85-110-101-32-66-97-108-108-101': {
         uid: 'SPRAY-WIDOWMAKER-85-110-101-32-66-97-108-108-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-85-110-101-32-66-97-108-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-85-110-101-32-66-97-108-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-85-110-101-32-66-97-108-108-101.png`,
         default: false,
         name: `Une Balle`,
         type: Items.TYPE.SPRAY,
@@ -9852,7 +10382,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-66-108-97-99-107-32-87-105-100-111-119': {
         uid: 'SPRAY-WIDOWMAKER-66-108-97-99-107-32-87-105-100-111-119',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-66-108-97-99-107-32-87-105-100-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-66-108-97-99-107-32-87-105-100-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-66-108-97-99-107-32-87-105-100-111-119.png`,
         default: false,
         name: `Black Widow`,
         type: Items.TYPE.SPRAY,
@@ -9863,7 +10394,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-78-111-32-79-110-101-32-69-115-99-97-112-101-115': {
         uid: 'SPRAY-WIDOWMAKER-78-111-32-79-110-101-32-69-115-99-97-112-101-115',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-78-111-32-79-110-101-32-69-115-99-97-112-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-78-111-32-79-110-101-32-69-115-99-97-112-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-78-111-32-79-110-101-32-69-115-99-97-112-101-115.png`,
         default: false,
         name: `No One Escapes`,
         type: Items.TYPE.SPRAY,
@@ -9874,7 +10406,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-72-111-117-114-103-108-97-115-115': {
         uid: 'SPRAY-WIDOWMAKER-72-111-117-114-103-108-97-115-115',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-72-111-117-114-103-108-97-115-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-72-111-117-114-103-108-97-115-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-72-111-117-114-103-108-97-115-115.png`,
         default: false,
         name: `Hourglass`,
         type: Items.TYPE.SPRAY,
@@ -9885,7 +10418,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-83-99-111-112-101': {
         uid: 'SPRAY-WIDOWMAKER-83-99-111-112-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-99-111-112-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-99-111-112-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-83-99-111-112-101.png`,
         default: false,
         name: `Scope`,
         type: Items.TYPE.SPRAY,
@@ -9896,7 +10430,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-73-110-32-77-121-32-83-105-103-104-116-115': {
         uid: 'SPRAY-WIDOWMAKER-73-110-32-77-121-32-83-105-103-104-116-115',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-73-110-32-77-121-32-83-105-103-104-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-73-110-32-77-121-32-83-105-103-104-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-73-110-32-77-121-32-83-105-103-104-116-115.png`,
         default: false,
         name: `In My Sights`,
         type: Items.TYPE.SPRAY,
@@ -9907,7 +10442,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-74-101-32-84-101-32-86-111-105-115': {
         uid: 'SPRAY-WIDOWMAKER-74-101-32-84-101-32-86-111-105-115',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-74-101-32-84-101-32-86-111-105-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-74-101-32-84-101-32-86-111-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-74-101-32-84-101-32-86-111-105-115.png`,
         default: false,
         name: `Je Te Vois`,
         type: Items.TYPE.SPRAY,
@@ -9918,7 +10454,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-83-112-105-100-101-114': {
         uid: 'SPRAY-WIDOWMAKER-83-112-105-100-101-114',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-112-105-100-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-112-105-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-83-112-105-100-101-114.png`,
         default: false,
         name: `Spider`,
         type: Items.TYPE.SPRAY,
@@ -9929,7 +10466,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-80-111-114-116-114-97-105-116': {
         uid: 'SPRAY-WIDOWMAKER-80-111-114-116-114-97-105-116',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-80-111-114-116-114-97-105-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-80-111-114-116-114-97-105-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-80-111-114-116-114-97-105-116.png`,
         default: false,
         name: `Portrait`,
         type: Items.TYPE.SPRAY,
@@ -9940,7 +10478,8 @@ export default {
     },
     'ICON-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115': {
         uid: 'ICON-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115',
-        source: require('./../assets/icons/ICON-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115.png'),
+        thumbnail: require('./../assets/icons/ICON-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115.png`,
         default: false,
         name: `Gymnastics`,
         type: Items.TYPE.ICON,
@@ -9951,7 +10490,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115': {
         uid: 'SPRAY-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-71-121-109-110-97-115-116-105-99-115.png`,
         default: false,
         name: `Gymnastics`,
         type: Items.TYPE.SPRAY,
@@ -9992,7 +10532,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-WIDOWMAKER-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -10023,7 +10564,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-83-107-105-105-110-103': {
         uid: 'SPRAY-WIDOWMAKER-83-107-105-105-110-103',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-107-105-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-83-107-105-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-83-107-105-105-110-103.png`,
         default: false,
         name: `Skiing`,
         type: Items.TYPE.SPRAY,
@@ -10034,7 +10576,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-WIDOWMAKER-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -10065,7 +10608,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-72-97-105-114-112-105-110': {
         uid: 'SPRAY-WIDOWMAKER-72-97-105-114-112-105-110',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-72-97-105-114-112-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-72-97-105-114-112-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-72-97-105-114-112-105-110.png`,
         default: false,
         name: `Hairpin`,
         type: Items.TYPE.SPRAY,
@@ -10076,7 +10620,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-WIDOWMAKER-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -10097,7 +10642,8 @@ export default {
     },
     'SPRAY-BASTION-80-105-120-101-108': {
         uid: 'SPRAY-BASTION-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-BASTION-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -10108,7 +10654,8 @@ export default {
     },
     'SPRAY-BASTION-67-117-116-101': {
         uid: 'SPRAY-BASTION-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-BASTION-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -10189,7 +10736,8 @@ export default {
     },
     'ICON-BASTION-66-97-115-116-105-111-110': {
         uid: 'ICON-BASTION-66-97-115-116-105-111-110',
-        source: require('./../assets/icons/ICON-BASTION-66-97-115-116-105-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-BASTION-66-97-115-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-BASTION-66-97-115-116-105-111-110.png`,
         default: false,
         name: `Bastion`,
         type: Items.TYPE.ICON,
@@ -10200,7 +10748,8 @@ export default {
     },
     'ICON-BASTION-84-97-110-107-32-67-114-111-115-115-105-110-103': {
         uid: 'ICON-BASTION-84-97-110-107-32-67-114-111-115-115-105-110-103',
-        source: require('./../assets/icons/ICON-BASTION-84-97-110-107-32-67-114-111-115-115-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-BASTION-84-97-110-107-32-67-114-111-115-115-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-BASTION-84-97-110-107-32-67-114-111-115-115-105-110-103.png`,
         default: false,
         name: `Tank Crossing`,
         type: Items.TYPE.ICON,
@@ -10211,7 +10760,8 @@ export default {
     },
     'ICON-BASTION-71-97-110-121-109-101-100-101': {
         uid: 'ICON-BASTION-71-97-110-121-109-101-100-101',
-        source: require('./../assets/icons/ICON-BASTION-71-97-110-121-109-101-100-101.png'),
+        thumbnail: require('./../assets/icons/ICON-BASTION-71-97-110-121-109-101-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-BASTION-71-97-110-121-109-101-100-101.png`,
         default: false,
         name: `Ganymede`,
         type: Items.TYPE.ICON,
@@ -10532,7 +11082,8 @@ export default {
     },
     'SPRAY-BASTION-73-99-111-110': {
         uid: 'SPRAY-BASTION-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-BASTION-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -10543,7 +11094,8 @@ export default {
     },
     'SPRAY-BASTION-70-105-114-101-32-65-116-32-87-105-108-108': {
         uid: 'SPRAY-BASTION-70-105-114-101-32-65-116-32-87-105-108-108',
-        source: require('./../assets/sprays/SPRAY-BASTION-70-105-114-101-32-65-116-32-87-105-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-70-105-114-101-32-65-116-32-87-105-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-70-105-114-101-32-65-116-32-87-105-108-108.png`,
         default: false,
         name: `Fire At Will`,
         type: Items.TYPE.SPRAY,
@@ -10554,7 +11106,8 @@ export default {
     },
     'SPRAY-BASTION-71-105-97-110-116': {
         uid: 'SPRAY-BASTION-71-105-97-110-116',
-        source: require('./../assets/sprays/SPRAY-BASTION-71-105-97-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-71-105-97-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-71-105-97-110-116.png`,
         default: false,
         name: `Giant`,
         type: Items.TYPE.SPRAY,
@@ -10565,7 +11118,8 @@ export default {
     },
     'SPRAY-BASTION-82-101-99-111-118-101-114-121': {
         uid: 'SPRAY-BASTION-82-101-99-111-118-101-114-121',
-        source: require('./../assets/sprays/SPRAY-BASTION-82-101-99-111-118-101-114-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-82-101-99-111-118-101-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-82-101-99-111-118-101-114-121.png`,
         default: false,
         name: `Recovery`,
         type: Items.TYPE.SPRAY,
@@ -10576,7 +11130,8 @@ export default {
     },
     'SPRAY-BASTION-71-97-110-121-109-101-100-101': {
         uid: 'SPRAY-BASTION-71-97-110-121-109-101-100-101',
-        source: require('./../assets/sprays/SPRAY-BASTION-71-97-110-121-109-101-100-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-71-97-110-121-109-101-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-71-97-110-121-109-101-100-101.png`,
         default: false,
         name: `Ganymede`,
         type: Items.TYPE.SPRAY,
@@ -10587,7 +11142,8 @@ export default {
     },
     'SPRAY-BASTION-79-109-110-105-99': {
         uid: 'SPRAY-BASTION-79-109-110-105-99',
-        source: require('./../assets/sprays/SPRAY-BASTION-79-109-110-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-79-109-110-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-79-109-110-105-99.png`,
         default: false,
         name: `Omnic`,
         type: Items.TYPE.SPRAY,
@@ -10598,7 +11154,8 @@ export default {
     },
     'SPRAY-BASTION-65-99-116-105-111-110': {
         uid: 'SPRAY-BASTION-65-99-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-BASTION-65-99-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-65-99-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-65-99-116-105-111-110.png`,
         default: false,
         name: `Action`,
         type: Items.TYPE.SPRAY,
@@ -10609,7 +11166,8 @@ export default {
     },
     'SPRAY-BASTION-66-105-114-100': {
         uid: 'SPRAY-BASTION-66-105-114-100',
-        source: require('./../assets/sprays/SPRAY-BASTION-66-105-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-66-105-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-66-105-114-100.png`,
         default: false,
         name: `Bird`,
         type: Items.TYPE.SPRAY,
@@ -10620,7 +11178,8 @@ export default {
     },
     'SPRAY-BASTION-66-105-114-100-119-97-116-99-104-101-114-115': {
         uid: 'SPRAY-BASTION-66-105-114-100-119-97-116-99-104-101-114-115',
-        source: require('./../assets/sprays/SPRAY-BASTION-66-105-114-100-119-97-116-99-104-101-114-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-66-105-114-100-119-97-116-99-104-101-114-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-66-105-114-100-119-97-116-99-104-101-114-115.png`,
         default: false,
         name: `Birdwatchers`,
         type: Items.TYPE.SPRAY,
@@ -10631,7 +11190,8 @@ export default {
     },
     'SPRAY-BASTION-66-108-97-99-107': {
         uid: 'SPRAY-BASTION-66-108-97-99-107',
-        source: require('./../assets/sprays/SPRAY-BASTION-66-108-97-99-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-66-108-97-99-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-66-108-97-99-107.png`,
         default: false,
         name: `Black`,
         type: Items.TYPE.SPRAY,
@@ -10642,7 +11202,8 @@ export default {
     },
     'SPRAY-BASTION-67-117-114-105-111-117-115': {
         uid: 'SPRAY-BASTION-67-117-114-105-111-117-115',
-        source: require('./../assets/sprays/SPRAY-BASTION-67-117-114-105-111-117-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-67-117-114-105-111-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-67-117-114-105-111-117-115.png`,
         default: false,
         name: `Curious`,
         type: Items.TYPE.SPRAY,
@@ -10653,7 +11214,8 @@ export default {
     },
     'SPRAY-BASTION-101-53-52': {
         uid: 'SPRAY-BASTION-101-53-52',
-        source: require('./../assets/sprays/SPRAY-BASTION-101-53-52.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-101-53-52.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-101-53-52.png`,
         default: false,
         name: `e54`,
         type: Items.TYPE.SPRAY,
@@ -10664,7 +11226,8 @@ export default {
     },
     'SPRAY-BASTION-83-112-114-111-117-116': {
         uid: 'SPRAY-BASTION-83-112-114-111-117-116',
-        source: require('./../assets/sprays/SPRAY-BASTION-83-112-114-111-117-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-83-112-114-111-117-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-83-112-114-111-117-116.png`,
         default: false,
         name: `Sprout`,
         type: Items.TYPE.SPRAY,
@@ -10675,7 +11238,8 @@ export default {
     },
     'SPRAY-BASTION-70-108-111-119-101-114-32-80-111-119-101-114': {
         uid: 'SPRAY-BASTION-70-108-111-119-101-114-32-80-111-119-101-114',
-        source: require('./../assets/sprays/SPRAY-BASTION-70-108-111-119-101-114-32-80-111-119-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-70-108-111-119-101-114-32-80-111-119-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-70-108-111-119-101-114-32-80-111-119-101-114.png`,
         default: false,
         name: `Flower Power`,
         type: Items.TYPE.SPRAY,
@@ -10686,7 +11250,8 @@ export default {
     },
     'SPRAY-BASTION-87-111-111-100-32-97-110-100-32-83-116-111-110-101': {
         uid: 'SPRAY-BASTION-87-111-111-100-32-97-110-100-32-83-116-111-110-101',
-        source: require('./../assets/sprays/SPRAY-BASTION-87-111-111-100-32-97-110-100-32-83-116-111-110-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-87-111-111-100-32-97-110-100-32-83-116-111-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-87-111-111-100-32-97-110-100-32-83-116-111-110-101.png`,
         default: false,
         name: `Wood and Stone`,
         type: Items.TYPE.SPRAY,
@@ -10697,7 +11262,8 @@ export default {
     },
     'SPRAY-BASTION-70-108-105-103-104-116': {
         uid: 'SPRAY-BASTION-70-108-105-103-104-116',
-        source: require('./../assets/sprays/SPRAY-BASTION-70-108-105-103-104-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-70-108-105-103-104-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-70-108-105-103-104-116.png`,
         default: false,
         name: `Flight`,
         type: Items.TYPE.SPRAY,
@@ -10708,7 +11274,8 @@ export default {
     },
     'SPRAY-BASTION-66-108-111-99-107-115': {
         uid: 'SPRAY-BASTION-66-108-111-99-107-115',
-        source: require('./../assets/sprays/SPRAY-BASTION-66-108-111-99-107-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-66-108-111-99-107-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-66-108-111-99-107-115.png`,
         default: false,
         name: `Blocks`,
         type: Items.TYPE.SPRAY,
@@ -10719,7 +11286,8 @@ export default {
     },
     'SPRAY-BASTION-67-114-105-115-105-115': {
         uid: 'SPRAY-BASTION-67-114-105-115-105-115',
-        source: require('./../assets/sprays/SPRAY-BASTION-67-114-105-115-105-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-67-114-105-115-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-67-114-105-115-105-115.png`,
         default: false,
         name: `Crisis`,
         type: Items.TYPE.SPRAY,
@@ -10730,7 +11298,8 @@ export default {
     },
     'SPRAY-BASTION-78-101-115-116': {
         uid: 'SPRAY-BASTION-78-101-115-116',
-        source: require('./../assets/sprays/SPRAY-BASTION-78-101-115-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-78-101-115-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-78-101-115-116.png`,
         default: false,
         name: `Nest`,
         type: Items.TYPE.SPRAY,
@@ -10741,7 +11310,8 @@ export default {
     },
     'SPRAY-BASTION-73-110-32-82-101-112-97-105-114': {
         uid: 'SPRAY-BASTION-73-110-32-82-101-112-97-105-114',
-        source: require('./../assets/sprays/SPRAY-BASTION-73-110-32-82-101-112-97-105-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-73-110-32-82-101-112-97-105-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-73-110-32-82-101-112-97-105-114.png`,
         default: false,
         name: `In Repair`,
         type: Items.TYPE.SPRAY,
@@ -10752,7 +11322,8 @@ export default {
     },
     'SPRAY-BASTION-79-118-101-114-103-114-111-119-110': {
         uid: 'SPRAY-BASTION-79-118-101-114-103-114-111-119-110',
-        source: require('./../assets/sprays/SPRAY-BASTION-79-118-101-114-103-114-111-119-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-79-118-101-114-103-114-111-119-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-79-118-101-114-103-114-111-119-110.png`,
         default: false,
         name: `Overgrown`,
         type: Items.TYPE.SPRAY,
@@ -10763,7 +11334,8 @@ export default {
     },
     'SPRAY-BASTION-67-97-110-110-111-110': {
         uid: 'SPRAY-BASTION-67-97-110-110-111-110',
-        source: require('./../assets/sprays/SPRAY-BASTION-67-97-110-110-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-67-97-110-110-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-67-97-110-110-111-110.png`,
         default: false,
         name: `Cannon`,
         type: Items.TYPE.SPRAY,
@@ -10774,7 +11346,8 @@ export default {
     },
     'SPRAY-BASTION-82-101-116-114-111': {
         uid: 'SPRAY-BASTION-82-101-116-114-111',
-        source: require('./../assets/sprays/SPRAY-BASTION-82-101-116-114-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-82-101-116-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-82-101-116-114-111.png`,
         default: false,
         name: `Retro`,
         type: Items.TYPE.SPRAY,
@@ -10785,7 +11358,8 @@ export default {
     },
     'ICON-BASTION-66-111-120-105-110-103': {
         uid: 'ICON-BASTION-66-111-120-105-110-103',
-        source: require('./../assets/icons/ICON-BASTION-66-111-120-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-BASTION-66-111-120-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-BASTION-66-111-120-105-110-103.png`,
         default: false,
         name: `Boxing`,
         type: Items.TYPE.ICON,
@@ -10796,7 +11370,8 @@ export default {
     },
     'SPRAY-BASTION-66-111-120-105-110-103': {
         uid: 'SPRAY-BASTION-66-111-120-105-110-103',
-        source: require('./../assets/sprays/SPRAY-BASTION-66-111-120-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-66-111-120-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-66-111-120-105-110-103.png`,
         default: false,
         name: `Boxing`,
         type: Items.TYPE.SPRAY,
@@ -10827,7 +11402,8 @@ export default {
     },
     'SPRAY-BASTION-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-BASTION-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-BASTION-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -10868,7 +11444,8 @@ export default {
     },
     'SPRAY-BASTION-70-69-83-84-73-86-69': {
         uid: 'SPRAY-BASTION-70-69-83-84-73-86-69',
-        source: require('./../assets/sprays/SPRAY-BASTION-70-69-83-84-73-86-69.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-70-69-83-84-73-86-69.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-70-69-83-84-73-86-69.png`,
         default: false,
         name: `FESTIVE`,
         type: Items.TYPE.SPRAY,
@@ -10879,7 +11456,8 @@ export default {
     },
     'SPRAY-BASTION-79-82-78-65-77-69-78-84': {
         uid: 'SPRAY-BASTION-79-82-78-65-77-69-78-84',
-        source: require('./../assets/sprays/SPRAY-BASTION-79-82-78-65-77-69-78-84.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-79-82-78-65-77-69-78-84.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-79-82-78-65-77-69-78-84.png`,
         default: false,
         name: `ORNAMENT`,
         type: Items.TYPE.SPRAY,
@@ -10900,7 +11478,8 @@ export default {
     },
     'SPRAY-BASTION-66-97-115-116-45-121-117-109': {
         uid: 'SPRAY-BASTION-66-97-115-116-45-121-117-109',
-        source: require('./../assets/sprays/SPRAY-BASTION-66-97-115-116-45-121-117-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-66-97-115-116-45-121-117-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-66-97-115-116-45-121-117-109.png`,
         default: false,
         name: `Bast-yum`,
         type: Items.TYPE.SPRAY,
@@ -10911,7 +11490,8 @@ export default {
     },
     'SPRAY-BASTION-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-BASTION-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-BASTION-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -10952,7 +11532,8 @@ export default {
     },
     'SPRAY-SYMMETRA-80-105-120-101-108': {
         uid: 'SPRAY-SYMMETRA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -10963,7 +11544,8 @@ export default {
     },
     'SPRAY-SYMMETRA-67-117-116-101': {
         uid: 'SPRAY-SYMMETRA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -11024,7 +11606,8 @@ export default {
     },
     'ICON-SYMMETRA-83-121-109-109-101-116-114-97': {
         uid: 'ICON-SYMMETRA-83-121-109-109-101-116-114-97',
-        source: require('./../assets/icons/ICON-SYMMETRA-83-121-109-109-101-116-114-97.png'),
+        thumbnail: require('./../assets/icons/ICON-SYMMETRA-83-121-109-109-101-116-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SYMMETRA-83-121-109-109-101-116-114-97.png`,
         default: false,
         name: `Symmetra`,
         type: Items.TYPE.ICON,
@@ -11035,7 +11618,8 @@ export default {
     },
     'ICON-SYMMETRA-86-105-115-104-107-97-114': {
         uid: 'ICON-SYMMETRA-86-105-115-104-107-97-114',
-        source: require('./../assets/icons/ICON-SYMMETRA-86-105-115-104-107-97-114.png'),
+        thumbnail: require('./../assets/icons/ICON-SYMMETRA-86-105-115-104-107-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SYMMETRA-86-105-115-104-107-97-114.png`,
         default: false,
         name: `Vishkar`,
         type: Items.TYPE.ICON,
@@ -11046,7 +11630,8 @@ export default {
     },
     'ICON-SYMMETRA-83-101-110-116-114-121': {
         uid: 'ICON-SYMMETRA-83-101-110-116-114-121',
-        source: require('./../assets/icons/ICON-SYMMETRA-83-101-110-116-114-121.png'),
+        thumbnail: require('./../assets/icons/ICON-SYMMETRA-83-101-110-116-114-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SYMMETRA-83-101-110-116-114-121.png`,
         default: false,
         name: `Sentry`,
         type: Items.TYPE.ICON,
@@ -11367,7 +11952,8 @@ export default {
     },
     'SPRAY-SYMMETRA-73-99-111-110': {
         uid: 'SPRAY-SYMMETRA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -11378,7 +11964,8 @@ export default {
     },
     'SPRAY-SYMMETRA-86-105-115-104-107-97-114': {
         uid: 'SPRAY-SYMMETRA-86-105-115-104-107-97-114',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-86-105-115-104-107-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-86-105-115-104-107-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-86-105-115-104-107-97-114.png`,
         default: false,
         name: `Vishkar`,
         type: Items.TYPE.SPRAY,
@@ -11389,7 +11976,8 @@ export default {
     },
     'SPRAY-SYMMETRA-76-105-103-104-116': {
         uid: 'SPRAY-SYMMETRA-76-105-103-104-116',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-76-105-103-104-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-76-105-103-104-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-76-105-103-104-116.png`,
         default: false,
         name: `Light`,
         type: Items.TYPE.SPRAY,
@@ -11400,7 +11988,8 @@ export default {
     },
     'SPRAY-SYMMETRA-86-105-115-111-114': {
         uid: 'SPRAY-SYMMETRA-86-105-115-111-114',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-86-105-115-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-86-105-115-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-86-105-115-111-114.png`,
         default: false,
         name: `Visor`,
         type: Items.TYPE.SPRAY,
@@ -11411,7 +12000,8 @@ export default {
     },
     'SPRAY-SYMMETRA-76-111-116-117-115': {
         uid: 'SPRAY-SYMMETRA-76-111-116-117-115',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-76-111-116-117-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-76-111-116-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-76-111-116-117-115.png`,
         default: false,
         name: `Lotus`,
         type: Items.TYPE.SPRAY,
@@ -11422,7 +12012,8 @@ export default {
     },
     'SPRAY-SYMMETRA-80-114-111-106-101-99-116-111-114': {
         uid: 'SPRAY-SYMMETRA-80-114-111-106-101-99-116-111-114',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-80-114-111-106-101-99-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-80-114-111-106-101-99-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-80-114-111-106-101-99-116-111-114.png`,
         default: false,
         name: `Projector`,
         type: Items.TYPE.SPRAY,
@@ -11433,7 +12024,8 @@ export default {
     },
     'SPRAY-SYMMETRA-66-101-104-111-108-100': {
         uid: 'SPRAY-SYMMETRA-66-101-104-111-108-100',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-66-101-104-111-108-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-66-101-104-111-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-66-101-104-111-108-100.png`,
         default: false,
         name: `Behold`,
         type: Items.TYPE.SPRAY,
@@ -11444,7 +12036,8 @@ export default {
     },
     'SPRAY-SYMMETRA-80-111-115-101': {
         uid: 'SPRAY-SYMMETRA-80-111-115-101',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-80-111-115-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-80-111-115-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-80-111-115-101.png`,
         default: false,
         name: `Pose`,
         type: Items.TYPE.SPRAY,
@@ -11455,7 +12048,8 @@ export default {
     },
     'SPRAY-SYMMETRA-71-108-111-118-101': {
         uid: 'SPRAY-SYMMETRA-71-108-111-118-101',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-71-108-111-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-71-108-111-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-71-108-111-118-101.png`,
         default: false,
         name: `Glove`,
         type: Items.TYPE.SPRAY,
@@ -11466,7 +12060,8 @@ export default {
     },
     'SPRAY-SYMMETRA-86-97-115-119-97-110-105': {
         uid: 'SPRAY-SYMMETRA-86-97-115-119-97-110-105',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-86-97-115-119-97-110-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-86-97-115-119-97-110-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-86-97-115-119-97-110-105.png`,
         default: false,
         name: `Vaswani`,
         type: Items.TYPE.SPRAY,
@@ -11477,7 +12072,8 @@ export default {
     },
     'SPRAY-SYMMETRA-66-117-105-108-100-101-114': {
         uid: 'SPRAY-SYMMETRA-66-117-105-108-100-101-114',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-66-117-105-108-100-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-66-117-105-108-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-66-117-105-108-100-101-114.png`,
         default: false,
         name: `Builder`,
         type: Items.TYPE.SPRAY,
@@ -11488,7 +12084,8 @@ export default {
     },
     'SPRAY-SYMMETRA-65-114-99-104-105-116-101-99-116': {
         uid: 'SPRAY-SYMMETRA-65-114-99-104-105-116-101-99-116',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-65-114-99-104-105-116-101-99-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-65-114-99-104-105-116-101-99-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-65-114-99-104-105-116-101-99-116.png`,
         default: false,
         name: `Architect`,
         type: Items.TYPE.SPRAY,
@@ -11499,7 +12096,8 @@ export default {
     },
     'SPRAY-SYMMETRA-83-117-112-101-114-105-111-114': {
         uid: 'SPRAY-SYMMETRA-83-117-112-101-114-105-111-114',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-83-117-112-101-114-105-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-83-117-112-101-114-105-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-83-117-112-101-114-105-111-114.png`,
         default: false,
         name: `Superior`,
         type: Items.TYPE.SPRAY,
@@ -11510,7 +12108,8 @@ export default {
     },
     'SPRAY-SYMMETRA-87-101-97-118-101-114': {
         uid: 'SPRAY-SYMMETRA-87-101-97-118-101-114',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-87-101-97-118-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-87-101-97-118-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-87-101-97-118-101-114.png`,
         default: false,
         name: `Weaver`,
         type: Items.TYPE.SPRAY,
@@ -11521,7 +12120,8 @@ export default {
     },
     'SPRAY-SYMMETRA-68-101-115-105-103-110': {
         uid: 'SPRAY-SYMMETRA-68-101-115-105-103-110',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-68-101-115-105-103-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-68-101-115-105-103-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-68-101-115-105-103-110.png`,
         default: false,
         name: `Design`,
         type: Items.TYPE.SPRAY,
@@ -11532,7 +12132,8 @@ export default {
     },
     'SPRAY-SYMMETRA-65-103-101-110-116': {
         uid: 'SPRAY-SYMMETRA-65-103-101-110-116',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-65-103-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-65-103-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-65-103-101-110-116.png`,
         default: false,
         name: `Agent`,
         type: Items.TYPE.SPRAY,
@@ -11543,7 +12144,8 @@ export default {
     },
     'SPRAY-SYMMETRA-87-105-108-108': {
         uid: 'SPRAY-SYMMETRA-87-105-108-108',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-87-105-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-87-105-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-87-105-108-108.png`,
         default: false,
         name: `Will`,
         type: Items.TYPE.SPRAY,
@@ -11554,7 +12156,8 @@ export default {
     },
     'SPRAY-SYMMETRA-67-97-114-32-87-97-115-104': {
         uid: 'SPRAY-SYMMETRA-67-97-114-32-87-97-115-104',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-67-97-114-32-87-97-115-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-67-97-114-32-87-97-115-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-67-97-114-32-87-97-115-104.png`,
         default: false,
         name: `Car Wash`,
         type: Items.TYPE.SPRAY,
@@ -11565,7 +12168,8 @@ export default {
     },
     'SPRAY-SYMMETRA-76-105-110-101-115': {
         uid: 'SPRAY-SYMMETRA-76-105-110-101-115',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-76-105-110-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-76-105-110-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-76-105-110-101-115.png`,
         default: false,
         name: `Lines`,
         type: Items.TYPE.SPRAY,
@@ -11576,7 +12180,8 @@ export default {
     },
     'SPRAY-SYMMETRA-66-108-117-101-112-114-105-110-116': {
         uid: 'SPRAY-SYMMETRA-66-108-117-101-112-114-105-110-116',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-66-108-117-101-112-114-105-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-66-108-117-101-112-114-105-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-66-108-117-101-112-114-105-110-116.png`,
         default: false,
         name: `Blueprint`,
         type: Items.TYPE.SPRAY,
@@ -11587,7 +12192,8 @@ export default {
     },
     'SPRAY-SYMMETRA-67-97-117-116-105-111-110': {
         uid: 'SPRAY-SYMMETRA-67-97-117-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-67-97-117-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-67-97-117-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-67-97-117-116-105-111-110.png`,
         default: false,
         name: `Caution`,
         type: Items.TYPE.SPRAY,
@@ -11598,7 +12204,8 @@ export default {
     },
     'SPRAY-SYMMETRA-84-104-101-32-80-97-116-104': {
         uid: 'SPRAY-SYMMETRA-84-104-101-32-80-97-116-104',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-84-104-101-32-80-97-116-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-84-104-101-32-80-97-116-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-84-104-101-32-80-97-116-104.png`,
         default: false,
         name: `The Path`,
         type: Items.TYPE.SPRAY,
@@ -11609,7 +12216,8 @@ export default {
     },
     'SPRAY-SYMMETRA-83-97-116-121-97': {
         uid: 'SPRAY-SYMMETRA-83-97-116-121-97',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-83-97-116-121-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-83-97-116-121-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-83-97-116-121-97.png`,
         default: false,
         name: `Satya`,
         type: Items.TYPE.SPRAY,
@@ -11620,7 +12228,8 @@ export default {
     },
     'ICON-SYMMETRA-82-104-121-116-104-109-105-99-32-71-121-109-110-97-115-116-105-99-115': {
         uid: 'ICON-SYMMETRA-82-104-121-116-104-109-105-99-32-71-121-109-110-97-115-116-105-99-115',
-        source: require('./../assets/icons/ICON-SYMMETRA-82-104-121-116-104-109-105-99-32-71-121-109-110-97-115-116-105-99-115.png'),
+        thumbnail: require('./../assets/icons/ICON-SYMMETRA-82-104-121-116-104-109-105-99-32-71-121-109-110-97-115-116-105-99-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SYMMETRA-82-104-121-116-104-109-105-99-32-71-121-109-110-97-115-116-105-99-115.png`,
         default: false,
         name: `Rhythmic Gymnastics`,
         type: Items.TYPE.ICON,
@@ -11631,7 +12240,8 @@ export default {
     },
     'SPRAY-SYMMETRA-82-104-121-116-104-109-105-99': {
         uid: 'SPRAY-SYMMETRA-82-104-121-116-104-109-105-99',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-82-104-121-116-104-109-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-82-104-121-116-104-109-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-82-104-121-116-104-109-105-99.png`,
         default: false,
         name: `Rhythmic`,
         type: Items.TYPE.SPRAY,
@@ -11662,7 +12272,8 @@ export default {
     },
     'SPRAY-SYMMETRA-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-SYMMETRA-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -11703,7 +12314,8 @@ export default {
     },
     'SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101': {
         uid: 'SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101.png`,
         default: false,
         name: `Snowflake`,
         type: Items.TYPE.SPRAY,
@@ -11714,7 +12326,8 @@ export default {
     },
     'SPRAY-SYMMETRA-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-SYMMETRA-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -11745,7 +12358,8 @@ export default {
     },
     'SPRAY-SYMMETRA-76-97-110-116-101-114-110': {
         uid: 'SPRAY-SYMMETRA-76-97-110-116-101-114-110',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-76-97-110-116-101-114-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-76-97-110-116-101-114-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-76-97-110-116-101-114-110.png`,
         default: false,
         name: `Lantern`,
         type: Items.TYPE.SPRAY,
@@ -11756,7 +12370,8 @@ export default {
     },
     'SPRAY-SYMMETRA-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-SYMMETRA-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -11787,7 +12402,8 @@ export default {
     },
     'SPRAY-ZENYATTA-80-105-120-101-108': {
         uid: 'SPRAY-ZENYATTA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -11798,7 +12414,8 @@ export default {
     },
     'SPRAY-ZENYATTA-67-117-116-101': {
         uid: 'SPRAY-ZENYATTA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -11859,7 +12476,8 @@ export default {
     },
     'ICON-ZENYATTA-90-101-110-121-97-116-116-97': {
         uid: 'ICON-ZENYATTA-90-101-110-121-97-116-116-97',
-        source: require('./../assets/icons/ICON-ZENYATTA-90-101-110-121-97-116-116-97.png'),
+        thumbnail: require('./../assets/icons/ICON-ZENYATTA-90-101-110-121-97-116-116-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZENYATTA-90-101-110-121-97-116-116-97.png`,
         default: false,
         name: `Zenyatta`,
         type: Items.TYPE.ICON,
@@ -11870,7 +12488,8 @@ export default {
     },
     'ICON-ZENYATTA-72-97-114-109-111-110-121': {
         uid: 'ICON-ZENYATTA-72-97-114-109-111-110-121',
-        source: require('./../assets/icons/ICON-ZENYATTA-72-97-114-109-111-110-121.png'),
+        thumbnail: require('./../assets/icons/ICON-ZENYATTA-72-97-114-109-111-110-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZENYATTA-72-97-114-109-111-110-121.png`,
         default: false,
         name: `Harmony`,
         type: Items.TYPE.ICON,
@@ -11881,7 +12500,8 @@ export default {
     },
     'ICON-ZENYATTA-77-101-100-105-116-97-116-105-111-110': {
         uid: 'ICON-ZENYATTA-77-101-100-105-116-97-116-105-111-110',
-        source: require('./../assets/icons/ICON-ZENYATTA-77-101-100-105-116-97-116-105-111-110.png'),
+        thumbnail: require('./../assets/icons/ICON-ZENYATTA-77-101-100-105-116-97-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZENYATTA-77-101-100-105-116-97-116-105-111-110.png`,
         default: false,
         name: `Meditation`,
         type: Items.TYPE.ICON,
@@ -12202,7 +12822,8 @@ export default {
     },
     'SPRAY-ZENYATTA-73-99-111-110': {
         uid: 'SPRAY-ZENYATTA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -12213,7 +12834,8 @@ export default {
     },
     'SPRAY-ZENYATTA-71-114-97-112-104-105-99': {
         uid: 'SPRAY-ZENYATTA-71-114-97-112-104-105-99',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-71-114-97-112-104-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-71-114-97-112-104-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-71-114-97-112-104-105-99.png`,
         default: false,
         name: `Graphic`,
         type: Items.TYPE.SPRAY,
@@ -12224,7 +12846,8 @@ export default {
     },
     'SPRAY-ZENYATTA-66-97-108-97-110-99-101': {
         uid: 'SPRAY-ZENYATTA-66-97-108-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-66-97-108-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-66-97-108-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-66-97-108-97-110-99-101.png`,
         default: false,
         name: `Balance`,
         type: Items.TYPE.SPRAY,
@@ -12235,7 +12858,8 @@ export default {
     },
     'SPRAY-ZENYATTA-65-100-111-114-97-98-108-101': {
         uid: 'SPRAY-ZENYATTA-65-100-111-114-97-98-108-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-65-100-111-114-97-98-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-65-100-111-114-97-98-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-65-100-111-114-97-98-108-101.png`,
         default: false,
         name: `Adorable`,
         type: Items.TYPE.SPRAY,
@@ -12246,7 +12870,8 @@ export default {
     },
     'SPRAY-ZENYATTA-84-111-103-101-116-104-101-114': {
         uid: 'SPRAY-ZENYATTA-84-111-103-101-116-104-101-114',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-84-111-103-101-116-104-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-84-111-103-101-116-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-84-111-103-101-116-104-101-114.png`,
         default: false,
         name: `Together`,
         type: Items.TYPE.SPRAY,
@@ -12257,7 +12882,8 @@ export default {
     },
     'SPRAY-ZENYATTA-78-105-110-101': {
         uid: 'SPRAY-ZENYATTA-78-105-110-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-78-105-110-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-78-105-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-78-105-110-101.png`,
         default: false,
         name: `Nine`,
         type: Items.TYPE.SPRAY,
@@ -12268,7 +12894,8 @@ export default {
     },
     'SPRAY-ZENYATTA-84-101-107-104-97-114-116-104-97': {
         uid: 'SPRAY-ZENYATTA-84-101-107-104-97-114-116-104-97',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-84-101-107-104-97-114-116-104-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-84-101-107-104-97-114-116-104-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-84-101-107-104-97-114-116-104-97.png`,
         default: false,
         name: `Tekhartha`,
         type: Items.TYPE.SPRAY,
@@ -12279,7 +12906,8 @@ export default {
     },
     'SPRAY-ZENYATTA-69-110-108-105-103-104-116-101-110-101-100': {
         uid: 'SPRAY-ZENYATTA-69-110-108-105-103-104-116-101-110-101-100',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-69-110-108-105-103-104-116-101-110-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-69-110-108-105-103-104-116-101-110-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-69-110-108-105-103-104-116-101-110-101-100.png`,
         default: false,
         name: `Enlightened`,
         type: Items.TYPE.SPRAY,
@@ -12290,7 +12918,8 @@ export default {
     },
     'SPRAY-ZENYATTA-79-114-98-115': {
         uid: 'SPRAY-ZENYATTA-79-114-98-115',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-79-114-98-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-79-114-98-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-79-114-98-115.png`,
         default: false,
         name: `Orbs`,
         type: Items.TYPE.SPRAY,
@@ -12301,7 +12930,8 @@ export default {
     },
     'SPRAY-ZENYATTA-70-108-111-119': {
         uid: 'SPRAY-ZENYATTA-70-108-111-119',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-70-108-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-70-108-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-70-108-111-119.png`,
         default: false,
         name: `Flow`,
         type: Items.TYPE.SPRAY,
@@ -12312,7 +12942,8 @@ export default {
     },
     'SPRAY-ZENYATTA-84-104-114-111-119': {
         uid: 'SPRAY-ZENYATTA-84-104-114-111-119',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-84-104-114-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-84-104-114-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-84-104-114-111-119.png`,
         default: false,
         name: `Throw`,
         type: Items.TYPE.SPRAY,
@@ -12323,7 +12954,8 @@ export default {
     },
     'SPRAY-ZENYATTA-71-117-114-117': {
         uid: 'SPRAY-ZENYATTA-71-117-114-117',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-71-117-114-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-71-117-114-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-71-117-114-117.png`,
         default: false,
         name: `Guru`,
         type: Items.TYPE.SPRAY,
@@ -12334,7 +12966,8 @@ export default {
     },
     'SPRAY-ZENYATTA-72-97-110-100': {
         uid: 'SPRAY-ZENYATTA-72-97-110-100',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-72-97-110-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-72-97-110-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-72-97-110-100.png`,
         default: false,
         name: `Hand`,
         type: Items.TYPE.SPRAY,
@@ -12345,7 +12978,8 @@ export default {
     },
     'SPRAY-ZENYATTA-80-101-97-99-101': {
         uid: 'SPRAY-ZENYATTA-80-101-97-99-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-80-101-97-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-80-101-97-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-80-101-97-99-101.png`,
         default: false,
         name: `Peace`,
         type: Items.TYPE.SPRAY,
@@ -12356,7 +12990,8 @@ export default {
     },
     'SPRAY-ZENYATTA-84-97-117-110-116': {
         uid: 'SPRAY-ZENYATTA-84-97-117-110-116',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-84-97-117-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-84-97-117-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-84-97-117-110-116.png`,
         default: false,
         name: `Taunt`,
         type: Items.TYPE.SPRAY,
@@ -12367,7 +13002,8 @@ export default {
     },
     'SPRAY-ZENYATTA-70-105-115-116-32-66-117-109-112': {
         uid: 'SPRAY-ZENYATTA-70-105-115-116-32-66-117-109-112',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-70-105-115-116-32-66-117-109-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-70-105-115-116-32-66-117-109-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-70-105-115-116-32-66-117-109-112.png`,
         default: false,
         name: `Fist Bump`,
         type: Items.TYPE.SPRAY,
@@ -12378,7 +13014,8 @@ export default {
     },
     'SPRAY-ZENYATTA-68-105-115-99-111-114-100': {
         uid: 'SPRAY-ZENYATTA-68-105-115-99-111-114-100',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-68-105-115-99-111-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-68-105-115-99-111-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-68-105-115-99-111-114-100.png`,
         default: false,
         name: `Discord`,
         type: Items.TYPE.SPRAY,
@@ -12389,7 +13026,8 @@ export default {
     },
     'SPRAY-ZENYATTA-72-97-114-109-111-110-121': {
         uid: 'SPRAY-ZENYATTA-72-97-114-109-111-110-121',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-72-97-114-109-111-110-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-72-97-114-109-111-110-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-72-97-114-109-111-110-121.png`,
         default: false,
         name: `Harmony`,
         type: Items.TYPE.SPRAY,
@@ -12400,7 +13038,8 @@ export default {
     },
     'SPRAY-ZENYATTA-73-110-110-101-114-32-70-105-114-101': {
         uid: 'SPRAY-ZENYATTA-73-110-110-101-114-32-70-105-114-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-73-110-110-101-114-32-70-105-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-73-110-110-101-114-32-70-105-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-73-110-110-101-114-32-70-105-114-101.png`,
         default: false,
         name: `Inner Fire`,
         type: Items.TYPE.SPRAY,
@@ -12411,7 +13050,8 @@ export default {
     },
     'SPRAY-ZENYATTA-67-111-110-116-101-109-112-108-97-116-105-118-101': {
         uid: 'SPRAY-ZENYATTA-67-111-110-116-101-109-112-108-97-116-105-118-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-67-111-110-116-101-109-112-108-97-116-105-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-67-111-110-116-101-109-112-108-97-116-105-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-67-111-110-116-101-109-112-108-97-116-105-118-101.png`,
         default: false,
         name: `Contemplative`,
         type: Items.TYPE.SPRAY,
@@ -12422,7 +13062,8 @@ export default {
     },
     'SPRAY-ZENYATTA-79-114-98': {
         uid: 'SPRAY-ZENYATTA-79-114-98',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-79-114-98.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-79-114-98.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-79-114-98.png`,
         default: false,
         name: `Orb`,
         type: Items.TYPE.SPRAY,
@@ -12433,7 +13074,8 @@ export default {
     },
     'SPRAY-ZENYATTA-65-117-114-97': {
         uid: 'SPRAY-ZENYATTA-65-117-114-97',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-65-117-114-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-65-117-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-65-117-114-97.png`,
         default: false,
         name: `Aura`,
         type: Items.TYPE.SPRAY,
@@ -12444,7 +13086,8 @@ export default {
     },
     'SPRAY-ZENYATTA-70-111-111-116': {
         uid: 'SPRAY-ZENYATTA-70-111-111-116',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-70-111-111-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-70-111-111-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-70-111-111-116.png`,
         default: false,
         name: `Foot`,
         type: Items.TYPE.SPRAY,
@@ -12455,7 +13098,8 @@ export default {
     },
     'ICON-ZENYATTA-84-97-101-107-119-111-110-100-111': {
         uid: 'ICON-ZENYATTA-84-97-101-107-119-111-110-100-111',
-        source: require('./../assets/icons/ICON-ZENYATTA-84-97-101-107-119-111-110-100-111.png'),
+        thumbnail: require('./../assets/icons/ICON-ZENYATTA-84-97-101-107-119-111-110-100-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZENYATTA-84-97-101-107-119-111-110-100-111.png`,
         default: false,
         name: `Taekwondo`,
         type: Items.TYPE.ICON,
@@ -12486,7 +13130,8 @@ export default {
     },
     'SPRAY-ZENYATTA-84-97-101-107-119-111-110-100-111': {
         uid: 'SPRAY-ZENYATTA-84-97-101-107-119-111-110-100-111',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-84-97-101-107-119-111-110-100-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-84-97-101-107-119-111-110-100-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-84-97-101-107-119-111-110-100-111.png`,
         default: false,
         name: `Taekwondo`,
         type: Items.TYPE.SPRAY,
@@ -12507,7 +13152,8 @@ export default {
     },
     'SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -12538,7 +13184,8 @@ export default {
     },
     'SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116': {
         uid: 'SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116.png`,
         default: false,
         name: `Snowball Fight`,
         type: Items.TYPE.SPRAY,
@@ -12549,7 +13196,8 @@ export default {
     },
     'SPRAY-ZENYATTA-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-ZENYATTA-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -12570,7 +13218,8 @@ export default {
     },
     'ICON-ZENYATTA-78-117-116-99-114-97-99-107-101-114': {
         uid: 'ICON-ZENYATTA-78-117-116-99-114-97-99-107-101-114',
-        source: require('./../assets/icons/ICON-ZENYATTA-78-117-116-99-114-97-99-107-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-ZENYATTA-78-117-116-99-114-97-99-107-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZENYATTA-78-117-116-99-114-97-99-107-101-114.png`,
         default: false,
         name: `Nutcracker`,
         type: Items.TYPE.ICON,
@@ -12591,7 +13240,8 @@ export default {
     },
     'SPRAY-ZENYATTA-89-117-116-32-78-111-114-105': {
         uid: 'SPRAY-ZENYATTA-89-117-116-32-78-111-114-105',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-89-117-116-32-78-111-114-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-89-117-116-32-78-111-114-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-89-117-116-32-78-111-114-105.png`,
         default: false,
         name: `Yut Nori`,
         type: Items.TYPE.SPRAY,
@@ -12602,7 +13252,8 @@ export default {
     },
     'SPRAY-ZENYATTA-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-ZENYATTA-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -12623,7 +13274,8 @@ export default {
     },
     'ICON-ZENYATTA-83-97-110-122-97-110-103': {
         uid: 'ICON-ZENYATTA-83-97-110-122-97-110-103',
-        source: require('./../assets/icons/ICON-ZENYATTA-83-97-110-122-97-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-ZENYATTA-83-97-110-122-97-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZENYATTA-83-97-110-122-97-110-103.png`,
         default: false,
         name: `Sanzang`,
         type: Items.TYPE.ICON,
@@ -12644,7 +13296,8 @@ export default {
     },
     'SPRAY-GENJI-80-105-120-101-108': {
         uid: 'SPRAY-GENJI-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-GENJI-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -12655,7 +13308,8 @@ export default {
     },
     'SPRAY-GENJI-67-117-116-101': {
         uid: 'SPRAY-GENJI-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -12666,7 +13320,8 @@ export default {
     },
     'SPRAY-GENJI-79-110-105': {
         uid: 'SPRAY-GENJI-79-110-105',
-        source: require('./../assets/sprays/SPRAY-GENJI-79-110-105.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-79-110-105.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-79-110-105.png`,
         default: false,
         name: `Oni`,
         type: Items.TYPE.SPRAY,
@@ -12737,7 +13392,8 @@ export default {
     },
     'ICON-GENJI-71-101-110-106-105': {
         uid: 'ICON-GENJI-71-101-110-106-105',
-        source: require('./../assets/icons/ICON-GENJI-71-101-110-106-105.png'),
+        thumbnail: require('./../assets/icons/ICON-GENJI-71-101-110-106-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-GENJI-71-101-110-106-105.png`,
         default: false,
         name: `Genji`,
         type: Items.TYPE.ICON,
@@ -12748,7 +13404,8 @@ export default {
     },
     'ICON-GENJI-78-105-110': {
         uid: 'ICON-GENJI-78-105-110',
-        source: require('./../assets/icons/ICON-GENJI-78-105-110.png'),
+        thumbnail: require('./../assets/icons/ICON-GENJI-78-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-GENJI-78-105-110.png`,
         default: false,
         name: `Nin`,
         type: Items.TYPE.ICON,
@@ -12759,7 +13416,8 @@ export default {
     },
     'ICON-GENJI-71-111-100-32-111-102-32-87-97-114': {
         uid: 'ICON-GENJI-71-111-100-32-111-102-32-87-97-114',
-        source: require('./../assets/icons/ICON-GENJI-71-111-100-32-111-102-32-87-97-114.png'),
+        thumbnail: require('./../assets/icons/ICON-GENJI-71-111-100-32-111-102-32-87-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-GENJI-71-111-100-32-111-102-32-87-97-114.png`,
         default: false,
         name: `God of War`,
         type: Items.TYPE.ICON,
@@ -13080,7 +13738,8 @@ export default {
     },
     'SPRAY-GENJI-73-99-111-110': {
         uid: 'SPRAY-GENJI-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -13091,7 +13750,8 @@ export default {
     },
     'SPRAY-GENJI-78-105-110': {
         uid: 'SPRAY-GENJI-78-105-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-78-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-78-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-78-105-110.png`,
         default: false,
         name: `Nin`,
         type: Items.TYPE.SPRAY,
@@ -13102,7 +13762,8 @@ export default {
     },
     'SPRAY-GENJI-71-111-100-32-111-102-32-87-97-114': {
         uid: 'SPRAY-GENJI-71-111-100-32-111-102-32-87-97-114',
-        source: require('./../assets/sprays/SPRAY-GENJI-71-111-100-32-111-102-32-87-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-71-111-100-32-111-102-32-87-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-71-111-100-32-111-102-32-87-97-114.png`,
         default: false,
         name: `God of War`,
         type: Items.TYPE.SPRAY,
@@ -13113,7 +13774,8 @@ export default {
     },
     'SPRAY-GENJI-83-105-103-110-97-116-117-114-101': {
         uid: 'SPRAY-GENJI-83-105-103-110-97-116-117-114-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-105-103-110-97-116-117-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-105-103-110-97-116-117-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-105-103-110-97-116-117-114-101.png`,
         default: false,
         name: `Signature`,
         type: Items.TYPE.SPRAY,
@@ -13124,7 +13786,8 @@ export default {
     },
     'SPRAY-GENJI-82-121-117-103-101-107-105-107-101-110': {
         uid: 'SPRAY-GENJI-82-121-117-103-101-107-105-107-101-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-82-121-117-103-101-107-105-107-101-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-82-121-117-103-101-107-105-107-101-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-82-121-117-103-101-107-105-107-101-110.png`,
         default: false,
         name: `Ryugekiken`,
         type: Items.TYPE.SPRAY,
@@ -13135,7 +13798,8 @@ export default {
     },
     'SPRAY-GENJI-75-97-122-101-32-110-111-32-71-111-116-111-107-117': {
         uid: 'SPRAY-GENJI-75-97-122-101-32-110-111-32-71-111-116-111-107-117',
-        source: require('./../assets/sprays/SPRAY-GENJI-75-97-122-101-32-110-111-32-71-111-116-111-107-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-75-97-122-101-32-110-111-32-71-111-116-111-107-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-75-97-122-101-32-110-111-32-71-111-116-111-107-117.png`,
         default: false,
         name: `Kaze no Gotoku`,
         type: Items.TYPE.SPRAY,
@@ -13146,7 +13810,8 @@ export default {
     },
     'SPRAY-GENJI-76-117-110-103-101': {
         uid: 'SPRAY-GENJI-76-117-110-103-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-76-117-110-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-76-117-110-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-76-117-110-103-101.png`,
         default: false,
         name: `Lunge`,
         type: Items.TYPE.SPRAY,
@@ -13157,7 +13822,8 @@ export default {
     },
     'SPRAY-GENJI-71-114-101-101-110-32-78-105-110-106-97': {
         uid: 'SPRAY-GENJI-71-114-101-101-110-32-78-105-110-106-97',
-        source: require('./../assets/sprays/SPRAY-GENJI-71-114-101-101-110-32-78-105-110-106-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-71-114-101-101-110-32-78-105-110-106-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-71-114-101-101-110-32-78-105-110-106-97.png`,
         default: false,
         name: `Green Ninja`,
         type: Items.TYPE.SPRAY,
@@ -13168,7 +13834,8 @@ export default {
     },
     'SPRAY-GENJI-68-114-97-103-111-110-98-108-97-100-101': {
         uid: 'SPRAY-GENJI-68-114-97-103-111-110-98-108-97-100-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-68-114-97-103-111-110-98-108-97-100-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-68-114-97-103-111-110-98-108-97-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-68-114-97-103-111-110-98-108-97-100-101.png`,
         default: false,
         name: `Dragonblade`,
         type: Items.TYPE.SPRAY,
@@ -13179,7 +13846,8 @@ export default {
     },
     'SPRAY-GENJI-83-104-117-114-105-107-101-110': {
         uid: 'SPRAY-GENJI-83-104-117-114-105-107-101-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-104-117-114-105-107-101-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-104-117-114-105-107-101-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-104-117-114-105-107-101-110.png`,
         default: false,
         name: `Shuriken`,
         type: Items.TYPE.SPRAY,
@@ -13190,7 +13858,8 @@ export default {
     },
     'SPRAY-GENJI-68-114-97-103-111-110': {
         uid: 'SPRAY-GENJI-68-114-97-103-111-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-68-114-97-103-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-68-114-97-103-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-68-114-97-103-111-110.png`,
         default: false,
         name: `Dragon`,
         type: Items.TYPE.SPRAY,
@@ -13201,7 +13870,8 @@ export default {
     },
     'SPRAY-GENJI-87-97-114-114-105-111-114': {
         uid: 'SPRAY-GENJI-87-97-114-114-105-111-114',
-        source: require('./../assets/sprays/SPRAY-GENJI-87-97-114-114-105-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-87-97-114-114-105-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-87-97-114-114-105-111-114.png`,
         default: false,
         name: `Warrior`,
         type: Items.TYPE.SPRAY,
@@ -13212,7 +13882,8 @@ export default {
     },
     'SPRAY-GENJI-83-116-111-105-99': {
         uid: 'SPRAY-GENJI-83-116-111-105-99',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-116-111-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-116-111-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-116-111-105-99.png`,
         default: false,
         name: `Stoic`,
         type: Items.TYPE.SPRAY,
@@ -13223,7 +13894,8 @@ export default {
     },
     'SPRAY-GENJI-65-115-115-97-115-115-105-110': {
         uid: 'SPRAY-GENJI-65-115-115-97-115-115-105-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-65-115-115-97-115-115-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-65-115-115-97-115-115-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-65-115-115-97-115-115-105-110.png`,
         default: false,
         name: `Assassin`,
         type: Items.TYPE.SPRAY,
@@ -13234,7 +13906,8 @@ export default {
     },
     'SPRAY-GENJI-83-119-111-114-100-115': {
         uid: 'SPRAY-GENJI-83-119-111-114-100-115',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-119-111-114-100-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-119-111-114-100-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-119-111-114-100-115.png`,
         default: false,
         name: `Swords`,
         type: Items.TYPE.SPRAY,
@@ -13245,7 +13918,8 @@ export default {
     },
     'SPRAY-GENJI-68-114-97-119': {
         uid: 'SPRAY-GENJI-68-114-97-119',
-        source: require('./../assets/sprays/SPRAY-GENJI-68-114-97-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-68-114-97-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-68-114-97-119.png`,
         default: false,
         name: `Draw`,
         type: Items.TYPE.SPRAY,
@@ -13256,7 +13930,8 @@ export default {
     },
     'SPRAY-GENJI-83-104-105-109-97-100-97': {
         uid: 'SPRAY-GENJI-83-104-105-109-97-100-97',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-104-105-109-97-100-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-104-105-109-97-100-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-104-105-109-97-100-97.png`,
         default: false,
         name: `Shimada`,
         type: Items.TYPE.SPRAY,
@@ -13267,7 +13942,8 @@ export default {
     },
     'SPRAY-GENJI-83-116-97-110-99-101': {
         uid: 'SPRAY-GENJI-83-116-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-116-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-116-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-116-97-110-99-101.png`,
         default: false,
         name: `Stance`,
         type: Items.TYPE.SPRAY,
@@ -13278,7 +13954,8 @@ export default {
     },
     'SPRAY-GENJI-83-111-117-108': {
         uid: 'SPRAY-GENJI-83-111-117-108',
-        source: require('./../assets/sprays/SPRAY-GENJI-83-111-117-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-83-111-117-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-83-111-117-108.png`,
         default: false,
         name: `Soul`,
         type: Items.TYPE.SPRAY,
@@ -13289,7 +13966,8 @@ export default {
     },
     'SPRAY-GENJI-70-117-108-108-121-32-76-111-97-100-101-100': {
         uid: 'SPRAY-GENJI-70-117-108-108-121-32-76-111-97-100-101-100',
-        source: require('./../assets/sprays/SPRAY-GENJI-70-117-108-108-121-32-76-111-97-100-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-70-117-108-108-121-32-76-111-97-100-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-70-117-108-108-121-32-76-111-97-100-101-100.png`,
         default: false,
         name: `Fully Loaded`,
         type: Items.TYPE.SPRAY,
@@ -13300,7 +13978,8 @@ export default {
     },
     'SPRAY-GENJI-79-110-109-121-111-100-111': {
         uid: 'SPRAY-GENJI-79-110-109-121-111-100-111',
-        source: require('./../assets/sprays/SPRAY-GENJI-79-110-109-121-111-100-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-79-110-109-121-111-100-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-79-110-109-121-111-100-111.png`,
         default: false,
         name: `Onmyodo`,
         type: Items.TYPE.SPRAY,
@@ -13311,7 +13990,8 @@ export default {
     },
     'SPRAY-GENJI-80-114-101-112-97-114-101-100': {
         uid: 'SPRAY-GENJI-80-114-101-112-97-114-101-100',
-        source: require('./../assets/sprays/SPRAY-GENJI-80-114-101-112-97-114-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-80-114-101-112-97-114-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-80-114-101-112-97-114-101-100.png`,
         default: false,
         name: `Prepared`,
         type: Items.TYPE.SPRAY,
@@ -13322,7 +14002,8 @@ export default {
     },
     'SPRAY-GENJI-84-97-114-103-101-116-32-80-114-97-99-116-105-99-101': {
         uid: 'SPRAY-GENJI-84-97-114-103-101-116-32-80-114-97-99-116-105-99-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-84-97-114-103-101-116-32-80-114-97-99-116-105-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-84-97-114-103-101-116-32-80-114-97-99-116-105-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-84-97-114-103-101-116-32-80-114-97-99-116-105-99-101.png`,
         default: false,
         name: `Target Practice`,
         type: Items.TYPE.SPRAY,
@@ -13333,7 +14014,8 @@ export default {
     },
     'ICON-GENJI-70-101-110-99-105-110-103': {
         uid: 'ICON-GENJI-70-101-110-99-105-110-103',
-        source: require('./../assets/icons/ICON-GENJI-70-101-110-99-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-GENJI-70-101-110-99-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-GENJI-70-101-110-99-105-110-103.png`,
         default: false,
         name: `Fencing`,
         type: Items.TYPE.ICON,
@@ -13344,7 +14026,8 @@ export default {
     },
     'SPRAY-GENJI-70-101-110-99-105-110-103': {
         uid: 'SPRAY-GENJI-70-101-110-99-105-110-103',
-        source: require('./../assets/sprays/SPRAY-GENJI-70-101-110-99-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-70-101-110-99-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-70-101-110-99-105-110-103.png`,
         default: false,
         name: `Fencing`,
         type: Items.TYPE.SPRAY,
@@ -13375,7 +14058,8 @@ export default {
     },
     'SPRAY-GENJI-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-GENJI-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-GENJI-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -13416,7 +14100,8 @@ export default {
     },
     'SPRAY-GENJI-75-97-100-111-109-97-116-115-117': {
         uid: 'SPRAY-GENJI-75-97-100-111-109-97-116-115-117',
-        source: require('./../assets/sprays/SPRAY-GENJI-75-97-100-111-109-97-116-115-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-75-97-100-111-109-97-116-115-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-75-97-100-111-109-97-116-115-117.png`,
         default: false,
         name: `Kadomatsu`,
         type: Items.TYPE.SPRAY,
@@ -13427,7 +14112,8 @@ export default {
     },
     'SPRAY-GENJI-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-GENJI-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-GENJI-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -13448,7 +14134,8 @@ export default {
     },
     'SPRAY-GENJI-71-114-101-101-110-32-68-114-97-103-111-110': {
         uid: 'SPRAY-GENJI-71-114-101-101-110-32-68-114-97-103-111-110',
-        source: require('./../assets/sprays/SPRAY-GENJI-71-114-101-101-110-32-68-114-97-103-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-71-114-101-101-110-32-68-114-97-103-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-71-114-101-101-110-32-68-114-97-103-111-110.png`,
         default: false,
         name: `Green Dragon`,
         type: Items.TYPE.SPRAY,
@@ -13459,7 +14146,8 @@ export default {
     },
     'SPRAY-GENJI-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-GENJI-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-GENJI-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -13480,7 +14168,8 @@ export default {
     },
     'SPRAY-ROADHOG-80-105-120-101-108': {
         uid: 'SPRAY-ROADHOG-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -13491,7 +14180,8 @@ export default {
     },
     'SPRAY-ROADHOG-67-117-116-101': {
         uid: 'SPRAY-ROADHOG-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -13552,7 +14242,8 @@ export default {
     },
     'ICON-ROADHOG-82-111-97-100-104-111-103': {
         uid: 'ICON-ROADHOG-82-111-97-100-104-111-103',
-        source: require('./../assets/icons/ICON-ROADHOG-82-111-97-100-104-111-103.png'),
+        thumbnail: require('./../assets/icons/ICON-ROADHOG-82-111-97-100-104-111-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ROADHOG-82-111-97-100-104-111-103.png`,
         default: false,
         name: `Roadhog`,
         type: Items.TYPE.ICON,
@@ -13563,7 +14254,8 @@ export default {
     },
     'ICON-ROADHOG-72-111-111-107': {
         uid: 'ICON-ROADHOG-72-111-111-107',
-        source: require('./../assets/icons/ICON-ROADHOG-72-111-111-107.png'),
+        thumbnail: require('./../assets/icons/ICON-ROADHOG-72-111-111-107.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ROADHOG-72-111-111-107.png`,
         default: false,
         name: `Hook`,
         type: Items.TYPE.ICON,
@@ -13574,7 +14266,8 @@ export default {
     },
     'ICON-ROADHOG-80-105-103-103-121': {
         uid: 'ICON-ROADHOG-80-105-103-103-121',
-        source: require('./../assets/icons/ICON-ROADHOG-80-105-103-103-121.png'),
+        thumbnail: require('./../assets/icons/ICON-ROADHOG-80-105-103-103-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ROADHOG-80-105-103-103-121.png`,
         default: false,
         name: `Piggy`,
         type: Items.TYPE.ICON,
@@ -13895,7 +14588,8 @@ export default {
     },
     'SPRAY-ROADHOG-73-99-111-110': {
         uid: 'SPRAY-ROADHOG-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -13906,7 +14600,8 @@ export default {
     },
     'SPRAY-ROADHOG-72-101-108-109-101-116': {
         uid: 'SPRAY-ROADHOG-72-101-108-109-101-116',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-72-101-108-109-101-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-72-101-108-109-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-72-101-108-109-101-116.png`,
         default: false,
         name: `Helmet`,
         type: Items.TYPE.SPRAY,
@@ -13917,7 +14612,8 @@ export default {
     },
     'SPRAY-ROADHOG-70-114-101-115-104-32-77-101-97-116': {
         uid: 'SPRAY-ROADHOG-70-114-101-115-104-32-77-101-97-116',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-70-114-101-115-104-32-77-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-70-114-101-115-104-32-77-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-70-114-101-115-104-32-77-101-97-116.png`,
         default: false,
         name: `Fresh Meat`,
         type: Items.TYPE.SPRAY,
@@ -13928,7 +14624,8 @@ export default {
     },
     'SPRAY-ROADHOG-87-97-110-116-101-100': {
         uid: 'SPRAY-ROADHOG-87-97-110-116-101-100',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-87-97-110-116-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-87-97-110-116-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-87-97-110-116-101-100.png`,
         default: false,
         name: `Wanted`,
         type: Items.TYPE.SPRAY,
@@ -13939,7 +14636,8 @@ export default {
     },
     'SPRAY-ROADHOG-78-111-32-80-111-114-107': {
         uid: 'SPRAY-ROADHOG-78-111-32-80-111-114-107',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-78-111-32-80-111-114-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-78-111-32-80-111-114-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-78-111-32-80-111-114-107.png`,
         default: false,
         name: `No Pork`,
         type: Items.TYPE.SPRAY,
@@ -13950,7 +14648,8 @@ export default {
     },
     'SPRAY-ROADHOG-84-111-120-105-99': {
         uid: 'SPRAY-ROADHOG-84-111-120-105-99',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-84-111-120-105-99.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-84-111-120-105-99.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-84-111-120-105-99.png`,
         default: false,
         name: `Toxic`,
         type: Items.TYPE.SPRAY,
@@ -13961,7 +14660,8 @@ export default {
     },
     'SPRAY-ROADHOG-80-105-103-103-121': {
         uid: 'SPRAY-ROADHOG-80-105-103-103-121',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-80-105-103-103-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-80-105-103-103-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-80-105-103-103-121.png`,
         default: false,
         name: `Piggy`,
         type: Items.TYPE.SPRAY,
@@ -13972,7 +14672,8 @@ export default {
     },
     'SPRAY-ROADHOG-77-97-107-111': {
         uid: 'SPRAY-ROADHOG-77-97-107-111',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-77-97-107-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-77-97-107-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-77-97-107-111.png`,
         default: false,
         name: `Mako`,
         type: Items.TYPE.SPRAY,
@@ -13983,7 +14684,8 @@ export default {
     },
     'SPRAY-ROADHOG-76-105-99-101-110-115-101': {
         uid: 'SPRAY-ROADHOG-76-105-99-101-110-115-101',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-76-105-99-101-110-115-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-76-105-99-101-110-115-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-76-105-99-101-110-115-101.png`,
         default: false,
         name: `License`,
         type: Items.TYPE.SPRAY,
@@ -13994,7 +14696,8 @@ export default {
     },
     'SPRAY-ROADHOG-84-97-105-108-115': {
         uid: 'SPRAY-ROADHOG-84-97-105-108-115',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-84-97-105-108-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-84-97-105-108-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-84-97-105-108-115.png`,
         default: false,
         name: `Tails`,
         type: Items.TYPE.SPRAY,
@@ -14005,7 +14708,8 @@ export default {
     },
     'SPRAY-ROADHOG-69-121-101-115': {
         uid: 'SPRAY-ROADHOG-69-121-101-115',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-69-121-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-69-121-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-69-121-101-115.png`,
         default: false,
         name: `Eyes`,
         type: Items.TYPE.SPRAY,
@@ -14016,7 +14720,8 @@ export default {
     },
     'SPRAY-ROADHOG-87-105-108-100-32-72-111-103': {
         uid: 'SPRAY-ROADHOG-87-105-108-100-32-72-111-103',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-87-105-108-100-32-72-111-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-87-105-108-100-32-72-111-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-87-105-108-100-32-72-111-103.png`,
         default: false,
         name: `Wild Hog`,
         type: Items.TYPE.SPRAY,
@@ -14027,7 +14732,8 @@ export default {
     },
     'SPRAY-ROADHOG-69-109-98-108-101-109': {
         uid: 'SPRAY-ROADHOG-69-109-98-108-101-109',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-69-109-98-108-101-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-69-109-98-108-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-69-109-98-108-101-109.png`,
         default: false,
         name: `Emblem`,
         type: Items.TYPE.SPRAY,
@@ -14038,7 +14744,8 @@ export default {
     },
     'SPRAY-ROADHOG-70-114-101-101-32-80-105-103': {
         uid: 'SPRAY-ROADHOG-70-114-101-101-32-80-105-103',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-70-114-101-101-32-80-105-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-70-114-101-101-32-80-105-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-70-114-101-101-32-80-105-103.png`,
         default: false,
         name: `Free Pig`,
         type: Items.TYPE.SPRAY,
@@ -14049,7 +14756,8 @@ export default {
     },
     'SPRAY-ROADHOG-71-111-116-99-104-97': {
         uid: 'SPRAY-ROADHOG-71-111-116-99-104-97',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-71-111-116-99-104-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-71-111-116-99-104-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-71-111-116-99-104-97.png`,
         default: false,
         name: `Gotcha`,
         type: Items.TYPE.SPRAY,
@@ -14060,7 +14768,8 @@ export default {
     },
     'SPRAY-ROADHOG-76-101-102-116': {
         uid: 'SPRAY-ROADHOG-76-101-102-116',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-76-101-102-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-76-101-102-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-76-101-102-116.png`,
         default: false,
         name: `Left`,
         type: Items.TYPE.SPRAY,
@@ -14071,7 +14780,8 @@ export default {
     },
     'SPRAY-ROADHOG-72-111-103-112-111-119-101-114': {
         uid: 'SPRAY-ROADHOG-72-111-103-112-111-119-101-114',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-72-111-103-112-111-119-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-72-111-103-112-111-119-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-72-111-103-112-111-119-101-114.png`,
         default: false,
         name: `Hogpower`,
         type: Items.TYPE.SPRAY,
@@ -14082,7 +14792,8 @@ export default {
     },
     'SPRAY-ROADHOG-80-111-112-112-101-114': {
         uid: 'SPRAY-ROADHOG-80-111-112-112-101-114',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-80-111-112-112-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-80-111-112-112-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-80-111-112-112-101-114.png`,
         default: false,
         name: `Popper`,
         type: Items.TYPE.SPRAY,
@@ -14093,7 +14804,8 @@ export default {
     },
     'SPRAY-ROADHOG-72-101-114-101-32-80-105-103-103-121': {
         uid: 'SPRAY-ROADHOG-72-101-114-101-32-80-105-103-103-121',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-72-101-114-101-32-80-105-103-103-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-72-101-114-101-32-80-105-103-103-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-72-101-114-101-32-80-105-103-103-121.png`,
         default: false,
         name: `Here Piggy`,
         type: Items.TYPE.SPRAY,
@@ -14104,7 +14816,8 @@ export default {
     },
     'SPRAY-ROADHOG-66-114-101-97-116-104-105-110-39': {
         uid: 'SPRAY-ROADHOG-66-114-101-97-116-104-105-110-39',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-66-114-101-97-116-104-105-110-39.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-66-114-101-97-116-104-105-110-39.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-66-114-101-97-116-104-105-110-39.png`,
         default: false,
         name: `Breathin'`,
         type: Items.TYPE.SPRAY,
@@ -14115,7 +14828,8 @@ export default {
     },
     'SPRAY-ROADHOG-68-101-101-112-32-84-104-111-117-103-104-116-115': {
         uid: 'SPRAY-ROADHOG-68-101-101-112-32-84-104-111-117-103-104-116-115',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-68-101-101-112-32-84-104-111-117-103-104-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-68-101-101-112-32-84-104-111-117-103-104-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-68-101-101-112-32-84-104-111-117-103-104-116-115.png`,
         default: false,
         name: `Deep Thoughts`,
         type: Items.TYPE.SPRAY,
@@ -14126,7 +14840,8 @@ export default {
     },
     'SPRAY-ROADHOG-72-111-111-107-101-100': {
         uid: 'SPRAY-ROADHOG-72-111-111-107-101-100',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-72-111-111-107-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-72-111-111-107-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-72-111-111-107-101-100.png`,
         default: false,
         name: `Hooked`,
         type: Items.TYPE.SPRAY,
@@ -14137,7 +14852,8 @@ export default {
     },
     'SPRAY-ROADHOG-71-114-97-110-100-32-84-104-101-102-116': {
         uid: 'SPRAY-ROADHOG-71-114-97-110-100-32-84-104-101-102-116',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-71-114-97-110-100-32-84-104-101-102-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-71-114-97-110-100-32-84-104-101-102-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-71-114-97-110-100-32-84-104-101-102-116.png`,
         default: false,
         name: `Grand Theft`,
         type: Items.TYPE.SPRAY,
@@ -14148,7 +14864,8 @@ export default {
     },
     'ICON-ROADHOG-68-105-118-105-110-103': {
         uid: 'ICON-ROADHOG-68-105-118-105-110-103',
-        source: require('./../assets/icons/ICON-ROADHOG-68-105-118-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-ROADHOG-68-105-118-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ROADHOG-68-105-118-105-110-103.png`,
         default: false,
         name: `Diving`,
         type: Items.TYPE.ICON,
@@ -14159,7 +14876,8 @@ export default {
     },
     'SPRAY-ROADHOG-68-105-118-105-110-103': {
         uid: 'SPRAY-ROADHOG-68-105-118-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-68-105-118-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-68-105-118-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-68-105-118-105-110-103.png`,
         default: false,
         name: `Diving`,
         type: Items.TYPE.SPRAY,
@@ -14190,7 +14908,8 @@ export default {
     },
     'SPRAY-ROADHOG-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-ROADHOG-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -14221,7 +14940,8 @@ export default {
     },
     'ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114': {
         uid: 'ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114',
-        source: require('./../assets/icons/ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114.png`,
         default: false,
         name: `The Monster`,
         type: Items.TYPE.ICON,
@@ -14242,7 +14962,8 @@ export default {
     },
     'SPRAY-ROADHOG-34-87-105-110-116-101-114-34': {
         uid: 'SPRAY-ROADHOG-34-87-105-110-116-101-114-34',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-34-87-105-110-116-101-114-34.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-34-87-105-110-116-101-114-34.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-34-87-105-110-116-101-114-34.png`,
         default: false,
         name: `"Winter"`,
         type: Items.TYPE.SPRAY,
@@ -14253,7 +14974,8 @@ export default {
     },
     'SPRAY-ROADHOG-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-ROADHOG-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -14284,7 +15006,8 @@ export default {
     },
     'SPRAY-ROADHOG-83-116-101-97-109-101-100-32-66-117-110-115': {
         uid: 'SPRAY-ROADHOG-83-116-101-97-109-101-100-32-66-117-110-115',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-83-116-101-97-109-101-100-32-66-117-110-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-83-116-101-97-109-101-100-32-66-117-110-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-83-116-101-97-109-101-100-32-66-117-110-115.png`,
         default: false,
         name: `Steamed Buns`,
         type: Items.TYPE.SPRAY,
@@ -14295,7 +15018,8 @@ export default {
     },
     'SPRAY-ROADHOG-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-ROADHOG-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -14316,7 +15040,8 @@ export default {
     },
     'ICON-ROADHOG-80-105-103-115-121': {
         uid: 'ICON-ROADHOG-80-105-103-115-121',
-        source: require('./../assets/icons/ICON-ROADHOG-80-105-103-115-121.png'),
+        thumbnail: require('./../assets/icons/ICON-ROADHOG-80-105-103-115-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ROADHOG-80-105-103-115-121.png`,
         default: false,
         name: `Pigsy`,
         type: Items.TYPE.ICON,
@@ -14357,7 +15082,8 @@ export default {
     },
     'SPRAY-MCCREE-80-105-120-101-108': {
         uid: 'SPRAY-MCCREE-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-MCCREE-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -14368,7 +15094,8 @@ export default {
     },
     'SPRAY-MCCREE-67-117-116-101': {
         uid: 'SPRAY-MCCREE-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -14429,7 +15156,8 @@ export default {
     },
     'ICON-MCCREE-77-99-67-114-101-101': {
         uid: 'ICON-MCCREE-77-99-67-114-101-101',
-        source: require('./../assets/icons/ICON-MCCREE-77-99-67-114-101-101.png'),
+        thumbnail: require('./../assets/icons/ICON-MCCREE-77-99-67-114-101-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MCCREE-77-99-67-114-101-101.png`,
         default: false,
         name: `McCree`,
         type: Items.TYPE.ICON,
@@ -14440,7 +15168,8 @@ export default {
     },
     'ICON-MCCREE-66-97-100-103-101': {
         uid: 'ICON-MCCREE-66-97-100-103-101',
-        source: require('./../assets/icons/ICON-MCCREE-66-97-100-103-101.png'),
+        thumbnail: require('./../assets/icons/ICON-MCCREE-66-97-100-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MCCREE-66-97-100-103-101.png`,
         default: false,
         name: `Badge`,
         type: Items.TYPE.ICON,
@@ -14451,7 +15180,8 @@ export default {
     },
     'ICON-MCCREE-68-101-97-100-101-121-101': {
         uid: 'ICON-MCCREE-68-101-97-100-101-121-101',
-        source: require('./../assets/icons/ICON-MCCREE-68-101-97-100-101-121-101.png'),
+        thumbnail: require('./../assets/icons/ICON-MCCREE-68-101-97-100-101-121-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MCCREE-68-101-97-100-101-121-101.png`,
         default: false,
         name: `Deadeye`,
         type: Items.TYPE.ICON,
@@ -14772,7 +15502,8 @@ export default {
     },
     'SPRAY-MCCREE-73-99-111-110': {
         uid: 'SPRAY-MCCREE-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-MCCREE-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -14783,7 +15514,8 @@ export default {
     },
     'SPRAY-MCCREE-66-97-100-103-101': {
         uid: 'SPRAY-MCCREE-66-97-100-103-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-66-97-100-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-66-97-100-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-66-97-100-103-101.png`,
         default: false,
         name: `Badge`,
         type: Items.TYPE.SPRAY,
@@ -14794,7 +15526,8 @@ export default {
     },
     'SPRAY-MCCREE-71-117-110-115-108-105-110-103-101-114': {
         uid: 'SPRAY-MCCREE-71-117-110-115-108-105-110-103-101-114',
-        source: require('./../assets/sprays/SPRAY-MCCREE-71-117-110-115-108-105-110-103-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-71-117-110-115-108-105-110-103-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-71-117-110-115-108-105-110-103-101-114.png`,
         default: false,
         name: `Gunslinger`,
         type: Items.TYPE.SPRAY,
@@ -14805,7 +15538,8 @@ export default {
     },
     'SPRAY-MCCREE-84-117-109-98-108-101-119-101-101-100': {
         uid: 'SPRAY-MCCREE-84-117-109-98-108-101-119-101-101-100',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-117-109-98-108-101-119-101-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-117-109-98-108-101-119-101-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-117-109-98-108-101-119-101-101-100.png`,
         default: false,
         name: `Tumbleweed`,
         type: Items.TYPE.SPRAY,
@@ -14816,7 +15550,8 @@ export default {
     },
     'SPRAY-MCCREE-66-117-108-108-101-116': {
         uid: 'SPRAY-MCCREE-66-117-108-108-101-116',
-        source: require('./../assets/sprays/SPRAY-MCCREE-66-117-108-108-101-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-66-117-108-108-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-66-117-108-108-101-116.png`,
         default: false,
         name: `Bullet`,
         type: Items.TYPE.SPRAY,
@@ -14827,7 +15562,8 @@ export default {
     },
     'SPRAY-MCCREE-83-107-117-108-108': {
         uid: 'SPRAY-MCCREE-83-107-117-108-108',
-        source: require('./../assets/sprays/SPRAY-MCCREE-83-107-117-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-83-107-117-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-83-107-117-108-108.png`,
         default: false,
         name: `Skull`,
         type: Items.TYPE.SPRAY,
@@ -14838,7 +15574,8 @@ export default {
     },
     'SPRAY-MCCREE-83-112-105-110': {
         uid: 'SPRAY-MCCREE-83-112-105-110',
-        source: require('./../assets/sprays/SPRAY-MCCREE-83-112-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-83-112-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-83-112-105-110.png`,
         default: false,
         name: `Spin`,
         type: Items.TYPE.SPRAY,
@@ -14849,7 +15586,8 @@ export default {
     },
     'SPRAY-MCCREE-78-111-111-115-101': {
         uid: 'SPRAY-MCCREE-78-111-111-115-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-78-111-111-115-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-78-111-111-115-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-78-111-111-115-101.png`,
         default: false,
         name: `Noose`,
         type: Items.TYPE.SPRAY,
@@ -14860,7 +15598,8 @@ export default {
     },
     'SPRAY-MCCREE-84-104-117-109-98-115-32-85-112': {
         uid: 'SPRAY-MCCREE-84-104-117-109-98-115-32-85-112',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-104-117-109-98-115-32-85-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-104-117-109-98-115-32-85-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-104-117-109-98-115-32-85-112.png`,
         default: false,
         name: `Thumbs Up`,
         type: Items.TYPE.SPRAY,
@@ -14871,7 +15610,8 @@ export default {
     },
     'SPRAY-MCCREE-66-97-110-103-33': {
         uid: 'SPRAY-MCCREE-66-97-110-103-33',
-        source: require('./../assets/sprays/SPRAY-MCCREE-66-97-110-103-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-66-97-110-103-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-66-97-110-103-33.png`,
         default: false,
         name: `Bang!`,
         type: Items.TYPE.SPRAY,
@@ -14882,7 +15622,8 @@ export default {
     },
     'SPRAY-MCCREE-68-101-97-100-101-121-101': {
         uid: 'SPRAY-MCCREE-68-101-97-100-101-121-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-68-101-97-100-101-121-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-68-101-97-100-101-121-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-68-101-97-100-101-121-101.png`,
         default: false,
         name: `Deadeye`,
         type: Items.TYPE.SPRAY,
@@ -14893,7 +15634,8 @@ export default {
     },
     'SPRAY-MCCREE-66-65-77-70': {
         uid: 'SPRAY-MCCREE-66-65-77-70',
-        source: require('./../assets/sprays/SPRAY-MCCREE-66-65-77-70.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-66-65-77-70.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-66-65-77-70.png`,
         default: false,
         name: `BAMF`,
         type: Items.TYPE.SPRAY,
@@ -14904,7 +15646,8 @@ export default {
     },
     'SPRAY-MCCREE-84-97-114-103-101-116': {
         uid: 'SPRAY-MCCREE-84-97-114-103-101-116',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-97-114-103-101-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-97-114-103-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-97-114-103-101-116.png`,
         default: false,
         name: `Target`,
         type: Items.TYPE.SPRAY,
@@ -14915,7 +15658,8 @@ export default {
     },
     'SPRAY-MCCREE-84-104-101-32-78-97-109-101-39-115': {
         uid: 'SPRAY-MCCREE-84-104-101-32-78-97-109-101-39-115',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-104-101-32-78-97-109-101-39-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-104-101-32-78-97-109-101-39-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-104-101-32-78-97-109-101-39-115.png`,
         default: false,
         name: `The Name's`,
         type: Items.TYPE.SPRAY,
@@ -14926,7 +15670,8 @@ export default {
     },
     'SPRAY-MCCREE-68-114-97-119': {
         uid: 'SPRAY-MCCREE-68-114-97-119',
-        source: require('./../assets/sprays/SPRAY-MCCREE-68-114-97-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-68-114-97-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-68-114-97-119.png`,
         default: false,
         name: `Draw`,
         type: Items.TYPE.SPRAY,
@@ -14937,7 +15682,8 @@ export default {
     },
     'SPRAY-MCCREE-84-97-107-101-32-73-116-32-69-97-115-121': {
         uid: 'SPRAY-MCCREE-84-97-107-101-32-73-116-32-69-97-115-121',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-97-107-101-32-73-116-32-69-97-115-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-97-107-101-32-73-116-32-69-97-115-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-97-107-101-32-73-116-32-69-97-115-121.png`,
         default: false,
         name: `Take It Easy`,
         type: Items.TYPE.SPRAY,
@@ -14948,7 +15694,8 @@ export default {
     },
     'SPRAY-MCCREE-74-101-115-115-101': {
         uid: 'SPRAY-MCCREE-74-101-115-115-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-74-101-115-115-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-74-101-115-115-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-74-101-115-115-101.png`,
         default: false,
         name: `Jesse`,
         type: Items.TYPE.SPRAY,
@@ -14959,7 +15706,8 @@ export default {
     },
     'SPRAY-MCCREE-79-117-116-108-97-119': {
         uid: 'SPRAY-MCCREE-79-117-116-108-97-119',
-        source: require('./../assets/sprays/SPRAY-MCCREE-79-117-116-108-97-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-79-117-116-108-97-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-79-117-116-108-97-119.png`,
         default: false,
         name: `Outlaw`,
         type: Items.TYPE.SPRAY,
@@ -14970,7 +15718,8 @@ export default {
     },
     'SPRAY-MCCREE-69-110-105-103-109-97': {
         uid: 'SPRAY-MCCREE-69-110-105-103-109-97',
-        source: require('./../assets/sprays/SPRAY-MCCREE-69-110-105-103-109-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-69-110-105-103-109-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-69-110-105-103-109-97.png`,
         default: false,
         name: `Enigma`,
         type: Items.TYPE.SPRAY,
@@ -14981,7 +15730,8 @@ export default {
     },
     'SPRAY-MCCREE-87-97-110-116-101-100': {
         uid: 'SPRAY-MCCREE-87-97-110-116-101-100',
-        source: require('./../assets/sprays/SPRAY-MCCREE-87-97-110-116-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-87-97-110-116-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-87-97-110-116-101-100.png`,
         default: false,
         name: `Wanted`,
         type: Items.TYPE.SPRAY,
@@ -14992,7 +15742,8 @@ export default {
     },
     'SPRAY-MCCREE-72-105-103-104-32-78-111-111-110': {
         uid: 'SPRAY-MCCREE-72-105-103-104-32-78-111-111-110',
-        source: require('./../assets/sprays/SPRAY-MCCREE-72-105-103-104-32-78-111-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-72-105-103-104-32-78-111-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-72-105-103-104-32-78-111-111-110.png`,
         default: false,
         name: `High Noon`,
         type: Items.TYPE.SPRAY,
@@ -15003,7 +15754,8 @@ export default {
     },
     'SPRAY-MCCREE-66-117-99-107-108-101': {
         uid: 'SPRAY-MCCREE-66-117-99-107-108-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-66-117-99-107-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-66-117-99-107-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-66-117-99-107-108-101.png`,
         default: false,
         name: `Buckle`,
         type: Items.TYPE.SPRAY,
@@ -15014,7 +15766,8 @@ export default {
     },
     'SPRAY-MCCREE-89-111-117-114-32-70-97-99-101-32-72-101-114-101': {
         uid: 'SPRAY-MCCREE-89-111-117-114-32-70-97-99-101-32-72-101-114-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-89-111-117-114-32-70-97-99-101-32-72-101-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-89-111-117-114-32-70-97-99-101-32-72-101-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-89-111-117-114-32-70-97-99-101-32-72-101-114-101.png`,
         default: false,
         name: `Your Face Here`,
         type: Items.TYPE.SPRAY,
@@ -15025,7 +15778,8 @@ export default {
     },
     'ICON-MCCREE-69-113-117-101-115-116-114-105-97-110': {
         uid: 'ICON-MCCREE-69-113-117-101-115-116-114-105-97-110',
-        source: require('./../assets/icons/ICON-MCCREE-69-113-117-101-115-116-114-105-97-110.png'),
+        thumbnail: require('./../assets/icons/ICON-MCCREE-69-113-117-101-115-116-114-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MCCREE-69-113-117-101-115-116-114-105-97-110.png`,
         default: false,
         name: `Equestrian`,
         type: Items.TYPE.ICON,
@@ -15036,7 +15790,8 @@ export default {
     },
     'SPRAY-MCCREE-69-113-117-101-115-116-114-105-97-110': {
         uid: 'SPRAY-MCCREE-69-113-117-101-115-116-114-105-97-110',
-        source: require('./../assets/sprays/SPRAY-MCCREE-69-113-117-101-115-116-114-105-97-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-69-113-117-101-115-116-114-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-69-113-117-101-115-116-114-105-97-110.png`,
         default: false,
         name: `Equestrian`,
         type: Items.TYPE.SPRAY,
@@ -15067,7 +15822,8 @@ export default {
     },
     'SPRAY-MCCREE-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-MCCREE-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -15098,7 +15854,8 @@ export default {
     },
     'SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114': {
         uid: 'SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114',
-        source: require('./../assets/sprays/SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114.png`,
         default: false,
         name: `Ugly Sweater`,
         type: Items.TYPE.SPRAY,
@@ -15109,7 +15866,8 @@ export default {
     },
     'SPRAY-MCCREE-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-MCCREE-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-MCCREE-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -15150,7 +15908,8 @@ export default {
     },
     'SPRAY-MCCREE-67-97-108-108-32-73-116': {
         uid: 'SPRAY-MCCREE-67-97-108-108-32-73-116',
-        source: require('./../assets/sprays/SPRAY-MCCREE-67-97-108-108-32-73-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-67-97-108-108-32-73-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-67-97-108-108-32-73-116.png`,
         default: false,
         name: `Call It`,
         type: Items.TYPE.SPRAY,
@@ -15161,7 +15920,8 @@ export default {
     },
     'SPRAY-MCCREE-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-MCCREE-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-MCCREE-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -15182,7 +15942,8 @@ export default {
     },
     'SPRAY-JUNKRAT-80-105-120-101-108': {
         uid: 'SPRAY-JUNKRAT-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -15193,7 +15954,8 @@ export default {
     },
     'SPRAY-JUNKRAT-67-117-116-101': {
         uid: 'SPRAY-JUNKRAT-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -15254,7 +16016,8 @@ export default {
     },
     'ICON-JUNKRAT-74-117-110-107-114-97-116': {
         uid: 'ICON-JUNKRAT-74-117-110-107-114-97-116',
-        source: require('./../assets/icons/ICON-JUNKRAT-74-117-110-107-114-97-116.png'),
+        thumbnail: require('./../assets/icons/ICON-JUNKRAT-74-117-110-107-114-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-JUNKRAT-74-117-110-107-114-97-116.png`,
         default: false,
         name: `Junkrat`,
         type: Items.TYPE.ICON,
@@ -15265,7 +16028,8 @@ export default {
     },
     'ICON-JUNKRAT-72-97-118-101-32-97-32-78-105-99-101-32-68-97-121-33': {
         uid: 'ICON-JUNKRAT-72-97-118-101-32-97-32-78-105-99-101-32-68-97-121-33',
-        source: require('./../assets/icons/ICON-JUNKRAT-72-97-118-101-32-97-32-78-105-99-101-32-68-97-121-33.png'),
+        thumbnail: require('./../assets/icons/ICON-JUNKRAT-72-97-118-101-32-97-32-78-105-99-101-32-68-97-121-33.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-JUNKRAT-72-97-118-101-32-97-32-78-105-99-101-32-68-97-121-33.png`,
         default: false,
         name: `Have a Nice Day!`,
         type: Items.TYPE.ICON,
@@ -15276,7 +16040,8 @@ export default {
     },
     'ICON-JUNKRAT-65-72-72-72-72-33': {
         uid: 'ICON-JUNKRAT-65-72-72-72-72-33',
-        source: require('./../assets/icons/ICON-JUNKRAT-65-72-72-72-72-33.png'),
+        thumbnail: require('./../assets/icons/ICON-JUNKRAT-65-72-72-72-72-33.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-JUNKRAT-65-72-72-72-72-33.png`,
         default: false,
         name: `AHHHH!`,
         type: Items.TYPE.ICON,
@@ -15597,7 +16362,8 @@ export default {
     },
     'SPRAY-JUNKRAT-73-99-111-110': {
         uid: 'SPRAY-JUNKRAT-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -15608,7 +16374,8 @@ export default {
     },
     'SPRAY-JUNKRAT-83-109-105-108-101': {
         uid: 'SPRAY-JUNKRAT-83-109-105-108-101',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-83-109-105-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-83-109-105-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-83-109-105-108-101.png`,
         default: false,
         name: `Smile`,
         type: Items.TYPE.SPRAY,
@@ -15619,7 +16386,8 @@ export default {
     },
     'SPRAY-JUNKRAT-75-97-98-111-111-109-33': {
         uid: 'SPRAY-JUNKRAT-75-97-98-111-111-109-33',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-75-97-98-111-111-109-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-75-97-98-111-111-109-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-75-97-98-111-111-109-33.png`,
         default: false,
         name: `Kaboom!`,
         type: Items.TYPE.SPRAY,
@@ -15630,7 +16398,8 @@ export default {
     },
     'SPRAY-JUNKRAT-70-114-97-103': {
         uid: 'SPRAY-JUNKRAT-70-114-97-103',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-70-114-97-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-70-114-97-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-70-114-97-103.png`,
         default: false,
         name: `Frag`,
         type: Items.TYPE.SPRAY,
@@ -15641,7 +16410,8 @@ export default {
     },
     'SPRAY-JUNKRAT-87-97-110-116-101-100': {
         uid: 'SPRAY-JUNKRAT-87-97-110-116-101-100',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-87-97-110-116-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-87-97-110-116-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-87-97-110-116-101-100.png`,
         default: false,
         name: `Wanted`,
         type: Items.TYPE.SPRAY,
@@ -15652,7 +16422,8 @@ export default {
     },
     'SPRAY-JUNKRAT-66-97-110-103-32-66-97-110-103': {
         uid: 'SPRAY-JUNKRAT-66-97-110-103-32-66-97-110-103',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-66-97-110-103-32-66-97-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-66-97-110-103-32-66-97-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-66-97-110-103-32-66-97-110-103.png`,
         default: false,
         name: `Bang Bang`,
         type: Items.TYPE.SPRAY,
@@ -15663,7 +16434,8 @@ export default {
     },
     'SPRAY-JUNKRAT-83-112-105-110': {
         uid: 'SPRAY-JUNKRAT-83-112-105-110',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-83-112-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-83-112-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-83-112-105-110.png`,
         default: false,
         name: `Spin`,
         type: Items.TYPE.SPRAY,
@@ -15674,7 +16446,8 @@ export default {
     },
     'SPRAY-JUNKRAT-77-97-100': {
         uid: 'SPRAY-JUNKRAT-77-97-100',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-77-97-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-77-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-77-97-100.png`,
         default: false,
         name: `Mad`,
         type: Items.TYPE.SPRAY,
@@ -15685,7 +16458,8 @@ export default {
     },
     'SPRAY-JUNKRAT-70-117-115-101': {
         uid: 'SPRAY-JUNKRAT-70-117-115-101',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-70-117-115-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-70-117-115-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-70-117-115-101.png`,
         default: false,
         name: `Fuse`,
         type: Items.TYPE.SPRAY,
@@ -15696,7 +16470,8 @@ export default {
     },
     'SPRAY-JUNKRAT-84-114-97-112-112-101-114': {
         uid: 'SPRAY-JUNKRAT-84-114-97-112-112-101-114',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-84-114-97-112-112-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-84-114-97-112-112-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-84-114-97-112-112-101-114.png`,
         default: false,
         name: `Trapper`,
         type: Items.TYPE.SPRAY,
@@ -15707,7 +16482,8 @@ export default {
     },
     'SPRAY-JUNKRAT-67-114-97-122-121': {
         uid: 'SPRAY-JUNKRAT-67-114-97-122-121',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-67-114-97-122-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-67-114-97-122-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-67-114-97-122-121.png`,
         default: false,
         name: `Crazy`,
         type: Items.TYPE.SPRAY,
@@ -15718,7 +16494,8 @@ export default {
     },
     'SPRAY-JUNKRAT-71-114-105-110': {
         uid: 'SPRAY-JUNKRAT-71-114-105-110',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-71-114-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-71-114-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-71-114-105-110.png`,
         default: false,
         name: `Grin`,
         type: Items.TYPE.SPRAY,
@@ -15729,7 +16506,8 @@ export default {
     },
     'SPRAY-JUNKRAT-77-105-110-101-102-105-101-108-100': {
         uid: 'SPRAY-JUNKRAT-77-105-110-101-102-105-101-108-100',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-77-105-110-101-102-105-101-108-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-77-105-110-101-102-105-101-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-77-105-110-101-102-105-101-108-100.png`,
         default: false,
         name: `Minefield`,
         type: Items.TYPE.SPRAY,
@@ -15740,7 +16518,8 @@ export default {
     },
     'SPRAY-JUNKRAT-82-111-108-108-105-110-103': {
         uid: 'SPRAY-JUNKRAT-82-111-108-108-105-110-103',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-82-111-108-108-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-82-111-108-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-82-111-108-108-105-110-103.png`,
         default: false,
         name: `Rolling`,
         type: Items.TYPE.SPRAY,
@@ -15751,7 +16530,8 @@ export default {
     },
     'SPRAY-JUNKRAT-70-105-114-101-119-111-114-107': {
         uid: 'SPRAY-JUNKRAT-70-105-114-101-119-111-114-107',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-70-105-114-101-119-111-114-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-70-105-114-101-119-111-114-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-70-105-114-101-119-111-114-107.png`,
         default: false,
         name: `Firework`,
         type: Items.TYPE.SPRAY,
@@ -15762,7 +16542,8 @@ export default {
     },
     'SPRAY-JUNKRAT-77-105-110-101': {
         uid: 'SPRAY-JUNKRAT-77-105-110-101',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-77-105-110-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-77-105-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-77-105-110-101.png`,
         default: false,
         name: `Mine`,
         type: Items.TYPE.SPRAY,
@@ -15773,7 +16554,8 @@ export default {
     },
     'SPRAY-JUNKRAT-83-109-111-107-101': {
         uid: 'SPRAY-JUNKRAT-83-109-111-107-101',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-83-109-111-107-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-83-109-111-107-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-83-109-111-107-101.png`,
         default: false,
         name: `Smoke`,
         type: Items.TYPE.SPRAY,
@@ -15784,7 +16566,8 @@ export default {
     },
     'SPRAY-JUNKRAT-86-114-111-111-109-33-33': {
         uid: 'SPRAY-JUNKRAT-86-114-111-111-109-33-33',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-86-114-111-111-109-33-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-86-114-111-111-109-33-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-86-114-111-111-109-33-33.png`,
         default: false,
         name: `Vroom!!`,
         type: Items.TYPE.SPRAY,
@@ -15795,7 +16578,8 @@ export default {
     },
     'SPRAY-JUNKRAT-70-111-114-32-89-111-117': {
         uid: 'SPRAY-JUNKRAT-70-111-114-32-89-111-117',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-70-111-114-32-89-111-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-70-111-114-32-89-111-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-70-111-114-32-89-111-117.png`,
         default: false,
         name: `For You`,
         type: Items.TYPE.SPRAY,
@@ -15806,7 +16590,8 @@ export default {
     },
     'SPRAY-JUNKRAT-77-97-121-104-101-109': {
         uid: 'SPRAY-JUNKRAT-77-97-121-104-101-109',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-77-97-121-104-101-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-77-97-121-104-101-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-77-97-121-104-101-109.png`,
         default: false,
         name: `Mayhem`,
         type: Items.TYPE.SPRAY,
@@ -15817,7 +16602,8 @@ export default {
     },
     'SPRAY-JUNKRAT-65-72-72-72-72-33': {
         uid: 'SPRAY-JUNKRAT-65-72-72-72-72-33',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-65-72-72-72-72-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-65-72-72-72-72-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-65-72-72-72-72-33.png`,
         default: false,
         name: `AHHHH!`,
         type: Items.TYPE.SPRAY,
@@ -15828,7 +16614,8 @@ export default {
     },
     'SPRAY-JUNKRAT-70-105-114-101-98-97-108-108': {
         uid: 'SPRAY-JUNKRAT-70-105-114-101-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-70-105-114-101-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-70-105-114-101-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-70-105-114-101-98-97-108-108.png`,
         default: false,
         name: `Fireball`,
         type: Items.TYPE.SPRAY,
@@ -15839,7 +16626,8 @@ export default {
     },
     'SPRAY-JUNKRAT-74-117-110-107': {
         uid: 'SPRAY-JUNKRAT-74-117-110-107',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-74-117-110-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-74-117-110-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-74-117-110-107.png`,
         default: false,
         name: `Junk`,
         type: Items.TYPE.SPRAY,
@@ -15850,7 +16638,8 @@ export default {
     },
     'ICON-JUNKRAT-84-101-110-110-105-115': {
         uid: 'ICON-JUNKRAT-84-101-110-110-105-115',
-        source: require('./../assets/icons/ICON-JUNKRAT-84-101-110-110-105-115.png'),
+        thumbnail: require('./../assets/icons/ICON-JUNKRAT-84-101-110-110-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-JUNKRAT-84-101-110-110-105-115.png`,
         default: false,
         name: `Tennis`,
         type: Items.TYPE.ICON,
@@ -15861,7 +16650,8 @@ export default {
     },
     'SPRAY-JUNKRAT-84-101-110-110-105-115': {
         uid: 'SPRAY-JUNKRAT-84-101-110-110-105-115',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-84-101-110-110-105-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-84-101-110-110-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-84-101-110-110-105-115.png`,
         default: false,
         name: `Tennis`,
         type: Items.TYPE.SPRAY,
@@ -15892,7 +16682,8 @@ export default {
     },
     'SPRAY-JUNKRAT-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-JUNKRAT-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -15923,7 +16714,8 @@ export default {
     },
     'ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114': {
         uid: 'ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114',
-        source: require('./../assets/icons/ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114.png`,
         default: false,
         name: `The Doctor`,
         type: Items.TYPE.ICON,
@@ -15944,7 +16736,8 @@ export default {
     },
     'SPRAY-JUNKRAT-34-87-73-78-84-69-82-34': {
         uid: 'SPRAY-JUNKRAT-34-87-73-78-84-69-82-34',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-34-87-73-78-84-69-82-34.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-34-87-73-78-84-69-82-34.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-34-87-73-78-84-69-82-34.png`,
         default: false,
         name: `"WINTER"`,
         type: Items.TYPE.SPRAY,
@@ -15955,7 +16748,8 @@ export default {
     },
     'SPRAY-JUNKRAT-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-JUNKRAT-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -15976,7 +16770,8 @@ export default {
     },
     'SPRAY-JUNKRAT-73-39-109-32-102-108-121-105-110-103-33': {
         uid: 'SPRAY-JUNKRAT-73-39-109-32-102-108-121-105-110-103-33',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-73-39-109-32-102-108-121-105-110-103-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-73-39-109-32-102-108-121-105-110-103-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-73-39-109-32-102-108-121-105-110-103-33.png`,
         default: false,
         name: `I'm flying!`,
         type: Items.TYPE.SPRAY,
@@ -15987,7 +16782,8 @@ export default {
     },
     'SPRAY-JUNKRAT-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-JUNKRAT-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -16038,7 +16834,8 @@ export default {
     },
     'SPRAY-ZARYA-80-105-120-101-108': {
         uid: 'SPRAY-ZARYA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-ZARYA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -16049,7 +16846,8 @@ export default {
     },
     'SPRAY-ZARYA-67-117-116-101': {
         uid: 'SPRAY-ZARYA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-ZARYA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -16110,7 +16908,8 @@ export default {
     },
     'ICON-ZARYA-90-97-114-121-97': {
         uid: 'ICON-ZARYA-90-97-114-121-97',
-        source: require('./../assets/icons/ICON-ZARYA-90-97-114-121-97.png'),
+        thumbnail: require('./../assets/icons/ICON-ZARYA-90-97-114-121-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZARYA-90-97-114-121-97.png`,
         default: false,
         name: `Zarya`,
         type: Items.TYPE.ICON,
@@ -16121,7 +16920,8 @@ export default {
     },
     'ICON-ZARYA-80-97-114-116-105-99-108-101-32-66-97-114-114-105-101-114': {
         uid: 'ICON-ZARYA-80-97-114-116-105-99-108-101-32-66-97-114-114-105-101-114',
-        source: require('./../assets/icons/ICON-ZARYA-80-97-114-116-105-99-108-101-32-66-97-114-114-105-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-ZARYA-80-97-114-116-105-99-108-101-32-66-97-114-114-105-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZARYA-80-97-114-116-105-99-108-101-32-66-97-114-114-105-101-114.png`,
         default: false,
         name: `Particle Barrier`,
         type: Items.TYPE.ICON,
@@ -16132,7 +16932,8 @@ export default {
     },
     'ICON-ZARYA-53-49-50': {
         uid: 'ICON-ZARYA-53-49-50',
-        source: require('./../assets/icons/ICON-ZARYA-53-49-50.png'),
+        thumbnail: require('./../assets/icons/ICON-ZARYA-53-49-50.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZARYA-53-49-50.png`,
         default: false,
         name: `512`,
         type: Items.TYPE.ICON,
@@ -16453,7 +17254,8 @@ export default {
     },
     'SPRAY-ZARYA-73-99-111-110': {
         uid: 'SPRAY-ZARYA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-ZARYA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -16464,7 +17266,8 @@ export default {
     },
     'SPRAY-ZARYA-83-104-105-101-108-100': {
         uid: 'SPRAY-ZARYA-83-104-105-101-108-100',
-        source: require('./../assets/sprays/SPRAY-ZARYA-83-104-105-101-108-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-83-104-105-101-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-83-104-105-101-108-100.png`,
         default: false,
         name: `Shield`,
         type: Items.TYPE.SPRAY,
@@ -16475,7 +17278,8 @@ export default {
     },
     'SPRAY-ZARYA-83-117-114-103-101': {
         uid: 'SPRAY-ZARYA-83-117-114-103-101',
-        source: require('./../assets/sprays/SPRAY-ZARYA-83-117-114-103-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-83-117-114-103-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-83-117-114-103-101.png`,
         default: false,
         name: `Surge`,
         type: Items.TYPE.SPRAY,
@@ -16486,7 +17290,8 @@ export default {
     },
     'SPRAY-ZARYA-80-117-109-112-101-100': {
         uid: 'SPRAY-ZARYA-80-117-109-112-101-100',
-        source: require('./../assets/sprays/SPRAY-ZARYA-80-117-109-112-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-80-117-109-112-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-80-117-109-112-101-100.png`,
         default: false,
         name: `Pumped`,
         type: Items.TYPE.SPRAY,
@@ -16497,7 +17302,8 @@ export default {
     },
     'SPRAY-ZARYA-53-49-50': {
         uid: 'SPRAY-ZARYA-53-49-50',
-        source: require('./../assets/sprays/SPRAY-ZARYA-53-49-50.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-53-49-50.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-53-49-50.png`,
         default: false,
         name: `512`,
         type: Items.TYPE.SPRAY,
@@ -16508,7 +17314,8 @@ export default {
     },
     'SPRAY-ZARYA-66-97-114-114-105-101-114': {
         uid: 'SPRAY-ZARYA-66-97-114-114-105-101-114',
-        source: require('./../assets/sprays/SPRAY-ZARYA-66-97-114-114-105-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-66-97-114-114-105-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-66-97-114-114-105-101-114.png`,
         default: false,
         name: `Barrier`,
         type: Items.TYPE.SPRAY,
@@ -16519,7 +17326,8 @@ export default {
     },
     'SPRAY-ZARYA-76-105-102-116': {
         uid: 'SPRAY-ZARYA-76-105-102-116',
-        source: require('./../assets/sprays/SPRAY-ZARYA-76-105-102-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-76-105-102-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-76-105-102-116.png`,
         default: false,
         name: `Lift`,
         type: Items.TYPE.SPRAY,
@@ -16530,7 +17338,8 @@ export default {
     },
     'SPRAY-ZARYA-70-111-99-117-115-101-100': {
         uid: 'SPRAY-ZARYA-70-111-99-117-115-101-100',
-        source: require('./../assets/sprays/SPRAY-ZARYA-70-111-99-117-115-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-70-111-99-117-115-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-70-111-99-117-115-101-100.png`,
         default: false,
         name: `Focused`,
         type: Items.TYPE.SPRAY,
@@ -16541,7 +17350,8 @@ export default {
     },
     'SPRAY-ZARYA-68-101-102-101-110-100-101-114': {
         uid: 'SPRAY-ZARYA-68-101-102-101-110-100-101-114',
-        source: require('./../assets/sprays/SPRAY-ZARYA-68-101-102-101-110-100-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-68-101-102-101-110-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-68-101-102-101-110-100-101-114.png`,
         default: false,
         name: `Defender`,
         type: Items.TYPE.SPRAY,
@@ -16552,7 +17362,8 @@ export default {
     },
     'SPRAY-ZARYA-87-101-105-103-104-116-115': {
         uid: 'SPRAY-ZARYA-87-101-105-103-104-116-115',
-        source: require('./../assets/sprays/SPRAY-ZARYA-87-101-105-103-104-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-87-101-105-103-104-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-87-101-105-103-104-116-115.png`,
         default: false,
         name: `Weights`,
         type: Items.TYPE.SPRAY,
@@ -16563,7 +17374,8 @@ export default {
     },
     'SPRAY-ZARYA-70-111-114-32-116-104-101-32-80-101-111-112-108-101': {
         uid: 'SPRAY-ZARYA-70-111-114-32-116-104-101-32-80-101-111-112-108-101',
-        source: require('./../assets/sprays/SPRAY-ZARYA-70-111-114-32-116-104-101-32-80-101-111-112-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-70-111-114-32-116-104-101-32-80-101-111-112-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-70-111-114-32-116-104-101-32-80-101-111-112-108-101.png`,
         default: false,
         name: `For the People`,
         type: Items.TYPE.SPRAY,
@@ -16574,7 +17386,8 @@ export default {
     },
     'SPRAY-ZARYA-67-97-110-110-111-110': {
         uid: 'SPRAY-ZARYA-67-97-110-110-111-110',
-        source: require('./../assets/sprays/SPRAY-ZARYA-67-97-110-110-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-67-97-110-110-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-67-97-110-110-111-110.png`,
         default: false,
         name: `Cannon`,
         type: Items.TYPE.SPRAY,
@@ -16585,7 +17398,8 @@ export default {
     },
     'SPRAY-ZARYA-71-117-110-32-83-104-111-119': {
         uid: 'SPRAY-ZARYA-71-117-110-32-83-104-111-119',
-        source: require('./../assets/sprays/SPRAY-ZARYA-71-117-110-32-83-104-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-71-117-110-32-83-104-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-71-117-110-32-83-104-111-119.png`,
         default: false,
         name: `Gun Show`,
         type: Items.TYPE.SPRAY,
@@ -16596,7 +17410,8 @@ export default {
     },
     'SPRAY-ZARYA-80-105-110-107': {
         uid: 'SPRAY-ZARYA-80-105-110-107',
-        source: require('./../assets/sprays/SPRAY-ZARYA-80-105-110-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-80-105-110-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-80-105-110-107.png`,
         default: false,
         name: `Pink`,
         type: Items.TYPE.SPRAY,
@@ -16607,7 +17422,8 @@ export default {
     },
     'SPRAY-ZARYA-67-104-97-109-112-105-111-110': {
         uid: 'SPRAY-ZARYA-67-104-97-109-112-105-111-110',
-        source: require('./../assets/sprays/SPRAY-ZARYA-67-104-97-109-112-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-67-104-97-109-112-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-67-104-97-109-112-105-111-110.png`,
         default: false,
         name: `Champion`,
         type: Items.TYPE.SPRAY,
@@ -16618,7 +17434,8 @@ export default {
     },
     'SPRAY-ZARYA-87-114-101-115-116-108-101': {
         uid: 'SPRAY-ZARYA-87-114-101-115-116-108-101',
-        source: require('./../assets/sprays/SPRAY-ZARYA-87-114-101-115-116-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-87-114-101-115-116-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-87-114-101-115-116-108-101.png`,
         default: false,
         name: `Wrestle`,
         type: Items.TYPE.SPRAY,
@@ -16629,7 +17446,8 @@ export default {
     },
     'SPRAY-ZARYA-66-101-97-114': {
         uid: 'SPRAY-ZARYA-66-101-97-114',
-        source: require('./../assets/sprays/SPRAY-ZARYA-66-101-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-66-101-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-66-101-97-114.png`,
         default: false,
         name: `Bear`,
         type: Items.TYPE.SPRAY,
@@ -16640,7 +17458,8 @@ export default {
     },
     'SPRAY-ZARYA-83-109-105-108-101': {
         uid: 'SPRAY-ZARYA-83-109-105-108-101',
-        source: require('./../assets/sprays/SPRAY-ZARYA-83-109-105-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-83-109-105-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-83-109-105-108-101.png`,
         default: false,
         name: `Smile`,
         type: Items.TYPE.SPRAY,
@@ -16651,7 +17470,8 @@ export default {
     },
     'SPRAY-ZARYA-83-116-114-101-110-103-116-104': {
         uid: 'SPRAY-ZARYA-83-116-114-101-110-103-116-104',
-        source: require('./../assets/sprays/SPRAY-ZARYA-83-116-114-101-110-103-116-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-83-116-114-101-110-103-116-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-83-116-114-101-110-103-116-104.png`,
         default: false,
         name: `Strength`,
         type: Items.TYPE.SPRAY,
@@ -16662,7 +17482,8 @@ export default {
     },
     'SPRAY-ZARYA-65-118-101-110-103-101-114': {
         uid: 'SPRAY-ZARYA-65-118-101-110-103-101-114',
-        source: require('./../assets/sprays/SPRAY-ZARYA-65-118-101-110-103-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-65-118-101-110-103-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-65-118-101-110-103-101-114.png`,
         default: false,
         name: `Avenger`,
         type: Items.TYPE.SPRAY,
@@ -16673,7 +17494,8 @@ export default {
     },
     'SPRAY-ZARYA-87-101-32-65-114-101-32-83-116-114-111-110-103': {
         uid: 'SPRAY-ZARYA-87-101-32-65-114-101-32-83-116-114-111-110-103',
-        source: require('./../assets/sprays/SPRAY-ZARYA-87-101-32-65-114-101-32-83-116-114-111-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-87-101-32-65-114-101-32-83-116-114-111-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-87-101-32-65-114-101-32-83-116-114-111-110-103.png`,
         default: false,
         name: `We Are Strong`,
         type: Items.TYPE.SPRAY,
@@ -16684,7 +17506,8 @@ export default {
     },
     'SPRAY-ZARYA-84-111-98-101-108-115-116-101-105-110': {
         uid: 'SPRAY-ZARYA-84-111-98-101-108-115-116-101-105-110',
-        source: require('./../assets/sprays/SPRAY-ZARYA-84-111-98-101-108-115-116-101-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-84-111-98-101-108-115-116-101-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-84-111-98-101-108-115-116-101-105-110.png`,
         default: false,
         name: `Tobelstein`,
         type: Items.TYPE.SPRAY,
@@ -16695,7 +17518,8 @@ export default {
     },
     'SPRAY-ZARYA-65-108-101-120-97-110-100-114-97': {
         uid: 'SPRAY-ZARYA-65-108-101-120-97-110-100-114-97',
-        source: require('./../assets/sprays/SPRAY-ZARYA-65-108-101-120-97-110-100-114-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-65-108-101-120-97-110-100-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-65-108-101-120-97-110-100-114-97.png`,
         default: false,
         name: `Alexandra`,
         type: Items.TYPE.SPRAY,
@@ -16706,7 +17530,8 @@ export default {
     },
     'ICON-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103': {
         uid: 'ICON-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103',
-        source: require('./../assets/icons/ICON-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103.png`,
         default: false,
         name: `Weightlifting`,
         type: Items.TYPE.ICON,
@@ -16717,7 +17542,8 @@ export default {
     },
     'SPRAY-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103': {
         uid: 'SPRAY-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-87-101-105-103-104-116-108-105-102-116-105-110-103.png`,
         default: false,
         name: `Weightlifting`,
         type: Items.TYPE.SPRAY,
@@ -16758,7 +17584,8 @@ export default {
     },
     'SPRAY-ZARYA-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-ZARYA-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-ZARYA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -16789,7 +17616,8 @@ export default {
     },
     'SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97': {
         uid: 'SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97',
-        source: require('./../assets/sprays/SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97.png`,
         default: false,
         name: `Matryoshka`,
         type: Items.TYPE.SPRAY,
@@ -16800,7 +17628,8 @@ export default {
     },
     'SPRAY-ZARYA-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-ZARYA-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-ZARYA-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -16841,7 +17670,8 @@ export default {
     },
     'SPRAY-ZARYA-67-97-108-111-114-105-101-115': {
         uid: 'SPRAY-ZARYA-67-97-108-111-114-105-101-115',
-        source: require('./../assets/sprays/SPRAY-ZARYA-67-97-108-111-114-105-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-67-97-108-111-114-105-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-67-97-108-111-114-105-101-115.png`,
         default: false,
         name: `Calories`,
         type: Items.TYPE.SPRAY,
@@ -16852,7 +17682,8 @@ export default {
     },
     'SPRAY-ZARYA-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-ZARYA-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-ZARYA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -16873,7 +17704,8 @@ export default {
     },
     'SPRAY-SOLDIER76-80-105-120-101-108': {
         uid: 'SPRAY-SOLDIER76-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -16884,7 +17716,8 @@ export default {
     },
     'SPRAY-SOLDIER76-67-117-116-101': {
         uid: 'SPRAY-SOLDIER76-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -16955,7 +17788,8 @@ export default {
     },
     'ICON-SOLDIER76-83-111-108-100-105-101-114-58-32-55-54': {
         uid: 'ICON-SOLDIER76-83-111-108-100-105-101-114-58-32-55-54',
-        source: require('./../assets/icons/ICON-SOLDIER76-83-111-108-100-105-101-114-58-32-55-54.png'),
+        thumbnail: require('./../assets/icons/ICON-SOLDIER76-83-111-108-100-105-101-114-58-32-55-54.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOLDIER76-83-111-108-100-105-101-114-58-32-55-54.png`,
         default: false,
         name: `Soldier: 76`,
         type: Items.TYPE.ICON,
@@ -16966,7 +17800,8 @@ export default {
     },
     'ICON-SOLDIER76-83-116-114-105-107-101-45-67-111-109-109-97-110-100-101-114': {
         uid: 'ICON-SOLDIER76-83-116-114-105-107-101-45-67-111-109-109-97-110-100-101-114',
-        source: require('./../assets/icons/ICON-SOLDIER76-83-116-114-105-107-101-45-67-111-109-109-97-110-100-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-SOLDIER76-83-116-114-105-107-101-45-67-111-109-109-97-110-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOLDIER76-83-116-114-105-107-101-45-67-111-109-109-97-110-100-101-114.png`,
         default: false,
         name: `Strike-Commander`,
         type: Items.TYPE.ICON,
@@ -16977,7 +17812,8 @@ export default {
     },
     'ICON-SOLDIER76-55-54': {
         uid: 'ICON-SOLDIER76-55-54',
-        source: require('./../assets/icons/ICON-SOLDIER76-55-54.png'),
+        thumbnail: require('./../assets/icons/ICON-SOLDIER76-55-54.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOLDIER76-55-54.png`,
         default: false,
         name: `76`,
         type: Items.TYPE.ICON,
@@ -17298,7 +18134,8 @@ export default {
     },
     'SPRAY-SOLDIER76-73-99-111-110': {
         uid: 'SPRAY-SOLDIER76-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -17309,7 +18146,8 @@ export default {
     },
     'SPRAY-SOLDIER76-72-101-108-105-120': {
         uid: 'SPRAY-SOLDIER76-72-101-108-105-120',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-72-101-108-105-120.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-72-101-108-105-120.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-72-101-108-105-120.png`,
         default: false,
         name: `Helix`,
         type: Items.TYPE.SPRAY,
@@ -17320,7 +18158,8 @@ export default {
     },
     'SPRAY-SOLDIER76-72-101-97-108-32-85-112': {
         uid: 'SPRAY-SOLDIER76-72-101-97-108-32-85-112',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-72-101-97-108-32-85-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-72-101-97-108-32-85-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-72-101-97-108-32-85-112.png`,
         default: false,
         name: `Heal Up`,
         type: Items.TYPE.SPRAY,
@@ -17331,7 +18170,8 @@ export default {
     },
     'SPRAY-SOLDIER76-74-97-99-107-101-116-58-32-55-54': {
         uid: 'SPRAY-SOLDIER76-74-97-99-107-101-116-58-32-55-54',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-74-97-99-107-101-116-58-32-55-54.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-74-97-99-107-101-116-58-32-55-54.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-74-97-99-107-101-116-58-32-55-54.png`,
         default: false,
         name: `Jacket: 76`,
         type: Items.TYPE.SPRAY,
@@ -17342,7 +18182,8 @@ export default {
     },
     'SPRAY-SOLDIER76-71-114-97-118-101': {
         uid: 'SPRAY-SOLDIER76-71-114-97-118-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-71-114-97-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-71-114-97-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-71-114-97-118-101.png`,
         default: false,
         name: `Grave`,
         type: Items.TYPE.SPRAY,
@@ -17353,7 +18194,8 @@ export default {
     },
     'SPRAY-SOLDIER76-87-97-110-116-101-100': {
         uid: 'SPRAY-SOLDIER76-87-97-110-116-101-100',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-87-97-110-116-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-87-97-110-116-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-87-97-110-116-101-100.png`,
         default: false,
         name: `Wanted`,
         type: Items.TYPE.SPRAY,
@@ -17364,7 +18206,8 @@ export default {
     },
     'SPRAY-SOLDIER76-77-111-118-101-33': {
         uid: 'SPRAY-SOLDIER76-77-111-118-101-33',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-77-111-118-101-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-77-111-118-101-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-77-111-118-101-33.png`,
         default: false,
         name: `Move!`,
         type: Items.TYPE.SPRAY,
@@ -17375,7 +18218,8 @@ export default {
     },
     'SPRAY-SOLDIER76-67-111-105-110': {
         uid: 'SPRAY-SOLDIER76-67-111-105-110',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-67-111-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-67-111-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-67-111-105-110.png`,
         default: false,
         name: `Coin`,
         type: Items.TYPE.SPRAY,
@@ -17386,7 +18230,8 @@ export default {
     },
     'SPRAY-SOLDIER76-86-105-115-111-114': {
         uid: 'SPRAY-SOLDIER76-86-105-115-111-114',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-86-105-115-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-86-105-115-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-86-105-115-111-114.png`,
         default: false,
         name: `Visor`,
         type: Items.TYPE.SPRAY,
@@ -17397,7 +18242,8 @@ export default {
     },
     'SPRAY-SOLDIER76-86-105-103-105-108-97-110-116-101': {
         uid: 'SPRAY-SOLDIER76-86-105-103-105-108-97-110-116-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-86-105-103-105-108-97-110-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-86-105-103-105-108-97-110-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-86-105-103-105-108-97-110-116-101.png`,
         default: false,
         name: `Vigilante`,
         type: Items.TYPE.SPRAY,
@@ -17408,7 +18254,8 @@ export default {
     },
     'SPRAY-SOLDIER76-72-111-111-97-104': {
         uid: 'SPRAY-SOLDIER76-72-111-111-97-104',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-72-111-111-97-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-72-111-111-97-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-72-111-111-97-104.png`,
         default: false,
         name: `Hooah`,
         type: Items.TYPE.SPRAY,
@@ -17419,7 +18266,8 @@ export default {
     },
     'SPRAY-SOLDIER76-55-54': {
         uid: 'SPRAY-SOLDIER76-55-54',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-55-54.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-55-54.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-55-54.png`,
         default: false,
         name: `76`,
         type: Items.TYPE.SPRAY,
@@ -17430,7 +18278,8 @@ export default {
     },
     'SPRAY-SOLDIER76-80-117-108-115-101-32-82-105-102-108-101': {
         uid: 'SPRAY-SOLDIER76-80-117-108-115-101-32-82-105-102-108-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-80-117-108-115-101-32-82-105-102-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-80-117-108-115-101-32-82-105-102-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-80-117-108-115-101-32-82-105-102-108-101.png`,
         default: false,
         name: `Pulse Rifle`,
         type: Items.TYPE.SPRAY,
@@ -17441,7 +18290,8 @@ export default {
     },
     'SPRAY-SOLDIER76-83-116-114-105-107-101-32-67-111-109-109-97-110-100-101-114': {
         uid: 'SPRAY-SOLDIER76-83-116-114-105-107-101-32-67-111-109-109-97-110-100-101-114',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-83-116-114-105-107-101-32-67-111-109-109-97-110-100-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-83-116-114-105-107-101-32-67-111-109-109-97-110-100-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-83-116-114-105-107-101-32-67-111-109-109-97-110-100-101-114.png`,
         default: false,
         name: `Strike Commander`,
         type: Items.TYPE.SPRAY,
@@ -17452,7 +18302,8 @@ export default {
     },
     'SPRAY-SOLDIER76-82-111-99-107-101-116-115': {
         uid: 'SPRAY-SOLDIER76-82-111-99-107-101-116-115',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-82-111-99-107-101-116-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-82-111-99-107-101-116-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-82-111-99-107-101-116-115.png`,
         default: false,
         name: `Rockets`,
         type: Items.TYPE.SPRAY,
@@ -17463,7 +18314,8 @@ export default {
     },
     'SPRAY-SOLDIER76-71-114-105-122-122-108-101-100': {
         uid: 'SPRAY-SOLDIER76-71-114-105-122-122-108-101-100',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-71-114-105-122-122-108-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-71-114-105-122-122-108-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-71-114-105-122-122-108-101-100.png`,
         default: false,
         name: `Grizzled`,
         type: Items.TYPE.SPRAY,
@@ -17474,7 +18326,8 @@ export default {
     },
     'SPRAY-SOLDIER76-77-117-122-122-108-101': {
         uid: 'SPRAY-SOLDIER76-77-117-122-122-108-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-77-117-122-122-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-77-117-122-122-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-77-117-122-122-108-101.png`,
         default: false,
         name: `Muzzle`,
         type: Items.TYPE.SPRAY,
@@ -17485,7 +18338,8 @@ export default {
     },
     'SPRAY-SOLDIER76-82-105-102-108-101-58-32-55-54': {
         uid: 'SPRAY-SOLDIER76-82-105-102-108-101-58-32-55-54',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-82-105-102-108-101-58-32-55-54.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-82-105-102-108-101-58-32-55-54.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-82-105-102-108-101-58-32-55-54.png`,
         default: false,
         name: `Rifle: 76`,
         type: Items.TYPE.SPRAY,
@@ -17496,7 +18350,8 @@ export default {
     },
     'SPRAY-SOLDIER76-82-101-115-111-108-117-116-101': {
         uid: 'SPRAY-SOLDIER76-82-101-115-111-108-117-116-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-82-101-115-111-108-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-82-101-115-111-108-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-82-101-115-111-108-117-116-101.png`,
         default: false,
         name: `Resolute`,
         type: Items.TYPE.SPRAY,
@@ -17507,7 +18362,8 @@ export default {
     },
     'SPRAY-SOLDIER76-65-108-108-32-83-111-108-100-105-101-114-115': {
         uid: 'SPRAY-SOLDIER76-65-108-108-32-83-111-108-100-105-101-114-115',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-65-108-108-32-83-111-108-100-105-101-114-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-65-108-108-32-83-111-108-100-105-101-114-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-65-108-108-32-83-111-108-100-105-101-114-115.png`,
         default: false,
         name: `All Soldiers`,
         type: Items.TYPE.SPRAY,
@@ -17518,7 +18374,8 @@ export default {
     },
     'SPRAY-SOLDIER76-79-108-100-32-83-111-108-100-105-101-114': {
         uid: 'SPRAY-SOLDIER76-79-108-100-32-83-111-108-100-105-101-114',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-79-108-100-32-83-111-108-100-105-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-79-108-100-32-83-111-108-100-105-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-79-108-100-32-83-111-108-100-105-101-114.png`,
         default: false,
         name: `Old Soldier`,
         type: Items.TYPE.SPRAY,
@@ -17529,7 +18386,8 @@ export default {
     },
     'SPRAY-SOLDIER76-83-97-108-117-116-101': {
         uid: 'SPRAY-SOLDIER76-83-97-108-117-116-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-83-97-108-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-83-97-108-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-83-97-108-117-116-101.png`,
         default: false,
         name: `Salute`,
         type: Items.TYPE.SPRAY,
@@ -17540,7 +18398,8 @@ export default {
     },
     'SPRAY-SOLDIER76-65-109-101-114-105-99-97-110-32-72-101-114-111': {
         uid: 'SPRAY-SOLDIER76-65-109-101-114-105-99-97-110-32-72-101-114-111',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-65-109-101-114-105-99-97-110-32-72-101-114-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-65-109-101-114-105-99-97-110-32-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-65-109-101-114-105-99-97-110-32-72-101-114-111.png`,
         default: false,
         name: `American Hero`,
         type: Items.TYPE.SPRAY,
@@ -17551,7 +18410,8 @@ export default {
     },
     'ICON-SOLDIER76-71-111-108-102': {
         uid: 'ICON-SOLDIER76-71-111-108-102',
-        source: require('./../assets/icons/ICON-SOLDIER76-71-111-108-102.png'),
+        thumbnail: require('./../assets/icons/ICON-SOLDIER76-71-111-108-102.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOLDIER76-71-111-108-102.png`,
         default: false,
         name: `Golf`,
         type: Items.TYPE.ICON,
@@ -17562,7 +18422,8 @@ export default {
     },
     'SPRAY-SOLDIER76-71-111-108-102': {
         uid: 'SPRAY-SOLDIER76-71-111-108-102',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-71-111-108-102.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-71-111-108-102.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-71-111-108-102.png`,
         default: false,
         name: `Golf`,
         type: Items.TYPE.SPRAY,
@@ -17593,7 +18454,8 @@ export default {
     },
     'SPRAY-SOLDIER76-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-SOLDIER76-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -17634,7 +18496,8 @@ export default {
     },
     'SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54': {
         uid: 'SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54.png`,
         default: false,
         name: `Army Man: 76`,
         type: Items.TYPE.SPRAY,
@@ -17645,7 +18508,8 @@ export default {
     },
     'SPRAY-SOLDIER76-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-SOLDIER76-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -17676,7 +18540,8 @@ export default {
     },
     'SPRAY-SOLDIER76-70-111-108-100-101-100-32-72-97-110-100-115': {
         uid: 'SPRAY-SOLDIER76-70-111-108-100-101-100-32-72-97-110-100-115',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-70-111-108-100-101-100-32-72-97-110-100-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-70-111-108-100-101-100-32-72-97-110-100-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-70-111-108-100-101-100-32-72-97-110-100-115.png`,
         default: false,
         name: `Folded Hands`,
         type: Items.TYPE.SPRAY,
@@ -17687,7 +18552,8 @@ export default {
     },
     'SPRAY-SOLDIER76-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-SOLDIER76-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -17708,7 +18574,8 @@ export default {
     },
     'SPRAY-LUCIO-80-105-120-101-108': {
         uid: 'SPRAY-LUCIO-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-LUCIO-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -17719,7 +18586,8 @@ export default {
     },
     'SPRAY-LUCIO-67-117-116-101': {
         uid: 'SPRAY-LUCIO-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-LUCIO-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -17780,7 +18648,8 @@ export default {
     },
     'ICON-LUCIO-76-250-99-105-111': {
         uid: 'ICON-LUCIO-76-250-99-105-111',
-        source: require('./../assets/icons/ICON-LUCIO-76-250-99-105-111.png'),
+        thumbnail: require('./../assets/icons/ICON-LUCIO-76-250-99-105-111.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-LUCIO-76-250-99-105-111.png`,
         default: false,
         name: `Lúcio`,
         type: Items.TYPE.ICON,
@@ -17791,7 +18660,8 @@ export default {
     },
     'ICON-LUCIO-75-97-109-98-244': {
         uid: 'ICON-LUCIO-75-97-109-98-244',
-        source: require('./../assets/icons/ICON-LUCIO-75-97-109-98-244.png'),
+        thumbnail: require('./../assets/icons/ICON-LUCIO-75-97-109-98-244.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-LUCIO-75-97-109-98-244.png`,
         default: false,
         name: `Kambô`,
         type: Items.TYPE.ICON,
@@ -17802,7 +18672,8 @@ export default {
     },
     'ICON-LUCIO-70-114-111-103': {
         uid: 'ICON-LUCIO-70-114-111-103',
-        source: require('./../assets/icons/ICON-LUCIO-70-114-111-103.png'),
+        thumbnail: require('./../assets/icons/ICON-LUCIO-70-114-111-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-LUCIO-70-114-111-103.png`,
         default: false,
         name: `Frog`,
         type: Items.TYPE.ICON,
@@ -18123,7 +18994,8 @@ export default {
     },
     'SPRAY-LUCIO-73-99-111-110': {
         uid: 'SPRAY-LUCIO-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-LUCIO-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -18134,7 +19006,8 @@ export default {
     },
     'SPRAY-LUCIO-70-114-111-103': {
         uid: 'SPRAY-LUCIO-70-114-111-103',
-        source: require('./../assets/sprays/SPRAY-LUCIO-70-114-111-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-70-114-111-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-70-114-111-103.png`,
         default: false,
         name: `Frog`,
         type: Items.TYPE.SPRAY,
@@ -18145,7 +19018,8 @@ export default {
     },
     'SPRAY-LUCIO-68-101-99-107': {
         uid: 'SPRAY-LUCIO-68-101-99-107',
-        source: require('./../assets/sprays/SPRAY-LUCIO-68-101-99-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-68-101-99-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-68-101-99-107.png`,
         default: false,
         name: `Deck`,
         type: Items.TYPE.SPRAY,
@@ -18156,7 +19030,8 @@ export default {
     },
     'SPRAY-LUCIO-84-97-103': {
         uid: 'SPRAY-LUCIO-84-97-103',
-        source: require('./../assets/sprays/SPRAY-LUCIO-84-97-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-84-97-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-84-97-103.png`,
         default: false,
         name: `Tag`,
         type: Items.TYPE.SPRAY,
@@ -18167,7 +19042,8 @@ export default {
     },
     'SPRAY-LUCIO-83-105-103-110-97-116-117-114-101': {
         uid: 'SPRAY-LUCIO-83-105-103-110-97-116-117-114-101',
-        source: require('./../assets/sprays/SPRAY-LUCIO-83-105-103-110-97-116-117-114-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-83-105-103-110-97-116-117-114-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-83-105-103-110-97-116-117-114-101.png`,
         default: false,
         name: `Signature`,
         type: Items.TYPE.SPRAY,
@@ -18178,7 +19054,8 @@ export default {
     },
     'SPRAY-LUCIO-72-101-114-111': {
         uid: 'SPRAY-LUCIO-72-101-114-111',
-        source: require('./../assets/sprays/SPRAY-LUCIO-72-101-114-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-72-101-114-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-72-101-114-111.png`,
         default: false,
         name: `Hero`,
         type: Items.TYPE.SPRAY,
@@ -18189,7 +19066,8 @@ export default {
     },
     'SPRAY-LUCIO-67-111-110-102-105-100-101-110-116': {
         uid: 'SPRAY-LUCIO-67-111-110-102-105-100-101-110-116',
-        source: require('./../assets/sprays/SPRAY-LUCIO-67-111-110-102-105-100-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-67-111-110-102-105-100-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-67-111-110-102-105-100-101-110-116.png`,
         default: false,
         name: `Confident`,
         type: Items.TYPE.SPRAY,
@@ -18200,7 +19078,8 @@ export default {
     },
     'SPRAY-LUCIO-67-101-114-101-97-108': {
         uid: 'SPRAY-LUCIO-67-101-114-101-97-108',
-        source: require('./../assets/sprays/SPRAY-LUCIO-67-101-114-101-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-67-101-114-101-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-67-101-114-101-97-108.png`,
         default: false,
         name: `Cereal`,
         type: Items.TYPE.SPRAY,
@@ -18211,7 +19090,8 @@ export default {
     },
     'SPRAY-LUCIO-83-99-114-97-116-99-104': {
         uid: 'SPRAY-LUCIO-83-99-114-97-116-99-104',
-        source: require('./../assets/sprays/SPRAY-LUCIO-83-99-114-97-116-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-83-99-114-97-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-83-99-114-97-116-99-104.png`,
         default: false,
         name: `Scratch`,
         type: Items.TYPE.SPRAY,
@@ -18222,7 +19102,8 @@ export default {
     },
     'SPRAY-LUCIO-65-99-101-108-101-114-97-114': {
         uid: 'SPRAY-LUCIO-65-99-101-108-101-114-97-114',
-        source: require('./../assets/sprays/SPRAY-LUCIO-65-99-101-108-101-114-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-65-99-101-108-101-114-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-65-99-101-108-101-114-97-114.png`,
         default: false,
         name: `Acelerar`,
         type: Items.TYPE.SPRAY,
@@ -18233,7 +19114,8 @@ export default {
     },
     'SPRAY-LUCIO-66-114-101-97-107-32-73-116-32-68-111-119-110': {
         uid: 'SPRAY-LUCIO-66-114-101-97-107-32-73-116-32-68-111-119-110',
-        source: require('./../assets/sprays/SPRAY-LUCIO-66-114-101-97-107-32-73-116-32-68-111-119-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-66-114-101-97-107-32-73-116-32-68-111-119-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-66-114-101-97-107-32-73-116-32-68-111-119-110.png`,
         default: false,
         name: `Break It Down`,
         type: Items.TYPE.SPRAY,
@@ -18244,7 +19126,8 @@ export default {
     },
     'SPRAY-LUCIO-73-110-32-67-111-110-99-101-114-116': {
         uid: 'SPRAY-LUCIO-73-110-32-67-111-110-99-101-114-116',
-        source: require('./../assets/sprays/SPRAY-LUCIO-73-110-32-67-111-110-99-101-114-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-73-110-32-67-111-110-99-101-114-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-73-110-32-67-111-110-99-101-114-116.png`,
         default: false,
         name: `In Concert`,
         type: Items.TYPE.SPRAY,
@@ -18255,7 +19138,8 @@ export default {
     },
     'SPRAY-LUCIO-87-97-118-101': {
         uid: 'SPRAY-LUCIO-87-97-118-101',
-        source: require('./../assets/sprays/SPRAY-LUCIO-87-97-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-87-97-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-87-97-118-101.png`,
         default: false,
         name: `Wave`,
         type: Items.TYPE.SPRAY,
@@ -18266,7 +19150,8 @@ export default {
     },
     'SPRAY-LUCIO-87-97-108-107-32-111-102-32-70-97-109-101': {
         uid: 'SPRAY-LUCIO-87-97-108-107-32-111-102-32-70-97-109-101',
-        source: require('./../assets/sprays/SPRAY-LUCIO-87-97-108-107-32-111-102-32-70-97-109-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-87-97-108-107-32-111-102-32-70-97-109-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-87-97-108-107-32-111-102-32-70-97-109-101.png`,
         default: false,
         name: `Walk of Fame`,
         type: Items.TYPE.SPRAY,
@@ -18277,7 +19162,8 @@ export default {
     },
     'SPRAY-LUCIO-66-97-115-115': {
         uid: 'SPRAY-LUCIO-66-97-115-115',
-        source: require('./../assets/sprays/SPRAY-LUCIO-66-97-115-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-66-97-115-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-66-97-115-115.png`,
         default: false,
         name: `Bass`,
         type: Items.TYPE.SPRAY,
@@ -18288,7 +19174,8 @@ export default {
     },
     'SPRAY-LUCIO-86-105-110-121-108': {
         uid: 'SPRAY-LUCIO-86-105-110-121-108',
-        source: require('./../assets/sprays/SPRAY-LUCIO-86-105-110-121-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-86-105-110-121-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-86-105-110-121-108.png`,
         default: false,
         name: `Vinyl`,
         type: Items.TYPE.SPRAY,
@@ -18299,7 +19186,8 @@ export default {
     },
     'SPRAY-LUCIO-71-114-105-110': {
         uid: 'SPRAY-LUCIO-71-114-105-110',
-        source: require('./../assets/sprays/SPRAY-LUCIO-71-114-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-71-114-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-71-114-105-110.png`,
         default: false,
         name: `Grin`,
         type: Items.TYPE.SPRAY,
@@ -18310,7 +19198,8 @@ export default {
     },
     'SPRAY-LUCIO-85-110-100-101-114-32-67-111-110-116-114-111-108': {
         uid: 'SPRAY-LUCIO-85-110-100-101-114-32-67-111-110-116-114-111-108',
-        source: require('./../assets/sprays/SPRAY-LUCIO-85-110-100-101-114-32-67-111-110-116-114-111-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-85-110-100-101-114-32-67-111-110-116-114-111-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-85-110-100-101-114-32-67-111-110-116-114-111-108.png`,
         default: false,
         name: `Under Control`,
         type: Items.TYPE.SPRAY,
@@ -18321,7 +19210,8 @@ export default {
     },
     'SPRAY-LUCIO-75-97-109-98-244': {
         uid: 'SPRAY-LUCIO-75-97-109-98-244',
-        source: require('./../assets/sprays/SPRAY-LUCIO-75-97-109-98-244.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-75-97-109-98-244.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-75-97-109-98-244.png`,
         default: false,
         name: `Kambô`,
         type: Items.TYPE.SPRAY,
@@ -18332,7 +19222,8 @@ export default {
     },
     'SPRAY-LUCIO-83-112-105-110': {
         uid: 'SPRAY-LUCIO-83-112-105-110',
-        source: require('./../assets/sprays/SPRAY-LUCIO-83-112-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-83-112-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-83-112-105-110.png`,
         default: false,
         name: `Spin`,
         type: Items.TYPE.SPRAY,
@@ -18343,7 +19234,8 @@ export default {
     },
     'SPRAY-LUCIO-66-97-105-120-111': {
         uid: 'SPRAY-LUCIO-66-97-105-120-111',
-        source: require('./../assets/sprays/SPRAY-LUCIO-66-97-105-120-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-66-97-105-120-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-66-97-105-120-111.png`,
         default: false,
         name: `Baixo`,
         type: Items.TYPE.SPRAY,
@@ -18354,7 +19246,8 @@ export default {
     },
     'SPRAY-LUCIO-84-114-105-112-108-111': {
         uid: 'SPRAY-LUCIO-84-114-105-112-108-111',
-        source: require('./../assets/sprays/SPRAY-LUCIO-84-114-105-112-108-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-84-114-105-112-108-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-84-114-105-112-108-111.png`,
         default: false,
         name: `Triplo`,
         type: Items.TYPE.SPRAY,
@@ -18365,7 +19258,8 @@ export default {
     },
     'SPRAY-LUCIO-77-117-114-97-108': {
         uid: 'SPRAY-LUCIO-77-117-114-97-108',
-        source: require('./../assets/sprays/SPRAY-LUCIO-77-117-114-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-77-117-114-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-77-117-114-97-108.png`,
         default: false,
         name: `Mural`,
         type: Items.TYPE.SPRAY,
@@ -18376,7 +19270,8 @@ export default {
     },
     'ICON-LUCIO-70-111-111-116-98-97-108-108': {
         uid: 'ICON-LUCIO-70-111-111-116-98-97-108-108',
-        source: require('./../assets/icons/ICON-LUCIO-70-111-111-116-98-97-108-108.png'),
+        thumbnail: require('./../assets/icons/ICON-LUCIO-70-111-111-116-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-LUCIO-70-111-111-116-98-97-108-108.png`,
         default: false,
         name: `Football`,
         type: Items.TYPE.ICON,
@@ -18387,7 +19282,8 @@ export default {
     },
     'SPRAY-LUCIO-70-111-111-116-98-97-108-108': {
         uid: 'SPRAY-LUCIO-70-111-111-116-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-LUCIO-70-111-111-116-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-70-111-111-116-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-70-111-111-116-98-97-108-108.png`,
         default: false,
         name: `Football`,
         type: Items.TYPE.SPRAY,
@@ -18448,7 +19344,8 @@ export default {
     },
     'SPRAY-LUCIO-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-LUCIO-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-LUCIO-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -18479,7 +19376,8 @@ export default {
     },
     'SPRAY-LUCIO-72-111-99-107-101-121': {
         uid: 'SPRAY-LUCIO-72-111-99-107-101-121',
-        source: require('./../assets/sprays/SPRAY-LUCIO-72-111-99-107-101-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-72-111-99-107-101-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-72-111-99-107-101-121.png`,
         default: false,
         name: `Hockey`,
         type: Items.TYPE.SPRAY,
@@ -18490,7 +19388,8 @@ export default {
     },
     'SPRAY-LUCIO-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-LUCIO-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-LUCIO-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -18521,7 +19420,8 @@ export default {
     },
     'SPRAY-LUCIO-75-101-101-112-32-85-112-115': {
         uid: 'SPRAY-LUCIO-75-101-101-112-32-85-112-115',
-        source: require('./../assets/sprays/SPRAY-LUCIO-75-101-101-112-32-85-112-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-75-101-101-112-32-85-112-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-75-101-101-112-32-85-112-115.png`,
         default: false,
         name: `Keep Ups`,
         type: Items.TYPE.SPRAY,
@@ -18532,7 +19432,8 @@ export default {
     },
     'SPRAY-LUCIO-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-LUCIO-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-LUCIO-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -18553,7 +19454,8 @@ export default {
     },
     'SPRAY-DVA-80-105-120-101-108': {
         uid: 'SPRAY-DVA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-DVA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -18564,7 +19466,8 @@ export default {
     },
     'SPRAY-DVA-67-117-116-101': {
         uid: 'SPRAY-DVA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-DVA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -18625,7 +19528,8 @@ export default {
     },
     'ICON-DVA-68-46-86-97': {
         uid: 'ICON-DVA-68-46-86-97',
-        source: require('./../assets/icons/ICON-DVA-68-46-86-97.png'),
+        thumbnail: require('./../assets/icons/ICON-DVA-68-46-86-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-DVA-68-46-86-97.png`,
         default: false,
         name: `D.Va`,
         type: Items.TYPE.ICON,
@@ -18636,7 +19540,8 @@ export default {
     },
     'ICON-DVA-66-117-110-110-121': {
         uid: 'ICON-DVA-66-117-110-110-121',
-        source: require('./../assets/icons/ICON-DVA-66-117-110-110-121.png'),
+        thumbnail: require('./../assets/icons/ICON-DVA-66-117-110-110-121.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-DVA-66-117-110-110-121.png`,
         default: false,
         name: `Bunny`,
         type: Items.TYPE.ICON,
@@ -18647,7 +19552,8 @@ export default {
     },
     'ICON-DVA-67-104-97-114-109': {
         uid: 'ICON-DVA-67-104-97-114-109',
-        source: require('./../assets/icons/ICON-DVA-67-104-97-114-109.png'),
+        thumbnail: require('./../assets/icons/ICON-DVA-67-104-97-114-109.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-DVA-67-104-97-114-109.png`,
         default: false,
         name: `Charm`,
         type: Items.TYPE.ICON,
@@ -18968,7 +19874,8 @@ export default {
     },
     'SPRAY-DVA-73-99-111-110': {
         uid: 'SPRAY-DVA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-DVA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -18979,7 +19886,8 @@ export default {
     },
     'SPRAY-DVA-66-46-78-121': {
         uid: 'SPRAY-DVA-66-46-78-121',
-        source: require('./../assets/sprays/SPRAY-DVA-66-46-78-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-66-46-78-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-66-46-78-121.png`,
         default: false,
         name: `B.Ny`,
         type: Items.TYPE.SPRAY,
@@ -18990,7 +19898,8 @@ export default {
     },
     'SPRAY-DVA-68-105-118-97': {
         uid: 'SPRAY-DVA-68-105-118-97',
-        source: require('./../assets/sprays/SPRAY-DVA-68-105-118-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-68-105-118-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-68-105-118-97.png`,
         default: false,
         name: `Diva`,
         type: Items.TYPE.SPRAY,
@@ -19001,7 +19910,8 @@ export default {
     },
     'SPRAY-DVA-76-105-103-104-116-32-71-117-110': {
         uid: 'SPRAY-DVA-76-105-103-104-116-32-71-117-110',
-        source: require('./../assets/sprays/SPRAY-DVA-76-105-103-104-116-32-71-117-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-76-105-103-104-116-32-71-117-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-76-105-103-104-116-32-71-117-110.png`,
         default: false,
         name: `Light Gun`,
         type: Items.TYPE.SPRAY,
@@ -19012,7 +19922,8 @@ export default {
     },
     'SPRAY-DVA-72-97-110-97': {
         uid: 'SPRAY-DVA-72-97-110-97',
-        source: require('./../assets/sprays/SPRAY-DVA-72-97-110-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-72-97-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-72-97-110-97.png`,
         default: false,
         name: `Hana`,
         type: Items.TYPE.SPRAY,
@@ -19023,7 +19934,8 @@ export default {
     },
     'SPRAY-DVA-85-110-108-111-97-100': {
         uid: 'SPRAY-DVA-85-110-108-111-97-100',
-        source: require('./../assets/sprays/SPRAY-DVA-85-110-108-111-97-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-85-110-108-111-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-85-110-108-111-97-100.png`,
         default: false,
         name: `Unload`,
         type: Items.TYPE.SPRAY,
@@ -19034,7 +19946,8 @@ export default {
     },
     'SPRAY-DVA-66-117-110-110-121-32-72-111-112': {
         uid: 'SPRAY-DVA-66-117-110-110-121-32-72-111-112',
-        source: require('./../assets/sprays/SPRAY-DVA-66-117-110-110-121-32-72-111-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-66-117-110-110-121-32-72-111-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-66-117-110-110-121-32-72-111-112.png`,
         default: false,
         name: `Bunny Hop`,
         type: Items.TYPE.SPRAY,
@@ -19045,7 +19958,8 @@ export default {
     },
     'SPRAY-DVA-76-111-118-101-32-68-46-86-97': {
         uid: 'SPRAY-DVA-76-111-118-101-32-68-46-86-97',
-        source: require('./../assets/sprays/SPRAY-DVA-76-111-118-101-32-68-46-86-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-76-111-118-101-32-68-46-86-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-76-111-118-101-32-68-46-86-97.png`,
         default: false,
         name: `Love D.Va`,
         type: Items.TYPE.SPRAY,
@@ -19056,7 +19970,8 @@ export default {
     },
     'SPRAY-DVA-83-97-108-116': {
         uid: 'SPRAY-DVA-83-97-108-116',
-        source: require('./../assets/sprays/SPRAY-DVA-83-97-108-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-83-97-108-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-83-97-108-116.png`,
         default: false,
         name: `Salt`,
         type: Items.TYPE.SPRAY,
@@ -19067,7 +19982,8 @@ export default {
     },
     'SPRAY-DVA-87-97-108-107-32-111-102-32-70-97-109-101': {
         uid: 'SPRAY-DVA-87-97-108-107-32-111-102-32-70-97-109-101',
-        source: require('./../assets/sprays/SPRAY-DVA-87-97-108-107-32-111-102-32-70-97-109-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-87-97-108-107-32-111-102-32-70-97-109-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-87-97-108-107-32-111-102-32-70-97-109-101.png`,
         default: false,
         name: `Walk of Fame`,
         type: Items.TYPE.SPRAY,
@@ -19078,7 +19994,8 @@ export default {
     },
     'SPRAY-DVA-83-116-97-114': {
         uid: 'SPRAY-DVA-83-116-97-114',
-        source: require('./../assets/sprays/SPRAY-DVA-83-116-97-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-83-116-97-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-83-116-97-114.png`,
         default: false,
         name: `Star`,
         type: Items.TYPE.SPRAY,
@@ -19089,7 +20006,8 @@ export default {
     },
     'SPRAY-DVA-87-97-116-99-104-105-110-103': {
         uid: 'SPRAY-DVA-87-97-116-99-104-105-110-103',
-        source: require('./../assets/sprays/SPRAY-DVA-87-97-116-99-104-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-87-97-116-99-104-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-87-97-116-99-104-105-110-103.png`,
         default: false,
         name: `Watching`,
         type: Items.TYPE.SPRAY,
@@ -19100,7 +20018,8 @@ export default {
     },
     'SPRAY-DVA-66-117-98-98-108-101': {
         uid: 'SPRAY-DVA-66-117-98-98-108-101',
-        source: require('./../assets/sprays/SPRAY-DVA-66-117-98-98-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-66-117-98-98-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-66-117-98-98-108-101.png`,
         default: false,
         name: `Bubble`,
         type: Items.TYPE.SPRAY,
@@ -19111,7 +20030,8 @@ export default {
     },
     'SPRAY-DVA-80-105-120-101-108-32-66-117-110-110-121': {
         uid: 'SPRAY-DVA-80-105-120-101-108-32-66-117-110-110-121',
-        source: require('./../assets/sprays/SPRAY-DVA-80-105-120-101-108-32-66-117-110-110-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-80-105-120-101-108-32-66-117-110-110-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-80-105-120-101-108-32-66-117-110-110-121.png`,
         default: false,
         name: `Pixel Bunny`,
         type: Items.TYPE.SPRAY,
@@ -19122,7 +20042,8 @@ export default {
     },
     'SPRAY-DVA-72-101-97-100-115-101-116': {
         uid: 'SPRAY-DVA-72-101-97-100-115-101-116',
-        source: require('./../assets/sprays/SPRAY-DVA-72-101-97-100-115-101-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-72-101-97-100-115-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-72-101-97-100-115-101-116.png`,
         default: false,
         name: `Headset`,
         type: Items.TYPE.SPRAY,
@@ -19133,7 +20054,8 @@ export default {
     },
     'SPRAY-DVA-66-117-98-98-108-101-32-71-117-109': {
         uid: 'SPRAY-DVA-66-117-98-98-108-101-32-71-117-109',
-        source: require('./../assets/sprays/SPRAY-DVA-66-117-98-98-108-101-32-71-117-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-66-117-98-98-108-101-32-71-117-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-66-117-98-98-108-101-32-71-117-109.png`,
         default: false,
         name: `Bubble Gum`,
         type: Items.TYPE.SPRAY,
@@ -19144,7 +20066,8 @@ export default {
     },
     'SPRAY-DVA-80-104-111-116-111': {
         uid: 'SPRAY-DVA-80-104-111-116-111',
-        source: require('./../assets/sprays/SPRAY-DVA-80-104-111-116-111.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-80-104-111-116-111.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-80-104-111-116-111.png`,
         default: false,
         name: `Photo`,
         type: Items.TYPE.SPRAY,
@@ -19155,7 +20078,8 @@ export default {
     },
     'SPRAY-DVA-66-97-110-103': {
         uid: 'SPRAY-DVA-66-97-110-103',
-        source: require('./../assets/sprays/SPRAY-DVA-66-97-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-66-97-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-66-97-110-103.png`,
         default: false,
         name: `Bang`,
         type: Items.TYPE.SPRAY,
@@ -19166,7 +20090,8 @@ export default {
     },
     'SPRAY-DVA-78-97-110-111-32-67-111-108-97': {
         uid: 'SPRAY-DVA-78-97-110-111-32-67-111-108-97',
-        source: require('./../assets/sprays/SPRAY-DVA-78-97-110-111-32-67-111-108-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-78-97-110-111-32-67-111-108-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-78-97-110-111-32-67-111-108-97.png`,
         default: false,
         name: `Nano Cola`,
         type: Items.TYPE.SPRAY,
@@ -19177,7 +20102,8 @@ export default {
     },
     'SPRAY-DVA-77-69-75-65': {
         uid: 'SPRAY-DVA-77-69-75-65',
-        source: require('./../assets/sprays/SPRAY-DVA-77-69-75-65.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-77-69-75-65.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-77-69-75-65.png`,
         default: false,
         name: `MEKA`,
         type: Items.TYPE.SPRAY,
@@ -19188,7 +20114,8 @@ export default {
     },
     'SPRAY-DVA-80-111-119-101-114-32-85-112-33': {
         uid: 'SPRAY-DVA-80-111-119-101-114-32-85-112-33',
-        source: require('./../assets/sprays/SPRAY-DVA-80-111-119-101-114-32-85-112-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-80-111-119-101-114-32-85-112-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-80-111-119-101-114-32-85-112-33.png`,
         default: false,
         name: `Power Up!`,
         type: Items.TYPE.SPRAY,
@@ -19199,7 +20126,8 @@ export default {
     },
     'SPRAY-DVA-71-71': {
         uid: 'SPRAY-DVA-71-71',
-        source: require('./../assets/sprays/SPRAY-DVA-71-71.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-71-71.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-71-71.png`,
         default: false,
         name: `GG`,
         type: Items.TYPE.SPRAY,
@@ -19210,7 +20138,8 @@ export default {
     },
     'SPRAY-DVA-72-101-97-114-116': {
         uid: 'SPRAY-DVA-72-101-97-114-116',
-        source: require('./../assets/sprays/SPRAY-DVA-72-101-97-114-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-72-101-97-114-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-72-101-97-114-116.png`,
         default: false,
         name: `Heart`,
         type: Items.TYPE.SPRAY,
@@ -19221,7 +20150,8 @@ export default {
     },
     'ICON-DVA-67-121-99-108-105-110-103': {
         uid: 'ICON-DVA-67-121-99-108-105-110-103',
-        source: require('./../assets/icons/ICON-DVA-67-121-99-108-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-DVA-67-121-99-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-DVA-67-121-99-108-105-110-103.png`,
         default: false,
         name: `Cycling`,
         type: Items.TYPE.ICON,
@@ -19232,7 +20162,8 @@ export default {
     },
     'SPRAY-DVA-67-121-99-108-105-110-103': {
         uid: 'SPRAY-DVA-67-121-99-108-105-110-103',
-        source: require('./../assets/sprays/SPRAY-DVA-67-121-99-108-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-67-121-99-108-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-67-121-99-108-105-110-103.png`,
         default: false,
         name: `Cycling`,
         type: Items.TYPE.SPRAY,
@@ -19263,7 +20194,8 @@ export default {
     },
     'SPRAY-DVA-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-DVA-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-DVA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -19294,7 +20226,8 @@ export default {
     },
     'SPRAY-DVA-67-79-79-75-73-69': {
         uid: 'SPRAY-DVA-67-79-79-75-73-69',
-        source: require('./../assets/sprays/SPRAY-DVA-67-79-79-75-73-69.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-67-79-79-75-73-69.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-67-79-79-75-73-69.png`,
         default: false,
         name: `COOKIE`,
         type: Items.TYPE.SPRAY,
@@ -19305,7 +20238,8 @@ export default {
     },
     'SPRAY-DVA-79-82-78-65-77-69-78-84': {
         uid: 'SPRAY-DVA-79-82-78-65-77-69-78-84',
-        source: require('./../assets/sprays/SPRAY-DVA-79-82-78-65-77-69-78-84.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-79-82-78-65-77-69-78-84.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-79-82-78-65-77-69-78-84.png`,
         default: false,
         name: `ORNAMENT`,
         type: Items.TYPE.SPRAY,
@@ -19336,7 +20270,8 @@ export default {
     },
     'SPRAY-DVA-83-101-101-115-97-119': {
         uid: 'SPRAY-DVA-83-101-101-115-97-119',
-        source: require('./../assets/sprays/SPRAY-DVA-83-101-101-115-97-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-83-101-101-115-97-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-83-101-101-115-97-119.png`,
         default: false,
         name: `Seesaw`,
         type: Items.TYPE.SPRAY,
@@ -19347,7 +20282,8 @@ export default {
     },
     'SPRAY-DVA-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-DVA-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-DVA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -19368,7 +20304,8 @@ export default {
     },
     'ICON-DVA-72-97-110-98-111-107': {
         uid: 'ICON-DVA-72-97-110-98-111-107',
-        source: require('./../assets/icons/ICON-DVA-72-97-110-98-111-107.png'),
+        thumbnail: require('./../assets/icons/ICON-DVA-72-97-110-98-111-107.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-DVA-72-97-110-98-111-107.png`,
         default: false,
         name: `Hanbok`,
         type: Items.TYPE.ICON,
@@ -19409,7 +20346,8 @@ export default {
     },
     'SPRAY-MEI-80-105-120-101-108': {
         uid: 'SPRAY-MEI-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-MEI-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -19420,7 +20358,8 @@ export default {
     },
     'SPRAY-MEI-67-117-116-101': {
         uid: 'SPRAY-MEI-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-MEI-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -19481,7 +20420,8 @@ export default {
     },
     'ICON-MEI-77-101-105': {
         uid: 'ICON-MEI-77-101-105',
-        source: require('./../assets/icons/ICON-MEI-77-101-105.png'),
+        thumbnail: require('./../assets/icons/ICON-MEI-77-101-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MEI-77-101-105.png`,
         default: false,
         name: `Mei`,
         type: Items.TYPE.ICON,
@@ -19492,7 +20432,8 @@ export default {
     },
     'ICON-MEI-83-110-111-119-98-97-108-108': {
         uid: 'ICON-MEI-83-110-111-119-98-97-108-108',
-        source: require('./../assets/icons/ICON-MEI-83-110-111-119-98-97-108-108.png'),
+        thumbnail: require('./../assets/icons/ICON-MEI-83-110-111-119-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MEI-83-110-111-119-98-97-108-108.png`,
         default: false,
         name: `Snowball`,
         type: Items.TYPE.ICON,
@@ -19503,7 +20444,8 @@ export default {
     },
     'ICON-MEI-72-97-105-114-112-105-110': {
         uid: 'ICON-MEI-72-97-105-114-112-105-110',
-        source: require('./../assets/icons/ICON-MEI-72-97-105-114-112-105-110.png'),
+        thumbnail: require('./../assets/icons/ICON-MEI-72-97-105-114-112-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MEI-72-97-105-114-112-105-110.png`,
         default: false,
         name: `Hairpin`,
         type: Items.TYPE.ICON,
@@ -19824,7 +20766,8 @@ export default {
     },
     'SPRAY-MEI-73-99-111-110': {
         uid: 'SPRAY-MEI-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-MEI-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -19835,7 +20778,8 @@ export default {
     },
     'SPRAY-MEI-66-108-97-115-116-101-114': {
         uid: 'SPRAY-MEI-66-108-97-115-116-101-114',
-        source: require('./../assets/sprays/SPRAY-MEI-66-108-97-115-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-66-108-97-115-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-66-108-97-115-116-101-114.png`,
         default: false,
         name: `Blaster`,
         type: Items.TYPE.SPRAY,
@@ -19846,7 +20790,8 @@ export default {
     },
     'SPRAY-MEI-83-110-111-119-109-97-110': {
         uid: 'SPRAY-MEI-83-110-111-119-109-97-110',
-        source: require('./../assets/sprays/SPRAY-MEI-83-110-111-119-109-97-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-110-111-119-109-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-110-111-119-109-97-110.png`,
         default: false,
         name: `Snowman`,
         type: Items.TYPE.SPRAY,
@@ -19857,7 +20802,8 @@ export default {
     },
     'SPRAY-MEI-69-121-101-115': {
         uid: 'SPRAY-MEI-69-121-101-115',
-        source: require('./../assets/sprays/SPRAY-MEI-69-121-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-69-121-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-69-121-101-115.png`,
         default: false,
         name: `Eyes`,
         type: Items.TYPE.SPRAY,
@@ -19868,7 +20814,8 @@ export default {
     },
     'SPRAY-MEI-87-97-108-108-101-100': {
         uid: 'SPRAY-MEI-87-97-108-108-101-100',
-        source: require('./../assets/sprays/SPRAY-MEI-87-97-108-108-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-87-97-108-108-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-87-97-108-108-101-100.png`,
         default: false,
         name: `Walled`,
         type: Items.TYPE.SPRAY,
@@ -19879,7 +20826,8 @@ export default {
     },
     'SPRAY-MEI-82-101-97-100-105-110-103': {
         uid: 'SPRAY-MEI-82-101-97-100-105-110-103',
-        source: require('./../assets/sprays/SPRAY-MEI-82-101-97-100-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-82-101-97-100-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-82-101-97-100-105-110-103.png`,
         default: false,
         name: `Reading`,
         type: Items.TYPE.SPRAY,
@@ -19890,7 +20838,8 @@ export default {
     },
     'SPRAY-MEI-77-101-105-39-115-32-74-111-117-114-110-97-108': {
         uid: 'SPRAY-MEI-77-101-105-39-115-32-74-111-117-114-110-97-108',
-        source: require('./../assets/sprays/SPRAY-MEI-77-101-105-39-115-32-74-111-117-114-110-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-77-101-105-39-115-32-74-111-117-114-110-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-77-101-105-39-115-32-74-111-117-114-110-97-108.png`,
         default: false,
         name: `Mei's Journal`,
         type: Items.TYPE.SPRAY,
@@ -19901,7 +20850,8 @@ export default {
     },
     'SPRAY-MEI-83-109-105-108-101': {
         uid: 'SPRAY-MEI-83-109-105-108-101',
-        source: require('./../assets/sprays/SPRAY-MEI-83-109-105-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-109-105-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-109-105-108-101.png`,
         default: false,
         name: `Smile`,
         type: Items.TYPE.SPRAY,
@@ -19912,7 +20862,8 @@ export default {
     },
     'SPRAY-MEI-68-105-122-122-121': {
         uid: 'SPRAY-MEI-68-105-122-122-121',
-        source: require('./../assets/sprays/SPRAY-MEI-68-105-122-122-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-68-105-122-122-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-68-105-122-122-121.png`,
         default: false,
         name: `Dizzy`,
         type: Items.TYPE.SPRAY,
@@ -19923,7 +20874,8 @@ export default {
     },
     'SPRAY-MEI-83-107-101-116-99-104': {
         uid: 'SPRAY-MEI-83-107-101-116-99-104',
-        source: require('./../assets/sprays/SPRAY-MEI-83-107-101-116-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-107-101-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-107-101-116-99-104.png`,
         default: false,
         name: `Sketch`,
         type: Items.TYPE.SPRAY,
@@ -19934,7 +20886,8 @@ export default {
     },
     'SPRAY-MEI-69-120-112-108-111-114-101-114': {
         uid: 'SPRAY-MEI-69-120-112-108-111-114-101-114',
-        source: require('./../assets/sprays/SPRAY-MEI-69-120-112-108-111-114-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-69-120-112-108-111-114-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-69-120-112-108-111-114-101-114.png`,
         default: false,
         name: `Explorer`,
         type: Items.TYPE.SPRAY,
@@ -19945,7 +20898,8 @@ export default {
     },
     'SPRAY-MEI-80-111-112-115-105-99-108-101': {
         uid: 'SPRAY-MEI-80-111-112-115-105-99-108-101',
-        source: require('./../assets/sprays/SPRAY-MEI-80-111-112-115-105-99-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-80-111-112-115-105-99-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-80-111-112-115-105-99-108-101.png`,
         default: false,
         name: `Popsicle`,
         type: Items.TYPE.SPRAY,
@@ -19956,7 +20910,8 @@ export default {
     },
     'SPRAY-MEI-72-97-105-114-112-105-110': {
         uid: 'SPRAY-MEI-72-97-105-114-112-105-110',
-        source: require('./../assets/sprays/SPRAY-MEI-72-97-105-114-112-105-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-72-97-105-114-112-105-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-72-97-105-114-112-105-110.png`,
         default: false,
         name: `Hairpin`,
         type: Items.TYPE.SPRAY,
@@ -19967,7 +20922,8 @@ export default {
     },
     'SPRAY-MEI-80-114-105-110-116': {
         uid: 'SPRAY-MEI-80-114-105-110-116',
-        source: require('./../assets/sprays/SPRAY-MEI-80-114-105-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-80-114-105-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-80-114-105-110-116.png`,
         default: false,
         name: `Print`,
         type: Items.TYPE.SPRAY,
@@ -19978,7 +20934,8 @@ export default {
     },
     'SPRAY-MEI-83-110-111-119-32-65-114-116': {
         uid: 'SPRAY-MEI-83-110-111-119-32-65-114-116',
-        source: require('./../assets/sprays/SPRAY-MEI-83-110-111-119-32-65-114-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-110-111-119-32-65-114-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-110-111-119-32-65-114-116.png`,
         default: false,
         name: `Snow Art`,
         type: Items.TYPE.SPRAY,
@@ -19989,7 +20946,8 @@ export default {
     },
     'SPRAY-MEI-94-95-94': {
         uid: 'SPRAY-MEI-94-95-94',
-        source: require('./../assets/sprays/SPRAY-MEI-94-95-94.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-94-95-94.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-94-95-94.png`,
         default: false,
         name: `^_^`,
         type: Items.TYPE.SPRAY,
@@ -20000,7 +20958,8 @@ export default {
     },
     'SPRAY-MEI-62-95-92-60': {
         uid: 'SPRAY-MEI-62-95-92-60',
-        source: require('./../assets/sprays/SPRAY-MEI-62-95-92-60.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-62-95-92-60.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-62-95-92-60.png`,
         default: false,
         name: `>_<`,
         type: Items.TYPE.SPRAY,
@@ -20011,7 +20970,8 @@ export default {
     },
     'SPRAY-MEI-67-111-110-102-105-100-101-110-116': {
         uid: 'SPRAY-MEI-67-111-110-102-105-100-101-110-116',
-        source: require('./../assets/sprays/SPRAY-MEI-67-111-110-102-105-100-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-67-111-110-102-105-100-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-67-111-110-102-105-100-101-110-116.png`,
         default: false,
         name: `Confident`,
         type: Items.TYPE.SPRAY,
@@ -20022,7 +20982,8 @@ export default {
     },
     'SPRAY-MEI-67-97-115-117-97-108': {
         uid: 'SPRAY-MEI-67-97-115-117-97-108',
-        source: require('./../assets/sprays/SPRAY-MEI-67-97-115-117-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-67-97-115-117-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-67-97-115-117-97-108.png`,
         default: false,
         name: `Casual`,
         type: Items.TYPE.SPRAY,
@@ -20033,7 +20994,8 @@ export default {
     },
     'SPRAY-MEI-83-110-111-119-98-97-108-108': {
         uid: 'SPRAY-MEI-83-110-111-119-98-97-108-108',
-        source: require('./../assets/sprays/SPRAY-MEI-83-110-111-119-98-97-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-110-111-119-98-97-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-110-111-119-98-97-108-108.png`,
         default: false,
         name: `Snowball`,
         type: Items.TYPE.SPRAY,
@@ -20044,7 +21006,8 @@ export default {
     },
     'SPRAY-MEI-66-101-97-116-32-116-104-101-32-72-101-97-116': {
         uid: 'SPRAY-MEI-66-101-97-116-32-116-104-101-32-72-101-97-116',
-        source: require('./../assets/sprays/SPRAY-MEI-66-101-97-116-32-116-104-101-32-72-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-66-101-97-116-32-116-104-101-32-72-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-66-101-97-116-32-116-104-101-32-72-101-97-116.png`,
         default: false,
         name: `Beat the Heat`,
         type: Items.TYPE.SPRAY,
@@ -20055,7 +21018,8 @@ export default {
     },
     'SPRAY-MEI-67-97-114-101-102-114-101-101': {
         uid: 'SPRAY-MEI-67-97-114-101-102-114-101-101',
-        source: require('./../assets/sprays/SPRAY-MEI-67-97-114-101-102-114-101-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-67-97-114-101-102-114-101-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-67-97-114-101-102-114-101-101.png`,
         default: false,
         name: `Carefree`,
         type: Items.TYPE.SPRAY,
@@ -20066,7 +21030,8 @@ export default {
     },
     'SPRAY-MEI-83-111-102-116-32-83-101-114-118-101': {
         uid: 'SPRAY-MEI-83-111-102-116-32-83-101-114-118-101',
-        source: require('./../assets/sprays/SPRAY-MEI-83-111-102-116-32-83-101-114-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-111-102-116-32-83-101-114-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-111-102-116-32-83-101-114-118-101.png`,
         default: false,
         name: `Soft Serve`,
         type: Items.TYPE.SPRAY,
@@ -20077,7 +21042,8 @@ export default {
     },
     'ICON-MEI-84-97-98-108-101-32-84-101-110-110-105-115': {
         uid: 'ICON-MEI-84-97-98-108-101-32-84-101-110-110-105-115',
-        source: require('./../assets/icons/ICON-MEI-84-97-98-108-101-32-84-101-110-110-105-115.png'),
+        thumbnail: require('./../assets/icons/ICON-MEI-84-97-98-108-101-32-84-101-110-110-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MEI-84-97-98-108-101-32-84-101-110-110-105-115.png`,
         default: false,
         name: `Table Tennis`,
         type: Items.TYPE.ICON,
@@ -20088,7 +21054,8 @@ export default {
     },
     'SPRAY-MEI-84-97-98-108-101-32-84-101-110-110-105-115': {
         uid: 'SPRAY-MEI-84-97-98-108-101-32-84-101-110-110-105-115',
-        source: require('./../assets/sprays/SPRAY-MEI-84-97-98-108-101-32-84-101-110-110-105-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-84-97-98-108-101-32-84-101-110-110-105-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-84-97-98-108-101-32-84-101-110-110-105-115.png`,
         default: false,
         name: `Table Tennis`,
         type: Items.TYPE.SPRAY,
@@ -20119,7 +21086,8 @@ export default {
     },
     'SPRAY-MEI-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-MEI-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-MEI-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -20160,7 +21128,8 @@ export default {
     },
     'SPRAY-MEI-83-99-117-108-112-116-105-110-103': {
         uid: 'SPRAY-MEI-83-99-117-108-112-116-105-110-103',
-        source: require('./../assets/sprays/SPRAY-MEI-83-99-117-108-112-116-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-83-99-117-108-112-116-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-83-99-117-108-112-116-105-110-103.png`,
         default: false,
         name: `Sculpting`,
         type: Items.TYPE.SPRAY,
@@ -20171,7 +21140,8 @@ export default {
     },
     'SPRAY-MEI-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-MEI-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-MEI-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -20212,7 +21182,8 @@ export default {
     },
     'SPRAY-MEI-70-111-114-116-117-110-101': {
         uid: 'SPRAY-MEI-70-111-114-116-117-110-101',
-        source: require('./../assets/sprays/SPRAY-MEI-70-111-114-116-117-110-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-70-111-114-116-117-110-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-70-111-114-116-117-110-101.png`,
         default: false,
         name: `Fortune`,
         type: Items.TYPE.SPRAY,
@@ -20223,7 +21194,8 @@ export default {
     },
     'SPRAY-MEI-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-MEI-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-MEI-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -20244,7 +21216,8 @@ export default {
     },
     'ICON-MEI-67-104-97-110-103-39-101': {
         uid: 'ICON-MEI-67-104-97-110-103-39-101',
-        source: require('./../assets/icons/ICON-MEI-67-104-97-110-103-39-101.png'),
+        thumbnail: require('./../assets/icons/ICON-MEI-67-104-97-110-103-39-101.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MEI-67-104-97-110-103-39-101.png`,
         default: false,
         name: `Chang'e`,
         type: Items.TYPE.ICON,
@@ -20295,7 +21268,8 @@ export default {
     },
     'SPRAY-SOMBRA-80-105-120-101-108': {
         uid: 'SPRAY-SOMBRA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -20306,7 +21280,8 @@ export default {
     },
     'SPRAY-SOMBRA-67-117-116-101': {
         uid: 'SPRAY-SOMBRA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -20367,7 +21342,8 @@ export default {
     },
     'ICON-SOMBRA-83-111-109-98-114-97': {
         uid: 'ICON-SOMBRA-83-111-109-98-114-97',
-        source: require('./../assets/icons/ICON-SOMBRA-83-111-109-98-114-97.png'),
+        thumbnail: require('./../assets/icons/ICON-SOMBRA-83-111-109-98-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOMBRA-83-111-109-98-114-97.png`,
         default: false,
         name: `Sombra`,
         type: Items.TYPE.ICON,
@@ -20378,7 +21354,8 @@ export default {
     },
     'ICON-SOMBRA-83-107-117-108-108': {
         uid: 'ICON-SOMBRA-83-107-117-108-108',
-        source: require('./../assets/icons/ICON-SOMBRA-83-107-117-108-108.png'),
+        thumbnail: require('./../assets/icons/ICON-SOMBRA-83-107-117-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOMBRA-83-107-117-108-108.png`,
         default: false,
         name: `Skull`,
         type: Items.TYPE.ICON,
@@ -20389,7 +21366,8 @@ export default {
     },
     'ICON-SOMBRA-72-97-99-107-101-114': {
         uid: 'ICON-SOMBRA-72-97-99-107-101-114',
-        source: require('./../assets/icons/ICON-SOMBRA-72-97-99-107-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-SOMBRA-72-97-99-107-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-SOMBRA-72-97-99-107-101-114.png`,
         default: false,
         name: `Hacker`,
         type: Items.TYPE.ICON,
@@ -20690,7 +21668,8 @@ export default {
     },
     'SPRAY-SOMBRA-77-97-114-105-111-110-101-116-116-101': {
         uid: 'SPRAY-SOMBRA-77-97-114-105-111-110-101-116-116-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-77-97-114-105-111-110-101-116-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-77-97-114-105-111-110-101-116-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-77-97-114-105-111-110-101-116-116-101.png`,
         default: false,
         name: `Marionette`,
         type: Items.TYPE.SPRAY,
@@ -20701,7 +21680,8 @@ export default {
     },
     'SPRAY-SOMBRA-67-97-108-97-118-101-114-97': {
         uid: 'SPRAY-SOMBRA-67-97-108-97-118-101-114-97',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-67-97-108-97-118-101-114-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-67-97-108-97-118-101-114-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-67-97-108-97-118-101-114-97.png`,
         default: false,
         name: `Calavera`,
         type: Items.TYPE.SPRAY,
@@ -20712,7 +21692,8 @@ export default {
     },
     'SPRAY-SOMBRA-78-101-117-114-97-108': {
         uid: 'SPRAY-SOMBRA-78-101-117-114-97-108',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-78-101-117-114-97-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-78-101-117-114-97-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-78-101-117-114-97-108.png`,
         default: false,
         name: `Neural`,
         type: Items.TYPE.SPRAY,
@@ -20723,7 +21704,8 @@ export default {
     },
     'SPRAY-SOMBRA-72-97-99-107-101-100': {
         uid: 'SPRAY-SOMBRA-72-97-99-107-101-100',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-72-97-99-107-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-72-97-99-107-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-72-97-99-107-101-100.png`,
         default: false,
         name: `Hacked`,
         type: Items.TYPE.SPRAY,
@@ -20734,7 +21716,8 @@ export default {
     },
     'SPRAY-SOMBRA-86-105-114-117-115': {
         uid: 'SPRAY-SOMBRA-86-105-114-117-115',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-86-105-114-117-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-86-105-114-117-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-86-105-114-117-115.png`,
         default: false,
         name: `Virus`,
         type: Items.TYPE.SPRAY,
@@ -20745,7 +21728,8 @@ export default {
     },
     'SPRAY-SOMBRA-73-108-108-117-115-105-118-101': {
         uid: 'SPRAY-SOMBRA-73-108-108-117-115-105-118-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-73-108-108-117-115-105-118-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-73-108-108-117-115-105-118-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-73-108-108-117-115-105-118-101.png`,
         default: false,
         name: `Illusive`,
         type: Items.TYPE.SPRAY,
@@ -20756,7 +21740,8 @@ export default {
     },
     'SPRAY-SOMBRA-77-97-99-104-105-110-101-32-80-105-115-116-111-108': {
         uid: 'SPRAY-SOMBRA-77-97-99-104-105-110-101-32-80-105-115-116-111-108',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-77-97-99-104-105-110-101-32-80-105-115-116-111-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-77-97-99-104-105-110-101-32-80-105-115-116-111-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-77-97-99-104-105-110-101-32-80-105-115-116-111-108.png`,
         default: false,
         name: `Machine Pistol`,
         type: Items.TYPE.SPRAY,
@@ -20767,7 +21752,8 @@ export default {
     },
     'SPRAY-SOMBRA-85-110-108-111-99-107-101-100': {
         uid: 'SPRAY-SOMBRA-85-110-108-111-99-107-101-100',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-85-110-108-111-99-107-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-85-110-108-111-99-107-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-85-110-108-111-99-107-101-100.png`,
         default: false,
         name: `Unlocked`,
         type: Items.TYPE.SPRAY,
@@ -20778,7 +21764,8 @@ export default {
     },
     'SPRAY-SOMBRA-191-81-117-105-233-110-63': {
         uid: 'SPRAY-SOMBRA-191-81-117-105-233-110-63',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-191-81-117-105-233-110-63.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-191-81-117-105-233-110-63.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-191-81-117-105-233-110-63.png`,
         default: false,
         name: `¿Quién?`,
         type: Items.TYPE.SPRAY,
@@ -20789,7 +21776,8 @@ export default {
     },
     'SPRAY-SOMBRA-84-114-97-110-115-108-111-99-97-116-111-114': {
         uid: 'SPRAY-SOMBRA-84-114-97-110-115-108-111-99-97-116-111-114',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-84-114-97-110-115-108-111-99-97-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-84-114-97-110-115-108-111-99-97-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-84-114-97-110-115-108-111-99-97-116-111-114.png`,
         default: false,
         name: `Translocator`,
         type: Items.TYPE.SPRAY,
@@ -20800,7 +21788,8 @@ export default {
     },
     'SPRAY-SOMBRA-83-117-112-101-114-105-111-114': {
         uid: 'SPRAY-SOMBRA-83-117-112-101-114-105-111-114',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-83-117-112-101-114-105-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-83-117-112-101-114-105-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-83-117-112-101-114-105-111-114.png`,
         default: false,
         name: `Superior`,
         type: Items.TYPE.SPRAY,
@@ -20811,7 +21800,8 @@ export default {
     },
     'SPRAY-SOMBRA-80-111-119-101-114': {
         uid: 'SPRAY-SOMBRA-80-111-119-101-114',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-80-111-119-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-80-111-119-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-80-111-119-101-114.png`,
         default: false,
         name: `Power`,
         type: Items.TYPE.SPRAY,
@@ -20822,7 +21812,8 @@ export default {
     },
     'SPRAY-SOMBRA-53-107-117-108-108': {
         uid: 'SPRAY-SOMBRA-53-107-117-108-108',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-53-107-117-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-53-107-117-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-53-107-117-108-108.png`,
         default: false,
         name: `5kull`,
         type: Items.TYPE.SPRAY,
@@ -20833,7 +21824,8 @@ export default {
     },
     'SPRAY-SOMBRA-84-97-103-103-101-100': {
         uid: 'SPRAY-SOMBRA-84-97-103-103-101-100',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-84-97-103-103-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-84-97-103-103-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-84-97-103-103-101-100.png`,
         default: false,
         name: `Tagged`,
         type: Items.TYPE.SPRAY,
@@ -20844,7 +21836,8 @@ export default {
     },
     'SPRAY-SOMBRA-69-121-101-115': {
         uid: 'SPRAY-SOMBRA-69-121-101-115',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-69-121-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-69-121-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-69-121-101-115.png`,
         default: false,
         name: `Eyes`,
         type: Items.TYPE.SPRAY,
@@ -20855,7 +21848,8 @@ export default {
     },
     'SPRAY-SOMBRA-83-107-121-99-111-100-101': {
         uid: 'SPRAY-SOMBRA-83-107-121-99-111-100-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-83-107-121-99-111-100-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-83-107-121-99-111-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-83-107-121-99-111-100-101.png`,
         default: false,
         name: `Skycode`,
         type: Items.TYPE.SPRAY,
@@ -20866,7 +21860,8 @@ export default {
     },
     'SPRAY-SOMBRA-87-101-98': {
         uid: 'SPRAY-SOMBRA-87-101-98',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-87-101-98.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-87-101-98.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-87-101-98.png`,
         default: false,
         name: `Web`,
         type: Items.TYPE.SPRAY,
@@ -20877,7 +21872,8 @@ export default {
     },
     'SPRAY-SOMBRA-83-107-117-108-108': {
         uid: 'SPRAY-SOMBRA-83-107-117-108-108',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-83-107-117-108-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-83-107-117-108-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-83-107-117-108-108.png`,
         default: false,
         name: `Skull`,
         type: Items.TYPE.SPRAY,
@@ -20888,7 +21884,8 @@ export default {
     },
     'SPRAY-SOMBRA-75-101-121': {
         uid: 'SPRAY-SOMBRA-75-101-121',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-75-101-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-75-101-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-75-101-121.png`,
         default: false,
         name: `Key`,
         type: Items.TYPE.SPRAY,
@@ -20899,7 +21896,8 @@ export default {
     },
     'SPRAY-SOMBRA-72-97-99-107-101-100-32-116-104-101-32-77-111-111-110': {
         uid: 'SPRAY-SOMBRA-72-97-99-107-101-100-32-116-104-101-32-77-111-111-110',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-72-97-99-107-101-100-32-116-104-101-32-77-111-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-72-97-99-107-101-100-32-116-104-101-32-77-111-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-72-97-99-107-101-100-32-116-104-101-32-77-111-111-110.png`,
         default: false,
         name: `Hacked the Moon`,
         type: Items.TYPE.SPRAY,
@@ -20910,7 +21908,8 @@ export default {
     },
     'SPRAY-SOMBRA-65-103-101-110-116': {
         uid: 'SPRAY-SOMBRA-65-103-101-110-116',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-65-103-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-65-103-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-65-103-101-110-116.png`,
         default: false,
         name: `Agent`,
         type: Items.TYPE.SPRAY,
@@ -20921,7 +21920,8 @@ export default {
     },
     'SPRAY-SOMBRA-72-97-99-107-101-114': {
         uid: 'SPRAY-SOMBRA-72-97-99-107-101-114',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-72-97-99-107-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-72-97-99-107-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-72-97-99-107-101-114.png`,
         default: false,
         name: `Hacker`,
         type: Items.TYPE.SPRAY,
@@ -20932,7 +21932,8 @@ export default {
     },
     'SPRAY-SOMBRA-68-101-97-102-45-77-117-116-101': {
         uid: 'SPRAY-SOMBRA-68-101-97-102-45-77-117-116-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-68-101-97-102-45-77-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-68-101-97-102-45-77-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-68-101-97-102-45-77-117-116-101.png`,
         default: false,
         name: `Deaf-Mute`,
         type: Items.TYPE.SPRAY,
@@ -20943,7 +21944,8 @@ export default {
     },
     'SPRAY-SOMBRA-80-117-122-122-108-101': {
         uid: 'SPRAY-SOMBRA-80-117-122-122-108-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-80-117-122-122-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-80-117-122-122-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-80-117-122-122-108-101.png`,
         default: false,
         name: `Puzzle`,
         type: Items.TYPE.SPRAY,
@@ -20954,7 +21956,8 @@ export default {
     },
     'SPRAY-SOMBRA-66-101-104-105-110-100-32-89-111-117': {
         uid: 'SPRAY-SOMBRA-66-101-104-105-110-100-32-89-111-117',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-66-101-104-105-110-100-32-89-111-117.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-66-101-104-105-110-100-32-89-111-117.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-66-101-104-105-110-100-32-89-111-117.png`,
         default: false,
         name: `Behind You`,
         type: Items.TYPE.SPRAY,
@@ -20965,7 +21968,8 @@ export default {
     },
     'SPRAY-SOMBRA-73-99-111-110': {
         uid: 'SPRAY-SOMBRA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -20986,7 +21990,8 @@ export default {
     },
     'SPRAY-SOMBRA-80-117-112-112-101-116': {
         uid: 'SPRAY-SOMBRA-80-117-112-112-101-116',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-80-117-112-112-101-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-80-117-112-112-101-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-80-117-112-112-101-116.png`,
         default: false,
         name: `Puppet`,
         type: Items.TYPE.SPRAY,
@@ -20997,7 +22002,8 @@ export default {
     },
     'SPRAY-SOMBRA-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-SOMBRA-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -21028,7 +22034,8 @@ export default {
     },
     'SPRAY-SOMBRA-70-111-114-116-117-110-97-116-101': {
         uid: 'SPRAY-SOMBRA-70-111-114-116-117-110-97-116-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-70-111-114-116-117-110-97-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-70-111-114-116-117-110-97-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-70-111-114-116-117-110-97-116-101.png`,
         default: false,
         name: `Fortunate`,
         type: Items.TYPE.SPRAY,
@@ -21039,7 +22046,8 @@ export default {
     },
     'SPRAY-SOMBRA-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-SOMBRA-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -21070,7 +22078,8 @@ export default {
     },
     'SPRAY-ANA-80-105-120-101-108': {
         uid: 'SPRAY-ANA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-ANA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -21081,7 +22090,8 @@ export default {
     },
     'SPRAY-ANA-67-117-116-101': {
         uid: 'SPRAY-ANA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-ANA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -21142,7 +22152,8 @@ export default {
     },
     'ICON-ANA-65-110-97': {
         uid: 'ICON-ANA-65-110-97',
-        source: require('./../assets/icons/ICON-ANA-65-110-97.png'),
+        thumbnail: require('./../assets/icons/ICON-ANA-65-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ANA-65-110-97.png`,
         default: false,
         name: `Ana`,
         type: Items.TYPE.ICON,
@@ -21153,7 +22164,8 @@ export default {
     },
     'ICON-ANA-87-101-100-106-97-116': {
         uid: 'ICON-ANA-87-101-100-106-97-116',
-        source: require('./../assets/icons/ICON-ANA-87-101-100-106-97-116.png'),
+        thumbnail: require('./../assets/icons/ICON-ANA-87-101-100-106-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ANA-87-101-100-106-97-116.png`,
         default: false,
         name: `Wedjat`,
         type: Items.TYPE.ICON,
@@ -21164,7 +22176,8 @@ export default {
     },
     'ICON-ANA-87-97-116-99-104-101-114': {
         uid: 'ICON-ANA-87-97-116-99-104-101-114',
-        source: require('./../assets/icons/ICON-ANA-87-97-116-99-104-101-114.png'),
+        thumbnail: require('./../assets/icons/ICON-ANA-87-97-116-99-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ANA-87-97-116-99-104-101-114.png`,
         default: false,
         name: `Watcher`,
         type: Items.TYPE.ICON,
@@ -21485,7 +22498,8 @@ export default {
     },
     'SPRAY-ANA-79-108-100-32-83-111-108-100-105-101-114': {
         uid: 'SPRAY-ANA-79-108-100-32-83-111-108-100-105-101-114',
-        source: require('./../assets/sprays/SPRAY-ANA-79-108-100-32-83-111-108-100-105-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-79-108-100-32-83-111-108-100-105-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-79-108-100-32-83-111-108-100-105-101-114.png`,
         default: false,
         name: `Old Soldier`,
         type: Items.TYPE.SPRAY,
@@ -21496,7 +22510,8 @@ export default {
     },
     'SPRAY-ANA-65-110-97': {
         uid: 'SPRAY-ANA-65-110-97',
-        source: require('./../assets/sprays/SPRAY-ANA-65-110-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-65-110-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-65-110-97.png`,
         default: false,
         name: `Ana`,
         type: Items.TYPE.SPRAY,
@@ -21507,7 +22522,8 @@ export default {
     },
     'SPRAY-ANA-65-99-116-105-111-110': {
         uid: 'SPRAY-ANA-65-99-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-ANA-65-99-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-65-99-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-65-99-116-105-111-110.png`,
         default: false,
         name: `Action`,
         type: Items.TYPE.SPRAY,
@@ -21518,7 +22534,8 @@ export default {
     },
     'SPRAY-ANA-87-101-100-106-97-116': {
         uid: 'SPRAY-ANA-87-101-100-106-97-116',
-        source: require('./../assets/sprays/SPRAY-ANA-87-101-100-106-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-87-101-100-106-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-87-101-100-106-97-116.png`,
         default: false,
         name: `Wedjat`,
         type: Items.TYPE.SPRAY,
@@ -21529,7 +22546,8 @@ export default {
     },
     'SPRAY-ANA-67-114-97-99-107-101-100': {
         uid: 'SPRAY-ANA-67-114-97-99-107-101-100',
-        source: require('./../assets/sprays/SPRAY-ANA-67-114-97-99-107-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-67-114-97-99-107-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-67-114-97-99-107-101-100.png`,
         default: false,
         name: `Cracked`,
         type: Items.TYPE.SPRAY,
@@ -21540,7 +22558,8 @@ export default {
     },
     'SPRAY-ANA-82-105-102-108-101': {
         uid: 'SPRAY-ANA-82-105-102-108-101',
-        source: require('./../assets/sprays/SPRAY-ANA-82-105-102-108-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-82-105-102-108-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-82-105-102-108-101.png`,
         default: false,
         name: `Rifle`,
         type: Items.TYPE.SPRAY,
@@ -21551,7 +22570,8 @@ export default {
     },
     'SPRAY-ANA-87-114-105-115-116-32-76-97-117-110-99-104-101-114': {
         uid: 'SPRAY-ANA-87-114-105-115-116-32-76-97-117-110-99-104-101-114',
-        source: require('./../assets/sprays/SPRAY-ANA-87-114-105-115-116-32-76-97-117-110-99-104-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-87-114-105-115-116-32-76-97-117-110-99-104-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-87-114-105-115-116-32-76-97-117-110-99-104-101-114.png`,
         default: false,
         name: `Wrist Launcher`,
         type: Items.TYPE.SPRAY,
@@ -21562,7 +22582,8 @@ export default {
     },
     'SPRAY-ANA-71-97-122-101': {
         uid: 'SPRAY-ANA-71-97-122-101',
-        source: require('./../assets/sprays/SPRAY-ANA-71-97-122-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-71-97-122-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-71-97-122-101.png`,
         default: false,
         name: `Gaze`,
         type: Items.TYPE.SPRAY,
@@ -21573,7 +22594,8 @@ export default {
     },
     'SPRAY-ANA-69-121-101-112-97-116-99-104': {
         uid: 'SPRAY-ANA-69-121-101-112-97-116-99-104',
-        source: require('./../assets/sprays/SPRAY-ANA-69-121-101-112-97-116-99-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-69-121-101-112-97-116-99-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-69-121-101-112-97-116-99-104.png`,
         default: false,
         name: `Eyepatch`,
         type: Items.TYPE.SPRAY,
@@ -21584,7 +22606,8 @@ export default {
     },
     'SPRAY-ANA-79-118-101-114-104-101-97-100': {
         uid: 'SPRAY-ANA-79-118-101-114-104-101-97-100',
-        source: require('./../assets/sprays/SPRAY-ANA-79-118-101-114-104-101-97-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-79-118-101-114-104-101-97-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-79-118-101-114-104-101-97-100.png`,
         default: false,
         name: `Overhead`,
         type: Items.TYPE.SPRAY,
@@ -21595,7 +22618,8 @@ export default {
     },
     'SPRAY-ANA-80-104-111-116-111-103-114-97-112-104': {
         uid: 'SPRAY-ANA-80-104-111-116-111-103-114-97-112-104',
-        source: require('./../assets/sprays/SPRAY-ANA-80-104-111-116-111-103-114-97-112-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-80-104-111-116-111-103-114-97-112-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-80-104-111-116-111-103-114-97-112-104.png`,
         default: false,
         name: `Photograph`,
         type: Items.TYPE.SPRAY,
@@ -21606,7 +22630,8 @@ export default {
     },
     'SPRAY-ANA-83-105-100-101-97-114-109': {
         uid: 'SPRAY-ANA-83-105-100-101-97-114-109',
-        source: require('./../assets/sprays/SPRAY-ANA-83-105-100-101-97-114-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-83-105-100-101-97-114-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-83-105-100-101-97-114-109.png`,
         default: false,
         name: `Sidearm`,
         type: Items.TYPE.SPRAY,
@@ -21617,7 +22642,8 @@ export default {
     },
     'SPRAY-ANA-71-117-97-114-100-105-97-110': {
         uid: 'SPRAY-ANA-71-117-97-114-100-105-97-110',
-        source: require('./../assets/sprays/SPRAY-ANA-71-117-97-114-100-105-97-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-71-117-97-114-100-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-71-117-97-114-100-105-97-110.png`,
         default: false,
         name: `Guardian`,
         type: Items.TYPE.SPRAY,
@@ -21628,7 +22654,8 @@ export default {
     },
     'SPRAY-ANA-72-101-115-105-116-97-116-105-111-110': {
         uid: 'SPRAY-ANA-72-101-115-105-116-97-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-ANA-72-101-115-105-116-97-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-72-101-115-105-116-97-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-72-101-115-105-116-97-116-105-111-110.png`,
         default: false,
         name: `Hesitation`,
         type: Items.TYPE.SPRAY,
@@ -21639,7 +22666,8 @@ export default {
     },
     'SPRAY-ANA-83-104-97-100-111-119': {
         uid: 'SPRAY-ANA-83-104-97-100-111-119',
-        source: require('./../assets/sprays/SPRAY-ANA-83-104-97-100-111-119.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-83-104-97-100-111-119.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-83-104-97-100-111-119.png`,
         default: false,
         name: `Shadow`,
         type: Items.TYPE.SPRAY,
@@ -21650,7 +22678,8 @@ export default {
     },
     'SPRAY-ANA-71-114-101-110-97-100-101': {
         uid: 'SPRAY-ANA-71-114-101-110-97-100-101',
-        source: require('./../assets/sprays/SPRAY-ANA-71-114-101-110-97-100-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-71-114-101-110-97-100-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-71-114-101-110-97-100-101.png`,
         default: false,
         name: `Grenade`,
         type: Items.TYPE.SPRAY,
@@ -21661,7 +22690,8 @@ export default {
     },
     'SPRAY-ANA-70-97-114-101-101-104-97': {
         uid: 'SPRAY-ANA-70-97-114-101-101-104-97',
-        source: require('./../assets/sprays/SPRAY-ANA-70-97-114-101-101-104-97.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-70-97-114-101-101-104-97.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-70-97-114-101-101-104-97.png`,
         default: false,
         name: `Fareeha`,
         type: Items.TYPE.SPRAY,
@@ -21672,7 +22702,8 @@ export default {
     },
     'SPRAY-ANA-90-122-122': {
         uid: 'SPRAY-ANA-90-122-122',
-        source: require('./../assets/sprays/SPRAY-ANA-90-122-122.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-90-122-122.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-90-122-122.png`,
         default: false,
         name: `Zzz`,
         type: Items.TYPE.SPRAY,
@@ -21683,7 +22714,8 @@ export default {
     },
     'SPRAY-ANA-66-101-97-114-101-114': {
         uid: 'SPRAY-ANA-66-101-97-114-101-114',
-        source: require('./../assets/sprays/SPRAY-ANA-66-101-97-114-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-66-101-97-114-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-66-101-97-114-101-114.png`,
         default: false,
         name: `Bearer`,
         type: Items.TYPE.SPRAY,
@@ -21694,7 +22726,8 @@ export default {
     },
     'SPRAY-ANA-76-101-116-116-101-114': {
         uid: 'SPRAY-ANA-76-101-116-116-101-114',
-        source: require('./../assets/sprays/SPRAY-ANA-76-101-116-116-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-76-101-116-116-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-76-101-116-116-101-114.png`,
         default: false,
         name: `Letter`,
         type: Items.TYPE.SPRAY,
@@ -21705,7 +22738,8 @@ export default {
     },
     'SPRAY-ANA-67-104-101-101-114': {
         uid: 'SPRAY-ANA-67-104-101-101-114',
-        source: require('./../assets/sprays/SPRAY-ANA-67-104-101-101-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-67-104-101-101-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-67-104-101-101-114.png`,
         default: false,
         name: `Cheer`,
         type: Items.TYPE.SPRAY,
@@ -21716,7 +22750,8 @@ export default {
     },
     'SPRAY-ANA-83-104-104-104': {
         uid: 'SPRAY-ANA-83-104-104-104',
-        source: require('./../assets/sprays/SPRAY-ANA-83-104-104-104.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-83-104-104-104.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-83-104-104-104.png`,
         default: false,
         name: `Shhh`,
         type: Items.TYPE.SPRAY,
@@ -21727,7 +22762,8 @@ export default {
     },
     'SPRAY-ANA-73-99-111-110': {
         uid: 'SPRAY-ANA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-ANA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -21738,7 +22774,8 @@ export default {
     },
     'ICON-ANA-83-104-111-111-116-105-110-103': {
         uid: 'ICON-ANA-83-104-111-111-116-105-110-103',
-        source: require('./../assets/icons/ICON-ANA-83-104-111-111-116-105-110-103.png'),
+        thumbnail: require('./../assets/icons/ICON-ANA-83-104-111-111-116-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ANA-83-104-111-111-116-105-110-103.png`,
         default: false,
         name: `Shooting`,
         type: Items.TYPE.ICON,
@@ -21749,7 +22786,8 @@ export default {
     },
     'SPRAY-ANA-83-104-111-111-116-105-110-103': {
         uid: 'SPRAY-ANA-83-104-111-111-116-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ANA-83-104-111-111-116-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-83-104-111-111-116-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-83-104-111-111-116-105-110-103.png`,
         default: false,
         name: `Shooting`,
         type: Items.TYPE.SPRAY,
@@ -21770,7 +22808,8 @@ export default {
     },
     'SPRAY-ANA-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-ANA-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
-        source: require('./../assets/sprays/SPRAY-ANA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-84-114-105-99-107-32-111-114-32-84-114-101-97-116.png`,
         default: false,
         name: `Trick or Treat`,
         type: Items.TYPE.SPRAY,
@@ -21821,7 +22860,8 @@ export default {
     },
     'SPRAY-ANA-87-97-114-109': {
         uid: 'SPRAY-ANA-87-97-114-109',
-        source: require('./../assets/sprays/SPRAY-ANA-87-97-114-109.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-87-97-114-109.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-87-97-114-109.png`,
         default: false,
         name: `Warm`,
         type: Items.TYPE.SPRAY,
@@ -21832,7 +22872,8 @@ export default {
     },
     'SPRAY-ANA-79-114-110-97-109-101-110-116': {
         uid: 'SPRAY-ANA-79-114-110-97-109-101-110-116',
-        source: require('./../assets/sprays/SPRAY-ANA-79-114-110-97-109-101-110-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-79-114-110-97-109-101-110-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-79-114-110-97-109-101-110-116.png`,
         default: false,
         name: `Ornament`,
         type: Items.TYPE.SPRAY,
@@ -21863,7 +22904,8 @@ export default {
     },
     'SPRAY-ANA-68-97-110-99-101': {
         uid: 'SPRAY-ANA-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-ANA-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-68-97-110-99-101.png`,
         default: false,
         name: `Dance`,
         type: Items.TYPE.SPRAY,
@@ -21874,7 +22916,8 @@ export default {
     },
     'SPRAY-ANA-68-114-97-103-111-110-32-68-97-110-99-101': {
         uid: 'SPRAY-ANA-68-114-97-103-111-110-32-68-97-110-99-101',
-        source: require('./../assets/sprays/SPRAY-ANA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-68-114-97-103-111-110-32-68-97-110-99-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-68-114-97-103-111-110-32-68-97-110-99-101.png`,
         default: false,
         name: `Dragon Dance`,
         type: Items.TYPE.SPRAY,
@@ -22215,7 +23258,8 @@ export default {
     },
     'SPRAY-ORISA-94-95-94': {
         uid: 'SPRAY-ORISA-94-95-94',
-        source: require('./../assets/sprays/SPRAY-ORISA-94-95-94.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-94-95-94.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-94-95-94.png`,
         default: false,
         name: `^_^`,
         type: Items.TYPE.SPRAY,
@@ -22226,7 +23270,8 @@ export default {
     },
     'SPRAY-ORISA-62-95-60': {
         uid: 'SPRAY-ORISA-62-95-60',
-        source: require('./../assets/sprays/SPRAY-ORISA-62-95-60.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-62-95-60.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-62-95-60.png`,
         default: false,
         name: `>_<`,
         type: Items.TYPE.SPRAY,
@@ -22237,7 +23282,8 @@ export default {
     },
     'SPRAY-ORISA-65-109-117-115-101-100': {
         uid: 'SPRAY-ORISA-65-109-117-115-101-100',
-        source: require('./../assets/sprays/SPRAY-ORISA-65-109-117-115-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-65-109-117-115-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-65-109-117-115-101-100.png`,
         default: false,
         name: `Amused`,
         type: Items.TYPE.SPRAY,
@@ -22248,7 +23294,8 @@ export default {
     },
     'SPRAY-ORISA-67-97-114-118-105-110-103': {
         uid: 'SPRAY-ORISA-67-97-114-118-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-97-114-118-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-97-114-118-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-97-114-118-105-110-103.png`,
         default: false,
         name: `Carving`,
         type: Items.TYPE.SPRAY,
@@ -22259,7 +23306,8 @@ export default {
     },
     'SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121': {
         uid: 'SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-105-116-121-32-111-102-32-72-97-114-109-111-110-121.png`,
         default: false,
         name: `City of Harmony`,
         type: Items.TYPE.SPRAY,
@@ -22270,7 +23318,8 @@ export default {
     },
     'SPRAY-ORISA-67-108-101-97-110-105-110-103': {
         uid: 'SPRAY-ORISA-67-108-101-97-110-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-108-101-97-110-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-108-101-97-110-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-108-101-97-110-105-110-103.png`,
         default: false,
         name: `Cleaning`,
         type: Items.TYPE.SPRAY,
@@ -22281,7 +23330,8 @@ export default {
     },
     'SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115': {
         uid: 'SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-111-109-112-97-110-105-111-110-115.png`,
         default: false,
         name: `Companions`,
         type: Items.TYPE.SPRAY,
@@ -22292,7 +23342,8 @@ export default {
     },
     'SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110': {
         uid: 'SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-111-110-115-116-114-117-99-116-105-111-110.png`,
         default: false,
         name: `Construction`,
         type: Items.TYPE.SPRAY,
@@ -22303,7 +23354,8 @@ export default {
     },
     'SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100': {
         uid: 'SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-114-111-115-115-105-110-103-32-71-117-97-114-100.png`,
         default: false,
         name: `Crossing Guard`,
         type: Items.TYPE.SPRAY,
@@ -22314,7 +23366,8 @@ export default {
     },
     'SPRAY-ORISA-67-117-116-101': {
         uid: 'SPRAY-ORISA-67-117-116-101',
-        source: require('./../assets/sprays/SPRAY-ORISA-67-117-116-101.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-67-117-116-101.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-67-117-116-101.png`,
         default: false,
         name: `Cute`,
         type: Items.TYPE.SPRAY,
@@ -22325,7 +23378,8 @@ export default {
     },
     'SPRAY-ORISA-68-114-117-109-109-105-110-103': {
         uid: 'SPRAY-ORISA-68-114-117-109-109-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ORISA-68-114-117-109-109-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-68-114-117-109-109-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-68-114-117-109-109-105-110-103.png`,
         default: false,
         name: `Drumming`,
         type: Items.TYPE.SPRAY,
@@ -22336,7 +23390,8 @@ export default {
     },
     'SPRAY-ORISA-71-117-97-114-100-105-97-110': {
         uid: 'SPRAY-ORISA-71-117-97-114-100-105-97-110',
-        source: require('./../assets/sprays/SPRAY-ORISA-71-117-97-114-100-105-97-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-71-117-97-114-100-105-97-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-71-117-97-114-100-105-97-110.png`,
         default: false,
         name: `Guardian`,
         type: Items.TYPE.SPRAY,
@@ -22347,7 +23402,8 @@ export default {
     },
     'SPRAY-ORISA-72-101-114-111-101-115': {
         uid: 'SPRAY-ORISA-72-101-114-111-101-115',
-        source: require('./../assets/sprays/SPRAY-ORISA-72-101-114-111-101-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-72-101-114-111-101-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-72-101-114-111-101-115.png`,
         default: false,
         name: `Heroes`,
         type: Items.TYPE.SPRAY,
@@ -22358,7 +23414,8 @@ export default {
     },
     'SPRAY-ORISA-73-99-111-110': {
         uid: 'SPRAY-ORISA-73-99-111-110',
-        source: require('./../assets/sprays/SPRAY-ORISA-73-99-111-110.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-73-99-111-110.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-73-99-111-110.png`,
         default: false,
         name: `Icon`,
         type: Items.TYPE.SPRAY,
@@ -22369,7 +23426,8 @@ export default {
     },
     'SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116': {
         uid: 'SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116',
-        source: require('./../assets/sprays/SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-74-117-115-116-32-68-101-115-115-101-114-116.png`,
         default: false,
         name: `Just Dessert`,
         type: Items.TYPE.SPRAY,
@@ -22380,7 +23438,8 @@ export default {
     },
     'SPRAY-ORISA-75-105-99-107': {
         uid: 'SPRAY-ORISA-75-105-99-107',
-        source: require('./../assets/sprays/SPRAY-ORISA-75-105-99-107.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-75-105-99-107.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-75-105-99-107.png`,
         default: false,
         name: `Kick`,
         type: Items.TYPE.SPRAY,
@@ -22391,7 +23450,8 @@ export default {
     },
     'SPRAY-ORISA-80-105-120-101-108': {
         uid: 'SPRAY-ORISA-80-105-120-101-108',
-        source: require('./../assets/sprays/SPRAY-ORISA-80-105-120-101-108.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-80-105-120-101-108.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-80-105-120-101-108.png`,
         default: false,
         name: `Pixel`,
         type: Items.TYPE.SPRAY,
@@ -22402,7 +23462,8 @@ export default {
     },
     'SPRAY-ORISA-80-114-111-116-101-99-116-111-114': {
         uid: 'SPRAY-ORISA-80-114-111-116-101-99-116-111-114',
-        source: require('./../assets/sprays/SPRAY-ORISA-80-114-111-116-101-99-116-111-114.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-80-114-111-116-101-99-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-80-114-111-116-101-99-116-111-114.png`,
         default: false,
         name: `Protector`,
         type: Items.TYPE.SPRAY,
@@ -22413,7 +23474,8 @@ export default {
     },
     'SPRAY-ORISA-83-104-105-101-108-100': {
         uid: 'SPRAY-ORISA-83-104-105-101-108-100',
-        source: require('./../assets/sprays/SPRAY-ORISA-83-104-105-101-108-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-83-104-105-101-108-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-83-104-105-101-108-100.png`,
         default: false,
         name: `Shield`,
         type: Items.TYPE.SPRAY,
@@ -22424,7 +23486,8 @@ export default {
     },
     'SPRAY-ORISA-83-116-111-112': {
         uid: 'SPRAY-ORISA-83-116-111-112',
-        source: require('./../assets/sprays/SPRAY-ORISA-83-116-111-112.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-83-116-111-112.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-83-116-111-112.png`,
         default: false,
         name: `Stop`,
         type: Items.TYPE.SPRAY,
@@ -22435,7 +23498,8 @@ export default {
     },
     'SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100': {
         uid: 'SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100',
-        source: require('./../assets/sprays/SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-83-117-112-101-114-99-104-97-114-103-101-100.png`,
         default: false,
         name: `Supercharged`,
         type: Items.TYPE.SPRAY,
@@ -22446,7 +23510,8 @@ export default {
     },
     'SPRAY-ORISA-83-119-105-110-103': {
         uid: 'SPRAY-ORISA-83-119-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ORISA-83-119-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-83-119-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-83-119-105-110-103.png`,
         default: false,
         name: `Swing`,
         type: Items.TYPE.SPRAY,
@@ -22457,7 +23522,8 @@ export default {
     },
     'SPRAY-ORISA-84-114-97-99-107-115': {
         uid: 'SPRAY-ORISA-84-114-97-99-107-115',
-        source: require('./../assets/sprays/SPRAY-ORISA-84-114-97-99-107-115.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-84-114-97-99-107-115.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-84-114-97-99-107-115.png`,
         default: false,
         name: `Tracks`,
         type: Items.TYPE.SPRAY,
@@ -22468,7 +23534,8 @@ export default {
     },
     'SPRAY-ORISA-85-110-109-111-118-105-110-103': {
         uid: 'SPRAY-ORISA-85-110-109-111-118-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ORISA-85-110-109-111-118-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-85-110-109-111-118-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-85-110-109-111-118-105-110-103.png`,
         default: false,
         name: `Unmoving`,
         type: Items.TYPE.SPRAY,
@@ -22479,7 +23546,8 @@ export default {
     },
     'SPRAY-ORISA-88-105-110-103': {
         uid: 'SPRAY-ORISA-88-105-110-103',
-        source: require('./../assets/sprays/SPRAY-ORISA-88-105-110-103.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-88-105-110-103.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-88-105-110-103.png`,
         default: false,
         name: `Xing`,
         type: Items.TYPE.SPRAY,
@@ -22530,7 +23598,8 @@ export default {
     },
     'ICON-ORISA-79-114-105-115-97': {
         uid: 'ICON-ORISA-79-114-105-115-97',
-        source: require('./../assets/icons/ICON-ORISA-79-114-105-115-97.png'),
+        thumbnail: require('./../assets/icons/ICON-ORISA-79-114-105-115-97.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ORISA-79-114-105-115-97.png`,
         default: false,
         name: `Orisa`,
         type: Items.TYPE.ICON,
@@ -22541,7 +23610,8 @@ export default {
     },
     'ICON-ORISA-80-114-111-116-101-99-116-111-114': {
         uid: 'ICON-ORISA-80-114-111-116-101-99-116-111-114',
-        source: require('./../assets/icons/ICON-ORISA-80-114-111-116-101-99-116-111-114.png'),
+        thumbnail: require('./../assets/icons/ICON-ORISA-80-114-111-116-101-99-116-111-114.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ORISA-80-114-111-116-101-99-116-111-114.png`,
         default: false,
         name: `Protector`,
         type: Items.TYPE.ICON,
@@ -22552,7 +23622,8 @@ export default {
     },
     'ICON-ORISA-69-102-105': {
         uid: 'ICON-ORISA-69-102-105',
-        source: require('./../assets/icons/ICON-ORISA-69-102-105.png'),
+        thumbnail: require('./../assets/icons/ICON-ORISA-69-102-105.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-ORISA-69-102-105.png`,
         default: false,
         name: `Efi`,
         type: Items.TYPE.ICON,
@@ -23713,7 +24784,8 @@ export default {
     },
     'SPRAY-ANA-78-69-87-66-79-82-78': {
         uid: 'SPRAY-ANA-78-69-87-66-79-82-78',
-        source: require('./../assets/sprays/SPRAY-ANA-78-69-87-66-79-82-78.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ANA-78-69-87-66-79-82-78.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ANA-78-69-87-66-79-82-78.png`,
         default: false,
         name: `Newborn`,
         type: Items.TYPE.SPRAY,
@@ -23724,7 +24796,8 @@ export default {
     },
     'SPRAY-BASTION-83-85-78-75-69-78': {
         uid: 'SPRAY-BASTION-83-85-78-75-69-78',
-        source: require('./../assets/sprays/SPRAY-BASTION-83-85-78-75-69-78.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-BASTION-83-85-78-75-69-78.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-BASTION-83-85-78-75-69-78.png`,
         default: false,
         name: `Sunken`,
         type: Items.TYPE.SPRAY,
@@ -23735,7 +24808,8 @@ export default {
     },
     'SPRAY-DVA-72-65-78-68-72-69-76-68': {
         uid: 'SPRAY-DVA-72-65-78-68-72-69-76-68',
-        source: require('./../assets/sprays/SPRAY-DVA-72-65-78-68-72-69-76-68.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-DVA-72-65-78-68-72-69-76-68.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-DVA-72-65-78-68-72-69-76-68.png`,
         default: false,
         name: `Handheld`,
         type: Items.TYPE.SPRAY,
@@ -23746,7 +24820,8 @@ export default {
     },
     'SPRAY-GENJI-82-65-77-69-78': {
         uid: 'SPRAY-GENJI-82-65-77-69-78',
-        source: require('./../assets/sprays/SPRAY-GENJI-82-65-77-69-78.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-GENJI-82-65-77-69-78.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-GENJI-82-65-77-69-78.png`,
         default: false,
         name: `Ramen`,
         type: Items.TYPE.SPRAY,
@@ -23757,7 +24832,8 @@ export default {
     },
     'SPRAY-HANZO-82-65-77-69-78': {
         uid: 'SPRAY-HANZO-82-65-77-69-78',
-        source: require('./../assets/sprays/SPRAY-HANZO-82-65-77-69-78.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-HANZO-82-65-77-69-78.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-HANZO-82-65-77-69-78.png`,
         default: false,
         name: `Ramen`,
         type: Items.TYPE.SPRAY,
@@ -23768,7 +24844,8 @@ export default {
     },
     'SPRAY-JUNKRAT-83-73-68-69-67-65-82': {
         uid: 'SPRAY-JUNKRAT-83-73-68-69-67-65-82',
-        source: require('./../assets/sprays/SPRAY-JUNKRAT-83-73-68-69-67-65-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-JUNKRAT-83-73-68-69-67-65-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-JUNKRAT-83-73-68-69-67-65-82.png`,
         default: false,
         name: `Sidecar`,
         type: Items.TYPE.SPRAY,
@@ -23779,7 +24856,8 @@ export default {
     },
     'SPRAY-LUCIO-83-75-65-84-69-83': {
         uid: 'SPRAY-LUCIO-83-75-65-84-69-83',
-        source: require('./../assets/sprays/SPRAY-LUCIO-83-75-65-84-69-83.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-LUCIO-83-75-65-84-69-83.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-LUCIO-83-75-65-84-69-83.png`,
         default: false,
         name: `Skates`,
         type: Items.TYPE.SPRAY,
@@ -23790,7 +24868,8 @@ export default {
     },
     'SPRAY-MCCREE-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69': {
         uid: 'SPRAY-MCCREE-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69',
-        source: require('./../assets/sprays/SPRAY-MCCREE-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MCCREE-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MCCREE-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69.png`,
         default: false,
         name: `Target Practice`,
         type: Items.TYPE.SPRAY,
@@ -23801,7 +24880,8 @@ export default {
     },
     'SPRAY-MEI-80-65-74-65-77-65-83': {
         uid: 'SPRAY-MEI-80-65-74-65-77-65-83',
-        source: require('./../assets/sprays/SPRAY-MEI-80-65-74-65-77-65-83.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MEI-80-65-74-65-77-65-83.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MEI-80-65-74-65-77-65-83.png`,
         default: false,
         name: `Pajamas`,
         type: Items.TYPE.SPRAY,
@@ -23812,7 +24892,8 @@ export default {
     },
     'SPRAY-MERCY-67-79-77-66-65-84-32-77-69-68-73-67': {
         uid: 'SPRAY-MERCY-67-79-77-66-65-84-32-77-69-68-73-67',
-        source: require('./../assets/sprays/SPRAY-MERCY-67-79-77-66-65-84-32-77-69-68-73-67.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-MERCY-67-79-77-66-65-84-32-77-69-68-73-67.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-MERCY-67-79-77-66-65-84-32-77-69-68-73-67.png`,
         default: false,
         name: `Combat Medic`,
         type: Items.TYPE.SPRAY,
@@ -23823,7 +24904,8 @@ export default {
     },
     'SPRAY-ORISA-70-76-79-87-69-82': {
         uid: 'SPRAY-ORISA-70-76-79-87-69-82',
-        source: require('./../assets/sprays/SPRAY-ORISA-70-76-79-87-69-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ORISA-70-76-79-87-69-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ORISA-70-76-79-87-69-82.png`,
         default: false,
         name: `Flower`,
         type: Items.TYPE.SPRAY,
@@ -23834,7 +24916,8 @@ export default {
     },
     'SPRAY-PHARAH-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69': {
         uid: 'SPRAY-PHARAH-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69',
-        source: require('./../assets/sprays/SPRAY-PHARAH-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-PHARAH-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-PHARAH-84-65-82-71-69-84-32-80-82-65-67-84-73-67-69.png`,
         default: false,
         name: `Target Practice`,
         type: Items.TYPE.SPRAY,
@@ -23845,7 +24928,8 @@ export default {
     },
     'SPRAY-REAPER-67-79-77-77-65-78-68-79': {
         uid: 'SPRAY-REAPER-67-79-77-77-65-78-68-79',
-        source: require('./../assets/sprays/SPRAY-REAPER-67-79-77-77-65-78-68-79.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REAPER-67-79-77-77-65-78-68-79.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REAPER-67-79-77-77-65-78-68-79.png`,
         default: false,
         name: `Commando`,
         type: Items.TYPE.SPRAY,
@@ -23856,7 +24940,8 @@ export default {
     },
     'SPRAY-REINHARDT-80-79-83-84-69-82': {
         uid: 'SPRAY-REINHARDT-80-79-83-84-69-82',
-        source: require('./../assets/sprays/SPRAY-REINHARDT-80-79-83-84-69-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-REINHARDT-80-79-83-84-69-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-REINHARDT-80-79-83-84-69-82.png`,
         default: false,
         name: `Poster`,
         type: Items.TYPE.SPRAY,
@@ -23867,7 +24952,8 @@ export default {
     },
     'SPRAY-ROADHOG-67-72-79-80-80-69-82': {
         uid: 'SPRAY-ROADHOG-67-72-79-80-80-69-82',
-        source: require('./../assets/sprays/SPRAY-ROADHOG-67-72-79-80-80-69-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ROADHOG-67-72-79-80-80-69-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ROADHOG-67-72-79-80-80-69-82.png`,
         default: false,
         name: `Chopper`,
         type: Items.TYPE.SPRAY,
@@ -23878,7 +24964,8 @@ export default {
     },
     'SPRAY-SOLDIER76-67-79-77-77-65-78-68-79': {
         uid: 'SPRAY-SOLDIER76-67-79-77-77-65-78-68-79',
-        source: require('./../assets/sprays/SPRAY-SOLDIER76-67-79-77-77-65-78-68-79.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOLDIER76-67-79-77-77-65-78-68-79.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOLDIER76-67-79-77-77-65-78-68-79.png`,
         default: false,
         name: `Commando`,
         type: Items.TYPE.SPRAY,
@@ -23889,7 +24976,8 @@ export default {
     },
     'SPRAY-SOMBRA-69-83-80-82-69-83-83-79': {
         uid: 'SPRAY-SOMBRA-69-83-80-82-69-83-83-79',
-        source: require('./../assets/sprays/SPRAY-SOMBRA-69-83-80-82-69-83-83-79.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SOMBRA-69-83-80-82-69-83-83-79.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SOMBRA-69-83-80-82-69-83-83-79.png`,
         default: false,
         name: `Espresso`,
         type: Items.TYPE.SPRAY,
@@ -23900,7 +24988,8 @@ export default {
     },
     'SPRAY-SYMMETRA-83-84-85-68-69-78-84': {
         uid: 'SPRAY-SYMMETRA-83-84-85-68-69-78-84',
-        source: require('./../assets/sprays/SPRAY-SYMMETRA-83-84-85-68-69-78-84.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-SYMMETRA-83-84-85-68-69-78-84.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-SYMMETRA-83-84-85-68-69-78-84.png`,
         default: false,
         name: `Student`,
         type: Items.TYPE.SPRAY,
@@ -23911,7 +25000,8 @@ export default {
     },
     'SPRAY-TORBJORN-66-82-73-71-73-84-84-69': {
         uid: 'SPRAY-TORBJORN-66-82-73-71-73-84-84-69',
-        source: require('./../assets/sprays/SPRAY-TORBJORN-66-82-73-71-73-84-84-69.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TORBJORN-66-82-73-71-73-84-84-69.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TORBJORN-66-82-73-71-73-84-84-69.png`,
         default: false,
         name: `Brigitte`,
         type: Items.TYPE.SPRAY,
@@ -23922,7 +25012,8 @@ export default {
     },
     'SPRAY-TRACER-83-76-73-80-83-84-82-69-65-77': {
         uid: 'SPRAY-TRACER-83-76-73-80-83-84-82-69-65-77',
-        source: require('./../assets/sprays/SPRAY-TRACER-83-76-73-80-83-84-82-69-65-77.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-TRACER-83-76-73-80-83-84-82-69-65-77.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-TRACER-83-76-73-80-83-84-82-69-65-77.png`,
         default: false,
         name: `Slipstream`,
         type: Items.TYPE.SPRAY,
@@ -23933,7 +25024,8 @@ export default {
     },
     'SPRAY-WIDOWMAKER-87-69-68-68-73-78-71': {
         uid: 'SPRAY-WIDOWMAKER-87-69-68-68-73-78-71',
-        source: require('./../assets/sprays/SPRAY-WIDOWMAKER-87-69-68-68-73-78-71.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WIDOWMAKER-87-69-68-68-73-78-71.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WIDOWMAKER-87-69-68-68-73-78-71.png`,
         default: false,
         name: `Wedding`,
         type: Items.TYPE.SPRAY,
@@ -23944,7 +25036,8 @@ export default {
     },
     'SPRAY-WINSTON-66-85-73-76-68-73-78-71': {
         uid: 'SPRAY-WINSTON-66-85-73-76-68-73-78-71',
-        source: require('./../assets/sprays/SPRAY-WINSTON-66-85-73-76-68-73-78-71.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-WINSTON-66-85-73-76-68-73-78-71.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-WINSTON-66-85-73-76-68-73-78-71.png`,
         default: false,
         name: `Building`,
         type: Items.TYPE.SPRAY,
@@ -23955,7 +25048,8 @@ export default {
     },
     'SPRAY-ZARYA-87-69-32-67-65-78-33': {
         uid: 'SPRAY-ZARYA-87-69-32-67-65-78-33',
-        source: require('./../assets/sprays/SPRAY-ZARYA-87-69-32-67-65-78-33.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZARYA-87-69-32-67-65-78-33.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZARYA-87-69-32-67-65-78-33.png`,
         default: false,
         name: `We Can!`,
         type: Items.TYPE.SPRAY,
@@ -23966,7 +25060,8 @@ export default {
     },
     'SPRAY-ZENYATTA-83-72-69-76-76': {
         uid: 'SPRAY-ZENYATTA-83-72-69-76-76',
-        source: require('./../assets/sprays/SPRAY-ZENYATTA-83-72-69-76-76.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-ZENYATTA-83-72-69-76-76.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-ZENYATTA-83-72-69-76-76.png`,
         default: false,
         name: `Shell`,
         type: Items.TYPE.SPRAY,
@@ -23977,7 +25072,8 @@ export default {
     },
     'SPRAY-66-55-51-45-78-83': {
         uid: 'SPRAY-66-55-51-45-78-83',
-        source: require('./../assets/sprays/SPRAY-66-55-51-45-78-83.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-66-55-51-45-78-83.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-66-55-51-45-78-83.png`,
         default: false,
         name: `B73-NS`,
         type: Items.TYPE.SPRAY,
@@ -23988,7 +25084,8 @@ export default {
     },
     'SPRAY-69-82-65-68-73-67-65-84-79-82': {
         uid: 'SPRAY-69-82-65-68-73-67-65-84-79-82',
-        source: require('./../assets/sprays/SPRAY-69-82-65-68-73-67-65-84-79-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-69-82-65-68-73-67-65-84-79-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-69-82-65-68-73-67-65-84-79-82.png`,
         default: false,
         name: `Eradicator`,
         type: Items.TYPE.SPRAY,
@@ -23999,7 +25096,8 @@ export default {
     },
     'SPRAY-78-85-76-76-32-83-69-67-84-79-82': {
         uid: 'SPRAY-78-85-76-76-32-83-69-67-84-79-82',
-        source: require('./../assets/sprays/SPRAY-78-85-76-76-32-83-69-67-84-79-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-78-85-76-76-32-83-69-67-84-79-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-78-85-76-76-32-83-69-67-84-79-82.png`,
         default: false,
         name: `Null Sector`,
         type: Items.TYPE.SPRAY,
@@ -24010,7 +25108,8 @@ export default {
     },
     'SPRAY-78-85-76-76-77-65-82-73': {
         uid: 'SPRAY-78-85-76-76-77-65-82-73',
-        source: require('./../assets/sprays/SPRAY-78-85-76-76-77-65-82-73.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-78-85-76-76-77-65-82-73.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-78-85-76-76-77-65-82-73.png`,
         default: false,
         name: `Nullmari`,
         type: Items.TYPE.SPRAY,
@@ -24021,7 +25120,8 @@ export default {
     },
     'SPRAY-78-85-76-76-84-82-79-79-80-69-82': {
         uid: 'SPRAY-78-85-76-76-84-82-79-79-80-69-82',
-        source: require('./../assets/sprays/SPRAY-78-85-76-76-84-82-79-79-80-69-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-78-85-76-76-84-82-79-79-80-69-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-78-85-76-76-84-82-79-79-80-69-82.png`,
         default: false,
         name: `Nulltrooper`,
         type: Items.TYPE.SPRAY,
@@ -24032,7 +25132,8 @@ export default {
     },
     'SPRAY-79-82-49-52-45-78-83': {
         uid: 'SPRAY-79-82-49-52-45-78-83',
-        source: require('./../assets/sprays/SPRAY-79-82-49-52-45-78-83.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-79-82-49-52-45-78-83.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-79-82-49-52-45-78-83.png`,
         default: false,
         name: `OR14-NS`,
         type: Items.TYPE.SPRAY,
@@ -24043,7 +25144,8 @@ export default {
     },
     'SPRAY-83-76-73-67-69-82': {
         uid: 'SPRAY-83-76-73-67-69-82',
-        source: require('./../assets/sprays/SPRAY-83-76-73-67-69-82.png'),
+        thumbnail: require('./../assets/sprays/SPRAY-83-76-73-67-69-82.png'),
+        preview: `/items/previews/${Items.TYPE.SPRAY}/SPRAY-83-76-73-67-69-82.png`,
         default: false,
         name: `Slicer`,
         type: Items.TYPE.SPRAY,
@@ -24084,7 +25186,8 @@ export default {
     },
     'ICON-66-55-51-45-78-83': {
         uid: 'ICON-66-55-51-45-78-83',
-        source: require('./../assets/icons/ICON-66-55-51-45-78-83.png'),
+        thumbnail: require('./../assets/icons/ICON-66-55-51-45-78-83.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-55-51-45-78-83.png`,
         default: false,
         name: `B73-NS`,
         type: Items.TYPE.ICON,
@@ -24095,7 +25198,8 @@ export default {
     },
     'ICON-GENJI-67-89-66-79-82-71': {
         uid: 'ICON-GENJI-67-89-66-79-82-71',
-        source: require('./../assets/icons/ICON-GENJI-67-89-66-79-82-71.png'),
+        thumbnail: require('./../assets/icons/ICON-GENJI-67-89-66-79-82-71.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-GENJI-67-89-66-79-82-71.png`,
         default: false,
         name: `Cyborg`,
         type: Items.TYPE.ICON,
@@ -24106,7 +25210,8 @@ export default {
     },
     'ICON-66-76-65-67-75-87-65-84-67-72': {
         uid: 'ICON-66-76-65-67-75-87-65-84-67-72',
-        source: require('./../assets/icons/ICON-66-76-65-67-75-87-65-84-67-72.png'),
+        thumbnail: require('./../assets/icons/ICON-66-76-65-67-75-87-65-84-67-72.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-66-76-65-67-75-87-65-84-67-72.png`,
         default: false,
         name: `Blackwatch`,
         type: Items.TYPE.ICON,
@@ -24117,7 +25222,8 @@ export default {
     },
     'ICON-MERCY-67-79-77-66-65-84-32-77-69-68-73-67': {
         uid: 'ICON-MERCY-67-79-77-66-65-84-32-77-69-68-73-67',
-        source: require('./../assets/icons/ICON-MERCY-67-79-77-66-65-84-32-77-69-68-73-67.png'),
+        thumbnail: require('./../assets/icons/ICON-MERCY-67-79-77-66-65-84-32-77-69-68-73-67.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-MERCY-67-79-77-66-65-84-32-77-69-68-73-67.png`,
         default: false,
         name: `Combat Medic`,
         type: Items.TYPE.ICON,
@@ -24128,7 +25234,8 @@ export default {
     },
     'ICON-68-82-79-80-32-80-79-68': {
         uid: 'ICON-68-82-79-80-32-80-79-68',
-        source: require('./../assets/icons/ICON-68-82-79-80-32-80-79-68.png'),
+        thumbnail: require('./../assets/icons/ICON-68-82-79-80-32-80-79-68.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-68-82-79-80-32-80-79-68.png`,
         default: false,
         name: `Drop Pod`,
         type: Items.TYPE.ICON,
@@ -24139,7 +25246,8 @@ export default {
     },
     'ICON-78-85-76-76-32-83-69-67-84-79-82': {
         uid: 'ICON-78-85-76-76-32-83-69-67-84-79-82',
-        source: require('./../assets/icons/ICON-78-85-76-76-32-83-69-67-84-79-82.png'),
+        thumbnail: require('./../assets/icons/ICON-78-85-76-76-32-83-69-67-84-79-82.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-78-85-76-76-32-83-69-67-84-79-82.png`,
         default: false,
         name: `Null Sector`,
         type: Items.TYPE.ICON,
@@ -24150,7 +25258,8 @@ export default {
     },
     'ICON-78-85-76-76-77-65-82-73': {
         uid: 'ICON-78-85-76-76-77-65-82-73',
-        source: require('./../assets/icons/ICON-78-85-76-76-77-65-82-73.png'),
+        thumbnail: require('./../assets/icons/ICON-78-85-76-76-77-65-82-73.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-78-85-76-76-77-65-82-73.png`,
         default: false,
         name: `Nullmari`,
         type: Items.TYPE.ICON,
@@ -24161,7 +25270,8 @@ export default {
     },
     'ICON-85-80-82-73-83-73-78-71-32-50-48-49-55': {
         uid: 'ICON-85-80-82-73-83-73-78-71-32-50-48-49-55',
-        source: require('./../assets/icons/ICON-85-80-82-73-83-73-78-71-32-50-48-49-55.png'),
+        thumbnail: require('./../assets/icons/ICON-85-80-82-73-83-73-78-71-32-50-48-49-55.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-85-80-82-73-83-73-78-71-32-50-48-49-55.png`,
         default: false,
         name: `Uprising 2017`,
         type: Items.TYPE.ICON,
@@ -24172,7 +25282,8 @@ export default {
     },
     'ICON-79-82-49-52-45-78-83': {
         uid: 'ICON-79-82-49-52-45-78-83',
-        source: require('./../assets/icons/ICON-79-82-49-52-45-78-83.png'),
+        thumbnail: require('./../assets/icons/ICON-79-82-49-52-45-78-83.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-79-82-49-52-45-78-83.png`,
         default: false,
         name: `OR14-NS`,
         type: Items.TYPE.ICON,
@@ -24183,7 +25294,8 @@ export default {
     },
     'ICON-REINHARDT-76-73-69-85-84-69-78-65-78-84': {
         uid: 'ICON-REINHARDT-76-73-69-85-84-69-78-65-78-84',
-        source: require('./../assets/icons/ICON-REINHARDT-76-73-69-85-84-69-78-65-78-84.png'),
+        thumbnail: require('./../assets/icons/ICON-REINHARDT-76-73-69-85-84-69-78-65-78-84.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-REINHARDT-76-73-69-85-84-69-78-65-78-84.png`,
         default: false,
         name: `Lieutenant`,
         type: Items.TYPE.ICON,
@@ -24194,7 +25306,8 @@ export default {
     },
     'ICON-TORBJORN-67-72-73-69-70-32-69-78-71-73-78-69-69-82': {
         uid: 'ICON-TORBJORN-67-72-73-69-70-32-69-78-71-73-78-69-69-82',
-        source: require('./../assets/icons/ICON-TORBJORN-67-72-73-69-70-32-69-78-71-73-78-69-69-82.png'),
+        thumbnail: require('./../assets/icons/ICON-TORBJORN-67-72-73-69-70-32-69-78-71-73-78-69-69-82.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TORBJORN-67-72-73-69-70-32-69-78-71-73-78-69-69-82.png`,
         default: false,
         name: `Chief Engineer`,
         type: Items.TYPE.ICON,
@@ -24205,7 +25318,8 @@ export default {
     },
     'ICON-TRACER-67-65-68-69-84': {
         uid: 'ICON-TRACER-67-65-68-69-84',
-        source: require('./../assets/icons/ICON-TRACER-67-65-68-69-84.png'),
+        thumbnail: require('./../assets/icons/ICON-TRACER-67-65-68-69-84.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-TRACER-67-65-68-69-84.png`,
         default: false,
         name: `Cadet`,
         type: Items.TYPE.ICON,
@@ -24216,7 +25330,8 @@ export default {
     },
     'ICON-WIDOWMAKER-76-65-67-82-79-73-88': {
         uid: 'ICON-WIDOWMAKER-76-65-67-82-79-73-88',
-        source: require('./../assets/icons/ICON-WIDOWMAKER-76-65-67-82-79-73-88.png'),
+        thumbnail: require('./../assets/icons/ICON-WIDOWMAKER-76-65-67-82-79-73-88.png'),
+        preview: `/items/previews/${Items.TYPE.ICON}/ICON-WIDOWMAKER-76-65-67-82-79-73-88.png`,
         default: false,
         name: `Lacroix`,
         type: Items.TYPE.ICON,

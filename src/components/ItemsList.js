@@ -175,7 +175,7 @@ class GridItem extends Component {
         }
 
         return (
-            <Image source={this.props.item.source} style={[styles.gridItem, size, style,]}>
+            <Image source={this.props.item.thumbnail} style={[styles.gridItem, size, style,]}>
                 <TouchableWithoutFeedback
                     onPress={() => this.props.onPress(this.props.item, this.props.index)}
                     onLongPress={() => this.props.onLongPress(this.props.item, this.props.index)}

@@ -136,10 +136,12 @@ const itemsSave = function (args = {}) {
         output += `    '${i}': {\n`;
         output += `        uid: '${items[i].uid}',\n`;
         if (items[i].type === 'ICON') {
-            output += `        source: require('./../assets/icons/${items[i].uid}.png'),\n`;
+            output += `        thumbnail: require('./../assets/icons/${items[i].uid}.png'),\n`;
+            output += `        preview: \`/items/previews/\${Items.TYPE.${items[i].type}}/${items[i].uid}.png\`,\n`;
         }
         if (items[i].type === 'SPRAY') {
-            output += `        source: require('./../assets/sprays/${items[i].uid}.png'),\n`;
+            output += `        thumbnail: require('./../assets/sprays/${items[i].uid}.png'),\n`;
+            output += `        preview: \`/items/previews/\${Items.TYPE.${items[i].type}}/${items[i].uid}.png\`,\n`;
         }
         output += `        default: ${items[i].default},\n`;
         output += `        name: \`${items[i].name}\`,\n`;

@@ -98,7 +98,7 @@ export class Preview extends Component {
     }
 
     showItem(item) {
-        this.show(_(item.uid), item.source, `items/previews/${item.type}/${item.uid}.png`);
+        this.show(_(item.uid), item.thumbnail, item.preview);
     }
 
     showHero(hero) {
