@@ -16,7 +16,6 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import CONFIG from './../config';
 import _ from './../i18n';
-import CloudStorage from './../CloudStorage';
 import Items from './../Items';
 import Events from './../Events';
 import Heroes from './../Heroes';
@@ -393,7 +392,7 @@ export class ItemsList extends Component {
 
     isShouldComponentUpdate = false;
 
-    modal;
+    preview;
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -604,19 +603,7 @@ export class ItemsList extends Component {
     }
 
     onItemLongPress(item, index) {
-        let title = _(item.uid);
-
-        if (CONFIG.NETWORK === 'NONE') {
-            this.modal.error(title, _('ERROR__NO_INTERNET_CONNECTION'));
-
-            return;
-        }
-
-        this.modal.open(title, null);
-
-        CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
-            .then((url) => this.modal.open(title, {uri: url,}))
-            .catch((error) => this.modal.error(title, _('ERROR__PREVIEW_NOT_FOUND')));
+        this.preview.showItem(item);
     }
 
     render() {
@@ -652,7 +639,7 @@ export class ItemsList extends Component {
         return (
             <View style={styles.container}>
                 {backgroundHero}
-                <Preview ref={(component) => this.modal = component}/>
+                <Preview ref={(component) => this.preview = component}/>
                 <RemainingAmount amount={this.state.remainingAmount}/>
                 <ScrollView>
                     {sections}

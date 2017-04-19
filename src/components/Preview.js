@@ -14,32 +14,34 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import CONFIG from './../config';
 import _ from './../i18n';
+import CloudStorage from './../CloudStorage';
 import {
-    Loader,
     Button,
 } from './';
 
 export class Preview extends Component {
     static propTypes = {
-        isVisible: React.PropTypes.bool,
         vibration: React.PropTypes.number,
     };
 
     static defaultProps = {
-        isVisible: false,
         vibration: 20,
+    };
+
+    static initialState = {
+        isVisible: false,
+        title: '',
+        thumbnail: null,
+        source: null,
+        isLoaded: false,
+        messageText: null,
+        messageIcon: null,
     };
 
     constructor(props, context, updater) {
         super(props, context, updater);
 
-        this.state = {
-            isVisible: this.props.isVisible,
-            title: '',
-            source: null,
-            isLoaded: false,
-            error: false,
-        };
+        this.state = Preview.initialState;
     }
 
     vibrate() {
@@ -49,49 +51,78 @@ export class Preview extends Component {
     }
 
     close() {
+        this.setState(Preview.initialState);
+    }
+
+    show(title, source = null, cloudPath = null) {
+        this.vibrate();
+
+        if (cloudPath) {
+            this.setState({
+                isVisible: true,
+                title: title,
+                thumbnail: source,
+            });
+
+            if (CONFIG.HQ_PREVIEW === false) {
+                this.message(_('PREVIEW__HQ_PREVIEW_DISABLED'), 'info');
+
+                return;
+            } else if (CONFIG.HQ_PREVIEW === 'WIFI' && CONFIG.NETWORK !== 'WIFI') {
+                this.message(_('PREVIEW__HQ_PREVIEW_AVAILABLE_ONLY_VIA_WIFI'), 'signal-wifi-off');
+
+                return;
+            } else if (CONFIG.HQ_PREVIEW === true && CONFIG.NETWORK === 'NONE') {
+                this.message(_('ERROR__NO_INTERNET_CONNECTION'), 'error-outline');
+
+                return;
+            }
+
+            CloudStorage.getFileUrl(cloudPath)
+                .then((url) => this.setState({source: {uri: url,}}))
+                .catch((error) => this.message(_('PREVIEW__HQ_PREVIEW_NOT_FOUND'), 'error-outline'));
+        } else {
+            this.setState({
+                isVisible: true,
+                title: title,
+                source: source,
+            });
+        }
+    }
+
+    message(message, icon = null) {
         this.setState({
-            isVisible: false,
-            title: '',
-            source: null,
-            isLoaded: false,
-            error: false,
+            messageText: message,
+            messageIcon: icon,
         });
     }
 
-    open(title, source) {
-        this.vibrate();
-
-        this.setState({
-            isVisible: true,
-            title: title || '',
-            source: source,
-            error: false,
-        });
+    showItem(item) {
+        this.show(_(item.uid), item.source, `items/previews/${item.type}/${item.uid}.png`);
     }
 
-    error(title, error) {
-        this.vibrate();
-
-        this.setState({
-            isVisible: true,
-            title: title || '',
-            source: null,
-            error: error,
-        });
+    showHero(hero) {
+        this.show(_(hero.code), hero.background);
     }
 
     render() {
-        let placeholder;
+        let message;
 
-        if (this.state.error) {
-            placeholder = (
-                <View style={styles.content}>
-                    <Icon name="error-outline" style={styles.errorIcon} />
-                    <Text style={styles.errorText}>{this.state.error.toUpperCase()}</Text>
+        if (this.state.messageText) {
+            message = (
+                <View style={styles.message}>
+                    {this.state.messageIcon && <Icon name={this.state.messageIcon} style={styles.messageIcon}/>}
+                    <Text numberOfLines={1} style={styles.messageText}>{this.state.messageText.toUpperCase()}</Text>
                 </View>
             );
         } else if (!this.state.isLoaded) {
-            placeholder = (<Loader/>);
+            message = (
+                <View style={styles.message}>
+                    <Image source={require('./../assets/loader.gif')} style={styles.messageLoader}/>
+                </View>
+            );
+        } else {
+            message = (<View style={styles.message}/>);
         }
 
         return (
@@ -106,14 +137,17 @@ export class Preview extends Component {
                     <Text numberOfLines={1} style={styles.title}>{this.state.title.toUpperCase()}</Text>
                     <View style={styles.content}>
                         <Image
+                            source={this.state.thumbnail}
+                            style={[styles.image, (this.state.isLoaded ? styles.imageHidden : null),]}
+                        />
+                        <Image
                             source={this.state.source}
                             onLoad={() => this.setState({isLoaded: true,})}
-                            onerror={() => this.setState({error: _('ERROR__PREVIEW_NOT_FOUND'),})}
-                            style={[styles.preview, (this.state.isLoaded ? null : styles.previewHidden)]}
+                            onerror={() => this.message(_('PREVIEW__HQ_PREVIEW_NOT_FOUND'), 'error-outline')}
+                            style={[styles.image, (this.state.isLoaded ? null : styles.imageHidden),]}
                         />
-
-                        {placeholder}
                     </View>
+                    {message}
                     <Button
                         title={_('BUTTON__CLOSE')}
                         icon="close"
@@ -144,15 +178,12 @@ const styles = StyleSheet.create({
             },
         }),
     },
-    close: {
-        margin: 8,
-    },
     content: {
         flex: 1,
         padding: 8,
         justifyContent: 'center',
     },
-    preview: {
+    image: {
         flex: 1,
         resizeMode: 'contain',
         width: null,
@@ -160,20 +191,41 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-    previewHidden: {
-        flex: 0,
-        width: 1,
-        height: 1,
+    imageHidden: {
+        ...Platform.select({
+            'ios': {
+                flex: 0,
+                width: 1,
+                height: 1,
+            },
+            'android': {
+                display: 'none',
+            },
+        }),
     },
-    errorIcon: {
+    message: {
+        height: 24,
+        margin: 8,
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    messageLoader: {
+        height: 12,
+        width: 12,
+    },
+    messageIcon: {
         alignSelf: 'center',
-        fontSize: 184,
+        fontSize: 14,
         color: CONFIG.COLORS.COMMON,
     },
-    errorText: {
-        textAlign: 'center',
-        fontSize: 32,
+    messageText: {
+        flex: 1,
+        marginHorizontal: 8,
+        fontSize: 14,
         fontFamily: 'Futura',
         color: CONFIG.COLORS.COMMON,
+    },
+    close: {
+        margin: 8,
     },
 });

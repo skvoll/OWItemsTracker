@@ -107,7 +107,7 @@ export class HeroesList extends Component {
 
     isShouldComponentUpdate = false;
 
-    modal;
+    preview;
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -209,7 +209,7 @@ export class HeroesList extends Component {
     }
 
     onItemLongPress(item) {
-        this.modal.open(item.name, item.background);
+        this.preview.showHero(item);
     }
 
     renderItem(item, index) {
@@ -242,7 +242,7 @@ export class HeroesList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Preview ref={(component) => this.modal = component}/>
+                <Preview ref={(component) => this.preview = component}/>
                 <RemainingAmount amount={this.state.remainingAmount}/>
                 <FlatList
                     data={this.state.data}

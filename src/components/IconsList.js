@@ -13,7 +13,6 @@ import {
 
 import CONFIG from './../config';
 import _ from './../i18n';
-import CloudStorage from './../CloudStorage';
 import Items from './../Items';
 import Events from './../Events';
 import Heroes from './../Heroes';
@@ -134,7 +133,7 @@ export class IconsList extends Component {
 
     isShouldComponentUpdate = false;
 
-    modal;
+    preview;
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -241,19 +240,7 @@ export class IconsList extends Component {
     }
 
     onItemLongPress(item) {
-        let title = _(item.uid);
-
-        if (CONFIG.NETWORK === 'NONE') {
-            this.modal.error(title, _('ERROR__NO_INTERNET_CONNECTION'));
-
-            return;
-        }
-
-        this.modal.open(title, null);
-
-        CloudStorage.getFileUrl(`items/previews/${item.type}/${item.uid}.png`)
-            .then((url) => this.modal.open(title, {uri: url,}))
-            .catch((error) => this.modal.error(title, _('ERROR__PREVIEW_NOT_FOUND')));
+        this.preview.showItem(item);
     }
 
     renderItem(item, index) {
@@ -276,7 +263,7 @@ export class IconsList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Preview ref={(component) => this.modal = component}/>
+                <Preview ref={(component) => this.preview = component}/>
                 <View style={styles.progress}>
                     <Text style={styles.progressTitle}>{`${this.state.progress.received}/${this.state.progress.total}`}</Text>
                 </View>

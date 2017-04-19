@@ -30,6 +30,7 @@ export class SettingsScene extends Scene {
         this.state = {
             hasPlayServices: false,
             language: CONFIG.LANGUAGE,
+            hqPreview: CONFIG.HQ_PREVIEW,
             includeIconsInProgress: CONFIG.INCLUDE_ICONS_IN_PROGRESS,
             profile: CONFIG.PROFILE || null,
         };
@@ -57,6 +58,26 @@ export class SettingsScene extends Scene {
         }, () => {
             CONFIG.set('LANGUAGE', language).then(() => {
                 this.forceUpdate();
+            });
+        });
+    }
+
+    switchHQPreview() {
+        let values = [true, 'WIFI', false], index, value;
+
+        index = values.indexOf(this.state.hqPreview);
+
+        if ((index + 1) > (values.length - 1)) {
+            index = 0;
+        } else {
+            index++;
+        }
+
+        value = values[index];
+
+        CONFIG.set('HQ_PREVIEW', value).then(() => {
+            this.setState({
+                hqPreview: value,
             });
         });
     }
@@ -137,10 +158,25 @@ export class SettingsScene extends Scene {
     }
 
     render() {
-        let languages = [], btnSync, btnSyncTitle = _('BUTTON__CLOUD_SYNCHRONIZATION');
+        let languages = [],
+            btnHQPreviewTitle = `${_('SETTINGS__HQ_PREVIEW')}`,
+            btnSync,
+            btnSyncTitle = _('BUTTON__CLOUD_SYNCHRONIZATION');
 
         for (let i in LANGUAGES) if (LANGUAGES.hasOwnProperty(i)) {
             languages.push({label: LANGUAGES[i].name.toUpperCase(), value: i});
+        }
+
+        switch (this.state.hqPreview) {
+            case true:
+                btnHQPreviewTitle += `: ${_('SETTINGS__IS_ON')}`;
+                break;
+            case 'WIFI':
+                btnHQPreviewTitle += `: ${_('SETTINGS__WIFI')}`;
+                break;
+            case false:
+                btnHQPreviewTitle += `: ${_('SETTINGS__IS_OFF')}`;
+                break;
         }
 
         if (this.state.hasPlayServices) {
@@ -178,6 +214,12 @@ export class SettingsScene extends Scene {
                             onValueChange={(language) => this.setLanguage(language)}
                             title={_('SETTINGS__LANGUAGE').toUpperCase()}
                             icon="close"
+                        />
+                    </View>
+                    <View style={styles.section}>
+                        <Button
+                            title={btnHQPreviewTitle}
+                            onPress={() => this.switchHQPreview()}
                         />
                     </View>
                     <View style={styles.section}>

@@ -54,6 +54,7 @@ export default class CONFIG {
     static SHOW_NEWS = false;
 
     static LANGUAGE = 'en_US';
+    static HQ_PREVIEW = 'WIFI'; // [true, 'WIFI', false]
     static INCLUDE_ICONS_IN_PROGRESS = false;
     static CLOUD_SYNCHRONIZATION = false;
     static PROFILE = null;
