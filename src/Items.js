@@ -97,10 +97,13 @@ export default class Items {
                     case (uid !== null && item.uid === uid):
                         return item;
                         break;
-                    case (type !== null && type !== item.type):
-                    case (rarity !== null && rarity !== item.rarity):
-                    case (hero !== null && hero !== item.hero):
-                    case (event !== null && event !== item.event):
+                    case (hero === true && item.hero === false):
+                        continue;
+                        break;
+                    case (type !== true && type !== null && type !== item.type):
+                    case (rarity !== true && rarity !== null && rarity !== item.rarity):
+                    case (hero !== true && hero !== null && hero !== item.hero):
+                    case (event !== true && event !== null && event !== item.event):
                         continue;
                         break;
                     default:
@@ -237,6 +240,18 @@ export default class Items {
         });
 
         return progress;
+    }
+
+    static getRemainingAmount(uid = null, type = null, rarity = null, hero = null, event = null) {
+        let amount = 0;
+
+        this.select(uid, type, rarity, hero, event).map((item) => {
+            if (!item.received) {
+                amount += item.price;
+            }
+        });
+
+        return amount;
     }
 }
 
