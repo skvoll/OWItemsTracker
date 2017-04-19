@@ -23,6 +23,7 @@ import Heroes from './../Heroes';
 import {
     Touchable,
     Preview,
+    RemainingAmount,
 } from './';
 
 const GRID_SIZE = 4;
@@ -400,7 +401,7 @@ export class ItemsList extends Component {
         this.state = {
             sections: {},
             openedSections: [],
-            itemsPrice: 0,
+            remainingAmount: 0,
         };
     }
 
@@ -455,7 +456,7 @@ export class ItemsList extends Component {
     }
 
     loadItems() {
-        let sections = {}, itemsPrice = 0;
+        let sections = {}, remainingAmount = 0;
 
         this.getItems().map((item) => {
             if (!sections[item.type]) {
@@ -477,7 +478,7 @@ export class ItemsList extends Component {
             }
 
             if (!item.received) {
-                itemsPrice += item.price;
+                remainingAmount += item.price;
             }
 
             sections[item.type].data.push(Object.assign({}, item));
@@ -519,7 +520,7 @@ export class ItemsList extends Component {
 
         this.setState({
             sections: sections,
-            itemsPrice: itemsPrice,
+            remainingAmount: remainingAmount,
         });
     }
 
@@ -582,15 +583,15 @@ export class ItemsList extends Component {
         }
 
         let sections = this.getSections(),
-            itemsPrice = this.state.itemsPrice;
+            remainingAmount = this.state.remainingAmount;
 
         sections[item.type].data[index].received = !sections[item.type].data[index].received;
 
         if (sections[item.type].data[index].received) {
-            itemsPrice -= item.price;
+            remainingAmount -= item.price;
             sections[item.type].progress.received++;
         } else {
-            itemsPrice += item.price;
+            remainingAmount += item.price;
             sections[item.type].progress.received--;
         }
 
@@ -598,7 +599,7 @@ export class ItemsList extends Component {
 
         this.setState({
             sections: sections,
-            itemsPrice: itemsPrice,
+            remainingAmount: remainingAmount,
         }, () => Items.receiveItem(sections[item.type].data[index].uid, sections[item.type].data[index].received));
     }
 
@@ -652,10 +653,7 @@ export class ItemsList extends Component {
             <View style={styles.container}>
                 {backgroundHero}
                 <Preview ref={(component) => this.modal = component}/>
-                <View style={styles.itemsPrice}>
-                    <Text style={styles.itemsPriceTitle}>{this.state.itemsPrice.toString()}</Text>
-                    <Image source={require('./../assets/credit.png')} style={styles.itemsPriceIcon}/>
-                </View>
+                <RemainingAmount amount={this.state.remainingAmount}/>
                 <ScrollView>
                     {sections}
                 </ScrollView>
@@ -671,23 +669,6 @@ const styles = StyleSheet.create({
     backgroundHero: {
         position: 'absolute',
         opacity: 0.8,
-    },
-    itemsPrice: {
-        height: 56,
-        marginHorizontal: 8,
-        flexDirection: 'row',
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-    },
-    itemsPriceTitle: {
-        fontSize: 32,
-        marginHorizontal: 8,
-        fontFamily: 'BigNoodleToo',
-        color: '#FFFFFF',
-    },
-    itemsPriceIcon: {
-        height: 32,
-        width: 32,
     },
     section: {
         backgroundColor: CONFIG.COLORS.DARK_BLUE_OPACITY,
