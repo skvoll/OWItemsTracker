@@ -209,9 +209,33 @@ const i18nSet = function (args = {}) {
     logger.success(`${args['k']} setted to "${args['v']}"`);
 };
 
+const i18nRemove = function (args = {}) {
+    if (!args['k'] || typeof args['k'] !== 'string') {
+        logger.fatal('key is missing');
+    }
+
+    let i18n;
+
+    fs.readdirSync(`./../src/i18n/`).map((file) => {
+        if (file.match(/[a-z]{2}_[A-Z]{2}\.interface\.json/)) {
+            i18n = require(`./../src/i18n/${file}`);
+            if (!i18n[args['k']]) {
+                logger.warn(`${args['k']} not found in '${file}'`);
+            }
+
+            delete i18n[args['k']];
+
+            fs.writeFileSync(`./../src/i18n/${file}`, JSON.stringify(sort(i18n), null, 2));
+        }
+    });
+
+    logger.success(`${args['k']} deleted`);
+};
+
 module.exports = {
     create: i18nCreate,
     export: i18nExport,
     import: i18nImport,
     set: i18nSet,
+    remove: i18nRemove,
 };

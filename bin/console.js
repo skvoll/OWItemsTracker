@@ -48,6 +48,10 @@ if (process.argv.length > 2) {
                 case 'i18n-set':
                     command = i18n.set;
                     break;
+                case 'i18n-remove':
+                case 'i18n-rm':
+                    command = i18n.remove;
+                    break;
                 case 'temp':
                     command = temp;
                     break;
