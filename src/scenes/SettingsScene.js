@@ -172,7 +172,7 @@ export class SettingsScene extends Scene {
                 btnHQPreviewTitle += `: ${_('SETTINGS__IS_ON')}`;
                 break;
             case 'WIFI':
-                btnHQPreviewTitle += `: ${_('SETTINGS__WIFI')}`;
+                btnHQPreviewTitle += `: ${_('SETTINGS__WIFI_ONLY')}`;
                 break;
             case false:
                 btnHQPreviewTitle += `: ${_('SETTINGS__IS_OFF')}`;
