@@ -22925,7 +22925,7 @@
     "name": "OR14-NS",
     "type": "SPRAY",
     "rarity": "COMMON",
-    "hero": false,
+    "hero": "ORISA",
     "price": false,
     "event": "UPRISING_2017"
   },
