@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const logger = require('./logger');
+const google = require('./google');
 
 let items = require('./../src/data/items.json');
 
@@ -186,6 +187,23 @@ const i18nImport = function (args = {}) {
     }
 };
 
+const i18nSync = function (args = {}) {
+    google.getTranslations().then((translations) => {
+        for (let i in translations) if (translations.hasOwnProperty(i)) {
+            for (let j in translations[i]) if (translations[i].hasOwnProperty(j)) {
+                if (['interface', 'heroes',].indexOf(j.toLowerCase()) !== -1) {
+                    translations[i][j] = sort(translations[i][j]);
+                }
+
+                fs.writeFileSync(
+                    `./../src/i18n/${i}.${j.toLowerCase()}.json`,
+                    JSON.stringify(translations[i][j], null, 2)
+                );
+            }
+        }
+    }).catch(logger.fatal);
+};
+
 const i18nSet = function (args = {}) {
     if (!args['k'] || typeof args['k'] !== 'string') {
         logger.fatal('key is missing');
@@ -236,6 +254,7 @@ module.exports = {
     create: i18nCreate,
     export: i18nExport,
     import: i18nImport,
+    sync: i18nSync,
     set: i18nSet,
     remove: i18nRemove,
 };

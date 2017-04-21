@@ -1,5 +1,6 @@
 "use strict";
 
+const readline = require('readline');
 require('colors');
 const moment = require('moment');
 
@@ -47,6 +48,33 @@ const log = function () {
     console.log(`LOG [${moment().format('HH:mm:ss')}]: ${message}`);
 };
 
+const question = function (question, answers = []) {
+    return new Promise((resolve, reject) => {
+        let rl = readline.createInterface({
+            input: process.stdin,
+            output: process.output,
+        });
+
+        if (answers.length) {
+            question += ` [${answers.join('/')}]`;
+        }
+
+        process.stdout.write(`${question}: `.cyan);
+
+        rl.on('line', (answer) => {
+            if (answers.length && answers.indexOf(answer) === -1) {
+                process.stdout.write(`${question}: `.cyan);
+
+                return;
+            }
+
+            resolve(answer);
+
+            rl.close();
+        });
+    });
+};
+
 module.exports = {
     fatal: fatal,
     error: error,
@@ -55,4 +83,5 @@ module.exports = {
     success: success,
     failed: failed,
     log: log,
+    question: question,
 };

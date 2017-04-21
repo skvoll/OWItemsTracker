@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --harmony
 
 "use strict";
 
@@ -44,6 +44,10 @@ if (process.argv.length > 2) {
                 case 'i18n-import':
                 case 'i18n-i':
                     command = i18n.import;
+                    break;
+                case 'i18n-sync':
+                case 'i18n-s':
+                    command = i18n.sync;
                     break;
                 case 'i18n-set':
                     command = i18n.set;
