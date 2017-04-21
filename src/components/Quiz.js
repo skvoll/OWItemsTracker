@@ -2,6 +2,7 @@
 
 import React, {Component} from 'react';
 import {
+    AsyncStorage,
     Vibration,
     StyleSheet,
     Modal,
@@ -30,16 +31,28 @@ export class Quiz extends Component {
         vibration: 20,
     };
 
+    static initialState = {
+        isVisible: false,
+        isLoaded: false,
+        question: null,
+        answers: null,
+        selectedAnswer: null,
+        score: 0,
+        bestScore: 0,
+    };
+
     constructor(props, context, updater) {
         super(props, context, updater);
 
-        this.state = {
-            isVisible: this.props.isVisible,
-            isLoaded: false,
-            question: null,
-            answers: null,
-            selectedAnswer: null,
-        };
+        this.state = Quiz.initialState;
+
+        AsyncStorage.getItem('EE__BEST_SCORE').then((bestScore) => {
+            if (parseInt(bestScore)) {
+                this.setState({
+                    bestScore: bestScore,
+                });
+            }
+        }).catch(() => null);
     }
 
     vibrate() {
@@ -49,13 +62,7 @@ export class Quiz extends Component {
     }
 
     close() {
-        this.setState({
-            isVisible: false,
-            isLoaded: false,
-            question: null,
-            answers: null,
-            selectedAnswer: null,
-        }, () => {
+        this.setState(Quiz.initialState, () => {
             if (typeof this.props.onClose === 'function') {
                 this.props.onClose();
             }
@@ -120,8 +127,24 @@ export class Quiz extends Component {
             return;
         }
 
+        let score = this.state.score,
+            bestScore = this.state.bestScore;
+
+        if (answer === this.state.question.key) {
+            score++;
+
+            if (score > bestScore) {
+                bestScore = score;
+                AsyncStorage.setItem('EE__BEST_SCORE', bestScore.toString());
+            }
+        } else {
+            score = 0;
+        }
+
         this.setState({
-        selectedAnswer: answer
+            selectedAnswer: answer,
+            score: score,
+            bestScore: bestScore,
         }, () => setTimeout(() => {
             if (this.state.isVisible) {
                 this.loadQuestion();
@@ -161,6 +184,10 @@ export class Quiz extends Component {
                 <View style={styles.content}>
                     <Text numberOfLines={1} style={styles.title}>{`${_('EE__TITLE')}?`.toUpperCase()}</Text>
                     <Text style={styles.question}>"{this.state.question.value}"</Text>
+                    <View style={styles.score}>
+                        <Text style={styles.scoreText}>{`current: ${this.state.score}`.toUpperCase()}</Text>
+                        <Text style={styles.scoreText}>{`best: ${this.state.bestScore}`.toUpperCase()}</Text>
+                    </View>
                     <View style={styles.answers}>
                         {answers}
                     </View>
@@ -212,15 +239,24 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     question: {
-        flex: 1,
         margin: 8,
         textAlign: 'center',
         fontSize: 28,
         fontFamily: 'BigNoodleToo',
         color: CONFIG.COLORS.COMMON,
     },
+    score: {
+        margin: 8,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+    },
+    scoreText: {
+        fontSize: 18,
+        fontFamily: 'Futura',
+        color: CONFIG.COLORS.LIGHT_BLUE,
+    },
     answers: {
-        flex: 3,
+        flex: 1,
     },
     answer: {
         marginVertical: 8,
