@@ -105,9 +105,9 @@ export class WelcomeScene extends Scene {
                             {`${_('OTHER__THANKS_FOR_TRANSLATION')}:`}
                         </Text>
                         <Link
-                            title="/u/skagx"
-                            href="https://www.reddit.com/user/skagx"
-                            icon="reddit-alien"
+                            title="MichGrabowski"
+                            href="https://twitter.com/MichGrabowski"
+                            icon="twitter"
                             backgroundColor={CONFIG.COLORS.GRAY_BLUE}
                         />
                         <Text style={styles.text}>{_('WELCOME__NEWS_TEXT')}</Text>

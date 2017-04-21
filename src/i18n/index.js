@@ -16,6 +16,19 @@ export const LANGUAGES = {
             require('./en_US.interface.json')
         ),
     },
+    pl_PL: {
+        name: 'polski',
+        translators: [
+            {name: 'MichGrabowski', icon: 'twitter', link: 'https://twitter.com/MichGrabowski',},
+        ],
+        translations: Object.assign(
+            {},
+            require('./pl_PL.items.json'),
+            require('./pl_PL.events.json'),
+            require('./pl_PL.heroes.json'),
+            require('./pl_PL.interface.json')
+        ),
+    },
     ru_RU: {
         name: 'русский',
         translators: [
@@ -37,9 +50,9 @@ export const LANGUAGES = {
         ],
         translations: Object.assign(
             {},
-            require('./en_US.items.json'),
-            require('./en_US.events.json'),
-            require('./en_US.heroes.json'),
+            require('./hu_HU.items.json'),
+            require('./hu_HU.events.json'),
+            require('./hu_HU.heroes.json'),
             require('./hu_HU.interface.json')
         ),
     },
