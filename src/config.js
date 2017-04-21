@@ -34,7 +34,7 @@ const COLORS = {
 export default class CONFIG {
     static isInitialized = false;
 
-    static VERSION = '1.0.6';
+    static VERSION = '1.0.7';
     static PLATFORM = Platform.OS;
     static PLATFORM_VERSION = Platform.Version;
     static LOCALE = 'en_US';
