@@ -136,15 +136,15 @@ export default class Items {
         });
     }
 
-    static receiveItem(code, received) {
-        let index = this.RECEIVED_ITEMS.indexOf(code);
+    static receiveItem(uid, received) {
+        let index = this.RECEIVED_ITEMS.indexOf(uid);
 
         if (received) {
-            if (!this.DATA[code] || index !== -1) {
+            if (!this.DATA[uid] || index !== -1) {
                 return;
             }
 
-            this.RECEIVED_ITEMS.push(code);
+            this.RECEIVED_ITEMS.push(uid);
         } else {
             if (index === -1) {
                 return;
