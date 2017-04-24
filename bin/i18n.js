@@ -159,6 +159,8 @@ const i18nSync = function (args = {}) {
                 `./../src/i18n/${i}.json`,
                 JSON.stringify(translations[i], null, 2)
             );
+
+            logger.success(`${i} synchronized`);
         }
     }).catch(logger.fatal);
 };
