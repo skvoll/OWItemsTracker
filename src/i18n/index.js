@@ -8,26 +8,14 @@ export const LANGUAGES = {
         translators: [
             // {name: '', icon: '', link: '',},
         ],
-        translations: Object.assign(
-            {},
-            require('./en_US.items.json'),
-            require('./en_US.events.json'),
-            require('./en_US.heroes.json'),
-            require('./en_US.interface.json')
-        ),
+        translations: Object.assign(...Object.values(require('./en_US.json'))),
     },
     pl_PL: {
         name: 'polski',
         translators: [
             {name: 'MichGrabowski', icon: 'twitter', link: 'https://twitter.com/MichGrabowski',},
         ],
-        translations: Object.assign(
-            {},
-            require('./pl_PL.items.json'),
-            require('./pl_PL.events.json'),
-            require('./pl_PL.heroes.json'),
-            require('./pl_PL.interface.json')
-        ),
+        translations: Object.assign(...Object.values(require('./pl_PL.json'))),
     },
     ru_RU: {
         name: 'русский',
@@ -35,26 +23,14 @@ export const LANGUAGES = {
             {name: '/u/FixKun', icon: 'reddit-alien', link: 'https://www.reddit.com/user/FixKun',},
             {name: 'BurzZzum', icon: 'twitter', link: 'https://twitter.com/BurzZzum',},
         ],
-        translations: Object.assign(
-            {},
-            require('./ru_RU.items.json'),
-            require('./ru_RU.events.json'),
-            require('./ru_RU.heroes.json'),
-            require('./ru_RU.interface.json')
-        ),
+        translations: Object.assign(...Object.values(require('./ru_RU.json'))),
     },
     hu_HU: {
         name: 'magyar',
         translators: [
             {name: '/u/skagx', icon: 'reddit-alien', link: 'https://www.reddit.com/user/skagx',},
         ],
-        translations: Object.assign(
-            {},
-            require('./hu_HU.items.json'),
-            require('./hu_HU.events.json'),
-            require('./hu_HU.heroes.json'),
-            require('./hu_HU.interface.json')
-        ),
+        translations: Object.assign(...Object.values(require('./hu_HU.json'))),
     },
 };
 
