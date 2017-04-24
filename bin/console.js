@@ -33,10 +33,6 @@ if (process.argv.length > 2) {
                 case 'items-s':
                     command = items.save;
                     break;
-                case 'i18n-create':
-                case 'i18n-c':
-                    command = i18n.create;
-                    break;
                 case 'i18n-export':
                 case 'i18n-e':
                     command = i18n.export;

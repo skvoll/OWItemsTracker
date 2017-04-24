@@ -24,64 +24,27 @@ function sort(object) {
     return result;
 }
 
-const i18nCreate = function (args = {}) {
-    if (!args['l'] || typeof args['l'] !== 'string') {
-        logger.fatal('language is missing');
-    }
-
-    let i18n = {
-        items: `./../src/i18n/${args['l']}.items.json`,
-    }, count = 0;
-
-    if (!fs.existsSync(i18n.items)) {
-        logger.warn(`'${i18n.items}' does not exists and will be created`);
-
-        i18n.items = {};
-    } else {
-        i18n.items = require(i18n.items);
-    }
-
-    Object.values(items).map((item) => {
-        if (!i18n.items[item.uid]) {
-            count++;
-
-            i18n.items[item.uid] = item.name;
-        }
-    });
-
-    if (count === 0) {
-        logger.info('nothing to update');
-    } else {
-        fs.writeFileSync(`./../src/i18n/${args['l']}.items.json`, JSON.stringify(i18n.items, null, 2));
-
-        logger.success(`${count} translation(s) added`);
-    }
-};
-
 const i18nExport = function (args = {}) {
     if (!args['l'] || typeof args['l'] !== 'string') {
         logger.fatal('language is missing');
     }
 
-    let i18n = {
-        items: `./../src/i18n/${args['l']}.items.json`,
-        events: `./../src/i18n/${args['l']}.events.json`,
-        heroes: `./../src/i18n/${args['l']}.heroes.json`,
-        interface: `./../src/i18n/${args['l']}.interface.json`,
-    }, template = `INFORMATION;TRANSLATION;KEY\n`, tsv = {
-        items: template,
-        events: template,
-        heroes: template,
-        interface: template,
-    };
+    let i18n = `./../src/i18n/${args['l']}.json`,
+        template = `INFORMATION\tTRANSLATION\tKEY\n`,
+        tsv = {
+            items: template,
+            events: template,
+            heroes: template,
+            interface: template,
+        };
+
+    if (!fs.existsSync(i18n)) {
+        logger.fatal(`'${i18n}' does not exists`);
+    }
+
+    i18n = require(i18n);
 
     for (let i in i18n) if (i18n.hasOwnProperty(i)) {
-        if (!fs.existsSync(i18n[i])) {
-            logger.fatal(`'${i18n[i]}' does not exists`);
-        }
-
-        i18n[i] = require(i18n[i]);
-
         if (i === 'items') {
             Object.values(items).map((item) => {
                 tsv[i] += [
@@ -123,30 +86,26 @@ const i18nImport = function (args = {}) {
         logger.fatal(`'${args['f']}' does not exists`);
     }
 
-    let savePath, i18n = {
-        items: `./../src/i18n/${args['l']}.items.json`,
-        events: `./../src/i18n/${args['l']}.events.json`,
-        heroes: `./../src/i18n/${args['l']}.heroes.json`,
-        interface: `./../src/i18n/${args['l']}.interface.json`,
-    }, addedCount = 0, updatedCount = 0;
+    let path = `./../src/i18n/${args['l']}.json`,
+        i18n,
+        addedCount = 0,
+        updatedCount = 0;
 
-    if (Object.keys(i18n).indexOf(args['t']) === -1) {
-        logger.fatal(`wrong type '${args['t']}'. should be one of [${Object.keys(i18n).join(', ')}]`);
-    }
+    if (!fs.existsSync(path)) {
+        logger.warn(`'${path}' does not exists and will be created`);
 
-    savePath = i18n[args['t']];
-
-    if (!fs.existsSync(i18n[args['t']])) {
-        logger.warn(`'${i18n[args['t']]}' does not exists and will be created`);
-
-        i18n[args['t']] = {};
+        i18n = {};
     } else {
-        i18n[args['t']] = require(i18n[args['t']]);
+        i18n = require(path);
     }
 
     fs.readFileSync(args['f'], 'utf-8').split('\n').map((line, index) => {
         if (index === 0) {
             return;
+        }
+
+        if (!i18n.hasOwnProperty(args['t'])) {
+            i18n[args['t']] = {};
         }
 
         line = line.split('\t');
@@ -175,7 +134,7 @@ const i18nImport = function (args = {}) {
             i18n[args['t']] = sort(i18n[args['t']]);
         }
 
-        fs.writeFileSync(savePath, JSON.stringify(i18n[args['t']], null, 2));
+        fs.writeFileSync(path, JSON.stringify(i18n, null, 2));
 
         if (addedCount) {
             logger.success(`${addedCount} item(s) added`);
@@ -194,12 +153,12 @@ const i18nSync = function (args = {}) {
                 if (['interface', 'heroes',].indexOf(j.toLowerCase()) !== -1) {
                     translations[i][j] = sort(translations[i][j]);
                 }
-
-                fs.writeFileSync(
-                    `./../src/i18n/${i}.${j.toLowerCase()}.json`,
-                    JSON.stringify(translations[i][j], null, 2)
-                );
             }
+
+            fs.writeFileSync(
+                `./../src/i18n/${i}.json`,
+                JSON.stringify(translations[i], null, 2)
+            );
         }
     }).catch(logger.fatal);
 };
@@ -216,11 +175,18 @@ const i18nSet = function (args = {}) {
     let i18n;
 
     fs.readdirSync(`./../src/i18n/`).map((file) => {
-        if (file.match(/[a-z]{2}_[A-Z]{2}\.interface\.json/)) {
+        if (file.match(/[a-z]{2}_[A-Z]{2}\.json/)) {
             i18n = require(`./../src/i18n/${file}`);
-            i18n[args['k']] = args['v'];
 
-            fs.writeFileSync(`./../src/i18n/${file}`, JSON.stringify(sort(i18n), null, 2));
+            if (!i18n.hasOwnProperty('interface')) {
+                i18n.interface = {};
+            }
+
+            i18n.interface[args['k']] = args['v'];
+
+            i18n.interface = sort(i18n.interface);
+
+            fs.writeFileSync(`./../src/i18n/${file}`, JSON.stringify(i18n, null, 2));
         }
     });
 
@@ -235,15 +201,17 @@ const i18nRemove = function (args = {}) {
     let i18n;
 
     fs.readdirSync(`./../src/i18n/`).map((file) => {
-        if (file.match(/[a-z]{2}_[A-Z]{2}\.interface\.json/)) {
+        if (file.match(/[a-z]{2}_[A-Z]{2}\.json/)) {
             i18n = require(`./../src/i18n/${file}`);
-            if (!i18n[args['k']]) {
+            if (!i18n.hasOwnProperty('interface') || !i18n.interface[args['k']]) {
                 logger.warn(`${args['k']} not found in '${file}'`);
             }
 
-            delete i18n[args['k']];
+            delete i18n.interface[args['k']];
 
-            fs.writeFileSync(`./../src/i18n/${file}`, JSON.stringify(sort(i18n), null, 2));
+            i18n.interface = sort(i18n.interface);
+
+            fs.writeFileSync(`./../src/i18n/${file}`, JSON.stringify(i18n, null, 2));
         }
     });
 
@@ -251,7 +219,6 @@ const i18nRemove = function (args = {}) {
 };
 
 module.exports = {
-    create: i18nCreate,
     export: i18nExport,
     import: i18nImport,
     sync: i18nSync,
