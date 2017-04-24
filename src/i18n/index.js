@@ -25,6 +25,13 @@ export const LANGUAGES = {
         ],
         translations: Object.assign(...Object.values(require('./ru_RU.json'))),
     },
+    pt_BR: {
+        name: 'português (brasileiro)',
+        translators: [
+            {name: '/u/tpl1997', icon: 'reddit-alien', link: 'https://www.reddit.com/user/tpl1997',},
+        ],
+        translations: Object.assign(...Object.values(require('./pt_BR.json'))),
+    },
     hu_HU: {
         name: 'magyar',
         translators: [
