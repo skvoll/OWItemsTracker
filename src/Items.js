@@ -98,6 +98,7 @@ export default class Items {
                         return item;
                         break;
                     case (hero === true && item.hero === false):
+                    case (event === true && item.event === false):
                         continue;
                         break;
                     case (type !== true && type !== null && type !== item.type):

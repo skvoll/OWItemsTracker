@@ -139,7 +139,13 @@ export class EventsList extends Component {
     }
 
     loadItems() {
-        let data = [], remainingAmount = Items.getRemainingAmount(), progress;
+        let data = [], remainingAmount = Items.getRemainingAmount(
+            null,
+            null,
+            null,
+            null,
+            true
+        ), progress;
 
         Object.values(Events.ITEMS).map((item) => {
             data.push(Object.assign({}, item));
