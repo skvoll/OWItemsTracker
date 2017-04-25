@@ -7,7 +7,7 @@ const moment = require('moment');
 const fatal = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`FATAL [${moment().format('HH:mm:ss')}]: ${message}`.bgRed);
+    console.log(`[${moment().format('HH:mm:ss')}] FATAL: ${message}`.bgRed);
 
     process.exit();
 };
@@ -15,37 +15,37 @@ const fatal = function () {
 const error = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`ERROR [${moment().format('HH:mm:ss')}]: ${message}`.red);
+    console.log(`[${moment().format('HH:mm:ss')}] ERROR: ${message}`.red);
 };
 
 const warn = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`WARN [${moment().format('HH:mm:ss')}]: ${message}`.yellow);
+    console.log(`[${moment().format('HH:mm:ss')}] WARN: ${message}`.yellow);
 };
 
 const info = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`INFO [${moment().format('HH:mm:ss')}]: ${message}`.cyan);
+    console.log(`[${moment().format('HH:mm:ss')}] INFO: ${message}`.cyan);
 };
 
 const success = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`SUCCESS [${moment().format('HH:mm:ss')}]: ${message}`.green);
+    console.log(`[${moment().format('HH:mm:ss')}] SUCCESS: ${message}`.green);
 };
 
 const failed = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`FAILED [${moment().format('HH:mm:ss')}]: ${message}`.red);
+    console.log(`[${moment().format('HH:mm:ss')}] FAILED: ${message}`.red);
 };
 
 const log = function () {
     let message = Object.values(arguments).join(', ');
 
-    console.log(`LOG [${moment().format('HH:mm:ss')}]: ${message}`);
+    console.log(`[${moment().format('HH:mm:ss')}] LOG: ${message}`);
 };
 
 const question = function (question, answers = []) {
