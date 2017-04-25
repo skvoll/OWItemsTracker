@@ -24325,7 +24325,7 @@ export default {
     'VOICE_LINE-BASTION-68-87-69-69-32-87-69-69-32-87-72-79': {
         uid: 'VOICE_LINE-BASTION-68-87-69-69-32-87-69-69-32-87-72-79',
         default: false,
-        name: `Dwee wee who`,
+        name: `Dwee wee woh`,
         type: Items.TYPE.VOICE_LINE,
         rarity: Items.RARITY.COMMON,
         hero: Heroes.BASTION,
