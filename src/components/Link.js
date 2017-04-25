@@ -63,7 +63,7 @@ export class Link extends Component {
         content = (
             <View style={[styles.container, this.props.style, {backgroundColor: style.backgroundColor,},]}>
                 {icon}
-                <Text style={[styles.title, {color: style.textColor,},]}>{this.props.title}</Text>
+                <Text numberOfLines={1} style={[styles.title, {color: style.textColor,},]}>{this.props.title}</Text>
                 {this.props.href && (
                     <Icon
                         name="open-in-browser"
