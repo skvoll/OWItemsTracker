@@ -147,16 +147,37 @@ const i18nImport = function (args = {}) {
 };
 
 const i18nSync = function (args = {}) {
+    let path, i18n;
+
     google.getTranslations().then(translations => {
         for (let i in translations) if (translations.hasOwnProperty(i)) {
+            path = `./../src/i18n/${i}.json`;
+
+            if (fs.existsSync(path)) {
+                i18n = require(path);
+            } else {
+                i18n = null;
+                logger.warn(`'${path}' does not exists and will be created`);
+            }
+
             for (let j in translations[i]) if (translations[i].hasOwnProperty(j)) {
+                for (let k in translations[i][j]) if (translations[i][j].hasOwnProperty(k)) {
+                    if (i18n) {
+                        if (!i18n[j][k]) {
+                            logger.info(`${i} ${j}: '${k}'='${translations[i][j][k]}' added`);
+                        } else if (i18n[j][k] !== translations[i][j][k]) {
+                            logger.info(`${i} ${j}: '${k}'='${i18n[j][k]}' changed to '${translations[i][j][k]}'`);
+                        }
+                    }
+                }
+
                 if (['interface', 'heroes',].indexOf(j.toLowerCase()) !== -1) {
                     translations[i][j] = sort(translations[i][j]);
                 }
             }
 
             fs.writeFileSync(
-                `./../src/i18n/${i}.json`,
+                path,
                 JSON.stringify(translations[i], null, 2)
             );
 
