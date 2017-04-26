@@ -17,7 +17,7 @@ import Items from './../Items';
 import Heroes from './../Heroes';
 import {
     Preview,
-    RemainingAmount,
+    ItemsProgress,
 } from './';
 
 const GRID_SIZE = 4;
@@ -114,7 +114,6 @@ export class HeroesList extends Component {
 
         this.state = {
             data: [],
-            remainingAmount: 0,
         };
     }
 
@@ -163,13 +162,7 @@ export class HeroesList extends Component {
     }
 
     loadItems() {
-        let data = [], remainingAmount = Items.getRemainingAmount(
-            null,
-            null,
-            null,
-            true,
-            this.props.progressEvent && this.props.progressEvent.id
-        ), progress;
+        let data = [], progress;
 
         if (this.props.showProgress) {
             progress = Items.getProgressByHeroes(this.props.progressEvent && this.props.progressEvent.id);
@@ -204,7 +197,6 @@ export class HeroesList extends Component {
 
         this.setState({
             data: data,
-            remainingAmount: remainingAmount,
         });
     }
 
@@ -243,7 +235,7 @@ export class HeroesList extends Component {
         return (
             <View style={styles.container}>
                 <Preview ref={component => this.preview = component}/>
-                <RemainingAmount amount={this.state.remainingAmount}/>
+                <ItemsProgress hero={true} event={this.props.progressEvent}/>
                 <FlatList
                     data={this.state.data}
                     keyExtractor={(item, index) => item.id}

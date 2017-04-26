@@ -18,6 +18,7 @@ import Events from './../Events';
 import Heroes from './../Heroes';
 import {
     Preview,
+    ItemsProgress,
 } from './';
 
 const GRID_SIZE = 4;
@@ -140,7 +141,6 @@ export class IconsList extends Component {
 
         this.state = {
             data: [],
-            progress: {received: 0, total: 0,},
         };
     }
 
@@ -185,17 +185,9 @@ export class IconsList extends Component {
     }
 
     loadItems() {
-        let data = [], progress = {received: 0, total: 0,};
+        let data = [];
 
         Items.select(null, Items.TYPE.ICON).map(item => {
-            if (!item.default) {
-                progress.total++;
-
-                if (item.received) {
-                    progress.received++;
-                }
-            }
-
             data.push(Object.assign({}, item));
         });
 
@@ -211,13 +203,11 @@ export class IconsList extends Component {
 
         this.setState({
             data: data,
-            progress: progress,
         });
     }
 
     onItemPress(index) {
-        let data = this.getData(),
-            progress = Object.assign({}, this.state.progress);
+        let data = this.getData();
 
         if (data[index].default) {
             return;
@@ -225,18 +215,13 @@ export class IconsList extends Component {
 
         data[index].received = !data[index].received;
 
-        if (data[index].received) {
-            progress.received++;
-        } else {
-            progress.received--;
-        }
+        Items.receiveItem(data[index].uid, data[index].received);
 
         this.isShouldComponentUpdate = true;
 
         this.setState({
             data: data,
-            progress: progress,
-        }, () => Items.receiveItem(data[index].uid, data[index].received));
+        });
     }
 
     onItemLongPress(item) {
@@ -264,9 +249,7 @@ export class IconsList extends Component {
         return (
             <View style={styles.container}>
                 <Preview ref={component => this.preview = component}/>
-                <View style={styles.progress}>
-                    <Text style={styles.progressTitle}>{`${this.state.progress.received}/${this.state.progress.total}`}</Text>
-                </View>
+                <ItemsProgress type={Items.TYPE.ICON} showAmount={false}/>
                 <FlatList
                     data={this.state.data}
                     keyExtractor={(item, index) => item.uid}
@@ -283,19 +266,6 @@ export class IconsList extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-    },
-    progress: {
-        height: 56,
-        marginHorizontal: 8,
-        flexDirection: 'row',
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-    },
-    progressTitle: {
-        fontSize: 32,
-        marginHorizontal: 8,
-        fontFamily: 'Futura',
-        color: CONFIG.COLORS.LIGHT_BLUE,
     },
     columnWrapperStyle: {
         justifyContent: 'center',

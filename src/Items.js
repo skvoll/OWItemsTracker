@@ -243,6 +243,29 @@ export default class Items {
         return progress;
     }
 
+    static getProgress(uid = null, type = null, rarity = null, hero = null, event = null) {
+        let progress = {received: 0, total: 0,};
+
+        this.select(uid, type, rarity, hero, event).map(item => {
+            if (hero && !CONFIG.INCLUDE_ICONS_IN_PROGRESS) {
+                if (item.type === this.TYPE.ICON) {
+                    return;
+                }
+            }
+
+            if (item.default) {
+                return;
+            }
+
+            progress.total++;
+            if (item.received) {
+                progress.received++;
+            }
+        });
+
+        return progress;
+    }
+
     static getRemainingAmount(uid = null, type = null, rarity = null, hero = null, event = null) {
         let amount = 0;
 

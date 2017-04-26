@@ -15,5 +15,6 @@ export {EventsList} from './EventsList';
 export {HeroesList} from './HeroesList';
 export {IconsList} from './IconsList';
 export {ItemsList} from './ItemsList';
+export {ItemsProgress} from './ItemsProgress';
 
 export {Quiz} from './Quiz';

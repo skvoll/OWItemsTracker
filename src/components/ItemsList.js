@@ -22,7 +22,7 @@ import Heroes from './../Heroes';
 import {
     Touchable,
     Preview,
-    RemainingAmount,
+    ItemsProgress,
 } from './';
 
 const GRID_SIZE = 4;
@@ -400,7 +400,6 @@ export class ItemsList extends Component {
         this.state = {
             sections: {},
             openedSections: [],
-            remainingAmount: 0,
         };
     }
 
@@ -455,7 +454,7 @@ export class ItemsList extends Component {
     }
 
     loadItems() {
-        let sections = {}, remainingAmount = 0;
+        let sections = {};
 
         this.getItems().map(item => {
             if (!sections[item.type]) {
@@ -474,10 +473,6 @@ export class ItemsList extends Component {
                 if (item.received) {
                     sections[item.type].progress.received++;
                 }
-            }
-
-            if (!item.received) {
-                remainingAmount += item.price;
             }
 
             sections[item.type].data.push(Object.assign({}, item));
@@ -519,7 +514,6 @@ export class ItemsList extends Component {
 
         this.setState({
             sections: sections,
-            remainingAmount: remainingAmount,
         });
     }
 
@@ -581,25 +575,23 @@ export class ItemsList extends Component {
             return;
         }
 
-        let sections = this.getSections(),
-            remainingAmount = this.state.remainingAmount;
+        let sections = this.getSections();
 
         sections[item.type].data[index].received = !sections[item.type].data[index].received;
 
         if (sections[item.type].data[index].received) {
-            remainingAmount -= item.price;
             sections[item.type].progress.received++;
         } else {
-            remainingAmount += item.price;
             sections[item.type].progress.received--;
         }
+
+        Items.receiveItem(sections[item.type].data[index].uid, sections[item.type].data[index].received);
 
         this.isShouldComponentUpdate = true;
 
         this.setState({
             sections: sections,
-            remainingAmount: remainingAmount,
-        }, () => Items.receiveItem(sections[item.type].data[index].uid, sections[item.type].data[index].received));
+        });
     }
 
     onItemLongPress(item, index) {
@@ -640,7 +632,12 @@ export class ItemsList extends Component {
             <View style={styles.container}>
                 {backgroundHero}
                 <Preview ref={component => this.preview = component}/>
-                <RemainingAmount amount={this.state.remainingAmount}/>
+                <ItemsProgress
+                    type={this.props.type}
+                    rarity={this.props.rarity}
+                    hero={this.props.hero}
+                    event={this.props.event}
+                />
                 <ScrollView>
                     {sections}
                 </ScrollView>
