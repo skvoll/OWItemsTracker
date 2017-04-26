@@ -932,7 +932,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.GENERAL,
+        event: Events.SPECIAL,
     },
     'ICON-79-114-110-97-109-101-110-116': {
         uid: 'ICON-79-114-110-97-109-101-110-116',
@@ -13328,7 +13328,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.GENJI,
         price: false,
-        event: false,
+        event: Events.SPECIAL,
     },
     'SKIN-GENJI-79-110-105': {
         uid: 'SKIN-GENJI-79-110-105',

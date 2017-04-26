@@ -767,7 +767,7 @@
     "rarity": "COMMON",
     "hero": false,
     "price": false,
-    "event": "GENERAL"
+    "event": "SPECIAL"
   },
   "ICON-79-114-110-97-109-101-110-116": {
     "uid": "ICON-79-114-110-97-109-101-110-116",
@@ -12007,7 +12007,7 @@
     "rarity": "COMMON",
     "hero": "GENJI",
     "price": false,
-    "event": false
+    "event": "SPECIAL"
   },
   "SKIN-GENJI-79-110-105": {
     "uid": "SKIN-GENJI-79-110-105",
