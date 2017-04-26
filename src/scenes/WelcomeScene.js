@@ -105,8 +105,8 @@ export class WelcomeScene extends Scene {
                             {`${_('OTHER__THANKS_FOR_TRANSLATION')}:`}
                         </Text>
                         <Link
-                            title="/u/tpl1997"
-                            href="https://www.reddit.com/user/tpl1997"
+                            title="/u/70006"
+                            href="https://www.reddit.com/user/70006"
                             icon="reddit-alien"
                             backgroundColor={CONFIG.COLORS.GRAY_BLUE}
                         />

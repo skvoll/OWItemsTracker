@@ -20,7 +20,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-49-54-45-66-105-116-32-72-101-114-111': {
         uid: 'ICON-49-54-45-66-105-116-32-72-101-114-111',
@@ -116,7 +116,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-66-111-107-105-109-97-114-105': {
         uid: 'ICON-66-111-107-105-109-97-114-105',
@@ -164,7 +164,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-67-97-110-100-108-101': {
         uid: 'ICON-67-97-110-100-108-101',
@@ -176,7 +176,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-67-97-110-100-121-32-67-97-110-101': {
         uid: 'ICON-67-97-110-100-121-32-67-97-110-101',
@@ -404,7 +404,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101': {
         uid: 'ICON-70-111-114-32-116-104-101-32-65-108-108-105-97-110-99-101',
@@ -512,7 +512,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-71-105-110-103-101-114-98-114-101-97-100': {
         uid: 'ICON-71-105-110-103-101-114-98-114-101-97-100',
@@ -572,7 +572,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-72-97-112-112-121-32-83-113-117-105-100': {
         uid: 'ICON-72-97-112-112-121-32-83-113-117-105-100',
@@ -1352,7 +1352,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-83-116-111-99-107-105-110-103': {
         uid: 'ICON-83-116-111-99-107-105-110-103',
@@ -1388,7 +1388,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-83-118-121-97-116-111-103-111-114': {
         uid: 'ICON-83-118-121-97-116-111-103-111-114',
@@ -1472,7 +1472,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-84-111-112-32-53-48-48': {
         uid: 'ICON-84-111-112-32-53-48-48',
@@ -1544,7 +1544,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-86-97-114-105-97-110': {
         uid: 'ICON-86-97-114-105-97-110',
@@ -1604,7 +1604,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-87-105-116-99-104-39-115-32-72-97-116': {
         uid: 'ICON-87-105-116-99-104-39-115-32-72-97-116',
@@ -1616,7 +1616,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-87-105-122-97-114-100': {
         uid: 'ICON-87-105-122-97-114-100',
@@ -1640,7 +1640,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-87-114-101-97-116-104': {
         uid: 'ICON-87-114-101-97-116-104',
@@ -1700,7 +1700,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-46-46-46-80-117-110-99-104': {
         uid: 'SPRAY-46-46-46-80-117-110-99-104',
@@ -1760,7 +1760,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110': {
         uid: 'SPRAY-66-101-121-111-110-100-32-116-104-101-32-77-111-111-110',
@@ -1784,7 +1784,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-66-111-111-112-33': {
         uid: 'SPRAY-66-111-111-112-33',
@@ -1796,7 +1796,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-67-97-110-100-121-98-97-108-108': {
         uid: 'SPRAY-67-97-110-100-121-98-97-108-108',
@@ -1808,7 +1808,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-67-97-116-99-104-101-114': {
         uid: 'SPRAY-67-97-116-99-104-101-114',
@@ -1940,7 +1940,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-70-111-114-103-101-32-79-110-119-97-114-100': {
         uid: 'SPRAY-70-111-114-103-101-32-79-110-119-97-114-100',
@@ -2012,7 +2012,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108': {
         uid: 'SPRAY-72-97-108-108-111-119-101-101-110-32-83-112-101-99-105-97-108',
@@ -2024,7 +2024,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114': {
         uid: 'SPRAY-72-97-108-108-111-119-101-101-110-32-84-101-114-114-111-114',
@@ -2036,7 +2036,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-74-97-105-108': {
         uid: 'SPRAY-74-97-105-108',
@@ -2060,7 +2060,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-76-101-101-107': {
         uid: 'SPRAY-76-101-101-107',
@@ -2240,7 +2240,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-82-101-100-32-69-110-118-101-108-111-112-101': {
         uid: 'SPRAY-82-101-100-32-69-110-118-101-108-111-112-101',
@@ -2324,7 +2324,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-82-105-115-101': {
         uid: 'SPRAY-82-105-115-101',
@@ -2576,7 +2576,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-86-105-99-116-111-114-121': {
         uid: 'SPRAY-86-105-99-116-111-114-121',
@@ -2648,7 +2648,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: false,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-87-105-122-97-114-100': {
         uid: 'SPRAY-87-105-122-97-114-100',
@@ -3446,7 +3446,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.REAPER,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-REAPER-80-117-109-112-107-105-110': {
         uid: 'SKIN-REAPER-80-117-109-112-107-105-110',
@@ -3456,7 +3456,7 @@ export default {
         rarity: Items.RARITY.LEGENDARY,
         hero: Heroes.REAPER,
         price: Items.PRICE.EVENT[Items.RARITY.LEGENDARY],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'HIGHLIGHT_INTRO-REAPER-69-116-101-114-110-97-108-32-82-101-115-116': {
         uid: 'HIGHLIGHT_INTRO-REAPER-69-116-101-114-110-97-108-32-82-101-115-116',
@@ -3466,7 +3466,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.REAPER,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-REAPER-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-REAPER-82-46-73-46-80-46',
@@ -3476,7 +3476,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.REAPER,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-REAPER-84-104-101-32-82-101-97-112-101-114': {
         uid: 'ICON-REAPER-84-104-101-32-82-101-97-112-101-114',
@@ -3488,7 +3488,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.REAPER,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-REAPER-73-32-119-111-114-107-32-116-104-101-32-103-114-97-118-101-121-97-114-100-32-115-104-105-102-116': {
         uid: 'VOICE_LINE-REAPER-73-32-119-111-114-107-32-116-104-101-32-103-114-97-118-101-121-97-114-100-32-115-104-105-102-116',
@@ -3498,7 +3498,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.REAPER,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-REAPER-83-116-111-99-107-105-110-103': {
         uid: 'SPRAY-REAPER-83-116-111-99-107-105-110-103',
@@ -4348,7 +4348,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.TRACER,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-TRACER-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-TRACER-82-46-73-46-80-46',
@@ -4358,7 +4358,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.TRACER,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-TRACER-79-111-104-44-32-83-99-97-114-121-33': {
         uid: 'VOICE_LINE-TRACER-79-111-104-44-32-83-99-97-114-121-33',
@@ -4368,7 +4368,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.TRACER,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103': {
         uid: 'SPRAY-TRACER-83-110-111-119-98-111-97-114-100-105-110-103',
@@ -5230,7 +5230,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.MERCY,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-MERCY-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-MERCY-82-46-73-46-80-46',
@@ -5240,7 +5240,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.MERCY,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-MERCY-87-105-116-99-104': {
         uid: 'SKIN-MERCY-87-105-116-99-104',
@@ -5250,7 +5250,7 @@ export default {
         rarity: Items.RARITY.LEGENDARY,
         hero: Heroes.MERCY,
         price: Items.PRICE.EVENT[Items.RARITY.LEGENDARY],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-MERCY-84-104-101-32-87-105-116-99-104': {
         uid: 'ICON-MERCY-84-104-101-32-87-105-116-99-104',
@@ -5262,7 +5262,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.MERCY,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-MERCY-83-117-112-101-114-115-116-105-116-105-111-110': {
         uid: 'VOICE_LINE-MERCY-83-117-112-101-114-115-116-105-116-105-111-110',
@@ -5272,7 +5272,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.MERCY,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108': {
         uid: 'SPRAY-MERCY-83-110-111-119-32-65-110-103-101-108',
@@ -6112,7 +6112,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.HANZO,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-HANZO-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-HANZO-82-46-73-46-80-46',
@@ -6122,7 +6122,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.HANZO,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-HANZO-68-101-109-111-110': {
         uid: 'SKIN-HANZO-68-101-109-111-110',
@@ -6132,7 +6132,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.HANZO,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-HANZO-89-111-117-32-97-114-101-32-97-108-114-101-97-100-121-32-100-101-97-100': {
         uid: 'VOICE_LINE-HANZO-89-111-117-32-97-114-101-32-97-108-114-101-97-100-121-32-100-101-97-100',
@@ -6142,7 +6142,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.HANZO,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-HANZO-75-97-100-111-109-97-116-115-117': {
         uid: 'SPRAY-HANZO-75-97-100-111-109-97-116-115-117',
@@ -6972,7 +6972,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.TORBJORN,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-TORBJORN-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-TORBJORN-82-46-73-46-80-46',
@@ -6982,7 +6982,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.TORBJORN,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-TORBJORN-73-102-32-121-111-117-32-98-117-105-108-100-32-105-116': {
         uid: 'VOICE_LINE-TORBJORN-73-102-32-121-111-117-32-98-117-105-108-100-32-105-116',
@@ -6992,7 +6992,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.TORBJORN,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-TORBJORN-87-111-114-107-115-104-111-112': {
         uid: 'SPRAY-TORBJORN-87-111-114-107-115-104-111-112',
@@ -7854,7 +7854,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.REINHARDT,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-REINHARDT-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-REINHARDT-82-46-73-46-80-46',
@@ -7864,7 +7864,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.REINHARDT,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'EMOTE-REINHARDT-80-117-109-112-107-105-110-32-83-109-97-115-104': {
         uid: 'EMOTE-REINHARDT-80-117-109-112-107-105-110-32-83-109-97-115-104',
@@ -7874,7 +7874,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.REINHARDT,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-REINHARDT-67-111-108-100-104-97-114-100-116': {
         uid: 'SKIN-REINHARDT-67-111-108-100-104-97-114-100-116',
@@ -7884,7 +7884,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.REINHARDT,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-REINHARDT-83-109-97-115-104-105-110-103': {
         uid: 'VOICE_LINE-REINHARDT-83-109-97-115-104-105-110-103',
@@ -7894,7 +7894,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.REINHARDT,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103': {
         uid: 'SPRAY-REINHARDT-73-99-101-32-70-105-115-104-105-110-103',
@@ -8756,7 +8756,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.PHARAH,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-PHARAH-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-PHARAH-82-46-73-46-80-46',
@@ -8766,7 +8766,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.PHARAH,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-PHARAH-80-111-115-115-101-115-115-101-100': {
         uid: 'SKIN-PHARAH-80-111-115-115-101-115-115-101-100',
@@ -8776,7 +8776,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.PHARAH,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-PHARAH-68-101-97-100-32-111-114-32-97-108-105-118-101': {
         uid: 'VOICE_LINE-PHARAH-68-101-97-100-32-111-114-32-97-108-105-118-101',
@@ -8786,7 +8786,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.PHARAH,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103': {
         uid: 'SPRAY-PHARAH-73-99-101-32-70-105-115-104-105-110-103',
@@ -9626,7 +9626,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.WINSTON,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'EMOTE-WINSTON-83-104-97-100-111-119-32-80-117-112-112-101-116-115': {
         uid: 'EMOTE-WINSTON-83-104-97-100-111-119-32-80-117-112-112-101-116-115',
@@ -9636,7 +9636,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.WINSTON,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-WINSTON-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-WINSTON-82-46-73-46-80-46',
@@ -9646,7 +9646,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.WINSTON,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-WINSTON-84-104-105-115-32-105-115-32-110-111-116-32-97-32-99-111-115-116-117-109-101': {
         uid: 'VOICE_LINE-WINSTON-84-104-105-115-32-105-115-32-110-111-116-32-97-32-99-111-115-116-117-109-101',
@@ -9656,7 +9656,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.WINSTON,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-WINSTON-80-114-101-115-101-110-116-115': {
         uid: 'SPRAY-WINSTON-80-114-101-115-101-110-116-115',
@@ -10540,7 +10540,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.WIDOWMAKER,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-WIDOWMAKER-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-WIDOWMAKER-82-46-73-46-80-46',
@@ -10550,7 +10550,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.WIDOWMAKER,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-WIDOWMAKER-84-104-101-32-112-97-114-116-121-32-105-115-32-111-118-101-114': {
         uid: 'VOICE_LINE-WIDOWMAKER-84-104-101-32-112-97-114-116-121-32-105-115-32-111-118-101-114',
@@ -10560,7 +10560,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.WIDOWMAKER,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-WIDOWMAKER-83-107-105-105-110-103': {
         uid: 'SPRAY-WIDOWMAKER-83-107-105-105-110-103',
@@ -11410,7 +11410,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.BASTION,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-BASTION-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-BASTION-82-46-73-46-80-46',
@@ -11420,7 +11420,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.BASTION,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-BASTION-84-111-109-98-115-116-111-110-101': {
         uid: 'SKIN-BASTION-84-111-109-98-115-116-111-110-101',
@@ -11430,7 +11430,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.BASTION,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-BASTION-87-45-87-45-87-111-111-111-111-111-46-46-46-63': {
         uid: 'VOICE_LINE-BASTION-87-45-87-45-87-111-111-111-111-111-46-46-46-63',
@@ -11440,7 +11440,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.BASTION,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-BASTION-70-69-83-84-73-86-69': {
         uid: 'SPRAY-BASTION-70-69-83-84-73-86-69',
@@ -12280,7 +12280,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.SYMMETRA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-SYMMETRA-86-97-109-112-105-114-101': {
         uid: 'SKIN-SYMMETRA-86-97-109-112-105-114-101',
@@ -12290,7 +12290,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.SYMMETRA,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-SYMMETRA-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-SYMMETRA-82-46-73-46-80-46',
@@ -12300,7 +12300,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.SYMMETRA,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-SYMMETRA-65-32-102-114-105-103-104-116-101-110-105-110-103-32-116-104-111-117-103-104-116': {
         uid: 'VOICE_LINE-SYMMETRA-65-32-102-114-105-103-104-116-101-110-105-110-103-32-116-104-111-117-103-104-116',
@@ -12310,7 +12310,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.SYMMETRA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101': {
         uid: 'SPRAY-SYMMETRA-83-110-111-119-102-108-97-107-101',
@@ -13148,7 +13148,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.ZENYATTA,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116': {
         uid: 'SPRAY-ZENYATTA-84-114-105-99-107-32-111-114-32-84-114-101-97-116',
@@ -13160,7 +13160,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ZENYATTA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-ZENYATTA-83-107-117-108-108-121-97-116-116-97': {
         uid: 'SKIN-ZENYATTA-83-107-117-108-108-121-97-116-116-97',
@@ -13170,7 +13170,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.ZENYATTA,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-ZENYATTA-84-114-105-99-107-32-111-114-32-116-114-101-97-116-63': {
         uid: 'VOICE_LINE-ZENYATTA-84-114-105-99-107-32-111-114-32-116-114-101-97-116-63',
@@ -13180,7 +13180,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ZENYATTA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116': {
         uid: 'SPRAY-ZENYATTA-83-110-111-119-98-97-108-108-32-70-105-103-104-116',
@@ -14066,7 +14066,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.GENJI,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'HIGHLIGHT_INTRO-GENJI-80-117-109-112-107-105-110-32-67-97-114-118-105-110-103': {
         uid: 'HIGHLIGHT_INTRO-GENJI-80-117-109-112-107-105-110-32-67-97-114-118-105-110-103',
@@ -14076,7 +14076,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.GENJI,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-GENJI-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-GENJI-82-46-73-46-80-46',
@@ -14086,7 +14086,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.GENJI,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-GENJI-77-121-32-72-97-108-108-111-119-101-101-110-32-99-111-115-116-117-109-101-63': {
         uid: 'VOICE_LINE-GENJI-77-121-32-72-97-108-108-111-119-101-101-110-32-99-111-115-116-117-109-101-63',
@@ -14096,7 +14096,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.GENJI,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-GENJI-75-97-100-111-109-97-116-115-117': {
         uid: 'SPRAY-GENJI-75-97-100-111-109-97-116-115-117',
@@ -14916,7 +14916,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ROADHOG,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-ROADHOG-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-ROADHOG-82-46-73-46-80-46',
@@ -14926,7 +14926,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.ROADHOG,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-ROADHOG-74-117-110-107-101-110-115-116-101-105-110-39-115-32-77-111-110-115-116-101-114': {
         uid: 'SKIN-ROADHOG-74-117-110-107-101-110-115-116-101-105-110-39-115-32-77-111-110-115-116-101-114',
@@ -14936,7 +14936,7 @@ export default {
         rarity: Items.RARITY.LEGENDARY,
         hero: Heroes.ROADHOG,
         price: Items.PRICE.EVENT[Items.RARITY.LEGENDARY],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114': {
         uid: 'ICON-ROADHOG-84-104-101-32-77-111-110-115-116-101-114',
@@ -14948,7 +14948,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.ROADHOG,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-ROADHOG-87-97-110-116-32-115-111-109-101-32-99-97-110-100-121-63': {
         uid: 'VOICE_LINE-ROADHOG-87-97-110-116-32-115-111-109-101-32-99-97-110-100-121-63',
@@ -14958,7 +14958,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ROADHOG,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-ROADHOG-34-87-105-110-116-101-114-34': {
         uid: 'SPRAY-ROADHOG-34-87-105-110-116-101-114-34',
@@ -15830,7 +15830,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.MCCREE,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-MCCREE-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-MCCREE-82-46-73-46-80-46',
@@ -15840,7 +15840,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.MCCREE,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-MCCREE-73-116-39-115-32-121-111-117-114-32-102-117-110-101-114-97-108': {
         uid: 'VOICE_LINE-MCCREE-73-116-39-115-32-121-111-117-114-32-102-117-110-101-114-97-108',
@@ -15850,7 +15850,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.MCCREE,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114': {
         uid: 'SPRAY-MCCREE-85-103-108-121-32-83-119-101-97-116-101-114',
@@ -16690,7 +16690,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.JUNKRAT,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-JUNKRAT-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-JUNKRAT-82-46-73-46-80-46',
@@ -16700,7 +16700,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.JUNKRAT,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-JUNKRAT-68-114-46-32-74-117-110-107-101-110-115-116-101-105-110': {
         uid: 'SKIN-JUNKRAT-68-114-46-32-74-117-110-107-101-110-115-116-101-105-110',
@@ -16710,7 +16710,7 @@ export default {
         rarity: Items.RARITY.LEGENDARY,
         hero: Heroes.JUNKRAT,
         price: Items.PRICE.EVENT[Items.RARITY.LEGENDARY],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114': {
         uid: 'ICON-JUNKRAT-84-104-101-32-68-111-99-116-111-114',
@@ -16722,7 +16722,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.JUNKRAT,
         price: false,
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-JUNKRAT-72-97-112-112-121-32-72-97-108-108-111-119-101-101-110': {
         uid: 'VOICE_LINE-JUNKRAT-72-97-112-112-121-32-72-97-108-108-111-119-101-101-110',
@@ -16732,7 +16732,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.JUNKRAT,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-JUNKRAT-34-87-73-78-84-69-82-34': {
         uid: 'SPRAY-JUNKRAT-34-87-73-78-84-69-82-34',
@@ -17592,7 +17592,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ZARYA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-ZARYA-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-ZARYA-82-46-73-46-80-46',
@@ -17602,7 +17602,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.ZARYA,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-ZARYA-78-101-118-101-114-32-102-111-114-103-101-116-32-116-104-101-32-102-97-108-108-101-110': {
         uid: 'VOICE_LINE-ZARYA-78-101-118-101-114-32-102-111-114-103-101-116-32-116-104-101-32-102-97-108-108-101-110',
@@ -17612,7 +17612,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ZARYA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97': {
         uid: 'SPRAY-ZARYA-77-97-116-114-121-111-115-104-107-97',
@@ -18462,7 +18462,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.SOLDIER76,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-SOLDIER76-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-SOLDIER76-82-46-73-46-80-46',
@@ -18472,7 +18472,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.SOLDIER76,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-SOLDIER76-73-109-109-111-114-116-97-108': {
         uid: 'SKIN-SOLDIER76-73-109-109-111-114-116-97-108',
@@ -18482,7 +18482,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.SOLDIER76,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-SOLDIER76-75-110-111-99-107-32-107-110-111-99-107': {
         uid: 'VOICE_LINE-SOLDIER76-75-110-111-99-107-32-107-110-111-99-107',
@@ -18492,7 +18492,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.SOLDIER76,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54': {
         uid: 'SPRAY-SOLDIER76-65-114-109-121-32-77-97-110-58-32-55-54',
@@ -19352,7 +19352,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.LUCIO,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-LUCIO-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-LUCIO-82-46-73-46-80-46',
@@ -19362,7 +19362,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.LUCIO,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-LUCIO-75-105-108-108-101-100-32-105-116-33': {
         uid: 'VOICE_LINE-LUCIO-75-105-108-108-101-100-32-105-116-33',
@@ -19372,7 +19372,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.LUCIO,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-LUCIO-72-111-99-107-101-121': {
         uid: 'SPRAY-LUCIO-72-111-99-107-101-121',
@@ -20202,7 +20202,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.DVA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-DVA-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-DVA-82-46-73-46-80-46',
@@ -20212,7 +20212,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.DVA,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-DVA-72-97-112-112-121-32-72-97-108-108-111-119-101-101-110-33': {
         uid: 'VOICE_LINE-DVA-72-97-112-112-121-32-72-97-108-108-111-119-101-101-110-33',
@@ -20222,7 +20222,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.DVA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-DVA-67-79-79-75-73-69': {
         uid: 'SPRAY-DVA-67-79-79-75-73-69',
@@ -21094,7 +21094,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.MEI,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-MEI-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-MEI-82-46-73-46-80-46',
@@ -21104,7 +21104,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.MEI,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'HIGHLIGHT_INTRO-MEI-73-99-101-32-83-99-114-101-97-109': {
         uid: 'HIGHLIGHT_INTRO-MEI-73-99-101-32-83-99-114-101-97-109',
@@ -21114,7 +21114,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.MEI,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-MEI-83-99-97-114-121-33': {
         uid: 'VOICE_LINE-MEI-83-99-97-114-121-33',
@@ -21124,7 +21124,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.MEI,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-MEI-83-99-117-108-112-116-105-110-103': {
         uid: 'SPRAY-MEI-83-99-117-108-112-116-105-110-103',
@@ -22816,7 +22816,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ANA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'EMOTE-ANA-67-97-110-100-121': {
         uid: 'EMOTE-ANA-67-97-110-100-121',
@@ -22826,7 +22826,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.ANA,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VICTORY_POSE-ANA-82-46-73-46-80-46': {
         uid: 'VICTORY_POSE-ANA-82-46-73-46-80-46',
@@ -22836,7 +22836,7 @@ export default {
         rarity: Items.RARITY.RARE,
         hero: Heroes.ANA,
         price: Items.PRICE.EVENT[Items.RARITY.RARE],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SKIN-ANA-71-104-111-117-108': {
         uid: 'SKIN-ANA-71-104-111-117-108',
@@ -22846,7 +22846,7 @@ export default {
         rarity: Items.RARITY.EPIC,
         hero: Heroes.ANA,
         price: Items.PRICE.EVENT[Items.RARITY.EPIC],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'VOICE_LINE-ANA-65-114-101-32-121-111-117-32-115-99-97-114-101-100-63': {
         uid: 'VOICE_LINE-ANA-65-114-101-32-121-111-117-32-115-99-97-114-101-100-63',
@@ -22856,7 +22856,7 @@ export default {
         rarity: Items.RARITY.COMMON,
         hero: Heroes.ANA,
         price: Items.PRICE.EVENT[Items.RARITY.COMMON],
-        event: Events.JUNKENSTEINS_REVENGE_2016,
+        event: Events.HALLOWEEN_TERROR_2016,
     },
     'SPRAY-ANA-87-97-114-109': {
         uid: 'SPRAY-ANA-87-97-114-109',

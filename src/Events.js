@@ -4,7 +4,7 @@ export default class Events {
     static GENERAL = 0;
     static SPECIAL = 1;
     static SUMMER_GAMES_2016 = 2;
-    static JUNKENSTEINS_REVENGE_2016 = 3;
+    static HALLOWEEN_TERROR_2016 = 3;
     static WINTER_WONDERLAND_2016 = 4;
     static YEAR_OF_THE_ROOSTER_2017 = 5;
     static UPRISING_2017 = 6;
@@ -28,11 +28,11 @@ export default class Events {
             icon: require('./assets/events/SUMMER_GAMES_2016.icon.png'),
             background: require('./assets/events/SUMMER_GAMES_2016.background.jpg'),
         },
-        [Events.JUNKENSTEINS_REVENGE_2016]: {
-            id: Events.JUNKENSTEINS_REVENGE_2016,
-            code: 'JUNKENSTEINS_REVENGE_2016',
-            icon: require('./assets/events/JUNKENSTEINS_REVENGE_2016.icon.png'),
-            background: require('./assets/events/JUNKENSTEINS_REVENGE_2016.background.jpg'),
+        [Events.HALLOWEEN_TERROR_2016]: {
+            id: Events.HALLOWEEN_TERROR_2016,
+            code: 'HALLOWEEN_TERROR_2016',
+            icon: require('./assets/events/HALLOWEEN_TERROR_2016.icon.png'),
+            background: require('./assets/events/HALLOWEEN_TERROR_2016.background.jpg'),
         },
         [Events.WINTER_WONDERLAND_2016]: {
             id: Events.WINTER_WONDERLAND_2016,
