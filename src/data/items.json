@@ -765,7 +765,7 @@
     "name": "Oni",
     "type": "ICON",
     "rarity": "COMMON",
-    "hero": false,
+    "hero": "GENJI",
     "price": false,
     "event": "SPECIAL"
   },

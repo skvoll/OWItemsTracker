@@ -930,7 +930,7 @@ export default {
         name: `Oni`,
         type: Items.TYPE.ICON,
         rarity: Items.RARITY.COMMON,
-        hero: false,
+        hero: Heroes.GENJI,
         price: false,
         event: Events.SPECIAL,
     },
