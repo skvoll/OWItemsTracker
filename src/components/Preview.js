@@ -79,8 +79,8 @@ export class Preview extends Component {
             }
 
             CloudStorage.getFileUrl(cloudPath)
-                .then((url) => this.setState({source: {uri: url,}}))
-                .catch((error) => this.message(_('PREVIEW__HQ_PREVIEW_NOT_FOUND'), 'error-outline'));
+                .then(url => this.setState({source: {uri: url,}}))
+                .catch(error => this.message(_('PREVIEW__HQ_PREVIEW_NOT_FOUND'), 'error-outline'));
         } else {
             this.setState({
                 isVisible: true,

@@ -34,7 +34,7 @@ class Item extends Component {
 
     SIZE;
 
-    onDimensionsChangedHandler = (event) => this.onDimensionsChanged(event);
+    onDimensionsChangedHandler = event => this.onDimensionsChanged(event);
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -175,7 +175,7 @@ export class HeroesList extends Component {
             progress = Items.getProgressByHeroes(this.props.progressEvent && this.props.progressEvent.id);
         }
 
-        Object.values(Heroes.ITEMS).map((item) => {
+        Object.values(Heroes.ITEMS).map(item => {
             if (this.props.showProgress && !progress[item.id]) {
                 return;
             }
@@ -183,7 +183,7 @@ export class HeroesList extends Component {
             data.push(Object.assign({}, item));
         });
 
-        data.map((item) => {
+        data.map(item => {
             item.name = _(item.code);
             if (this.props.showProgress) {
                 if (progress[item.id]) {
@@ -242,7 +242,7 @@ export class HeroesList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Preview ref={(component) => this.preview = component}/>
+                <Preview ref={component => this.preview = component}/>
                 <RemainingAmount amount={this.state.remainingAmount}/>
                 <FlatList
                     data={this.state.data}

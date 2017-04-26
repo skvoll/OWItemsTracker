@@ -147,7 +147,7 @@ export class EventsList extends Component {
             true
         ), progress;
 
-        Object.values(Events.ITEMS).map((item) => {
+        Object.values(Events.ITEMS).map(item => {
             data.push(Object.assign({}, item));
         });
 
@@ -155,7 +155,7 @@ export class EventsList extends Component {
             progress = Items.getProgressByEvents();
         }
 
-        data.map((item) => {
+        data.map(item => {
             item.name = _(item.code);
             if (progress[item.id]) {
                 item.progress = progress[item.id];

@@ -67,7 +67,7 @@ export class EventScene extends Scene {
 
         return (
             <View style={styles.filter}>
-                <ButtonsGroup ref={(component) => this.tabHeader = component} items={actions}/>
+                <ButtonsGroup ref={component => this.tabHeader = component} items={actions}/>
             </View>
         );
     }
@@ -104,7 +104,7 @@ export class EventScene extends Scene {
     }
 
     checkAll() {
-        Items.select(null, null, null, null, this.props.item.id).map((item) => {
+        Items.select(null, null, null, null, this.props.item.id).map(item => {
             Items.receiveItem(item.uid, true);
         });
 
@@ -119,16 +119,16 @@ export class EventScene extends Scene {
                     {title: _('BUTTON__CHECK_ALL'), iconName: 'check',},
                 ]}
                 onToolbarIconPress={() => this.navigationPop()}
-                onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
+                onToolbarActionSelected={index => this.onToolbarActionSelected(index)}
                 background={this.props.item.background}
             >
 
                 <TabViewAnimated
                     navigationState={this.state}
                     renderHeader={() => this.tabRenderHeader()}
-                    renderScene={(route) => this.tabRenderScene(route)}
-                    onChangePosition={(position) => this.tabHandleChangePosition(position)}
-                    onRequestChangeTab={(index) => this.tabHandleChangeTab(index)}
+                    renderScene={route => this.tabRenderScene(route)}
+                    onChangePosition={position => this.tabHandleChangePosition(position)}
+                    onRequestChangeTab={index => this.tabHandleChangeTab(index)}
                     style={styles.tabs}
                 />
 

@@ -52,7 +52,7 @@ export class ItemsScene extends Scene {
             this.props.rarity || null,
             this.props.hero && this.props.hero.id,
             this.props.event && this.props.event.id
-        ).map((item) => {
+        ).map(item => {
             Items.receiveItem(item.uid, true);
         });
 
@@ -67,7 +67,7 @@ export class ItemsScene extends Scene {
                     {title: _('BUTTON__CHECK_ALL'), iconName: 'check',},
                 ]}
                 onToolbarIconPress={() => this.navigationPop()}
-                onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
+                onToolbarActionSelected={index => this.onToolbarActionSelected(index)}
                 background={this.props.event && this.props.event.background}
             >
 

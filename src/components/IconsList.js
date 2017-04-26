@@ -39,7 +39,7 @@ class Item extends Component {
 
     SIZE;
 
-    onDimensionsChangedHandler = (event) => this.onDimensionsChanged(event);
+    onDimensionsChangedHandler = event => this.onDimensionsChanged(event);
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -161,7 +161,7 @@ export class IconsList extends Component {
     componentWillReceiveProps(nextProps) {
         let items = {};
 
-        Items.select(null, Items.TYPE.ICON).map((item) => {
+        Items.select(null, Items.TYPE.ICON).map(item => {
             items[item.uid] = item;
         });
 
@@ -177,7 +177,7 @@ export class IconsList extends Component {
     getData() {
         let data = [];
 
-        this.state.data.map((item) => {
+        this.state.data.map(item => {
             data.push(Object.assign({}, item));
         });
 
@@ -187,7 +187,7 @@ export class IconsList extends Component {
     loadItems() {
         let data = [], progress = {received: 0, total: 0,};
 
-        Items.select(null, Items.TYPE.ICON).map((item) => {
+        Items.select(null, Items.TYPE.ICON).map(item => {
             if (!item.default) {
                 progress.total++;
 
@@ -263,7 +263,7 @@ export class IconsList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Preview ref={(component) => this.preview = component}/>
+                <Preview ref={component => this.preview = component}/>
                 <View style={styles.progress}>
                     <Text style={styles.progressTitle}>{`${this.state.progress.received}/${this.state.progress.total}`}</Text>
                 </View>

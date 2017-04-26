@@ -108,7 +108,7 @@ class GridItem extends Component {
 
     SIZE;
 
-    onDimensionsChangedHandler = (event) => this.onDimensionsChanged(event);
+    onDimensionsChangedHandler = event => this.onDimensionsChanged(event);
 
     constructor(props, context, updater) {
         super(props, context, updater);
@@ -421,16 +421,16 @@ export class ItemsList extends Component {
     componentWillReceiveProps(nextProps) {
         let needUpdate = false, items = {};
 
-        this.getItems().map((item) => {
+        this.getItems().map(item => {
             items[item.uid] = item;
         });
 
-        Object.values(this.state.sections).map((section) => {
+        Object.values(this.state.sections).map(section => {
             if (needUpdate) {
                 return;
             }
 
-            section.data.map((item) => {
+            section.data.map(item => {
                 if (needUpdate) {
                     return;
                 }
@@ -457,7 +457,7 @@ export class ItemsList extends Component {
     loadItems() {
         let sections = {}, remainingAmount = 0;
 
-        this.getItems().map((item) => {
+        this.getItems().map(item => {
             if (!sections[item.type]) {
                 sections[item.type] = {
                     type: item.type,
@@ -526,7 +526,7 @@ export class ItemsList extends Component {
     getSections() {
         let sections = {};
 
-        Object.values(this.state.sections).map((section) => {
+        Object.values(this.state.sections).map(section => {
             sections[section.type] = {
                 type: section.type,
                 title: section.title,
@@ -535,7 +535,7 @@ export class ItemsList extends Component {
                 data: [],
             };
 
-            section.data.map((item) => {
+            section.data.map(item => {
                 sections[section.type].data.push(Object.assign({}, item));
             });
         });
@@ -551,7 +551,7 @@ export class ItemsList extends Component {
         if (sections[section.type].isVisible) {
             openedSections.push(section.type);
         } else {
-            openedSections = openedSections.filter((item) => {
+            openedSections = openedSections.filter(item => {
                 return item !== section.type;
             });
         }
@@ -567,7 +567,7 @@ export class ItemsList extends Component {
     onSectionHeaderLongPress(section) {
         Vibration.vibrate(20);
 
-        this.getItems().map((item) => {
+        this.getItems().map(item => {
             if (item.type === section.type) {
                 Items.receiveItem(item.uid, true);
             }
@@ -639,7 +639,7 @@ export class ItemsList extends Component {
         return (
             <View style={styles.container}>
                 {backgroundHero}
-                <Preview ref={(component) => this.preview = component}/>
+                <Preview ref={component => this.preview = component}/>
                 <RemainingAmount amount={this.state.remainingAmount}/>
                 <ScrollView>
                     {sections}

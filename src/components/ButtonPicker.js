@@ -39,7 +39,7 @@ export class ButtonPicker extends Button {
             style = {color: this.props.textColor,};
         }
 
-        this.props.values.map((item) => {
+        this.props.values.map(item => {
             values.push(<Picker.Item key={`${item.label}_${item.value}`} label={item.label} value={item.value}/>);
         });
 
@@ -55,7 +55,7 @@ export class ButtonPicker extends Button {
                 </Text>
                 <Picker
                     selectedValue={this.props.selectedValue}
-                    onValueChange={(value) => this.props.onValueChange(value)}
+                    onValueChange={value => this.props.onValueChange(value)}
                     style={[styles.picker, style,]}
                     itemStyle={itemStyle}
                 >

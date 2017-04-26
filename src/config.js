@@ -68,7 +68,7 @@ export default class CONFIG {
 
         this.NETWORK = await NetInfo.fetch();
 
-        NetInfo.addEventListener('change', (network) => this.NETWORK = network);
+        NetInfo.addEventListener('change', network => this.NETWORK = network);
 
         let config = JSON.parse(await AsyncStorage.getItem('CONFIG'));
 
@@ -111,7 +111,7 @@ export default class CONFIG {
         if (typeof key === 'object') {
             let config = {};
 
-            key.map((k) => {
+            key.map(k => {
                 config[k] = null;
             });
 

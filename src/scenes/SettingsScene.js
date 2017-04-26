@@ -46,7 +46,7 @@ export class SettingsScene extends Scene {
         };
 
         if (CONFIG.PLATFORM === 'android') {
-            GoogleSignin.hasPlayServices({autoResolve: true,}).then(configure()).catch((error) => null);
+            GoogleSignin.hasPlayServices({autoResolve: true,}).then(configure()).catch(error => null);
         } else {
             configure();
         }
@@ -112,7 +112,7 @@ export class SettingsScene extends Scene {
                                 profile: null,
                             }, () => Items.initialize());
                         });
-                    }).catch((error) => console.log(error));
+                    }).catch(error => console.log(error));
                 }},
             ]);
 
@@ -128,7 +128,7 @@ export class SettingsScene extends Scene {
                     return;
                 }
 
-                GoogleSignin.signIn().then((user) => {
+                GoogleSignin.signIn().then(user => {
                     let profile = {
                         id: user.id,
                         name: user.name,
@@ -142,7 +142,7 @@ export class SettingsScene extends Scene {
                             profile: profile,
                         }, () => Items.initialize());
                     });
-                }).catch((error) => console.log(error));
+                }).catch(error => console.log(error));
             }},
         ]);
     }
@@ -211,7 +211,7 @@ export class SettingsScene extends Scene {
                         <ButtonPicker
                             values={languages}
                             selectedValue={this.state.language}
-                            onValueChange={(language) => this.setLanguage(language)}
+                            onValueChange={language => this.setLanguage(language)}
                             title={_('SETTINGS__LANGUAGE').toUpperCase()}
                             icon="close"
                         />

@@ -168,8 +168,8 @@ export class WelcomeScene extends Scene {
                 <TabViewAnimated
                     navigationState={this.state}
                     renderFooter={() => this.tabRenderFooter()}
-                    renderScene={(route) => this.tabRenderScene(route)}
-                    onRequestChangeTab={(index) => this.tabHandleChangeTab(index)}
+                    renderScene={route => this.tabRenderScene(route)}
+                    onRequestChangeTab={index => this.tabHandleChangeTab(index)}
                     style={styles.tabs}
                 />
 

@@ -104,7 +104,7 @@ export class MainScene extends Scene {
 
         return (
             <View style={styles.filter}>
-                <ButtonsGroup ref={(component) => this.tabHeader = component} items={actions}/>
+                <ButtonsGroup ref={component => this.tabHeader = component} items={actions}/>
             </View>
         );
     }
@@ -169,17 +169,17 @@ export class MainScene extends Scene {
                     {title: '', iconName: 'settings', show: 'always',},
                     {title: '', iconName: 'info', show: 'always',},
                 ]}
-                onToolbarActionSelected={(index) => this.onToolbarActionSelected(index)}
+                onToolbarActionSelected={index => this.onToolbarActionSelected(index)}
             >
 
-                <Quiz ref={(component) => this.quiz = component}/>
+                <Quiz ref={component => this.quiz = component}/>
 
                 <TabViewAnimated
                     navigationState={this.state}
                     renderHeader={() => this.tabRenderHeader()}
-                    renderScene={(route) => this.tabRenderScene(route)}
-                    onChangePosition={(position) => this.tabHandleChangePosition(position)}
-                    onRequestChangeTab={(index) => this.tabHandleChangeTab(index)}
+                    renderScene={route => this.tabRenderScene(route)}
+                    onChangePosition={position => this.tabHandleChangePosition(position)}
+                    onRequestChangeTab={index => this.tabHandleChangeTab(index)}
                     style={styles.tabs}
                 />
 

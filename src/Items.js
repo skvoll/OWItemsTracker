@@ -116,7 +116,7 @@ export default class Items {
 
         items = this.CACHE[key];
 
-        items.map((item) => {
+        items.map(item => {
             item.received = this.RECEIVED_ITEMS.indexOf(item.uid) !== -1;
         });
 
@@ -171,11 +171,11 @@ export default class Items {
     static getProgressByEvents() {
         let progress = {};
 
-        Object.keys(Events.ITEMS).map((event) => {
+        Object.keys(Events.ITEMS).map(event => {
             progress[event] = {received: 0, total: 0,};
         });
 
-        this.select().map((item) => {
+        this.select().map(item => {
             if (item.event === false) {
                 return;
             }
@@ -196,7 +196,7 @@ export default class Items {
     static getProgressByType(event = null) {
         let progress = {};
 
-        this.select(null, null, null, null, event).map((item) => {
+        this.select(null, null, null, null, event).map(item => {
             if (!progress[item.type]) {
                 progress[item.type] = {received: 0, total: 0,};
             }
@@ -217,7 +217,7 @@ export default class Items {
     static getProgressByHeroes(event = null) {
         let hero, progress = {};
 
-        this.select(null, null, null, null, event).map((item) => {
+        this.select(null, null, null, null, event).map(item => {
             hero = item.hero || 0;
 
             if (!CONFIG.INCLUDE_ICONS_IN_PROGRESS) {
@@ -246,7 +246,7 @@ export default class Items {
     static getRemainingAmount(uid = null, type = null, rarity = null, hero = null, event = null) {
         let amount = 0;
 
-        this.select(uid, type, rarity, hero, event).map((item) => {
+        this.select(uid, type, rarity, hero, event).map(item => {
             if (!item.received) {
                 amount += item.price;
             }

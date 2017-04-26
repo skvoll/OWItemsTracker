@@ -100,7 +100,7 @@ const setVersion = function (args = null) {
 
     packageJson.version = version;
 
-    platform.map((p) => {
+    platform.map(p => {
         switch (p) {
             case 'ios':
                 setVersionIOS(version);

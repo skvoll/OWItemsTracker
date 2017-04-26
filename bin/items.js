@@ -8,7 +8,7 @@ let items = require('./../src/data/items.json');
 function getTranslations() {
     let i18n = {}, matches;
 
-    fs.readdirSync('./../src/i18n').map((file) => {
+    fs.readdirSync('./../src/i18n').map(file => {
         matches = file.match(/(.*).items.json/);
 
         if (matches) {
@@ -26,7 +26,7 @@ const makeUid = function (type, string, hero = null) {
         uid.push(hero);
     }
 
-    string.toUpperCase().split('').map((c) => uid.push(c.charCodeAt(0)));
+    string.toUpperCase().split('').map(c => uid.push(c.charCodeAt(0)));
 
     return uid.join('-');
 };
@@ -34,7 +34,7 @@ const makeUid = function (type, string, hero = null) {
 const itemsCheck = function (args = {}) {
     let result = true, i18n = getTranslations();
 
-    Object.values(items).map((item) => {
+    Object.values(items).map(item => {
         for (let i in i18n) if (i18n.hasOwnProperty(i)) {
             if (i18n[i][item.uid] === undefined) {
                 result = false;
@@ -70,7 +70,7 @@ const itemsImport = function (args = {}) {
 
     let addedCount = 0, skippedCount = 0;
 
-    fs.readFileSync(args['f'], 'utf-8').split('\n').map((item) => {
+    fs.readFileSync(args['f'], 'utf-8').split('\n').map(item => {
         if (item === 0) {
             return;
         }

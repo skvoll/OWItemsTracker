@@ -89,7 +89,7 @@ function migrate() {
 
     let output = {}, uid, assoc = {getNew: {}, getOld: {},}, i18n, i18nNew;
 
-    Object.values(items).map((item) => {
+    Object.values(items).map(item => {
         uid = itemsTools.makeUid(item.type, item.name, item.hero);
         assoc.getNew[item.uid] = uid;
         assoc.getOld[uid] = item.uid;
@@ -105,7 +105,7 @@ function migrate() {
         output[item.uid] = item;
     });
 
-    fs.readdirSync('./../src/i18n/').map((file) => {
+    fs.readdirSync('./../src/i18n/').map(file => {
         if (file.indexOf('.json') !== -1) {
             i18nNew = {};
             i18n = require(`./../src/i18n/${file}`);

@@ -44,7 +44,7 @@ export default class Application extends Component {
                 />
 
                 <Navigator
-                    ref={(component) => this.navigator = component}
+                    ref={component => this.navigator = component}
                     initialRoute={{name: 'SplashScene',}}
                     renderScene={(route, navigator) => this.renderScene(route, navigator)}
                 />

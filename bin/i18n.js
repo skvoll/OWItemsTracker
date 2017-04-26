@@ -17,7 +17,7 @@ function sort(object) {
         return a > b ? 1 : -1;
     });
 
-    keys.map((key) => {
+    keys.map(key => {
         result[key] = object[key];
     });
 
@@ -46,7 +46,7 @@ const i18nExport = function (args = {}) {
 
     for (let i in i18n) if (i18n.hasOwnProperty(i)) {
         if (i === 'items') {
-            Object.values(items).map((item) => {
+            Object.values(items).map(item => {
                 tsv[i] += [
                         `${(item.hero ? `${item.hero} ` : '')}${item.type} ${item.name}`,
                         `${i18n[i][item.uid]}`,
@@ -54,7 +54,7 @@ const i18nExport = function (args = {}) {
                     ].join('\t') + '\n';
             });
         } else {
-            Object.keys(i18n[i]).map((key) => {
+            Object.keys(i18n[i]).map(key => {
                 tsv[i] += [
                         'INFORMATION',
                         i18n[i][key].replace(/(\n)+/g, ' '),
@@ -147,7 +147,7 @@ const i18nImport = function (args = {}) {
 };
 
 const i18nSync = function (args = {}) {
-    google.getTranslations().then((translations) => {
+    google.getTranslations().then(translations => {
         for (let i in translations) if (translations.hasOwnProperty(i)) {
             for (let j in translations[i]) if (translations[i].hasOwnProperty(j)) {
                 if (['interface', 'heroes',].indexOf(j.toLowerCase()) !== -1) {
@@ -176,7 +176,7 @@ const i18nSet = function (args = {}) {
 
     let i18n;
 
-    fs.readdirSync(`./../src/i18n/`).map((file) => {
+    fs.readdirSync(`./../src/i18n/`).map(file => {
         if (file.match(/[a-z]{2}_[A-Z]{2}\.json/)) {
             i18n = require(`./../src/i18n/${file}`);
 
@@ -202,7 +202,7 @@ const i18nRemove = function (args = {}) {
 
     let i18n;
 
-    fs.readdirSync(`./../src/i18n/`).map((file) => {
+    fs.readdirSync(`./../src/i18n/`).map(file => {
         if (file.match(/[a-z]{2}_[A-Z]{2}\.json/)) {
             i18n = require(`./../src/i18n/${file}`);
             if (!i18n.hasOwnProperty('interface') || !i18n.interface[args['k']]) {

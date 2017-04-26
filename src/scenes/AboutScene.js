@@ -26,11 +26,11 @@ export class AboutScene extends Scene {
     render() {
         let translators = {}, translatorsSection = [];
 
-        Object.values(LANGUAGES).map((language) => {
+        Object.values(LANGUAGES).map(language => {
             if (language.translators.length > 0) {
                 translators[language.name] = [];
 
-                language.translators.map((translator) => {
+                language.translators.map(translator => {
                     translators[language.name].push(translator);
                 });
             }

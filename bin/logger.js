@@ -61,7 +61,7 @@ const question = function (question, answers = []) {
 
         process.stdout.write(`${question}: `.cyan);
 
-        rl.on('line', (answer) => {
+        rl.on('line', answer => {
             if (answers.length && answers.indexOf(answer) === -1) {
                 process.stdout.write(`${question}: `.cyan);
 

@@ -37,7 +37,7 @@ export class Link extends Component {
             showPageTitle: true,
             enableDefaultShare: true,
             animations: ANIMATIONS_SLIDE,
-        }).then((launched) => {
+        }).then(launched => {
             console.log(`Launched custom tabs: ${launched}`);
         }).catch(err => {
             console.error(err);

@@ -20,7 +20,7 @@ function getToken(oauth2Client) {
                 scope: SCOPES,
             }));
 
-        logger.question('enter authorization code').then((code) => {
+        logger.question('enter authorization code').then(code => {
             oauth2Client.getToken(code, (error, token) => {
                 if (error) {
                     reject(error);
@@ -84,7 +84,7 @@ function getTranslation(auth, spreadsheet, type) {
 
 function getTranslations() {
     return new Promise((resolve, reject) => {
-        authorization().then(async (auth) => {
+        authorization().then(async auth => {
             if (!fs.existsSync(I18N_CONFIG_PATH)) {
                 throw new Error(`'${I18N_CONFIG_PATH}' does not exists`);
             }
@@ -95,7 +95,7 @@ function getTranslations() {
                 translations[i18n.languages[i].code] = {};
                 for (let j in i18n.types) if (i18n.types.hasOwnProperty(j)) {
                     translations[i18n.languages[i].code][i18n.types[j]] = {};
-                    (await getTranslation(auth, i18n.languages[i].spreadsheet, i18n.types[j])).map((item) => {
+                    (await getTranslation(auth, i18n.languages[i].spreadsheet, i18n.types[j])).map(item => {
                         translations[i18n.languages[i].code][i18n.types[j]][item[1]] = item[0];
                     });
                 }
