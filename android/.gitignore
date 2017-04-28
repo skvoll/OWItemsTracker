@@ -1,1 +1,3 @@
+*.jks
+keystore.properties
 app/google-services.json

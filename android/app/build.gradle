@@ -82,6 +82,10 @@ def enableSeparateBuildPerCPUArchitecture = false
  */
 def enableProguardInReleaseBuilds = false
 
+def keystorePropertiesFile = rootProject.file("app/keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
@@ -98,10 +102,10 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file(OWITEMSTRACKER_RELEASE_STORE_FILE)
-            storePassword OWITEMSTRACKER_RELEASE_STORE_PASSWORD
-            keyAlias OWITEMSTRACKER_RELEASE_KEY_ALIAS
-            keyPassword OWITEMSTRACKER_RELEASE_KEY_PASSWORD
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
         }
     }
     splits {
