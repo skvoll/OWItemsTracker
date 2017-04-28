@@ -10,6 +10,7 @@ import {
     Image,
     Text,
 } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 
 import CONFIG from './../config';
 import _ from './../i18n';
@@ -61,11 +62,24 @@ class Item extends Component {
     }
 
     render() {
-        let progress, size = {height: this.SIZE, width: this.SIZE,};
+        let progress, percent, size = {height: this.SIZE, width: this.SIZE,};
 
         if (this.props.item.progress) {
+            percent = this.props.item.progress.received / this.props.item.progress.total;
             progress = (
-                <Text style={styles.progress}>{`${this.props.item.progress.received}/${this.props.item.progress.total}`}</Text>
+                <LinearGradient
+                    start={{x: percent - 0.01, y: percent,}}
+                    end={{x: percent, y: percent,}}
+                    locations={[0.50, 1,]}
+                    colors={[this.props.item.color, '#C6D2DF',]}
+                    style={styles.progress}
+                >
+
+                    <Text style={styles.progressTitle}>
+                        {`${this.props.item.progress.received}/${this.props.item.progress.total}`}
+                    </Text>
+
+                </LinearGradient>
             );
         }
 
@@ -271,15 +285,23 @@ const styles = StyleSheet.create({
         alignItems: 'stretch',
     },
     name: {
+        paddingVertical: 4,
         textAlign: 'center',
         fontSize: 14,
         fontFamily: 'BigNoodleTooOblique',
         color: CONFIG.COLORS.DARK_BLUE,
     },
     progress: {
+        borderBottomLeftRadius: 4,
+        borderBottomRightRadius: 4,
+    },
+    progressTitle: {
         textAlign: 'center',
         fontSize: 16,
         fontFamily: 'Futura',
-        color: CONFIG.COLORS.LIGHT_BLUE,
+        textShadowColor: '#808080',
+        textShadowOffset: {width: 0.1, height: 0.1,},
+        textShadowRadius: 1,
+        color: CONFIG.COLORS.COMMON,
     },
 });

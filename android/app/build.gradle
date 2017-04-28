@@ -135,6 +135,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-linear-gradient')
     compile project(':react-native-custom-tabs')
     compile project(':react-native-vector-icons')
     compile(project(":react-native-google-signin")){
