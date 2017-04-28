@@ -98,7 +98,7 @@ export class WelcomeScene extends Scene {
                 return (
                     <ScrollView style={styles.tab} contentContainerStyle={styles.contentContainerStyle}>
                         <Image
-                            source={require('./../assets/news/news1.jpg')}
+                            source={require('./../assets/news/news1.gif')}
                             style={{width: '100%', alignSelf: 'center',}}
                         />
                         <Text style={{margin: 8, fontSize: 18, fontFamily: 'Futura', color: CONFIG.COLORS.COMMON,}}>

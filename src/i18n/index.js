@@ -10,20 +10,26 @@ export const LANGUAGES = {
         ],
         translations: Object.assign(...Object.values(require('./en_US.json'))),
     },
+    es_MX: {
+        name: 'español (al)',
+        translators: [
+            {name: '/u/70006', icon: 'reddit-alien', link: 'https://www.reddit.com/user/70006',},
+        ],
+        translations: Object.assign(...Object.values(require('./es_MX.json'))),
+    },
+    hu_HU: {
+        name: 'magyar',
+        translators: [
+            {name: '/u/skagx', icon: 'reddit-alien', link: 'https://www.reddit.com/user/skagx',},
+        ],
+        translations: Object.assign(...Object.values(require('./hu_HU.json'))),
+    },
     pl_PL: {
         name: 'polski',
         translators: [
             {name: 'MichGrabowski', icon: 'twitter', link: 'https://twitter.com/MichGrabowski',},
         ],
         translations: Object.assign(...Object.values(require('./pl_PL.json'))),
-    },
-    ru_RU: {
-        name: 'русский',
-        translators: [
-            {name: '/u/FixKun', icon: 'reddit-alien', link: 'https://www.reddit.com/user/FixKun',},
-            {name: 'BurzZzum', icon: 'twitter', link: 'https://twitter.com/BurzZzum',},
-        ],
-        translations: Object.assign(...Object.values(require('./ru_RU.json'))),
     },
     pt_BR: {
         name: 'português (brasileiro)',
@@ -32,12 +38,13 @@ export const LANGUAGES = {
         ],
         translations: Object.assign(...Object.values(require('./pt_BR.json'))),
     },
-    hu_HU: {
-        name: 'magyar',
+    ru_RU: {
+        name: 'русский',
         translators: [
-            {name: '/u/skagx', icon: 'reddit-alien', link: 'https://www.reddit.com/user/skagx',},
+            {name: '/u/FixKun', icon: 'reddit-alien', link: 'https://www.reddit.com/user/FixKun',},
+            {name: 'BurzZzum', icon: 'twitter', link: 'https://twitter.com/BurzZzum',},
         ],
-        translations: Object.assign(...Object.values(require('./hu_HU.json'))),
+        translations: Object.assign(...Object.values(require('./ru_RU.json'))),
     },
 };
 
