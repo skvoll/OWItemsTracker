@@ -2,6 +2,7 @@
 
 "use strict";
 
+const tools = require('./tools');
 const logger = require('./logger');
 const application = require('./application');
 const items = require('./items');
@@ -20,6 +21,13 @@ if (process.argv.length > 2) {
                 case 'set-version':
                 case 'ver':
                     command = application.setVersion;
+                    break;
+                case 'uid-encode':
+                case 'uid':
+                    command = tools.uid;
+                    break;
+                case 'uid-decode':
+                    command = tools.uidDecode;
                     break;
                 case 'items-check':
                 case 'items-c':
