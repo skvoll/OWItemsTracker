@@ -10,6 +10,13 @@ export const LANGUAGES = {
         ],
         translations: Object.assign(...Object.values(require('./en_US.json'))),
     },
+    de_DE: {
+        name: 'deutsch',
+        translators: [
+            {name: '/u/veggie_gamer', icon: 'reddit-alien', link: 'https://www.reddit.com/user/veggie_gamer',},
+        ],
+        translations: Object.assign(...Object.values(require('./de_DE.json'))),
+    },
     es_MX: {
         name: 'español (al)',
         translators: [

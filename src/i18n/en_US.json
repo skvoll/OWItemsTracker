@@ -60,9 +60,9 @@
     "SETTINGS__SETTINGS_TITLE": "Settings",
     "SETTINGS__VERSION": "version",
     "SETTINGS__WIFI_ONLY": "wi-fi only",
-    "WELCOME__LINK_TITLE": "",
-    "WELCOME__NEWS_TEXT": "",
-    "WELCOME__NEWS_TITLE": "",
+    "WELCOME__LINK_TITLE": "Help our cause",
+    "WELCOME__NEWS_TEXT": "Want to see your language?",
+    "WELCOME__NEWS_TITLE": "Introducing German",
     "WELCOME__TIPS_TITLE": "Tips"
   },
   "heroes": {

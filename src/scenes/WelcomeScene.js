@@ -12,6 +12,7 @@ import {TabViewAnimated} from 'react-native-tab-view';
 
 import CONFIG from './../config';
 import _ from './../i18n';
+import {LANGUAGES} from './../i18n';
 import {
     Layout,
     Link,
@@ -98,16 +99,16 @@ export class WelcomeScene extends Scene {
                 return (
                     <ScrollView style={styles.tab} contentContainerStyle={styles.contentContainerStyle}>
                         <Image
-                            source={require('./../assets/news/news1.gif')}
+                            source={require('./../assets/news/news1.jpg')}
                             style={{width: '100%', alignSelf: 'center',}}
                         />
                         <Text style={{margin: 8, fontSize: 18, fontFamily: 'Futura', color: CONFIG.COLORS.COMMON,}}>
                             {`${_('OTHER__THANKS_FOR_TRANSLATION')}:`}
                         </Text>
                         <Link
-                            title="/u/70006"
-                            href="https://www.reddit.com/user/70006"
-                            icon="reddit-alien"
+                            title={LANGUAGES.de_DE.translators[0].name}
+                            href={LANGUAGES.de_DE.translators[0].link}
+                            icon={LANGUAGES.de_DE.translators[0].icon}
                             backgroundColor={CONFIG.COLORS.GRAY_BLUE}
                         />
                         <Text style={styles.text}>{_('WELCOME__NEWS_TEXT')}</Text>
