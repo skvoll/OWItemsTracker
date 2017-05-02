@@ -203,9 +203,7 @@ export class SettingsScene extends Scene {
                 styles={styles.container}
             >
 
-                <View style={styles.top}>
-
-                </View>
+                <View style={styles.top}/>
                 <ScrollView style={styles.center} contentContainerStyle={styles.centerContentContainerStyle}>
                     <View style={styles.section}>
                         <ButtonPicker
@@ -213,7 +211,6 @@ export class SettingsScene extends Scene {
                             selectedValue={this.state.language}
                             onValueChange={language => this.setLanguage(language)}
                             title={_('SETTINGS__LANGUAGE').toUpperCase()}
-                            icon="close"
                         />
                     </View>
                     <View style={styles.section}>
@@ -229,17 +226,15 @@ export class SettingsScene extends Scene {
                         />
                     </View>
                     {btnSync}
-                </ScrollView>
-                <View style={styles.bottom}>
                     <View style={styles.section}>
                         <Button
                             title={_('BUTTON__CLEAR_DATA').toUpperCase()}
                             onPress={() => this.eraseData()}
                             color={CONFIG.COLORS.RED}
-                            icon="close"
                         />
                     </View>
-                </View>
+                </ScrollView>
+                <View style={styles.bottom}/>
 
             </Layout>
         );
