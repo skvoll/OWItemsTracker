@@ -23109,20 +23109,20 @@
     "price": false,
     "event": "SPECIAL"
   },
-  "SPRAY-DVA-79-70-70-73-67-69-82": {
-    "uid": "SPRAY-DVA-79-70-70-73-67-69-82",
+  "SPRAY-DVA-66-65-68-71-69": {
+    "uid": "SPRAY-DVA-66-65-68-71-69",
     "default": false,
-    "name": "Officer",
+    "name": "Badge",
     "type": "SPRAY",
     "rarity": "COMMON",
     "hero": "DVA",
     "price": false,
     "event": "SPECIAL"
   },
-  "ICON-DVA-79-70-70-73-67-69-82": {
-    "uid": "ICON-DVA-79-70-70-73-67-69-82",
+  "ICON-DVA-76-65-87": {
+    "uid": "ICON-DVA-76-65-87",
     "default": false,
-    "name": "Officer",
+    "name": "Law",
     "type": "ICON",
     "rarity": "COMMON",
     "hero": "DVA",
