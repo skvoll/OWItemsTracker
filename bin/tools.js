@@ -2,7 +2,7 @@
 
 const logger = require('./logger');
 
-let uid = function (args = {}) {
+let uid = function (args = {}, showResult = true) {
     let uid = [];
 
     if (args['p']) {
@@ -17,14 +17,14 @@ let uid = function (args = {}) {
 
     uid = uid.join('-');
 
-    if (process.argv) {
+    if (showResult) {
         logger.log(uid);
     }
 
     return uid;
 };
 
-let uidDecode = function (args = {}) {
+let uidDecode = function (args = {}, showResult = true) {
     let string, prefix = [], chars = [];
 
     if (!args['u']) {
@@ -48,7 +48,7 @@ let uidDecode = function (args = {}) {
 
     string = prefix.join(' ') + ' ' + chars.join('');
 
-    if (process.argv) {
+    if (showResult) {
         logger.log(string);
     }
 

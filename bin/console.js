@@ -92,13 +92,12 @@ function temp() {
 
 function migrate() {
     const fs = require('fs');
-    const itemsTools = require('./items');
     const items = require('./../src/data/items.json');
 
     let output = {}, uid, assoc = {getNew: {}, getOld: {},}, i18n, i18nNew;
 
     Object.values(items).map(item => {
-        uid = itemsTools.makeUid(item.type, item.name, item.hero);
+        uid = tools.uid({p: [item.type, item.hero], s: item.name,}, false);
         assoc.getNew[item.uid] = uid;
         assoc.getOld[uid] = item.uid;
 

@@ -1,6 +1,7 @@
 "use strict";
 
 const fs = require('fs');
+const tools = require('./tools');
 const logger = require('./logger');
 
 let items = require('./../src/data/items.json');
@@ -18,18 +19,6 @@ function getTranslations() {
 
     return i18n;
 }
-
-const makeUid = function (type, string, hero = null) {
-    let uid = [type];
-
-    if (hero) {
-        uid.push(hero);
-    }
-
-    string.toUpperCase().split('').map(c => uid.push(c.charCodeAt(0)));
-
-    return uid.join('-');
-};
 
 const itemsCheck = function (args = {}) {
     let result = true, i18n = getTranslations();
@@ -89,7 +78,7 @@ const itemsImport = function (args = {}) {
         item[6] = item[6] === 'false' ? false : item[6];
 
         item = {
-            uid: makeUid(item[2], item[1], item[4] || null),
+            uid: tools.uid({p: [item[2], item[4] || null], s: item[1],}, false),
             default: item[0],
             name: item[1],
             type: item[2],
@@ -124,7 +113,7 @@ const itemsImport = function (args = {}) {
 };
 
 const itemsSave = function (args = {}) {
-    if (!itemsCheck(args = {})) {
+    if (!itemsCheck()) {
         logger.fatal('save canceled');
     }
 
@@ -161,7 +150,6 @@ const itemsSave = function (args = {}) {
 };
 
 module.exports = {
-    makeUid: makeUid,
     check: itemsCheck,
     import: itemsImport,
     save: itemsSave,
