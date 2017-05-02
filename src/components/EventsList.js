@@ -40,7 +40,10 @@ class Item extends Component {
 
         if (this.props.item.progress) {
             progress = (
-                <Text style={styles.progress}>
+                <Text
+                    numberOfLines={1}
+                    style={styles.progress}
+                >
                     {`${this.props.item.progress.received}/${this.props.item.progress.total}`}
                 </Text>
             );
