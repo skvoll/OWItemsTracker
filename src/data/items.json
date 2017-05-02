@@ -23098,5 +23098,35 @@
     "hero": "WIDOWMAKER",
     "price": false,
     "event": "UPRISING_2017"
+  },
+  "SKIN-DVA-79-70-70-73-67-69-82": {
+    "uid": "SKIN-DVA-79-70-70-73-67-69-82",
+    "default": false,
+    "name": "Officer",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "DVA",
+    "price": false,
+    "event": "SPECIAL"
+  },
+  "SPRAY-DVA-79-70-70-73-67-69-82": {
+    "uid": "SPRAY-DVA-79-70-70-73-67-69-82",
+    "default": false,
+    "name": "Officer",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": false,
+    "event": "SPECIAL"
+  },
+  "ICON-DVA-79-70-70-73-67-69-82": {
+    "uid": "ICON-DVA-79-70-70-73-67-69-82",
+    "default": false,
+    "name": "Officer",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": false,
+    "event": "SPECIAL"
   }
 }
