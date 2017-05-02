@@ -60,9 +60,9 @@
     "SETTINGS__SETTINGS_TITLE": "Settings",
     "SETTINGS__VERSION": "version",
     "SETTINGS__WIFI_ONLY": "wi-fi only",
-    "WELCOME__LINK_TITLE": "Help our cause",
-    "WELCOME__NEWS_TEXT": "Want to see your language?",
-    "WELCOME__NEWS_TITLE": "Latin American Spanish",
+    "WELCOME__LINK_TITLE": "",
+    "WELCOME__NEWS_TEXT": "",
+    "WELCOME__NEWS_TITLE": "",
     "WELCOME__TIPS_TITLE": "Tips"
   },
   "heroes": {
@@ -2412,6 +2412,9 @@
     "ICON-REINHARDT-76-73-69-85-84-69-78-65-78-84": "Lieutenant",
     "ICON-TORBJORN-67-72-73-69-70-32-69-78-71-73-78-69-69-82": "Chief Engineer",
     "ICON-TRACER-67-65-68-69-84": "Cadet",
-    "ICON-WIDOWMAKER-76-65-67-82-79-73-88": "Lacroix"
+    "ICON-WIDOWMAKER-76-65-67-82-79-73-88": "Lacroix",
+    "SKIN-DVA-79-70-70-73-67-69-82": "Officer",
+    "SPRAY-DVA-66-65-68-71-69": "Badge",
+    "ICON-DVA-76-65-87": "Law"
   }
 }
