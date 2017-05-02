@@ -44,18 +44,22 @@ class Item extends Component {
     }
 
     render() {
-        let textStyle, heroIcon, eventIcon, name = _(this.props.item.uid), price, check;
+        let textStyle, icon, name = _(this.props.item.uid), price, check;
 
         textStyle = {color: Items.COLOR[this.props.item.rarity],};
 
         if (this.props.addHeroIcon && this.props.item.hero) {
-            heroIcon = (<Image source={Heroes.get(this.props.item.hero).icon} style={styles.itemHeroIcon}/>);
+            icon = (<Image source={Heroes.get(this.props.item.hero).icon} style={styles.itemHeroIcon}/>);
         } else if (this.props.addHeroIcon) {
-            heroIcon = (<Image source={require('./../assets/heroes/OVERWATCH.icon.png')} style={styles.itemHeroIcon}/>);
+            icon = (<Image source={require('./../assets/heroes/OVERWATCH.icon.png')} style={styles.itemHeroIcon}/>);
         }
 
         if (this.props.addEventIcon && this.props.item.event) {
-            eventIcon = (<Image source={Events.ITEMS[this.props.item.event].icon} style={styles.itemEventIcon}/>);
+            icon = (<Image source={Events.ITEMS[this.props.item.event].icon} style={styles.itemEventIcon}/>);
+        }
+
+        if (!icon) {
+            icon = (<View/>);
         }
 
         if (this.props.item.price) {
@@ -80,8 +84,7 @@ class Item extends Component {
             >
 
                 <View style={styles.item}>
-                    {heroIcon}
-                    {eventIcon}
+                    {icon}
                     <Text numberOfLines={1} style={[styles.itemName, textStyle,]}>
                         {name.toUpperCase()}
                     </Text>
@@ -135,21 +138,21 @@ class GridItem extends Component {
     }
 
     render() {
-        let size = {height: this.SIZE, width: this.SIZE,}, style = null, heroIcon, eventIcon, price;
+        let size = {height: this.SIZE, width: this.SIZE,}, style = null, icon, price;
 
         if (!this.props.item.default && !this.props.item.received) {
             style = styles.gridItemOpacity;
         }
 
         if (this.props.addHeroIcon && this.props.item.hero) {
-            heroIcon = (
+            icon = (
                 <Image
                     source={Heroes.get(this.props.item.hero).icon}
                     style={[styles.gridItemHeroIcon, {tintColor: CONFIG.COLORS.COMMON,},]}
                 />
             );
         } else if (this.props.addHeroIcon) {
-            heroIcon = (
+            icon = (
                 <Image
                     source={require('./../assets/heroes/OVERWATCH.icon.png')}
                     style={[styles.gridItemHeroIcon, {tintColor: CONFIG.COLORS.COMMON,},]}
@@ -158,12 +161,16 @@ class GridItem extends Component {
         }
 
         if (this.props.addEventIcon && this.props.item.event) {
-            eventIcon = (
+            icon = (
                 <Image
                     source={Events.ITEMS[this.props.item.event].icon}
                     style={[styles.gridItemEventIcon, {tintColor: CONFIG.COLORS.COMMON,},]}
                 />
             );
+        }
+
+        if (!icon) {
+            icon = (<View/>);
         }
 
         if (this.props.item.price) {
@@ -172,6 +179,8 @@ class GridItem extends Component {
                     {this.props.item.price.toString()}
                 </Text>
             );
+        } else {
+            price = (<View/>);
         }
 
         return (
@@ -182,8 +191,7 @@ class GridItem extends Component {
                 >
 
                     <View style={styles.gridItemContent}>
-                        {heroIcon}
-                        {eventIcon}
+                        {icon}
                         {price}
                     </View>
 
