@@ -40,10 +40,7 @@ class Item extends Component {
 
         if (this.props.item.progress) {
             progress = (
-                <Text
-                    numberOfLines={1}
-                    style={styles.progress}
-                >
+                <Text numberOfLines={1} style={styles.progress}>
                     {`${this.props.item.progress.received}/${this.props.item.progress.total}`}
                 </Text>
             );
@@ -57,13 +54,8 @@ class Item extends Component {
 
                 <View style={styles.item}>
                     <Image source={this.props.item.icon} style={styles.icon}/>
-                    <Text
-                        numberOfLines={1}
-                        style={styles.name}
-                    >
-
+                    <Text numberOfLines={1} style={styles.name}>
                         {this.props.item.name}
-
                     </Text>
                     {progress}
                     <Icon
