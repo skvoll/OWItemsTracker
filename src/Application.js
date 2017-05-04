@@ -2,36 +2,67 @@
 
 import React, {Component} from 'react';
 import {
-    Navigator,
     StyleSheet,
     StatusBar,
     View,
 } from 'react-native';
+import {
+    NavigationActions,
+} from 'react-navigation';
 
 import CONFIG from './config';
-import * as scenes from './scenes';
+import Navigator from './screens/Navigator';
 
 export default class Application extends Component {
     static propTypes = {};
 
     static defaultProps = {};
 
-    navigator = null;
+    navigation;
 
     constructor(props, context, updater) {
         super(props, context, updater);
+
+        this.state = {
+            currentRoute: null,
+        };
     }
 
-    renderScene(route, navigator) {
-        if (!scenes[route.name]) {
+    navigate(route, params = {}) {
+        if (this.state.currentRoute === route) {
             return;
         }
 
-        route.component = scenes[route.name];
+        this.setState({
+            currentRoute: route,
+        }, () => {
+            this.navigation.dispatch(NavigationActions.navigate({routeName: route, params: params,}))
+        });
+    }
 
-        return (
-            <route.component application={this} navigator={navigator} {...route.props}/>
-        );
+    reset(route, params = {}) {
+        if (this.state.currentRoute === route) {
+            return;
+        }
+
+        this.setState({
+            currentRoute: route,
+        }, () => {
+            this.navigation.dispatch(NavigationActions.reset({
+                index: 0,
+                actions: [
+                    NavigationActions.navigate({routeName: route, params: params,})
+                ]
+            }));
+        });
+    }
+
+    back() {
+        this.setState({
+            currentRoute: this.navigation.state.routeName,
+        }, () => {
+            this.navigation.dispatch(NavigationActions.back())
+        });
     }
 
     render() {
@@ -43,11 +74,10 @@ export default class Application extends Component {
                     backgroundColor="transparent"
                     barStyle="light-content"
                 />
-
                 <Navigator
-                    ref={component => this.navigator = component}
-                    initialRoute={{name: 'SplashScene',}}
-                    renderScene={(route, navigator) => this.renderScene(route, navigator)}
+                    ref={component => this.navigation = component}
+                    screenProps={{application: this,}}
+                    onNavigationStateChange={null}
                 />
             </View>
         );

@@ -155,6 +155,7 @@ export class Layout extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: 'transparent',
     },
     containerPadding: {
         ...Platform.select({

@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import {
     StyleSheet,
+    ViewPropTypes,
     View,
     Text,
 } from 'react-native';
@@ -20,7 +21,7 @@ export class Button extends Component {
         icon: React.PropTypes.string,
         color: React.PropTypes.string,
         textColor: React.PropTypes.string,
-        style: View.propTypes.style,
+        style: ViewPropTypes.style,
     };
 
     static defaultProps = {

@@ -25,7 +25,7 @@ export class RemainingAmount extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.title}>{this.props.amount.toString()}</Text>
+                <Text style={styles.title}>{this.props.amount}</Text>
                 <Image source={require('./../assets/credit.png')} style={styles.icon}/>
             </View>
         );

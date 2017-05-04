@@ -135,7 +135,7 @@ export class Quiz extends Component {
 
             if (score > bestScore) {
                 bestScore = score;
-                AsyncStorage.setItem('EE__BEST_SCORE', bestScore.toString());
+                AsyncStorage.setItem('EE__BEST_SCORE', bestScore);
             }
         } else {
             score = 0;

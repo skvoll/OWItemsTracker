@@ -19,13 +19,11 @@ import {
     Button,
     ButtonPicker,
 } from './../components';
-import Scene from './Scene';
+import Screen from './Screen';
 
-export class SettingsScene extends Scene {
+export default class SettingsScreen extends Screen {
     constructor(props, context, updater) {
         super(props, context, updater);
-
-        this.hardwareBackPress = () => this.navigationPop();
 
         this.state = {
             hasPlayServices: false,
@@ -199,7 +197,7 @@ export class SettingsScene extends Scene {
         return (
             <Layout
                 toolbarTitle={_('SETTINGS__SETTINGS_TITLE')}
-                onToolbarIconPress={() => this.navigationPop()}
+                onToolbarIconPress={() => this.application.back()}
                 styles={styles.container}
             >
 

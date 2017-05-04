@@ -41,6 +41,20 @@ class Item extends Component {
         super(props, context, updater);
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        if (this.props.item.progress && nextProps.item.progress) {
+            if (this.props.item.progress.received !== nextProps.item.progress.received) {
+                return true;
+            }
+
+            if (this.props.item.progress.total !== nextProps.item.progress.total) {
+                return true;
+            }
+        }
+
+        return this.props.item.name !== nextProps.item.name;
+    }
+
     componentWillMount() {
         this.setSize(Dimensions.get('window').width);
 
@@ -229,22 +243,6 @@ export class HeroesList extends Component {
         );
     }
 
-    shouldItemUpdate(prev, next) {
-        if (this.props.showProgress) {
-            if (prev.item.progress && next.item.progress) {
-                if (prev.item.progress.received !== next.item.progress.received) {
-                    return true;
-                }
-
-                if (prev.item.progress.total !== next.item.progress.total) {
-                    return true;
-                }
-            }
-        }
-
-        return prev.item.name !== next.item.name;
-    }
-
     render() {
         return (
             <View style={styles.container}>
@@ -254,7 +252,6 @@ export class HeroesList extends Component {
                     data={this.state.data}
                     keyExtractor={(item, index) => item.id}
                     renderItem={({item, index}) => this.renderItem(item, index)}
-                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
                     numColumns={GRID_SIZE}
                     columnWrapperStyle={styles.columnWrapperStyle}
                 />

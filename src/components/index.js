@@ -9,12 +9,13 @@ export {Layout} from './Layout';
 export {Link} from './Link';
 export {Loader} from './Loader';
 export {Preview} from './Preview';
-export {RemainingAmount} from './RemainingAmount';
+export {Tabs} from './Tabs';
 
 export {EventsList} from './EventsList';
 export {HeroesList} from './HeroesList';
 export {IconsList} from './IconsList';
 export {ItemsList} from './ItemsList';
 export {ItemsProgress} from './ItemsProgress';
+export {RemainingAmount} from './RemainingAmount';
 
 export {Quiz} from './Quiz';

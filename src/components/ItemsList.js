@@ -43,6 +43,14 @@ class Item extends Component {
         super(props, context, updater);
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        if (this.props.item.received !== nextProps.item.received) {
+            return true;
+        }
+
+        return false;
+    }
+
     render() {
         let textStyle, icon, name = _(this.props.item.uid), price, check;
 
@@ -63,7 +71,7 @@ class Item extends Component {
         }
 
         if (this.props.item.price) {
-            price = (<Text style={styles.itemPrice}>{this.props.item.price.toString()}</Text>);
+            price = (<Text style={styles.itemPrice}>{this.props.item.price}</Text>);
         }
 
         if (!this.props.item.default) {
@@ -115,6 +123,14 @@ class GridItem extends Component {
 
     constructor(props, context, updater) {
         super(props, context, updater);
+    }
+
+    shouldComponentUpdate(nextProps, nextState) {
+        if (this.props.item.received !== nextProps.item.received) {
+            return true;
+        }
+
+        return false;
     }
 
     componentWillMount() {
@@ -176,7 +192,7 @@ class GridItem extends Component {
         if (this.props.item.price) {
             price = (
                 <Text style={[styles.itemPrice, {color: CONFIG.COLORS.COMMON}]}>
-                    {this.props.item.price.toString()}
+                    {this.props.item.price}
                 </Text>
             );
         } else {
@@ -301,10 +317,6 @@ class Section extends Component {
         );
     }
 
-    shouldItemUpdate(prev, next) {
-        return prev.item.received !== next.item.received;
-    }
-
     render() {
         let header, list;
 
@@ -315,7 +327,6 @@ class Section extends Component {
                     keyExtractor={(item, index) => item.uid}
                     initialNumToRender={128}
                     renderItem={({item, index}) => this.renderItem(item, index)}
-                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
                     numColumns={this.props.numColumns}
                     columnWrapperStyle={(this.props.numColumns > 1 ? styles.columnWrapperStyle : null)}
                 />

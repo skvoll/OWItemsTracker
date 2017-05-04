@@ -14,13 +14,11 @@ import {
     Layout,
     Link,
 } from './../components';
-import Scene from './Scene';
+import Screen from './Screen';
 
-export class AboutScene extends Scene {
+export default class AboutScreen extends Screen {
     constructor(props, context, updater) {
         super(props, context, updater);
-
-        this.hardwareBackPress = () => this.navigationPop();
     }
 
     render() {
@@ -59,7 +57,7 @@ export class AboutScene extends Scene {
         return (
             <Layout
                 toolbarTitle={_('ABOUT__INFORMATION_TITLE')}
-                onToolbarIconPress={() => this.navigationPop()}
+                onToolbarIconPress={() => this.application.back()}
                 background={require('./../assets/background_about_gray.jpg')}
                 styles={styles.container}
             >
@@ -103,7 +101,7 @@ export class AboutScene extends Scene {
                 </ScrollView>
                 <View style={styles.bottom}>
                     <Text
-                        onLongPress={() => this.navigator.push({name: 'WelcomeScene', props: {},})}
+                        onLongPress={() => this.application.navigate('Welcome')}
                         style={styles.version}
                     >
 

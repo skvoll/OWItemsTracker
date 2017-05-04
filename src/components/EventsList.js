@@ -35,6 +35,16 @@ class Item extends Component {
         super(props, context, updater);
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        if (this.props.item.progress && nextProps.item.progress) {
+            if (this.props.item.progress.received !== nextProps.item.progress.received) {
+                return true;
+            }
+        }
+
+        return this.props.item.name !== nextProps.item.name;
+    }
+
     render() {
         let progress;
 
@@ -170,18 +180,6 @@ export class EventsList extends Component {
         );
     }
 
-    shouldItemUpdate(prev, next) {
-        if (this.props.showProgress) {
-            if (prev.item.progress && next.item.progress) {
-                if (prev.item.progress.received !== next.item.progress.received) {
-                    return true;
-                }
-            }
-        }
-
-        return prev.item.name !== next.item.name;
-    }
-
     render() {
         return (
             <View style={styles.container}>
@@ -190,7 +188,6 @@ export class EventsList extends Component {
                     data={this.state.data}
                     keyExtractor={(item, index) => item.id}
                     renderItem={({item, index}) => this.renderItem(item, index)}
-                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
                 />
             </View>
         );

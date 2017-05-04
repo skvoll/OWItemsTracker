@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import {
     StyleSheet,
+    ViewPropTypes,
     View,
     Text,
 } from 'react-native';
@@ -22,7 +23,7 @@ export class Link extends Component {
         icon: React.PropTypes.string,
         backgroundColor: React.PropTypes.string,
         textColor: React.PropTypes.string,
-        style: View.propTypes.style,
+        style: ViewPropTypes.style,
     };
 
     static defaultProps = {

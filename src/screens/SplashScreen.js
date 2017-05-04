@@ -13,16 +13,14 @@ import Items from './../Items';
 import {
     Layout,
 } from './../components';
-import Scene from './Scene';
+import Screen from './Screen';
 
-export class SplashScene extends Scene {
+export default class SplashScreen extends Screen {
     constructor(props, context, updater) {
         super(props, context, updater);
     }
 
     componentDidMount() {
-        super.componentDidMount();
-
         CONFIG.initialize().then(() => {
             Items.initialize().then(async () => {
                 const TIPS_SHOWN = await AsyncStorage.getItem('TIPS_SHOWN');
@@ -31,7 +29,7 @@ export class SplashScene extends Scene {
                     await AsyncStorage.setItem('VERSION', CONFIG.VERSION);
                     await AsyncStorage.setItem('TIPS_SHOWN', 'true');
 
-                    this.navigateTo('WelcomeScene', {type: 'tips',});
+                    this.application.navigateTo('Welcome', {type: 'tips',});
 
                     return;
                 }
@@ -43,26 +41,26 @@ export class SplashScene extends Scene {
                         await AsyncStorage.setItem('VERSION', CONFIG.VERSION);
 
                         if (VERSION) {
-                            this.navigateTo('WelcomeScene');
+                            this.navigateTo('Welcome');
 
                             return;
                         }
                     }
                 }
 
-                this.navigateTo('MainScene');
+                this.navigateTo('Main');
             });
         });
     }
 
     navigateTo(scene, props = {}) {
         if (!CONFIG.CLOUD_SYNCHRONIZATION && !__DEV__) {
-            setTimeout(() => this.navigator.resetTo({name: scene, props: props,}), 1500);
+            setTimeout(() => this.application.reset(scene, props), 1500);
 
             return;
         }
 
-        this.navigator.resetTo({name: scene, props: props,});
+        this.application.reset(scene, props);
     }
 
     render() {

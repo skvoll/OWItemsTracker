@@ -90,7 +90,7 @@ export class ItemsProgress extends Component {
         if (this.props.showAmount && this.state.amount !== null) {
             amount = (
                 <View style={styles.amount}>
-                    <Text style={styles.amountTitle}>{this.state.amount.toString()}</Text>
+                    <Text style={styles.amountTitle}>{this.state.amount}</Text>
                     <Image source={require('./../assets/credit.png')} style={styles.amountIcon}/>
                 </View>
             );

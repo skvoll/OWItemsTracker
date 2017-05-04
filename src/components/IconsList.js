@@ -46,6 +46,14 @@ class Item extends Component {
         super(props, context, updater);
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        if (this.props.item.received !== nextProps.item.received) {
+            return true;
+        }
+
+        return false;
+    }
+
     componentWillMount() {
         this.setSize(Dimensions.get('window').width);
 
@@ -100,7 +108,6 @@ class Item extends Component {
         }
 
         return (
-            <View style={{borderRadius: 6,}}>
             <Image source={this.props.item.thumbnail} style={[styles.icon, size, style,]}>
                 <TouchableWithoutFeedback
                     onPress={() => this.props.onPress(this.props.item, this.props.index)}
@@ -115,7 +122,6 @@ class Item extends Component {
 
                 </TouchableWithoutFeedback>
             </Image>
-            </View>
         );
     };
 }
@@ -241,10 +247,6 @@ export class IconsList extends Component {
         );
     }
 
-    shouldItemUpdate(prev, next) {
-        return prev.item.received !== next.item.received;
-    }
-
     render() {
         return (
             <View style={styles.container}>
@@ -254,7 +256,6 @@ export class IconsList extends Component {
                     data={this.state.data}
                     keyExtractor={(item, index) => item.uid}
                     renderItem={({item, index}) => this.renderItem(item, index)}
-                    shouldItemUpdate={(prev, next) => this.shouldItemUpdate(prev, next)}
                     numColumns={GRID_SIZE}
                     columnWrapperStyle={styles.columnWrapperStyle}
                 />
