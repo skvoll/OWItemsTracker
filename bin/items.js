@@ -103,7 +103,7 @@ const itemsImport = function (args = {}) {
         fs.writeFileSync('./../src/data/items.json', JSON.stringify(items, null, 2));
 
         if (addedCount) {
-            logger.success(`${skippedCount} item(s) added`);
+            logger.success(`${addedCount} item(s) added`);
         }
 
         if (skippedCount) {
