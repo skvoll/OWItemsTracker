@@ -49,7 +49,7 @@ const i18nExport = function (args = {}) {
             Object.values(items).map(item => {
                 tsv[i] += [
                         `${(item.hero ? `${item.hero} ` : '')}${item.type} ${item.name}`,
-                        `${i18n[i][item.uid]}`,
+                        `${i18n[i][item.uid] || (args['l'] === 'en_US' ? item.name : '')}`,
                         `${item.uid}`,
                     ].join('\t') + '\n';
             });
