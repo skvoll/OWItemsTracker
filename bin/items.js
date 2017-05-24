@@ -10,10 +10,10 @@ function getTranslations() {
     let i18n = {}, matches;
 
     fs.readdirSync('./../src/i18n').map(file => {
-        matches = file.match(/(.*).items.json/);
+        matches = file.match(/(.*)\.json/);
 
         if (matches) {
-            i18n[matches[1]] = require('./../src/i18n/' + file);
+            i18n[matches[1]] = require('./../src/i18n/' + file).items;
         }
     });
 
