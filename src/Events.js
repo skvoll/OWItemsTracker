@@ -8,6 +8,7 @@ export default class Events {
     static WINTER_WONDERLAND_2016 = 4;
     static YEAR_OF_THE_ROOSTER_2017 = 5;
     static UPRISING_2017 = 6;
+    static ANNIVERSARY_2017 = 7;
 
     static ITEMS = {
         [Events.GENERAL]: {
@@ -51,6 +52,12 @@ export default class Events {
             code: 'UPRISING_2017',
             icon: require('./assets/events/UPRISING_2017.icon.png'),
             background: require('./assets/events/UPRISING_2017.background.jpg'),
+        },
+        [Events.ANNIVERSARY_2017]: {
+            id: Events.ANNIVERSARY_2017,
+            code: 'ANNIVERSARY_2017',
+            icon: require('./assets/events/ANNIVERSARY.icon.png'),
+            background: require('./assets/events/ANNIVERSARY_2017.background.jpg'),
         },
     };
 

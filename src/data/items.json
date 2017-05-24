@@ -1049,6 +1049,26 @@
     "price": false,
     "event": "GENERAL"
   },
+  "ICON-83-101-97-115-111-110-32-53-32-67-111-109-112-101-116-105-116-111-114": {
+    "uid": "ICON-83-101-97-115-111-110-32-53-32-67-111-109-112-101-116-105-116-111-114",
+    "default": false,
+    "name": "Season 5 Competitor",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "GENERAL"
+  },
+  "ICON-83-101-97-115-111-110-32-53-32-72-101-114-111": {
+    "uid": "ICON-83-101-97-115-111-110-32-53-32-72-101-114-111",
+    "default": false,
+    "name": "Season 5 Hero",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "GENERAL"
+  },
   "ICON-83-101-111-108-108-97-108": {
     "uid": "ICON-83-101-111-108-108-97-108",
     "default": false,
@@ -2003,6 +2023,16 @@
     "uid": "SPRAY-83-101-97-115-111-110-32-52-32-67-111-109-112-101-116-105-116-111-114",
     "default": false,
     "name": "Season 4 Competitor",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "GENERAL"
+  },
+  "SPRAY-83-101-97-115-111-110-32-53-32-67-111-109-112-101-116-105-116-111-114": {
+    "uid": "SPRAY-83-101-97-115-111-110-32-53-32-67-111-109-112-101-116-105-116-111-114",
+    "default": false,
+    "name": "Season 5 Competitor",
     "type": "SPRAY",
     "rarity": "COMMON",
     "hero": false,
@@ -23128,5 +23158,1405 @@
     "hero": "DVA",
     "price": false,
     "event": "SPECIAL"
+  },
+  "SKIN-PHARAH-66-69-68-79-85-73-78": {
+    "uid": "SKIN-PHARAH-66-69-68-79-85-73-78",
+    "default": false,
+    "name": "Bedouin",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "PHARAH",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-SOLDIER76-67-89-66-79-82-71-58-32-55-54": {
+    "uid": "SKIN-SOLDIER76-67-89-66-79-82-71-58-32-55-54",
+    "default": false,
+    "name": "Cyborg: 76",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "SOLDIER76",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-DVA-67-82-85-73-83-69-82": {
+    "uid": "SKIN-DVA-67-82-85-73-83-69-82",
+    "default": false,
+    "name": "Cruiser",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "DVA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-TRACER-71-82-65-70-70-73-84-73": {
+    "uid": "SKIN-TRACER-71-82-65-70-70-73-84-73",
+    "default": false,
+    "name": "Graffiti",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "TRACER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-HANZO-67-89-66-69-82-78-73-78-74-65": {
+    "uid": "SKIN-HANZO-67-89-66-69-82-78-73-78-74-65",
+    "default": false,
+    "name": "Cyberninja",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "HANZO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-MEI-66-69-69-75-69-69-80-69-82": {
+    "uid": "SKIN-MEI-66-69-69-75-69-69-80-69-82",
+    "default": false,
+    "name": "Beekeeper",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "MEI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-ZARYA-67-89-66-69-82-73-65-78": {
+    "uid": "SKIN-ZARYA-67-89-66-69-82-73-65-78",
+    "default": false,
+    "name": "Cyberian",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "ZARYA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-BASTION-68-85-78-69-32-66-85-71-71-89": {
+    "uid": "SKIN-BASTION-68-85-78-69-32-66-85-71-71-89",
+    "default": false,
+    "name": "Dune Buggy",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "BASTION",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-GENJI-83-69-78-84-65-73": {
+    "uid": "SKIN-GENJI-83-69-78-84-65-73",
+    "default": false,
+    "name": "Sentai",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "GENJI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-SYMMETRA-79-65-83-73-83": {
+    "uid": "SKIN-SYMMETRA-79-65-83-73-83",
+    "default": false,
+    "name": "Oasis",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "SYMMETRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SKIN-LUCIO-74-65-90-90-89": {
+    "uid": "SKIN-LUCIO-74-65-90-90-89",
+    "default": false,
+    "name": "Jazzy",
+    "type": "SKIN",
+    "rarity": "LEGENDARY",
+    "hero": "LUCIO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-ANA-68-65-78-67-69": {
+    "uid": "EMOTE-ANA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ANA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-BASTION-82-79-66-79-32-66-79-79-71-73-69": {
+    "uid": "EMOTE-BASTION-82-79-66-79-32-66-79-79-71-73-69",
+    "default": false,
+    "name": "Robo Boogie",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "BASTION",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-DVA-68-65-78-67-69": {
+    "uid": "EMOTE-DVA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "DVA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-GENJI-68-65-78-67-69": {
+    "uid": "EMOTE-GENJI-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "GENJI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-HANZO-70-73-83-72-69-82-77-65-78-32-68-65-78-67-69": {
+    "uid": "EMOTE-HANZO-70-73-83-72-69-82-77-65-78-32-68-65-78-67-69",
+    "default": false,
+    "name": "Fisherman Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "HANZO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-JUNKRAT-82-85-78-78-73-78-71-32-82-65-84": {
+    "uid": "EMOTE-JUNKRAT-82-85-78-78-73-78-71-32-82-65-84",
+    "default": false,
+    "name": "Running Rat",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "JUNKRAT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-LUCIO-83-77-79-79-84-72": {
+    "uid": "EMOTE-LUCIO-83-77-79-79-84-72",
+    "default": false,
+    "name": "Smooth",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "LUCIO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-MCCREE-76-73-78-69-32-68-65-78-67-69": {
+    "uid": "EMOTE-MCCREE-76-73-78-69-32-68-65-78-67-69",
+    "default": false,
+    "name": "Line Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "MCCREE",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-MEI-83-85-78-78-89-32-68-65-78-67-69": {
+    "uid": "EMOTE-MEI-83-85-78-78-89-32-68-65-78-67-69",
+    "default": false,
+    "name": "Sunny Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "MEI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-MERCY-72-85-83-84-76-69": {
+    "uid": "EMOTE-MERCY-72-85-83-84-76-69",
+    "default": false,
+    "name": "Hustle",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "MERCY",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-ORISA-68-65-78-67-69": {
+    "uid": "EMOTE-ORISA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-PHARAH-82-79-67-75-69-84-32-71-85-73-84-65-82": {
+    "uid": "EMOTE-PHARAH-82-79-67-75-69-84-32-71-85-73-84-65-82",
+    "default": false,
+    "name": "Rocket Guitar",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "PHARAH",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-REAPER-68-65-78-67-69": {
+    "uid": "EMOTE-REAPER-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "REAPER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-REINHARDT-83-87-69-69-84-72-65-82-68-84": {
+    "uid": "EMOTE-REINHARDT-83-87-69-69-84-72-65-82-68-84",
+    "default": false,
+    "name": "Sweethardt",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "REINHARDT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-ROADHOG-68-65-78-67-69": {
+    "uid": "EMOTE-ROADHOG-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ROADHOG",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-SOLDIER76-68-65-78-67-69": {
+    "uid": "EMOTE-SOLDIER76-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "SOLDIER76",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-SOMBRA-68-65-78-67-69": {
+    "uid": "EMOTE-SOMBRA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "SOMBRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-SYMMETRA-68-65-78-67-69": {
+    "uid": "EMOTE-SYMMETRA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "SYMMETRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-TORBJORN-68-65-78-67-69": {
+    "uid": "EMOTE-TORBJORN-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "TORBJORN",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-TRACER-67-72-65-82-76-69-83-84-79-78": {
+    "uid": "EMOTE-TRACER-67-72-65-82-76-69-83-84-79-78",
+    "default": false,
+    "name": "Charleston",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "TRACER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-WIDOWMAKER-66-65-76-76-69-84": {
+    "uid": "EMOTE-WIDOWMAKER-66-65-76-76-69-84",
+    "default": false,
+    "name": "Ballet",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "WIDOWMAKER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-WINSTON-68-65-78-67-69": {
+    "uid": "EMOTE-WINSTON-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "WINSTON",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-ZARYA-68-65-78-67-69": {
+    "uid": "EMOTE-ZARYA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ZARYA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-ZENYATTA-68-65-78-67-69": {
+    "uid": "EMOTE-ZENYATTA-68-65-78-67-69",
+    "default": false,
+    "name": "Dance",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ZENYATTA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ANA-70-79-76-76-79-87-32-77-69": {
+    "uid": "VOICE_LINE-ANA-70-79-76-76-79-87-32-77-69",
+    "default": false,
+    "name": "Follow me",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ANA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ANA-84-72-69-32-65-68-85-76-84-83-32-65-82-69-32-84-65-76-75-73-78-71": {
+    "uid": "VOICE_LINE-ANA-84-72-69-32-65-68-85-76-84-83-32-65-82-69-32-84-65-76-75-73-78-71",
+    "default": false,
+    "name": "The adults are talking",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ANA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-BASTION-66-69-87-45-87-79-79-32-66-69-87-45-87-79-79": {
+    "uid": "VOICE_LINE-BASTION-66-69-87-45-87-79-79-32-66-69-87-45-87-79-79",
+    "default": false,
+    "name": "Bew-woo bew-woo",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "BASTION",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-BASTION-68-79-79-32-68-85-78-32-68-85-78-32-87-79-79": {
+    "uid": "VOICE_LINE-BASTION-68-79-79-32-68-85-78-32-68-85-78-32-87-79-79",
+    "default": false,
+    "name": "Doo dun dun woo",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "BASTION",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-DVA-76-69-86-69-76-32-85-80-33": {
+    "uid": "VOICE_LINE-DVA-76-69-86-69-76-32-85-80-33",
+    "default": false,
+    "name": "Level up!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-DVA-78-79-32-87-65-89": {
+    "uid": "VOICE_LINE-DVA-78-79-32-87-65-89",
+    "default": false,
+    "name": "No way",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-GENJI-73-39-77-32-78-79-84-32-73-77-80-82-69-83-83-69-68": {
+    "uid": "VOICE_LINE-GENJI-73-39-77-32-78-79-84-32-73-77-80-82-69-83-83-69-68",
+    "default": false,
+    "name": "I'm not impressed",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "GENJI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-GENJI-89-79-85-32-83-69-69-77-32-78-73-67-69": {
+    "uid": "VOICE_LINE-GENJI-89-79-85-32-83-69-69-77-32-78-73-67-69",
+    "default": false,
+    "name": "You seem nice",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "GENJI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-HANZO-65-78-32-69-82-82-79-82-32-73-78-32-74-85-68-71-77-69-78-84": {
+    "uid": "VOICE_LINE-HANZO-65-78-32-69-82-82-79-82-32-73-78-32-74-85-68-71-77-69-78-84",
+    "default": false,
+    "name": "An error in judgment",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "HANZO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-HANZO-74-85-83-84-32-83-79": {
+    "uid": "VOICE_LINE-HANZO-74-85-83-84-32-83-79",
+    "default": false,
+    "name": "Just so",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "HANZO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-JUNKRAT-68-73-80-83-84-73-67-75": {
+    "uid": "VOICE_LINE-JUNKRAT-68-73-80-83-84-73-67-75",
+    "default": false,
+    "name": "Dipstick",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "JUNKRAT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-JUNKRAT-79-79-80-83-8230-32-68-82-79-80-80-69-68-32-83-79-77-69-84-72-73-78-71": {
+    "uid": "VOICE_LINE-JUNKRAT-79-79-80-83-8230-32-68-82-79-80-80-69-68-32-83-79-77-69-84-72-73-78-71",
+    "default": false,
+    "name": "Oops… Dropped something",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "JUNKRAT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-LUCIO-69-86-69-82-89-79-78-69-32-71-69-84-83-32-84-72-69-73-82-32-43-49": {
+    "uid": "VOICE_LINE-LUCIO-69-86-69-82-89-79-78-69-32-71-69-84-83-32-84-72-69-73-82-32-43-49",
+    "default": false,
+    "name": "Everyone gets their +1",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "LUCIO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-LUCIO-72-65-86-69-32-83-79-77-69-32-76-218-67-73-79-45-79-72-39-83-33": {
+    "uid": "VOICE_LINE-LUCIO-72-65-86-69-32-83-79-77-69-32-76-218-67-73-79-45-79-72-39-83-33",
+    "default": false,
+    "name": "Have some Lúcio-oh's!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "LUCIO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-MCCREE-66-85-67-75-76-69-32-85-80": {
+    "uid": "VOICE_LINE-MCCREE-66-85-67-75-76-69-32-85-80",
+    "default": false,
+    "name": "Buckle up",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "MCCREE",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-MCCREE-78-69-88-84-32-82-79-85-78-68-39-83-32-79-78-32-77-69": {
+    "uid": "VOICE_LINE-MCCREE-78-69-88-84-32-82-79-85-78-68-39-83-32-79-78-32-77-69",
+    "default": false,
+    "name": "Next round's on me",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "MCCREE",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-MEI-73-32-87-65-83-32-79-78-76-89-32-84-82-89-73-78-71-32-84-79-32-72-69-76-80": {
+    "uid": "VOICE_LINE-MEI-73-32-87-65-83-32-79-78-76-89-32-84-82-89-73-78-71-32-84-79-32-72-69-76-80",
+    "default": false,
+    "name": "I was only trying to help",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "MEI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-MEI-83-79-32-77-69-65-78-33-32-72-79-78-69-83-84-76-89-8230": {
+    "uid": "VOICE_LINE-MEI-83-79-32-77-69-65-78-33-32-72-79-78-69-83-84-76-89-8230",
+    "default": false,
+    "name": "So mean! Honestly…",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "MEI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-MERCY-81-85-69-83-84-73-79-78-65-66-76-69-32-74-85-68-71-77-69-78-84": {
+    "uid": "VOICE_LINE-MERCY-81-85-69-83-84-73-79-78-65-66-76-69-32-74-85-68-71-77-69-78-84",
+    "default": false,
+    "name": "Questionable judgment",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "MERCY",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-MERCY-89-79-85-82-39-82-69-32-87-69-76-67-79-77-69": {
+    "uid": "VOICE_LINE-MERCY-89-79-85-82-39-82-69-32-87-69-76-67-79-77-69",
+    "default": false,
+    "name": "Your're welcome",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "MERCY",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ORISA-83-65-84-73-83-70-73-69-68-32-87-73-84-72-32-80-82-79-84-69-67-84-73-79-78": {
+    "uid": "VOICE_LINE-ORISA-83-65-84-73-83-70-73-69-68-32-87-73-84-72-32-80-82-79-84-69-67-84-73-79-78",
+    "default": false,
+    "name": "Satisfied with protection",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ORISA-89-79-85-82-32-67-79-77-80-76-73-65-78-67-69": {
+    "uid": "VOICE_LINE-ORISA-89-79-85-82-32-67-79-77-80-76-73-65-78-67-69",
+    "default": false,
+    "name": "Your compliance",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-PHARAH-70-76-89-32-67-65-83-85-65-76": {
+    "uid": "VOICE_LINE-PHARAH-70-76-89-32-67-65-83-85-65-76",
+    "default": false,
+    "name": "Fly casual",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "PHARAH",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-PHARAH-84-82-89-32-77-69": {
+    "uid": "VOICE_LINE-PHARAH-84-82-89-32-77-69",
+    "default": false,
+    "name": "Try me",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "PHARAH",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-REAPER-73-39-76-76-32-83-69-69-32-89-79-85-32-73-78-32-72-69-76-76": {
+    "uid": "VOICE_LINE-REAPER-73-39-76-76-32-83-69-69-32-89-79-85-32-73-78-32-72-69-76-76",
+    "default": false,
+    "name": "I'll see you in hell",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "REAPER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-REAPER-78-79-32-79-78-69-32-76-69-70-84-32-66-69-72-73-78-68": {
+    "uid": "VOICE_LINE-REAPER-78-79-32-79-78-69-32-76-69-70-84-32-66-69-72-73-78-68",
+    "default": false,
+    "name": "No one left behind",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "REAPER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-REINHARDT-66-69-69-82-33": {
+    "uid": "VOICE_LINE-REINHARDT-66-69-69-82-33",
+    "default": false,
+    "name": "Beer!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "REINHARDT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-REINHARDT-72-79-78-79-82-33-32-74-85-83-84-73-67-69-33-32-82-69-73-78-72-65-82-68-84-33": {
+    "uid": "VOICE_LINE-REINHARDT-72-79-78-79-82-33-32-74-85-83-84-73-67-69-33-32-82-69-73-78-72-65-82-68-84-33",
+    "default": false,
+    "name": "Honor! Justice! Reinhardt!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "REINHARDT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ROADHOG-73-39-77-32-71-79-73-78-71-32-72-79-71-32-87-73-76-68-33": {
+    "uid": "VOICE_LINE-ROADHOG-73-39-77-32-71-79-73-78-71-32-72-79-71-32-87-73-76-68-33",
+    "default": false,
+    "name": "I'm going hog wild!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ROADHOG",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ROADHOG-73-32-68-79-78-39-84-32-76-73-75-69-32-84-65-76-75-69-82-83": {
+    "uid": "VOICE_LINE-ROADHOG-73-32-68-79-78-39-84-32-76-73-75-69-32-84-65-76-75-69-82-83",
+    "default": false,
+    "name": "I don't like talkers",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ROADHOG",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-SOLDIER76-73-39-77-32-78-79-84-32-89-79-85-82-32-70-65-84-72-69-82": {
+    "uid": "VOICE_LINE-SOLDIER76-73-39-77-32-78-79-84-32-89-79-85-82-32-70-65-84-72-69-82",
+    "default": false,
+    "name": "I'm not your father",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "SOLDIER76",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-SOLDIER76-89-79-85-39-82-69-32-84-72-69-32-66-79-83-83": {
+    "uid": "VOICE_LINE-SOLDIER76-89-79-85-39-82-69-32-84-72-69-32-66-79-83-83",
+    "default": false,
+    "name": "You're the boss",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "SOLDIER76",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-SOMBRA-73-32-78-69-69-68-32-65-32-68-82-73-78-75": {
+    "uid": "VOICE_LINE-SOMBRA-73-32-78-69-69-68-32-65-32-68-82-73-78-75",
+    "default": false,
+    "name": "I need a drink",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "SOMBRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-SOMBRA-87-69-82-69-32-89-79-85-32-68-79-78-69-32-84-65-76-75-73-78-71-63": {
+    "uid": "VOICE_LINE-SOMBRA-87-69-82-69-32-89-79-85-32-68-79-78-69-32-84-65-76-75-73-78-71-63",
+    "default": false,
+    "name": "Were you done talking?",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "SOMBRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-SYMMETRA-83-69-84-84-73-78-71-32-85-80-32-84-72-69-32-67-65-82-32-87-65-83-72": {
+    "uid": "VOICE_LINE-SYMMETRA-83-69-84-84-73-78-71-32-85-80-32-84-72-69-32-67-65-82-32-87-65-83-72",
+    "default": false,
+    "name": "Setting up the car wash",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "SYMMETRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-SYMMETRA-89-79-85-82-32-77-73-78-68-32-87-79-82-75-83": {
+    "uid": "VOICE_LINE-SYMMETRA-89-79-85-82-32-77-73-78-68-32-87-79-82-75-83",
+    "default": false,
+    "name": "Your mind works",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "SYMMETRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-TORBJORN-72-69-65-82-32-77-69-44-32-66-65-66-89-63": {
+    "uid": "VOICE_LINE-TORBJORN-72-69-65-82-32-77-69-44-32-66-65-66-89-63",
+    "default": false,
+    "name": "Hear me, baby?",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "TORBJORN",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-TORBJORN-84-82-85-83-84-32-77-69": {
+    "uid": "VOICE_LINE-TORBJORN-84-82-85-83-84-32-77-69",
+    "default": false,
+    "name": "Trust me",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "TORBJORN",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-TRACER-69-65-84-32-77-89-32-68-85-83-84": {
+    "uid": "VOICE_LINE-TRACER-69-65-84-32-77-89-32-68-85-83-84",
+    "default": false,
+    "name": "Eat my dust",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "TRACER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-TRACER-68-73-68-32-73-32-77-73-83-83-32-83-79-77-69-84-72-73-78-71-63": {
+    "uid": "VOICE_LINE-TRACER-68-73-68-32-73-32-77-73-83-83-32-83-79-77-69-84-72-73-78-71-63",
+    "default": false,
+    "name": "Did I miss something?",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "TRACER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-WIDOWMAKER-83-79-82-82-89": {
+    "uid": "VOICE_LINE-WIDOWMAKER-83-79-82-82-89",
+    "default": false,
+    "name": "Sorry",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "WIDOWMAKER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-WIDOWMAKER-87-72-65-84-32-65-32-66-79-82-69": {
+    "uid": "VOICE_LINE-WIDOWMAKER-87-72-65-84-32-65-32-66-79-82-69",
+    "default": false,
+    "name": "What a bore",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "WIDOWMAKER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-WINSTON-73-84-39-83-32-77-89-32-84-73-77-69-32-84-79-32-83-72-73-78-69-33": {
+    "uid": "VOICE_LINE-WINSTON-73-84-39-83-32-77-89-32-84-73-77-69-32-84-79-32-83-72-73-78-69-33",
+    "default": false,
+    "name": "It's my time to shine!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "WINSTON",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-WINSTON-79-72-32-89-69-65-72-33": {
+    "uid": "VOICE_LINE-WINSTON-79-72-32-89-69-65-72-33",
+    "default": false,
+    "name": "Oh yeah!",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "WINSTON",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ZARYA-73-83-32-84-72-65-84-32-65-76-76-63": {
+    "uid": "VOICE_LINE-ZARYA-73-83-32-84-72-65-84-32-65-76-76-63",
+    "default": false,
+    "name": "Is that all?",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ZARYA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ZARYA-80-69-65-67-69-32-84-72-82-79-85-71-72-32-70-73-82-69-80-79-87-69-82": {
+    "uid": "VOICE_LINE-ZARYA-80-69-65-67-69-32-84-72-82-79-85-71-72-32-70-73-82-69-80-79-87-69-82",
+    "default": false,
+    "name": "Peace through firepower",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ZARYA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ZENYATTA-69-88-73-83-84-69-78-67-69-32-73-83-32-77-89-83-84-69-82-73-79-85-83": {
+    "uid": "VOICE_LINE-ZENYATTA-69-88-73-83-84-69-78-67-69-32-73-83-32-77-89-83-84-69-82-73-79-85-83",
+    "default": false,
+    "name": "Existence is mysterious",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ZENYATTA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "VOICE_LINE-ZENYATTA-72-79-87-32-68-73-83-65-80-80-79-73-78-84-73-78-71": {
+    "uid": "VOICE_LINE-ZENYATTA-72-79-87-32-68-73-83-65-80-80-79-73-78-84-73-78-71",
+    "default": false,
+    "name": "How disappointing",
+    "type": "VOICE_LINE",
+    "rarity": "COMMON",
+    "hero": "ZENYATTA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-ANA-65-67-69-32-79-70-32-72-69-65-82-84-83": {
+    "uid": "SPRAY-ANA-65-67-69-32-79-70-32-72-69-65-82-84-83",
+    "default": false,
+    "name": "Ace of Hearts",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ANA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-BASTION-84-69-78-32-79-70-32-67-76-85-66-83": {
+    "uid": "SPRAY-BASTION-84-69-78-32-79-70-32-67-76-85-66-83",
+    "default": false,
+    "name": "Ten of Clubs",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "BASTION",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-DVA-84-69-78-32-79-70-32-72-69-65-82-84-83": {
+    "uid": "SPRAY-DVA-84-69-78-32-79-70-32-72-69-65-82-84-83",
+    "default": false,
+    "name": "Ten of Hearts",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-GENJI-74-65-67-75-32-79-70-32-67-76-85-66-83": {
+    "uid": "SPRAY-GENJI-74-65-67-75-32-79-70-32-67-76-85-66-83",
+    "default": false,
+    "name": "Jack of Clubs",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "GENJI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-HANZO-75-73-78-71-32-79-70-32-68-73-65-77-79-78-68-83": {
+    "uid": "SPRAY-HANZO-75-73-78-71-32-79-70-32-68-73-65-77-79-78-68-83",
+    "default": false,
+    "name": "King of Diamonds",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "HANZO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-JUNKRAT-74-79-75-69-82": {
+    "uid": "SPRAY-JUNKRAT-74-79-75-69-82",
+    "default": false,
+    "name": "Joker",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "JUNKRAT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-LUCIO-74-65-67-75-32-79-70-32-68-73-65-77-79-78-68-83": {
+    "uid": "SPRAY-LUCIO-74-65-67-75-32-79-70-32-68-73-65-77-79-78-68-83",
+    "default": false,
+    "name": "Jack of Diamonds",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "LUCIO",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-MCCREE-74-65-67-75-32-79-70-32-83-80-65-68-69-83": {
+    "uid": "SPRAY-MCCREE-74-65-67-75-32-79-70-32-83-80-65-68-69-83",
+    "default": false,
+    "name": "Jack of Spades",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "MCCREE",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-MEI-84-69-78-32-79-70-32-68-73-65-77-79-78-68-83": {
+    "uid": "SPRAY-MEI-84-69-78-32-79-70-32-68-73-65-77-79-78-68-83",
+    "default": false,
+    "name": "Ten of Diamonds",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "MEI",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-MERCY-81-85-69-69-78-32-79-70-32-67-76-85-66-83": {
+    "uid": "SPRAY-MERCY-81-85-69-69-78-32-79-70-32-67-76-85-66-83",
+    "default": false,
+    "name": "Queen of Clubs",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "MERCY",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-ORISA-78-73-78-69-32-79-70-32-83-80-65-68-69-83": {
+    "uid": "SPRAY-ORISA-78-73-78-69-32-79-70-32-83-80-65-68-69-83",
+    "default": false,
+    "name": "Nine of Spades",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-PHARAH-81-85-69-69-78-32-79-70-32-68-73-65-77-79-78-68-83": {
+    "uid": "SPRAY-PHARAH-81-85-69-69-78-32-79-70-32-68-73-65-77-79-78-68-83",
+    "default": false,
+    "name": "Queen of Diamonds",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "PHARAH",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-REAPER-65-67-69-32-79-70-32-67-76-85-66-83": {
+    "uid": "SPRAY-REAPER-65-67-69-32-79-70-32-67-76-85-66-83",
+    "default": false,
+    "name": "Ace of Clubs",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "REAPER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-REINHARDT-75-73-78-71-32-79-70-32-72-69-65-82-84-83": {
+    "uid": "SPRAY-REINHARDT-75-73-78-71-32-79-70-32-72-69-65-82-84-83",
+    "default": false,
+    "name": "King of Hearts",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "REINHARDT",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-ROADHOG-74-79-75-69-82": {
+    "uid": "SPRAY-ROADHOG-74-79-75-69-82",
+    "default": false,
+    "name": "Joker",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ROADHOG",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-SOLDIER76-65-67-69-32-79-70-32-83-80-65-68-69-83": {
+    "uid": "SPRAY-SOLDIER76-65-67-69-32-79-70-32-83-80-65-68-69-83",
+    "default": false,
+    "name": "Ace of Spades",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "SOLDIER76",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-SOMBRA-81-85-69-69-78-32-79-70-32-83-80-65-68-69-83": {
+    "uid": "SPRAY-SOMBRA-81-85-69-69-78-32-79-70-32-83-80-65-68-69-83",
+    "default": false,
+    "name": "Queen of Spades",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "SOMBRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-SYMMETRA-78-73-78-69-32-79-70-32-68-73-65-77-79-78-68-83": {
+    "uid": "SPRAY-SYMMETRA-78-73-78-69-32-79-70-32-68-73-65-77-79-78-68-83",
+    "default": false,
+    "name": "Nine of Diamonds",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "SYMMETRA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-TORBJORN-75-73-78-71-32-79-70-32-67-76-85-66-83": {
+    "uid": "SPRAY-TORBJORN-75-73-78-71-32-79-70-32-67-76-85-66-83",
+    "default": false,
+    "name": "King of Clubs",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "TORBJORN",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-TRACER-65-67-69-32-79-70-32-68-73-65-77-79-78-68-83": {
+    "uid": "SPRAY-TRACER-65-67-69-32-79-70-32-68-73-65-77-79-78-68-83",
+    "default": false,
+    "name": "Ace of Diamonds",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "TRACER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-WIDOWMAKER-81-85-69-69-78-32-79-70-32-72-69-65-82-84-83": {
+    "uid": "SPRAY-WIDOWMAKER-81-85-69-69-78-32-79-70-32-72-69-65-82-84-83",
+    "default": false,
+    "name": "Queen of Hearts",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "WIDOWMAKER",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-WINSTON-74-65-67-75-32-79-70-32-72-69-65-82-84-83": {
+    "uid": "SPRAY-WINSTON-74-65-67-75-32-79-70-32-72-69-65-82-84-83",
+    "default": false,
+    "name": "Jack of Hearts",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "WINSTON",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-ZARYA-84-69-78-32-79-70-32-83-80-65-68-69-83": {
+    "uid": "SPRAY-ZARYA-84-69-78-32-79-70-32-83-80-65-68-69-83",
+    "default": false,
+    "name": "Ten of Spades",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ZARYA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-ZENYATTA-75-73-78-71-32-79-70-32-83-80-65-68-69-83": {
+    "uid": "SPRAY-ZENYATTA-75-73-78-71-32-79-70-32-83-80-65-68-69-83",
+    "default": false,
+    "name": "King of Spades",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": "ZENYATTA",
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "SPRAY-65-78-78-73-86-69-82-83-65-82-89-32-50-48-49-55": {
+    "uid": "SPRAY-65-78-78-73-86-69-82-83-65-82-89-32-50-48-49-55",
+    "default": false,
+    "name": "Anniversary 2017",
+    "type": "SPRAY",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": true,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-ANA-65-78-65-86-69-82-83-65-82-89": {
+    "uid": "ICON-ANA-65-78-65-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Anaversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ANA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-BASTION-71-79-76-68-66-79-84": {
+    "uid": "ICON-BASTION-71-79-76-68-66-79-84",
+    "default": false,
+    "name": "Goldbot",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "BASTION",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-DVA-72-65-78-65-86-69-82-83-65-82-89": {
+    "uid": "ICON-DVA-72-65-78-65-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Hanaversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "DVA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-GENJI-71-79-76-68-66-79-82-71": {
+    "uid": "ICON-GENJI-71-79-76-68-66-79-82-71",
+    "default": false,
+    "name": "Goldborg",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "GENJI",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-HANZO-75-73-78-69-78-66-73": {
+    "uid": "ICON-HANZO-75-73-78-69-78-66-73",
+    "default": false,
+    "name": "Kinenbi",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "HANZO",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-JUNKRAT-71-79-76-68-82-65-84": {
+    "uid": "ICON-JUNKRAT-71-79-76-68-82-65-84",
+    "default": false,
+    "name": "Goldrat",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "JUNKRAT",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-LUCIO-76-218-67-73-79-85-82-79": {
+    "uid": "ICON-LUCIO-76-218-67-73-79-85-82-79",
+    "default": false,
+    "name": "Lúciouro",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "LUCIO",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-MCCREE-71-65-77-70": {
+    "uid": "ICON-MCCREE-71-65-77-70",
+    "default": false,
+    "name": "GAMF",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "MCCREE",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-MEI-77-65-89": {
+    "uid": "ICON-MEI-77-65-89",
+    "default": false,
+    "name": "May",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "MEI",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-MERCY-74-65-72-82-69-83-84-65-71": {
+    "uid": "ICON-MERCY-74-65-72-82-69-83-84-65-71",
+    "default": false,
+    "name": "Jahrestag",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "MERCY",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-ORISA-65-85-82-73-83-65": {
+    "uid": "ICON-ORISA-65-85-82-73-83-65",
+    "default": false,
+    "name": "Aurisa",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ORISA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-PHARAH-65-78-78-73-86-69-82-83-65-82-69-69-72-65": {
+    "uid": "ICON-PHARAH-65-78-78-73-86-69-82-83-65-82-69-69-72-65",
+    "default": false,
+    "name": "Anniversareeha",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "PHARAH",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-REAPER-82-69-65-80-73-86-69-82-83-65-82-89": {
+    "uid": "ICON-REAPER-82-69-65-80-73-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Reapiversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "REAPER",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-REINHARDT-71-79-76-68-72-65-82-68-84": {
+    "uid": "ICON-REINHARDT-71-79-76-68-72-65-82-68-84",
+    "default": false,
+    "name": "Goldhardt",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "REINHARDT",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-ROADHOG-71-79-76-68-72-79-71": {
+    "uid": "ICON-ROADHOG-71-79-76-68-72-79-71",
+    "default": false,
+    "name": "Goldhog",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ROADHOG",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-SOLDIER76-71-79-76-68-32-83-79-76-68-73-69-82": {
+    "uid": "ICON-SOLDIER76-71-79-76-68-32-83-79-76-68-73-69-82",
+    "default": false,
+    "name": "Gold Soldier",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "SOLDIER76",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-SOMBRA-65-78-73-86-69-82-83-65-82-73-79": {
+    "uid": "ICON-SOMBRA-65-78-73-86-69-82-83-65-82-73-79",
+    "default": false,
+    "name": "Aniversario",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "SOMBRA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-SYMMETRA-86-65-83-87-65-78-78-73-86-69-82-83-65-82-89": {
+    "uid": "ICON-SYMMETRA-86-65-83-87-65-78-78-73-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Vaswanniversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "SYMMETRA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-TORBJORN-71-79-76-68-67-76-65-68": {
+    "uid": "ICON-TORBJORN-71-79-76-68-67-76-65-68",
+    "default": false,
+    "name": "Goldclad",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "TORBJORN",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-TRACER-65-85-88-84-79-78": {
+    "uid": "ICON-TRACER-65-85-88-84-79-78",
+    "default": false,
+    "name": "Auxton",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "TRACER",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-WIDOWMAKER-68-39-79-82": {
+    "uid": "ICON-WIDOWMAKER-68-39-79-82",
+    "default": false,
+    "name": "D'Or",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "WIDOWMAKER",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-WINSTON-71-79-76-68-82-73-76-76-65": {
+    "uid": "ICON-WINSTON-71-79-76-68-82-73-76-76-65",
+    "default": false,
+    "name": "Goldrilla",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "WINSTON",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-ZARYA-90-65-82-89-65-78-79-86-69-82-83-65-82-89": {
+    "uid": "ICON-ZARYA-90-65-82-89-65-78-79-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Zaryanoversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ZARYA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-ZENYATTA-90-69-78-73-86-69-82-83-65-82-89": {
+    "uid": "ICON-ZENYATTA-90-69-78-73-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Zeniversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": "ZENYATTA",
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-65-78-78-73-86-69-82-83-65-82-89-32-50-48-49-55": {
+    "uid": "ICON-65-78-78-73-86-69-82-83-65-82-89-32-50-48-49-55",
+    "default": false,
+    "name": "Anniversary 2017",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "ICON-80-65-67-72-73-86-69-82-83-65-82-89": {
+    "uid": "ICON-80-65-67-72-73-86-69-82-83-65-82-89",
+    "default": false,
+    "name": "Pachiversary",
+    "type": "ICON",
+    "rarity": "COMMON",
+    "hero": false,
+    "price": false,
+    "event": "ANNIVERSARY_2017"
+  },
+  "EMOTE-ORISA-83-73-84": {
+    "uid": "EMOTE-ORISA-83-73-84",
+    "default": false,
+    "name": "Sit",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-ORISA-76-65-85-71-72": {
+    "uid": "EMOTE-ORISA-76-65-85-71-72",
+    "default": false,
+    "name": "Laugh",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "ORISA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-SOMBRA-83-73-84": {
+    "uid": "EMOTE-SOMBRA-83-73-84",
+    "default": false,
+    "name": "Sit",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "SOMBRA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-SOMBRA-66-79-79-80": {
+    "uid": "EMOTE-SOMBRA-66-79-79-80",
+    "default": false,
+    "name": "Boop",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "SOMBRA",
+    "price": true,
+    "event": false
+  },
+  "EMOTE-REAPER-83-72-82-85-71": {
+    "uid": "EMOTE-REAPER-83-72-82-85-71",
+    "default": false,
+    "name": "Shrug",
+    "type": "EMOTE",
+    "rarity": "RARE",
+    "hero": "REAPER",
+    "price": true,
+    "event": false
+  },
+  "VICTORY_POSE-REAPER-83-72-82-85-71": {
+    "uid": "VICTORY_POSE-REAPER-83-72-82-85-71",
+    "default": false,
+    "name": "Shrug",
+    "type": "VICTORY_POSE",
+    "rarity": "RARE",
+    "hero": "REAPER",
+    "price": true,
+    "event": false
   }
 }
