@@ -57,10 +57,10 @@ const itemsImport = function (args = {}) {
         logger.fatal(`'${args['f']}' does not exists`);
     }
 
-    let addedCount = 0, skippedCount = 0;
+    let prefix, addedCount = 0, skippedCount = 0;
 
-    fs.readFileSync(args['f'], 'utf-8').split('\n').map(item => {
-        if (item === 0) {
+    fs.readFileSync(args['f'], 'utf-8').split('\n').map((item, index) => {
+        if (index === 0) {
             return;
         }
 
@@ -77,8 +77,14 @@ const itemsImport = function (args = {}) {
         item[5] = item[5] === 'true';
         item[6] = item[6] === 'false' ? false : item[6];
 
+        prefix = [item[2]];
+
+        if (item[4]) {
+            prefix.push(item[4]);
+        }
+
         item = {
-            uid: tools.uid({p: [item[2], item[4] || null], s: item[1],}, false),
+            uid: tools.uid({p: prefix, s: item[1],}, false),
             default: item[0],
             name: item[1],
             type: item[2],
