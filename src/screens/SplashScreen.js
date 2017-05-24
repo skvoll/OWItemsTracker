@@ -29,7 +29,7 @@ export default class SplashScreen extends Screen {
                     await AsyncStorage.setItem('VERSION', CONFIG.VERSION);
                     await AsyncStorage.setItem('TIPS_SHOWN', 'true');
 
-                    this.application.navigateTo('Welcome', {type: 'tips',});
+                    this.navigateTo('Welcome', {type: 'tips',});
 
                     return;
                 }
