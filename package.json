@@ -12,13 +12,15 @@
   "dependencies": {
     "colors": "^1.1.2",
     "firebase": "^3.7.2",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
     "react": "^16.0.0-alpha.6",
     "react-native": "^0.44.0",
     "react-native-custom-tabs": "^0.1.5",
     "react-native-google-signin": "^0.9.0",
     "react-native-linear-gradient": "^2.0.0",
     "react-native-vector-icons": "^4.0.0",
-    "react-navigation": "^1.0.0-beta.9"
+    "react-navigation": "^1.0.0-beta.11"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
