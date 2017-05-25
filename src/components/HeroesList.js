@@ -17,7 +17,7 @@ import _ from './../i18n';
 import Items from './../Items';
 import Heroes from './../Heroes';
 import {
-    Preview,
+    HeroPreview,
     ItemsProgress,
 } from './';
 
@@ -229,7 +229,7 @@ export class HeroesList extends Component {
     }
 
     onItemLongPress(item) {
-        this.preview.showHero(item);
+        this.preview.show(item);
     }
 
     renderItem(item, index) {
@@ -246,7 +246,7 @@ export class HeroesList extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Preview ref={component => this.preview = component}/>
+                <HeroPreview ref={component => this.preview = component}/>
                 <ItemsProgress hero={true} event={this.props.progressEvent}/>
                 <FlatList
                     data={this.state.data}

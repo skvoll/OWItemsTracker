@@ -13,6 +13,7 @@ export {Tabs} from './Tabs';
 
 export {EventsList} from './EventsList';
 export {HeroesList} from './HeroesList';
+export {HeroPreview} from './HeroPreview';
 export {IconsList} from './IconsList';
 export {ItemsList} from './ItemsList';
 export {ItemsProgress} from './ItemsProgress';
