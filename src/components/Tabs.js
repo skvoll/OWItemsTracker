@@ -122,6 +122,7 @@ export class Tabs extends Component {
 
         this.setState({
             tabs: TabNavigator(tabs, {
+                backBehavior: 'none',
                 tabBarComponent: this.state.tabBar,
                 tabBarPosition: this.state.tabBarPosition,
             }),

@@ -22,47 +22,27 @@ export default class Application extends Component {
 
     constructor(props, context, updater) {
         super(props, context, updater);
-
-        this.state = {
-            currentRoute: null,
-        };
     }
 
     navigate(route, params = {}) {
-        if (this.state.currentRoute === route) {
+        if (this.navigation.state.nav.routes[this.navigation.state.nav.index].routeName === route) {
             return;
         }
 
-        this.setState({
-            currentRoute: route,
-        }, () => {
-            this.navigation.dispatch(NavigationActions.navigate({routeName: route, params: params,}))
-        });
+        this.navigation.dispatch(NavigationActions.navigate({routeName: route, params: params,}));
     }
 
     reset(route, params = {}) {
-        if (this.state.currentRoute === route) {
-            return;
-        }
-
-        this.setState({
-            currentRoute: route,
-        }, () => {
-            this.navigation.dispatch(NavigationActions.reset({
-                index: 0,
-                actions: [
-                    NavigationActions.navigate({routeName: route, params: params,})
-                ]
-            }));
-        });
+        this.navigation.dispatch(NavigationActions.reset({
+            index: 0,
+            actions: [
+                NavigationActions.navigate({routeName: route, params: params,})
+            ]
+        }));
     }
 
     back() {
-        this.setState({
-            currentRoute: this.navigation.state.routeName,
-        }, () => {
-            this.navigation.dispatch(NavigationActions.back())
-        });
+        this.navigation.dispatch(NavigationActions.back());
     }
 
     render() {
