@@ -23274,7 +23274,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ANA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23284,7 +23284,7 @@
     "default": false,
     "name": "Robo Boogie",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "BASTION",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23294,7 +23294,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "DVA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23304,7 +23304,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "GENJI",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23314,7 +23314,7 @@
     "default": false,
     "name": "Fisherman Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "HANZO",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23324,7 +23324,7 @@
     "default": false,
     "name": "Running Rat",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "JUNKRAT",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23334,7 +23334,7 @@
     "default": false,
     "name": "Smooth",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "LUCIO",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23344,7 +23344,7 @@
     "default": false,
     "name": "Line Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "MCCREE",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23354,7 +23354,7 @@
     "default": false,
     "name": "Sunny Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "MEI",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23364,7 +23364,7 @@
     "default": false,
     "name": "Hustle",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "MERCY",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23374,7 +23374,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ORISA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23384,7 +23384,7 @@
     "default": false,
     "name": "Rocket Guitar",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "PHARAH",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23394,7 +23394,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "REAPER",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23404,7 +23404,7 @@
     "default": false,
     "name": "Sweethardt",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "REINHARDT",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23414,7 +23414,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ROADHOG",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23424,7 +23424,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "SOLDIER76",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23434,7 +23434,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "SOMBRA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23444,7 +23444,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "SYMMETRA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23454,7 +23454,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "TORBJORN",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23464,7 +23464,7 @@
     "default": false,
     "name": "Charleston",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "TRACER",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23474,7 +23474,7 @@
     "default": false,
     "name": "Ballet",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "WIDOWMAKER",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23484,7 +23484,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "WINSTON",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23494,7 +23494,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ZARYA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -23504,7 +23504,7 @@
     "default": false,
     "name": "Dance",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ZENYATTA",
     "price": true,
     "event": "ANNIVERSARY_2017"
@@ -24504,7 +24504,7 @@
     "default": false,
     "name": "Sit",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ORISA",
     "price": true,
     "event": false
@@ -24514,7 +24514,7 @@
     "default": false,
     "name": "Laugh",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "ORISA",
     "price": true,
     "event": false
@@ -24524,7 +24524,7 @@
     "default": false,
     "name": "Sit",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "SOMBRA",
     "price": true,
     "event": false
@@ -24534,7 +24534,7 @@
     "default": false,
     "name": "Boop",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "SOMBRA",
     "price": true,
     "event": false
@@ -24544,7 +24544,7 @@
     "default": false,
     "name": "Shrug",
     "type": "EMOTE",
-    "rarity": "RARE",
+    "rarity": "EPIC",
     "hero": "REAPER",
     "price": true,
     "event": false
